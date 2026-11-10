@@ -8538,8 +8538,8 @@ function confirmExcelImport(){
 // ══════════════════════════════════════════
 // SISTEMA DE AUTENTICACIÓN
 // ══════════════════════════════════════════
-const AUTH_USERS='auth_users_v1';
-const AUTH_SESSION='auth_session_v1';
+const AUTH_USERS='lucia_auth_users_v1';
+const AUTH_SESSION='lucia_auth_session_v1';
 
 function getUsers(){try{return JSON.parse(localStorage.getItem(AUTH_USERS))||[];}catch{return[];}}
 function saveUsers(u){localStorage.setItem(AUTH_USERS,JSON.stringify(u));}
@@ -9063,7 +9063,7 @@ async function ensureLuciaDefaultSetup(){
     users.push(nu);
     saveUsers(users);
     localStorage.setItem(AUTH_SESSION, JSON.stringify({id: nu.id}));
-    localStorage.setItem('auth_mig_v1', '1');
+    localStorage.setItem('lucia_auth_mig_v1', '1');
   }
   if(!localStorage.getItem(AUTH_SESSION) && users.length === 1){
     localStorage.setItem(AUTH_SESSION, JSON.stringify({id: users[0].id}));
@@ -9242,7 +9242,7 @@ async function doCreateRegularUser(){
 
 // Migra datos existentes (de antes del sistema de login) al namespace del primer usuario
 function migrateOldData(){
-  const DONE='auth_mig_v1';
+  const DONE='lucia_auth_mig_v1';
   if(localStorage.getItem(DONE))return;
   const oldKeys=['rt2','arid','sets2','wts2','setPerf3','gymCycles1','ghst2','gymWeekLog','activeWeekId','gst4','pf4','pe4','sld4','cats4','seed_v'+SEED_VERSION];
   if(oldKeys.some(k=>localStorage.getItem(k)!==null)){
