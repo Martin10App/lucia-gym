@@ -842,77 +842,58 @@ const SEED_VERSION=2;
 
 // ── BASE DE EJERCICIOS LOCAL ──
 const LOCAL_EXERCISES={
+  // Solo ejercicios compatibles con L4-L5: sin carga axial pesada, sin flexión ni rotación lumbar bajo carga.
   Pecho:[
-    {nombre:'Press banca plano con barra',descripcion:'Ejercicio compuesto fundamental para el pecho. Acostado en banco, bajá la barra al pecho y empujá hacia arriba manteniendo los pies en el suelo.'},
-    {nombre:'Press banca inclinado con mancuernas',descripcion:'Con banco a 30-45°, trabajás la porción clavicular del pecho. Bajá las mancuernas controlado hasta la altura del pecho.'},
-    {nombre:'Aperturas con mancuernas',descripcion:'En banco plano, brazos ligeramente flexionados, abrís en arco hasta sentir el estiramiento del pecho y cerrás volviendo al centro.'},
-    {nombre:'Press banca declinado',descripcion:'Con banco declinado a -15°, el énfasis cae en el pecho inferior. Agarre algo más ancho que el hombro.'},
-    {nombre:'Fondos en paralelas',descripcion:'Cuerpo ligeramente inclinado hacia adelante para activar pecho. Bajá hasta 90° de codo y empujá hasta casi extender.'},
-    {nombre:'Pullover con mancuerna',descripcion:'En banco plano transversal, con mancuerna con ambas manos. Bajás el peso por detrás de la cabeza y volvés al punto inicial.'},
-    {nombre:'Crossover en cables',descripcion:'De pie entre dos poleas altas, cruzás los brazos frente al cuerpo manteniendo una ligera flexión en el codo durante todo el recorrido.'},
-    {nombre:'Press en máquina Smith',descripcion:'Similar al press banca pero con barra guiada. Permite enfocarse en el movimiento sin preocuparte por el equilibrio lateral.'},
-    {nombre:'Aperturas en máquina Peck Deck',descripcion:'Sentado en la máquina, cerrás los brazos frente al pecho. Excelente para aislar el pecho sin cargar las muñecas.'},
-    {nombre:'Push-up con lastre',descripcion:'Flexión de brazos estándar con chaleco o mochila de peso. Manos a la altura del pecho, cuerpo recto de cabeza a talones.'},
+    {nombre:'Press de pecho sentado en máquina',descripcion:'Espalda y omóplatos apoyados en el respaldo. Empujás sin despegar la cintura.'},
+    {nombre:'Press inclinado con mancuernas (espalda apoyada)',descripcion:'Banco a 30-45°, pies firmes en el piso o en un step para no arquear la cintura.'},
+    {nombre:'Aperturas en máquina (Pec-deck)',descripcion:'Sentada con la espalda apoyada, cerrás los brazos frente al pecho con los codos apenas flexionados.'},
+    {nombre:'Flexiones inclinadas sobre banco o mesada',descripcion:'Manos en un apoyo alto y firme, cuerpo recto como una tabla, abdomen y glúteos activos.'},
+    {nombre:'Flexiones en pared (Push-up suave)',descripcion:'De pie frente a la pared, cuerpo recto. La versión más suave para empezar.'},
   ],
   Espalda:[
-    {nombre:'Dominadas con agarre prono',descripcion:'Colgado de barra con manos mirando hacia adelante, tirás el cuerpo hasta pasar la barbilla por encima. Activás dorsal ancho principalmente.'},
-    {nombre:'Remo con barra',descripcion:'Con barra, tronco a 45° paralelo al suelo, tirás la barra hacia el abdomen apretando los omóplatos al final. Rodillas levemente flexionadas.'},
-    {nombre:'Jalón al pecho en polea alta',descripcion:'Sentado, jalás la barra hasta la clavícula con agarre amplio. Reclinás levemente el tronco y sacás el pecho hacia la barra.'},
-    {nombre:'Remo en polea baja con barra V',descripcion:'Sentado, tiras el accesorio hacia el abdomen manteniendo la espalda erguida. Bueno para grosor de la espalda media.'},
-    {nombre:'Peso muerto convencional',descripcion:'Con barra en el suelo, espalda recta y core activado, empujás el suelo con los pies para levantar. Ejercicio compuesto total de cadena posterior.'},
-    {nombre:'Remo con mancuerna un brazo',descripcion:'Con una rodilla apoyada en el banco, jalás la mancuerna verticalmente hacia la cadera. Rotás levemente el torso al final para mayor rango.'},
-    {nombre:'Pull-over en polea alta',descripcion:'De pie frente a la polea, con los brazos extendidos jalás hacia los muslos describiendo un arco. Aísla el dorsal y el serrato.'},
-    {nombre:'Encogimientos de hombros con barra',descripcion:'Con barra colgando frente al cuerpo, subís los hombros hacia las orejas sin doblar el codo. Para trapecio superior.'},
-    {nombre:'Face pull en polea',descripcion:'Tirás hacia la cara con cuerda en polea alta, separando las manos al final. Excelente para trapecio medio, romboides y manguito.'},
-    {nombre:'Hiperextensiones en banco romano',descripcion:'Con el banco inclinado, bajás el tronco y volvés a la horizontal. Fortalece erector de la columna y glúteos como secundario.'},
+    {nombre:'Remo con mancuernas en banco inclinado (pecho apoyado)',descripcion:'Pecho apoyado en banco a 45°: trabajás toda la espalda sin cargar la cintura.'},
+    {nombre:'Remo sentado en máquina con apoyo en el pecho',descripcion:'Pecho contra la almohadilla, juntás los omóplatos al final del tirón.'},
+    {nombre:'Jalón al pecho en polea alta',descripcion:'Bajás la barra a la clavícula con el abdomen firme, sin tirarte hacia atrás.'},
+    {nombre:'Remo con mancuerna a un brazo (con apoyo en banco/silla)',descripcion:'Mano y rodilla apoyadas, espalda neutra, sin rotar el tronco.'},
+    {nombre:'Pull-over en polea alta con brazos rectos',descripcion:'Brazos casi rectos, costillas bajas. Dorsales y abdomen anti-extensión.'},
+    {nombre:'Face pull en polea o banda (Espalda alta y postura)',descripcion:'Llevás la cuerda hacia la frente separando las manos. Postura y manguito rotador.'},
+    {nombre:'Remo sentado o de pie con banda elástica (espalda neutra)',descripcion:'Banda a la altura del abdomen, tronco quieto, juntás omóplatos 2 segundos.'},
   ],
   Piernas:[
-    {nombre:'Sentadilla con barra',descripcion:'Ejercicio rey para el tren inferior. Barra sobre trapecios, bajás hasta que los muslos queden paralelos al suelo, rodillas en línea con los pies.'},
-    {nombre:'Prensa 45°',descripcion:'En máquina inclinada, empujás la plataforma con los pies a ancho de hombros. Bajás hasta 90° de rodilla sin despegar la zona lumbar.'},
-    {nombre:'Extensión de cuádriceps en máquina',descripcion:'Sentado, extendés las piernas hasta la horizontal y volvés controlado. Aísla el cuádriceps sin cargar la cadera.'},
-    {nombre:'Curl femoral tumbado',descripcion:'Boca abajo en la máquina, flexionás las rodillas llevando los talones hacia los glúteos. Aísla el bíceps femoral.'},
-    {nombre:'Peso muerto piernas rígidas',descripcion:'Con piernas casi extendidas, bajás la barra deslizándola por las piernas hasta sentir el estiramiento del isquiotibial.'},
-    {nombre:'Zancadas con mancuernas',descripcion:'Paso largo hacia adelante, rodilla trasera casi toca el suelo. Alternás piernas caminando o estático. Trabaja cuádríceps y glúteo.'},
-    {nombre:'Hip thrust con barra',descripcion:'Espalda apoyada en banco, barra sobre cadera, empujás caderas hacia arriba apretando glúteos en la parte superior.'},
-    {nombre:'Sentadilla búlgara',descripcion:'Pie trasero elevado en banco, bajás la rodilla delantera hacia el suelo. Alta activación de glúteo y cuádríceps.'},
-    {nombre:'Gemelos de pie en máquina',descripcion:'De pie, subís en puntillas completamente y bajás hasta el estiramiento máximo. Para gastrocnemio principalmente.'},
-    {nombre:'Gemelos sentado en máquina',descripcion:'Sentado con las rodillas flexionadas, subís en puntillas. Activa más el sóleo que el gastrocnemio por la posición de rodilla.'},
+    {nombre:'Sentadilla a silla o cajón (Box Squat controlada)',descripcion:'Tocás suave la silla con la cola y subís con el pecho alto.'},
+    {nombre:'Sentadilla Goblet con mancuerna al pecho',descripcion:'Mancuerna liviana pegada al pecho, tronco vertical. Bajá solo hasta donde la cintura no se redondee.'},
+    {nombre:'Prensa de piernas 45° (rango controlado, sacro apoyado)',descripcion:'Bajá solo hasta ~90° de rodilla. La cola nunca se despega del asiento.'},
+    {nombre:'Extensión de cuádriceps en máquina',descripcion:'Espalda apoyada en el respaldo. Aísla el cuádriceps sin cargar la columna.'},
+    {nombre:'Curl femoral sentado en máquina',descripcion:'Sentada con respaldo, flexionás las rodillas. Isquiotibiales sin cargar la espalda.'},
+    {nombre:'Subida al cajón o escalón (Step-up)',descripcion:'Escalón bajo o moderado, tronco derecho. Empujá con el talón de la pierna de arriba.'},
+    {nombre:'Puente de glúteos en colchoneta (Glute Bridge)',descripcion:'Subí empujando con los talones hasta quedar en línea recta, sin arquear la cintura.'},
+    {nombre:'Hip thrust con barra o mancuerna',descripcion:'Espalda alta en banco, mirada al frente, costillas bajas. Pausa de 1 seg arriba.'},
+    {nombre:'Abducción de cadera sentada en máquina',descripcion:'Con la espalda apoyada. Fortalece el glúteo medio que estabiliza la pelvis.'},
+    {nombre:'Patada de glúteo en polea baja (rango corto sin arquear)',descripcion:'Movimiento corto hacia atrás (20-30°) apretando el glúteo sin mover la cintura.'},
+    {nombre:'Gemelos sentado en máquina (o de pie con apoyo)',descripcion:'Sentada, subís en puntas de pie. Sin peso sobre los hombros.'},
   ],
   Hombros:[
-    {nombre:'Press militar con barra de pie',descripcion:'De pie, barra a la altura de la clavícula, empujás verticalmente hasta extender los brazos. Trabajás los tres haces del deltoides.'},
-    {nombre:'Press Arnold con mancuernas',descripcion:'Comenzás con palmas hacia vos a la altura de los hombros, rotás las muñecas al subir. Creado por Arnold Schwarzenegger.'},
-    {nombre:'Elevaciones laterales con mancuernas',descripcion:'Con mancuernas a los costados, subís los brazos lateralmente hasta la altura del hombro. Aísla el deltoides lateral.'},
-    {nombre:'Elevaciones frontales con disco',descripcion:'Con disco o mancuerna, subís el brazo al frente hasta horizontal. Trabaja deltoides anterior y clavicular del pecho.'},
-    {nombre:'Pájaro inclinado con mancuernas',descripcion:'Con tronco a 90°, abrís los brazos lateralmente hacia arriba. Para deltoides posterior y romboides.'},
-    {nombre:'Face pull con cuerda',descripcion:'En polea alta con cuerda, tirás hacia la cara separando los codos. Trabaja deltoides posterior y manguito rotador.'},
-    {nombre:'Encogimientos de trapecio con mancuernas',descripcion:'Con mancuernas colgando, subís los hombros verticalmente hacia las orejas. Para trapecio superior y elevador de la escápula.'},
-    {nombre:'Press en máquina de hombros',descripcion:'Versión guiada del press de hombros. Permite mayor estabilidad y enfoque en el músculo sin preocuparte por el equilibrio.'},
-    {nombre:'Elevaciones laterales en polea baja',descripcion:'Con polea baja cruzada, llevás el cable hacia el lado opuesto. La tensión constante es superior a la de las mancuernas.'},
-    {nombre:'Press con mancuernas sentado',descripcion:'Sentado en banco con respaldo, prensás las mancuernas sobre la cabeza de forma neutral o pronada. Menor estrés lumbar que de pie.'},
+    {nombre:'Press de hombros en máquina con respaldo',descripcion:'Espalda pegada al respaldo durante todo el empuje. Carga liviana a moderada.'},
+    {nombre:'Elevaciones laterales con mancuernas (sentada o de pie)',descripcion:'Subís los brazos hasta la altura del hombro con el tronco quieto.'},
+    {nombre:'Elevaciones laterales en máquina (sentada con respaldo)',descripcion:'Versión guiada y con respaldo: cero balanceo.'},
+    {nombre:'Pájaros en máquina (Peck-deck invertido)',descripcion:'Pecho apoyado, abrís los brazos hacia atrás. Deltoides posterior y espalda alta.'},
+    {nombre:'Rotación externa de hombro en polea (manguito rotador)',descripcion:'Codo pegado al cuerpo, girás el antebrazo hacia afuera.'},
   ],
   Brazos:[
-    {nombre:'Curl con barra recta',descripcion:'De pie, agarre supino a ancho de hombros, flexionás los codos llevando la barra hacia los hombros. Ejercicio base para bíceps.'},
-    {nombre:'Curl con mancuernas alternado',descripcion:'De pie o sentado, alternás brazos con rotación de muñeca en la subida. Permite mayor rango de movimiento que la barra.'},
-    {nombre:'Curl predicador con barra Z',descripcion:'En banco predicador, el soporte del brazo aísla completamente el bíceps eliminando el balanceo del cuerpo.'},
-    {nombre:'Curl martillo con mancuernas',descripcion:'Agarre neutro (pulgar arriba), subís la mancuerna sin rotar la muñeca. Trabaja braquiorradial y braquial además del bíceps.'},
-    {nombre:'Press francés con barra Z',descripcion:'Tumbado, bajás la barra hacia la frente flexionando solo el codo. Ejercicio básico para tríceps largo y medial.'},
-    {nombre:'Extensión de tríceps en polea alta',descripcion:'Con cuerda o barra, extendés los codos hacia abajo manteniendo los codos fijos junto al cuerpo. Aísla los tres haces del tríceps.'},
-    {nombre:'Fondos en banco para tríceps',descripcion:'Con manos en el borde de un banco, bajás el cuerpo flexionando los codos y volvés. Para tríceps y un poco de pecho inferior.'},
-    {nombre:'Curl de concentración',descripcion:'Sentado, codo apoyado en la cara interna del muslo, flexionás el brazo completamente. Máxima contracción del bíceps.'},
-    {nombre:'Patada de tríceps con mancuerna',descripcion:'Con tronco a 90°, brazo paralelo al suelo, extendés el codo llevando la mancuerna hacia atrás. Aísla el tríceps lateral.'},
-    {nombre:'Curl en polea baja con barra',descripcion:'De pie frente a la polea, jalás la barra hacia los hombros. La tensión constante del cable varía el estímulo respecto a la barra libre.'},
+    {nombre:'Curl de bíceps con mancuernas alternado (o sentada)',descripcion:'Sentada con respaldo o de pie con abdomen firme, sin balancear el tronco.'},
+    {nombre:'Curl martillo con mancuernas',descripcion:'Agarre neutro, subís sin rotar la muñeca ni mover la cintura.'},
+    {nombre:'Curl de bíceps en máquina Scott (sentada)',descripcion:'El apoyo del brazo elimina el balanceo del cuerpo.'},
+    {nombre:'Extensión de tríceps en polea alta (cuerda o barra)',descripcion:'Codos fijos junto al cuerpo, un pie medio paso adelante para estabilidad.'},
+    {nombre:'Curl de bíceps en polea baja (barra)',descripcion:'De pie, abdomen firme, sin echar el tronco hacia atrás.'},
   ],
   Abdomen:[
-    {nombre:'Crunch abdominal clásico',descripcion:'Tumbado boca arriba, manos detrás de la cabeza, subís el tronco hasta despegar los omóplatos del suelo. Trabajás el recto abdominal.'},
-    {nombre:'Plancha frontal',descripcion:'Apoyado en antebrazos y puntas de pie, mantenés el cuerpo recto como una tabla. Trabaja core profundo, transverso y estabilizadores.'},
-    {nombre:'Elevación de piernas colgado',descripcion:'Colgado de barra, subís las piernas estiradas o flexionadas hasta la horizontal. Alta activación de iliopsoas y porción inferior del recto.'},
-    {nombre:'Rueda abdominal (Ab wheel)',descripcion:'De rodillas con la rueda, extendés los brazos hacia adelante sin tocar el suelo con las caderas y volvés. Ejercicio avanzado de anti-extensión.'},
-    {nombre:'Crunch en polea alta',descripcion:'De rodillas frente a la polea, jalás hacia abajo enrollando el tronco. Permite agregar carga progresivamente al abdomen.'},
-    {nombre:'Mountain climbers',descripcion:'En posición de plancha alta, alternás rodillas hacia el pecho de forma explosiva. Cardio y core simultáneamente.'},
-    {nombre:'Russian twist',descripcion:'Sentado con piernas elevadas, rotás el tronco de lado a lado. Trabaja el oblicuo externo e interno. Podés agregar peso.'},
-    {nombre:'Plancha lateral',descripcion:'Apoyado en un antebrazo y el borde del pie, mantenés el cuerpo alineado lateralmente. Activa oblicuos y cuadrado lumbar.'},
-    {nombre:'Dead bug',descripcion:'Tumbado, extendés brazo y pierna contralateral manteniendo la zona lumbar pegada al suelo. Excelente para el core profundo.'},
-    {nombre:'Hollow body hold',descripcion:'Tumbado, levantás piernas y hombros sin despegar la zona lumbar. Isométrico de alta activación del transverso abdominal.'},
+    {nombre:'Bird-Dog (Perro-Pájaro McGill)',descripcion:'Extendés brazo y pierna contraria sin que gire la pelvis. Pausa de 3 segundos.'},
+    {nombre:'Dead Bug (Bicho Muerto controlado)',descripcion:'Cintura apoyada en la colchoneta mientras extendés brazo y pierna contraria.'},
+    {nombre:'Curl-up de McGill',descripcion:'Una pierna flexionada, manos bajo la cintura para mantener su curva. Despegás apenas cabeza y hombros, sin doblar la cintura. Pausa de 8-10 seg.'},
+    {nombre:'Plancha lateral (o modificada sobre rodillas)',descripcion:'Antebrazo y rodillas o pies apoyados, cuerpo alineado. Por tiempo.'},
+    {nombre:'Plancha frontal corta (estilo McGill)',descripcion:'Series cortas de 10-15 seg con glúteos y abdomen activos.'},
+    {nombre:'Press Pallof anti-rotación (banda o polea)',descripcion:'Extendés la banda al frente sin dejar que el torso gire.'},
+    {nombre:'Paseo del granjero con mancuernas (postura alta)',descripcion:'Caminás bien derecha con mancuernas livianas. Por tiempo.'},
   ],
 };
 
@@ -922,6 +903,24 @@ const API={
   total:Object.values(LOCAL_EXERCISES).flat().length
 };
 
+// Ejercicios que no se recomiendan después de la operación L4-L5 (compresión axial pesada, flexión o rotación lumbar bajo carga).
+const L4L5_RISKY=[
+  [/peso muerto|deadlift|\brumano\b|good ?morning|buenos d[ií]as/i,'flexión de cadera con carga sobre la columna'],
+  [/sentadilla (con barra|trasera|frontal con barra)|back squat|front squat|sentadilla b[uú]lgara|zancada|estocada|lunge/i,'carga axial o asimetría pesada sobre la cintura'],
+  [/remo con barra|remo inclinado con barra|barbell bent.?over|remo pendlay|remo en t\b|t.?bar row/i,'tronco inclinado en el aire con carga'],
+  [/press militar(?!.*sentad)|overhead press(?!.*seated)|press de hombros de pie|push press|thruster/i,'carga sobre la cabeza de pie'],
+  [/crunch|sit.?up|abdominal(es)? (cl[aá]sic|tradicional)|encogimiento abdominal|giro ruso|russian twist|v.?up|elevaci[oó]n de piernas colgad|rueda abdominal|ab wheel|rollout|hollow|toes to bar|mountain climber/i,'flexión o rotación lumbar repetida'],
+  [/hiperextensi|banco romano|superman|back extension/i,'extensión lumbar bajo carga'],
+  [/clean|snatch|arranque|cargada|kettlebell swing|swing con pesa|burpee|salto|jump|box jump|correr|running|trote/i,'impacto o movimiento balístico'],
+  [/encogimientos? de (hombros|trapecio) con barra|shrug con barra|leg press vertical|prensa vertical/i,'compresión de la columna'],
+];
+function l4l5Risk(name){const n=String(name||'');const hit=L4L5_RISKY.find(([re])=>re.test(n));return hit?hit[1]:'';}
+function l4l5RulesForAI(){
+  return 'RESTRICCIÓN MÉDICA OBLIGATORIA: Lucía, 31 años, principiante, operada de columna lumbar L4-L5 hace 1 año y medio. '+
+    'PROHIBIDO: peso muerto (convencional, rumano, piernas rígidas), sentadilla con barra, zancadas/búlgaras con carga, remo con barra inclinado, press militar de pie, crunches, sit-ups, giros rusos, elevaciones de piernas colgada, rueda abdominal, hiperextensiones, saltos, impacto y movimientos balísticos. '+
+    'USAR: pecho apoyado o respaldo, máquinas guiadas, poleas, bandas, core estilo McGill (bird-dog, dead bug, curl-up de McGill, plancha lateral, Pallof), glúteos (puente, hip thrust, abducción), prensa hasta 90° con el sacro apoyado. '+
+    'Siempre RIR 2-3, nunca al fallo, columna neutra.';
+}
 function apiForMuscle(m){
   const map={Pecho:'Pecho',Espalda:'Espalda',Hombros:'Hombros',Bíceps:'Brazos',Tríceps:'Brazos',Cuádriceps:'Piernas',Femoral:'Piernas',Gemelos:'Piernas',Abdomen:'Abdomen'};
   return (API.ex[map[m]||m]||[]).slice(0,8);
@@ -1056,11 +1055,32 @@ function getPreviousExerciseLog(rid,did,exerciseName){
   return null;
 }
 function progressionForLogs(ex,logs){
+  const timed=progressTimed(ex);
+  const range=parseRepRange(ex.reps);
+  if(timed){
+    // Ejercicios por tiempo (planchas, paseo del granjero, estiramientos): el RIR no hace falta.
+    const done=(logs||[]).filter(s=>s.done&&Number(s.reps)>0);
+    const u=ex.unit==='m'?' m':' s';
+    if(done.length<Number(ex.series||1))return {kind:'data',text:'Anotá cuánto aguantaste en todas las series para saber si avanzar.'};
+    if(!range.max)return {kind:'hold',text:'Mantené el tiempo y priorizá la técnica.'};
+    if(done.some(s=>Number(s.reps)<range.min))return {kind:'review',text:'No llegaste al objetivo en alguna serie: mantenelo la próxima y cuidá la postura. Si apareció molestia lumbar, acortá el tiempo.'};
+    if(done.every(s=>Number(s.reps)>=range.max)){
+      const step=ex.unit==='m'?10:5,next=range.max+step;
+      return {kind:'advance',text:`Llegaste al objetivo en todas las series. Si fue sin molestias, la próxima probá ${next}${u}.`+(/plancha/i.test(ex.name||'')&&range.max>=30?' En planchas es mejor sumar una serie corta más que alargar mucho cada una.':'')};
+    }
+    return {kind:'hold',text:`Mantené y buscá llegar a ${range.max}${u} en todas las series.`};
+  }
   const valid=(logs||[]).filter(s=>s.done&&Number(s.reps)>0&&s.rir!==''&&Number.isFinite(Number(s.rir)));
   if(valid.length<Number(ex.series||1))return {kind:'data',text:'Anotá repeticiones y RIR de todas las series para calcular la próxima carga.'};
-  const range=parseRepRange(ex.reps);
   if(!range.max)return {kind:'hold',text:'Rango no numérico: mantené la carga y revisá la técnica.'};
   const target=ex.rir?parseRepRange(ex.rir):null,rirMin=target?target.min:1,rirMax=target?target.max:3;
+  const bodyweight=valid.every(s=>!(Number(s.weight)>0));
+  if(bodyweight){
+    // Sin peso: se progresa sumando reps, pausas o una variante más difícil.
+    if(valid.some(s=>Number(s.reps)<range.min||Number(s.rir)<rirMin))return {kind:'review',text:`Quedaste corta de reps o muy cerca del fallo (RIR ${rirMin}–${rirMax}): repetí igual la próxima y cuidá la técnica.`};
+    if(valid.every(s=>Number(s.reps)>=range.max&&Number(s.rir)>=rirMin))return {kind:'advance',text:`Completaste ${range.max} reps en todas las series con reserva. Si fue sin molestias, la próxima sumá una pausa de 2-3 s en la parte más difícil o pasá a una versión más exigente (banda más dura o una mancuerna liviana).`};
+    return {kind:'hold',text:`Bien. Buscá llegar a ${range.max} reps en todas las series dejando RIR ${rirMin}–${rirMax}.`};
+  }
   const allTop=valid.every(s=>Number(s.reps)>=range.max&&Number(s.rir)>=rirMin&&Number(s.rir)<=rirMax);
   const below=valid.some(s=>Number(s.reps)<range.min||(target?Number(s.rir)<rirMin:Number(s.rir)<=0));
   const base=Math.max(...valid.map(s=>Number(s.weight)||0));
@@ -1071,7 +1091,7 @@ function progressionForLogs(ex,logs){
     return {kind:'up',next,text:`Objetivo cumplido con ${rirMin}–${rirMax} RIR. Si la técnica fue estable y sin dolor, próxima exposición: probá ${next} kg y volvé al mínimo del rango.`};
   }
   if(below)return {kind:'review',text:'No subas todavía: faltaron reps o llegaste a 0 RIR. Repetí carga y revisá descanso, técnica y fatiga.'};
-  return {kind:'hold',text:'Mantené la carga e intentá sumar repeticiones sin salir de 1–3 RIR.'};
+  return {kind:'hold',text:`Mantené la carga e intentá sumar repeticiones sin salir de RIR ${rirMin}–${rirMax}.`};
 }
 function exerciseProgression(rid,did,ei,ex){
   if(ex.autoProgress===false){
@@ -1082,7 +1102,7 @@ function exerciseProgression(rid,did,ei,ex){
   const current=Array.from({length:ex.series},(_,si)=>getSetPerformance(rid,did,ei,si)).slice(skip);
   if(current.some(s=>s.done))return progressionForLogs(heavy,current);
   const previous=getPreviousExerciseLog(rid,did,ex.name);
-  return previous?.setLogs?.length>skip?progressionForLogs(heavy,previous.setLogs.slice(skip)):{kind:'data',text:'Primera referencia: registrá kg, reps reales y RIR.'};
+  return previous?.setLogs?.length>skip?progressionForLogs(heavy,previous.setLogs.slice(skip)):{kind:'data',text:progressTimed(ex)?'Primera referencia: anotá cuánto aguantaste en cada serie.':'Primera referencia: anotá reps y RIR (y los kg si usás peso).'};
 }
 function ensureGymCycle(rid){
   if(!rid)return null;
@@ -1291,7 +1311,7 @@ function buildGymProgressContext(maxChars=2600){
       if(fb&&fb.kind!=='first')line+=' | hoy vs anterior: '+(fb.kind==='up'?'mejoró':fb.kind==='down'?'bajó':'igual')+(fb.dPct?' ('+(fb.dPct>0?'+':'')+fb.dPct+'% fuerza estimada)':'');
       const strength=history.map(h=>{const b=bestProgressSet(h.logs,ex);return b?estimatedStrength(b.weight,b.reps,b.rir):0;}).filter(Boolean);
       if(strength.length>=3&&Math.max(strength[0],strength[1])<=strength[2]*1.01)line+=' | ESTANCADO: sin mejora de fuerza estimada en 3 semanas';
-      line+=' | la app sugiere: '+(advice.kind==='up'?when+' subir a '+advice.next+' kg y volver al mínimo del rango':advice.kind==='review'?'no subir, repetir carga y revisar':advice.kind==='hold'?'mantener carga y sumar reps':advice.kind==='manual'?'seguir el programa ('+advice.text.slice(0,140)+')':'faltan datos (kg, reps y RIR)');
+      line+=' | la app sugiere: '+(advice.kind==='up'?when+' subir a '+advice.next+' kg y volver al mínimo del rango':advice.kind==='advance'?'avanzar: '+advice.text.slice(0,160):advice.kind==='review'?'no subir, repetir carga y revisar':advice.kind==='hold'?'mantener carga y sumar reps':advice.kind==='manual'?'seguir el programa ('+advice.text.slice(0,140)+')':'faltan datos (kg, reps y RIR)');
       lines.push(line);
     });
   });
@@ -1685,7 +1705,7 @@ function openDay(rid,did){
         }).join('')}
       </div>
       <div id="fb-${ei}">${exerciseFeedbackHtml(feedback)}</div>
-      <div class="progression-note${advice.kind==='manual'?' manual':''}" id="prog-${ei}"><strong>${advice.kind==='up'?'Subir carga':advice.kind==='review'?'Revisar':advice.kind==='manual'?'Según el programa':'Progresión'}:</strong> ${esc(advice.text)}</div>
+      <div class="progression-note${advice.kind==='manual'?' manual':''}" id="prog-${ei}"><strong>${advice.kind==='up'?'Subir carga':advice.kind==='advance'?'Avanzar':advice.kind==='review'?'Revisar':advice.kind==='manual'?'Según el programa':'Progresión'}:</strong> ${esc(advice.text)}</div>
       <button class="btn b-sm b-g" style="width:100%;margin-top:10px;min-height:44px" onclick="addSet('${rid}','${did}','${ei}','${col}')">+ Agregar serie</button>
     </div>`;
   });
@@ -1876,7 +1896,7 @@ function toggleSetPerformance(btn,rid,did,ei,si,col){
   const pct=getDayPct(rid,did);ring('dr',pct,col,pct+'%',52);updWring();
   const saveBtn=document.getElementById('save-session-btn');if(saveBtn){saveBtn.textContent=pct===100?'✓ Guardar sesión completa':`Guardar progreso · ${pct}%`;saveBtn.classList.toggle('b-p',pct>0);saveBtn.classList.toggle('b-g',pct===0);if(pct>0)saveBtn.style.background=col;else saveBtn.style.background='';}
   const advice=ex?exerciseProgression(rid,did,Number(ei),ex):null,adviceEl=document.getElementById('prog-'+ei);
-  if(advice&&adviceEl)adviceEl.innerHTML=`<strong>${advice.kind==='up'?'Subir carga':advice.kind==='review'?'Revisar':advice.kind==='manual'?'Según el programa':'Progresión'}:</strong> ${esc(advice.text)}`;
+  if(advice&&adviceEl)adviceEl.innerHTML=`<strong>${advice.kind==='up'?'Subir carga':advice.kind==='advance'?'Avanzar':advice.kind==='review'?'Revisar':advice.kind==='manual'?'Según el programa':'Progresión'}:</strong> ${esc(advice.text)}`;
 }
 function copyPreviousLoads(rid,did,ei){
   const ex=getRoutineExercise(rid,did,ei),previous=ex?getPreviousExerciseLog(rid,did,ex.name):null;
@@ -3021,7 +3041,7 @@ function saveNutGoal(){
   const tw=parseFloat(document.getElementById('ng-tw')?.value)||0;
   const r=document.getElementById('ng-r')?.value.trim()||'';
   nutData.dietType=type;nutData.targetWeight=tw;
-  if(w>0)gymProfile.weight=w;
+  if(w>0){gymProfile.weight=w;gymProfile.savedAt=Date.now();}
   gymProfile.dietRestrictions=r;
   // mapear dietType a goal del perfil para los macros
   gymProfile.goal=(type==='masa')?'hipertrofia':(type==='bajar_lento'||type==='bajar_rapido'||type==='keto')?'bajar_peso':gymProfile.goal||'salud';
@@ -3532,6 +3552,8 @@ function saveExerciseSheet(dayId,ei){
   const val=id=>(document.getElementById(id)?.value||'').trim();
   const name=val('xs-name').slice(0,80);
   if(!name){tst('Escribí el nombre del ejercicio');document.getElementById('xs-name')?.focus();return;}
+  const risk=l4l5Risk(name);
+  if(risk&&!confirm(`⚠️ "${name}" no se recomienda para tu L4-L5 (${risk}).\n\nAlternativas seguras: mirá la Guía L4-L5. ¿Agregarlo igual?`))return;
   const isNew=ei==null,ex=isNew?{}:day.exercises[ei];if(!ex)return;
   const renamed=isNew||normStr(ex.name)!==normStr(name);
   ex.name=name;ex.muscle=val('xs-muscle')||ex.muscle||'Pecho';
@@ -3875,17 +3897,17 @@ function pickPlanMonth(key){
     ${list.map(p=>`<button type="button" class="tpl-card${current===p.id?' on':''}" style="--pc:${programColor(p)}" onclick="setPlanMonth('${key}','${esc(p.id)}');cOv2();renderGym()"><strong>${esc(p.name)}</strong><small>${programMetaHtml(p).replace(/<\/?span>/g,' ').replace(/\s+/g,' ').trim()}</small></button>`).join('')}`);
 }
 function yearTemplatePlan(template,plan,keys,replace){
-  // months[0] es enero: cada mes de los próximos 12 toma el programa de su mes del calendario.
+  // Los planes de Lucía son secuenciales: months[0] es el PRIMER mes del plan (el mes actual), no enero.
   // Sin replace respeta los meses ya elegidos.
   const next={...plan};
-  keys.forEach(k=>{const id=template.months?.[Number(k.slice(5,7))-1];if(!id)return;if(!next[k]||replace)next[k]=id;});
+  keys.forEach((k,i)=>{const id=template.months?.[i];if(!id)return;if(!next[k]||replace)next[k]=id;});
   return next;
 }
 function applyYearTemplate(id){
   const t=_programsData?.yearTemplates?.find(x=>x.id===id);if(!t)return;
   const horizon=planHorizon(),plan=gymPlan(),keys=nextMonthKeys(horizon);
   if(!confirm(`¿Cargar "${t.name}" por ${horizon} meses (${monthLabel(keys[0])} a ${monthLabel(keys[keys.length-1])})?`))return;
-  const monthOf=k=>t.months?.[Number(k.slice(5,7))-1];
+  const monthOf=k=>t.months?.[keys.indexOf(k)];
   const taken=keys.filter(k=>plan[k]&&monthOf(k)&&plan[k]!==monthOf(k)).length;
   const replace=taken>0&&confirm(`Ya elegiste programa en ${plural(taken,'mes','meses')} distinto${taken===1?'':'s'}. ¿Reemplazarlo${taken===1?'':'s'} también? (Cancelar = los dejo como están)`);
   S.s('gymPlan1',yearTemplatePlan(t,plan,keys,replace));window._renderYearPlan?.();renderGym();tst(`✓ Plan de ${horizon} meses cargado`);
@@ -3958,7 +3980,7 @@ async function askAIRoutine(){
   try{
     const movementCatalog=await loadExerciseMediaCatalog().catch(()=>null);
     const movementList=movementCatalog?exerciseMovementCatalogForAI(movementCatalog,lugar):'';
-    const prompt='Sos un entrenador personal experto. Armá una rutina de entrenamiento de '+dias+' días por semana para una persona que entrena '+lugarTxt+'.\n'+
+    const prompt='Sos un entrenador personal experto en columna lumbar. Armá una rutina de entrenamiento de '+dias+' días por semana para Lucía, que entrena '+lugarTxt+'.\n'+l4l5RulesForAI()+'\n'+
       'Perfil: '+(p.weight?p.weight+'kg, ':'')+(p.height?p.height+'cm, ':'')+'nivel '+nivel+', objetivo: '+objTxt+(p.experience?', '+p.experience+' años de experiencia':'')+'. Duración máxima: '+mins+' minutos por sesión. Bloque: '+cycleLength+' semanas.'+(prioridad?' Prioridad: '+prioridad+'.':'')+(nota?' Limitaciones/preferencias: '+nota+'.':'')+'\n'+
       'PROGRAMACIÓN: elegí pocos ejercicios útiles y sostenibles; cubrí patrones de movimiento y volumen semanal coherente; evitá volumen basura. Usá rangos de repeticiones que permitan doble progresión. No prescribas cargas inventadas ni una descarga automática: la app decidirá según reps reales, RIR, adherencia y fatiga.\n'+
       'Para cada día indicá un nombre/foco y ejercicios apropiados al lugar. La sesión debe caber realmente en '+mins+' minutos incluyendo descansos.\n'+
@@ -3974,12 +3996,18 @@ async function askAIRoutine(){
     const normalized=normalizeAIRoutinePayload(obj2,movementCatalog);
     if(!normalized.days.length)throw new Error('La IA no devolvió días de entrenamiento válidos. Probá de nuevo.');
     if(normalized.emptyDays.length)throw new Error('La IA dejó sin ejercicios el día '+normalized.emptyDays.join(', ')+'. Probá de nuevo.');
+    // Red de seguridad L4-L5: si la IA igual propone un ejercicio riesgoso, se saca de la rutina.
+    const removedRisky=[];
+    normalized.days.forEach(d=>{d.exercises=d.exercises.filter(ex=>{if(l4l5Risk(ex.name)){removedRisky.push(ex.name);return false;}return true;});normalizeSupersetAssignments(d.exercises);});
+    normalized.days=normalized.days.filter(d=>d.exercises.length);
+    if(!normalized.days.length)throw new Error('La IA solo propuso ejercicios no recomendados para L4-L5. Probá de nuevo.');
     // Normalizar al formato del editor y abrir para revisar antes de guardar
     window._draft={id:uid(),name:normalized.name,createdAt:Date.now(),goal:obj,cycleLength,sessionMinutes:mins,progressionMethod:'double',days:normalized.days};
     cOv1();
     rEditor(false); // abre el editor con la rutina cargada para revisar/ajustar y guardar
     const notices=[];
     if(normalized.days.length!==Number(dias))notices.push('la IA devolvió '+normalized.days.length+' días en vez de '+dias);
+    if(removedRisky.length)notices.push('saqué por tu L4-L5: '+removedRisky.join(', '));
     if(normalized.invalid.length)notices.push('omití '+normalized.invalid.length+' elemento'+(normalized.invalid.length===1?'':'s')+' sin nombre');
     tst('✓ Rutina generada · revisala y guardá'+(notices.length?' · '+notices.join(' · '):''),notices.length?5000:3000);
   }catch(e){tst('Error: '+e.message,4000);openAIRoutine();}
@@ -4043,7 +4071,7 @@ function saveGymProfile(){
   const experience=parseInt(document.getElementById('gp-exp')?.value)||0;
   const goal=document.getElementById('gp-goal')?.value||'hipertrofia';
   const dietRestrictions=(document.getElementById('gp-diet')?.value||'').trim();
-  gymProfile={...(gymProfile||{}),height,weight,experience,goal,dietRestrictions};
+  gymProfile={...(gymProfile||{}),height,weight,experience,goal,dietRestrictions,savedAt:Date.now()};
   S.s('gymProfile',gymProfile);
   cOv1();tst('✓ Perfil guardado');
 }
@@ -6254,12 +6282,12 @@ function showCoachSessionsList(){
 }
 // Preguntas de la entrevista inicial (una sola vez)
 const COACH_Q=[
-  {k:'nombre',q:'¡Hola! Soy tu coach personal 🌱 Voy a acompañarte a organizarte, moverte más y dejar de postergar. Para arrancar, ¿cómo te gusta que te llamen?'},
-  {k:'trabajo',q:'Un gusto. ¿A qué te dedicás? Contame en qué se te va el día.'},
-  {k:'actividad',q:'¿Cuánto te movés en un día normal? (por ejemplo: camino poco, camino bastante, estoy sentado casi todo el día...)'},
-  {k:'objetivo',q:'¿Qué es lo que más te gustaría lograr en los próximos meses? Puede ser de salud, plata, hábitos, lo que sea.'},
-  {k:'obstaculo',q:'¿Y qué sentís que hoy te frena o te hace postergar eso?'},
-  {k:'energia',q:'Última: ¿en qué momento del día tenés más energía para hacer cosas? (mañana / tarde / noche)'}
+  {k:'nombre',q:'¡Hola! Soy tu coach de espalda y entrenamiento 🌱 Te voy a acompañar para que te pongas fuerte cuidando tu L4-L5. Para arrancar, ¿cómo te gusta que te llamen?'},
+  {k:'cirugia',q:'Contame de tu operación: ¿qué te hicieron en L4-L5 (descompresión, discectomía, fusión con tornillos o caja…)? ¿Qué te dijo el médico o el kinesiólogo sobre hacer ejercicio?'},
+  {k:'dolor',q:'¿Cómo está tu espalda en un día normal? Del 0 al 10, ¿cuánto dolor tenés? ¿Te baja hacia alguna pierna o sentís hormigueo?'},
+  {k:'actividad',q:'¿Cuánto te movés en un día normal? ¿Pasás mucho tiempo sentada? ¿Caminás?'},
+  {k:'objetivo',q:'¿Qué te gustaría lograr en los próximos meses? (espalda sin molestias, glúteos más fuertes, tonificar, sentirte segura al levantar cosas…)'},
+  {k:'energia',q:'Última: ¿en qué momento del día te queda mejor entrenar? (mañana / tarde / noche)'}
 ];
 function coachProfile(){return S.g('coachProfile1',{});}
 function coachInterviewDone(){const p=coachProfile();return COACH_Q.every(x=>p[x.k]);}
@@ -6285,15 +6313,19 @@ function coachPrompt(userMsg, isVoice){
   const memCtx=buildMemCtx(true)+aiActionContract();
   const ctxHist=coachHist.slice(-16).map(msg=>'['+msg.role+']: '+msg.text).join('\n');
   const voiceGuide = isVoice ? '\n\nIMPORTANTE: El usuario te está hablando por voz. Respondé de forma muy corta (máximo 2 o 3 oraciones breves), directa y conversacional en español uruguayo, sin usar viñetas, listas ni formato markdown largo.' : '';
-  return 'Sos un COACH DE BIENESTAR Y PRODUCTIVIDAD personal, cálido pero directo. NO sos psicólogo ni das terapia clínica: sos un acompañante que motiva, ayuda a organizarse, a moverse más y a dejar de procrastinar.\n\n'+
+  return 'Sos el COACH DE ENTRENAMIENTO Y ESPALDA de Lucía: cálido, claro y prudente. Lucía tiene 31 años, es principiante y fue operada de columna lumbar L4-L5 hace 1 año y medio. NO sos médico ni kinesiólogo: acompañás, explicás técnica, ordenás el plan y la motivás, siempre priorizando su espalda.\n\n'+l4l5RulesForAI()+'\n\n'+
     perfilCoach+'\n\n'+buildAppContext()+memCtx+voiceGuide+'\n\n'+
     'CÓMO ACTUÁS:\n'+
     '- Hablás en español uruguayo, cercano, humano. Tuteo. Ni robótico ni acartonado.\n'+
     '- Hacés preguntas abiertas para entender antes de aconsejar. Una pregunta por vez, no interrogatorio.\n'+
     '- Cruzás los datos reales (entrenamiento, nutrición, cardio y descanso) para dar consejos concretos y personalizados. Ej: si durmió poco y entrena mucho, lo señalás con tacto y proponés un paso chico.\n'+
-    '- Combatís la procrastinación: ayudás a partir las metas grandes en pasos mínimos y alcanzables HOY. Celebrás los avances por chicos que sean.\n'+
+    '- Ayudás a sostener el hábito con pasos chicos y alcanzables HOY (una sesión, una caminata de 20 minutos, la movilidad de la mañana). Celebrás los avances por chicos que sean.\n'+
     '- Motivás de verdad, sin frases vacías. Reconocés el esfuerzo, no solo el resultado.\n'+
-    '- Sos honesto: si algo no va bien (gasta de más, no entrena, no avanza), se lo decís con respeto y cariño, no le mentís para caer bien.\n'+
+    '- Sos honesto: si algo no va bien (no entrena, no avanza, aparece dolor), se lo decís con respeto y cariño, no le mentís para caer bien.\n'+
+    '- SEMÁFORO DE DOLOR: verde (0-2/10 y nada que baje a la pierna) → puede seguir y progresar. Amarillo (3-4/10, o molestia que dura más de 24 h después de entrenar) → mantener cargas, bajar series o rango y priorizar movilidad suave. Rojo (5/10 o más, dolor que baja por la pierna o que empeora al toser) → parar ese ejercicio y consultar a su kinesiólogo o médico.\n'+
+    '- SEÑALES DE ALARMA (decilo claro y sin rodeos): pérdida de fuerza en una pierna o pie, adormecimiento en la zona genital o entre las piernas, problemas nuevos para orinar o controlar esfínteres, dolor muy fuerte que no cede, fiebre con dolor de espalda. Ante cualquiera: que deje de entrenar y consulte YA (emergencia o 911).\n'+
+    '- Nunca propongas ejercicios de la lista PROHIBIDA aunque te lo pida. Si pregunta por uno, explicá por qué no y dale la alternativa segura.\n'+
+    '- Si no sabés qué cirugía tuvo (por ejemplo si tiene fusión), recordale confirmar con su médico los límites antes de sumar carga.\n'+
     '- Respuestas breves y conversacionales (2-5 frases). Esto es un chat, no un ensayo.\n'+
     '- Podés sugerir acciones concretas y recordar datos. ESTO ES MUY IMPORTANTE: Si la persona te cuenta algo duradero (hábitos, metas, gustos, historial), TENÉS QUE GUARDARLO con [ACCION]{"op":"recordar","dato":"...","tag":"general"}[/ACCION] o si no se te olvidará en el futuro.\n'+
     '- ENTRENAMIENTO: seguí la PROGRESIÓN DEL GYM. Si pregunta qué peso usar, respondé con lo que sugiere la app para ese ejercicio y explicá por qué (reps y RIR de la última vez). Celebrá cuando la tendencia de kg sube. En la semana de Revisión (última del bloque) preguntá por fatiga, dolor y sueño antes de proponer seguir, mantener o bajar volumen. Nunca propongas subir carga si la app dice revisar o faltan datos.\n'+
@@ -6350,7 +6382,7 @@ function renderCoach(){
       `;
     }
 
-    h+=`<div class="cx-empty" style="padding:30px 20px"><div style="width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#34D399,#10B981);display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:26px">🌱</div><div style="font-size:15px;font-weight:700;color:var(--text1)">Tu coach personal</div><div style="font-size:11px;color:var(--text3);margin-top:8px;line-height:1.6">Te ayudo a organizarte, moverte más<br>y dejar de postergar. Empecemos 👇</div><button class="btn b-lg b-p" style="margin-top:18px;background:#10B981" onclick="coachStart()">Empezar</button>
+    h+=`<div class="cx-empty" style="padding:30px 20px"><div style="width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#34D399,#10B981);display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:26px">🌱</div><div style="font-size:15px;font-weight:700;color:var(--text1)">Tu coach de espalda L4-L5</div><div style="font-size:11px;color:var(--text3);margin-top:8px;line-height:1.6">Te ayudo con la técnica, el plan<br>y a progresar cuidando tu columna. Empecemos 👇</div><button class="btn b-lg b-p" style="margin-top:18px;background:#10B981" onclick="coachStart()">Empezar</button>
     ${continueBtn}
     </div>`;
   } else {
@@ -7006,6 +7038,7 @@ function applyGymExerciseReplacement(ex,acc){
   const newSeries=acc.series===undefined?ex.series:Number.parseInt(acc.series,10);
   const newReps=acc.reps===undefined?ex.reps:String(acc.reps).trim();
   if(!newName||newName.length>80)return {error:'El nombre nuevo del ejercicio no es válido'};
+  if(acc.nombre_nuevo!==undefined&&l4l5Risk(newName))return {error:'"'+newName+'" no se recomienda para L4-L5 ('+l4l5Risk(newName)+'). Elegí una alternativa segura'};
   if(!Number.isInteger(newSeries)||newSeries<1||newSeries>12)return {error:'Las series deben ser un número entre 1 y 12'};
   if(!newReps||newReps.length>20)return {error:'El rango de repeticiones no es válido'};
   let newMuscle=ex.muscle,newMediaId=ex.mediaId||null;
@@ -7137,6 +7170,8 @@ function ejecutarAccion(acc){
     const normalized=normalizeAIRoutinePayload(acc,movementCatalog);
     if(!normalized.days.length)return 'Faltan días válidos para crear la rutina';
     if(normalized.emptyDays.length)return 'No guardé la rutina porque el día '+normalized.emptyDays.join(', ')+' quedó sin ejercicios con nombre';
+    const risky=normalized.days.flatMap(d=>d.exercises.filter(ex=>l4l5Risk(ex.name)).map(ex=>ex.name));
+    if(risky.length)return 'No guardé la rutina: tiene ejercicios no recomendados para L4-L5 ('+risky.join(', ')+'). Proponé alternativas seguras.';
     const rid=uid();
     const r={id:rid,name:normalized.name,days:normalized.days,createdAt:Date.now()};
     const rs=S.g('rt2',[]);
@@ -9090,9 +9125,10 @@ function seedLuciaInitialRoutinesIfNeeded(){
     S.s('gymCycles1', gymCycles);
   }
   if(!gymProfile || (!gymProfile.goal && !gymProfile.dietRestrictions)){
+    // Peso y altura quedan vacíos hasta que Lucía los cargue: no se inventan datos.
     gymProfile = {
-      height: 165,
-      weight: 62,
+      height: 0,
+      weight: 0,
       experience: 0,
       goal: 'salud',
       loadIncrement: 1,
@@ -9102,18 +9138,10 @@ function seedLuciaInitialRoutinesIfNeeded(){
   }
   // Cargar plan de 3 meses recomendado por defecto si está vacío
   const currentPlan = S.g('gymPlan1', {});
-  if(!currentPlan || !Object.keys(currentPlan).length){
-    const tpl = (INLINE_PROGRAMS_DATA?.yearTemplates||[])[0];
-    if(tpl){
-      const keys = nextMonthKeys(12);
-      const next = {};
-      keys.forEach((k, idx)=>{
-        const sequence = ['fase1-casa-base-mcgill-3d','fase1-gym-adaptacion-3d','fase2-gym-espalda-gluteos-3d','fase3-gym-tonificacion-total-3d'];
-        next[k] = sequence[Math.min(idx, sequence.length-1)];
-      });
-      S.s('gymPlan1', next);
-      S.s('gymPlanHorizon1', 3);
-    }
+  const tpl = (INLINE_PROGRAMS_DATA?.yearTemplates||[])[0];
+  if(tpl && (!currentPlan || !Object.keys(currentPlan).length)){
+    S.s('gymPlan1', yearTemplatePlan(tpl, {}, nextMonthKeys(12), true));
+    S.s('gymPlanHorizon1', 3);
   }
   // Memoria inicial para el Coach IA y Chat IA sobre Lucía
   const mem = S.g('userMem1', []);
@@ -9343,6 +9371,21 @@ function loadUserData(){
   coachHist=sCoach.mensajes;
   S.s('activeCoachId',activeCoachId);
   seedLuciaInitialRoutinesIfNeeded();
+  migrateLuciaV2();
+}
+
+function migrateLuciaV2(){
+  // Corrige datos que la primera versión dejó cargados por defecto en instalaciones existentes. Corre una sola vez.
+  if(!currentUser||S.g('lucia_mig_v2',false))return;
+  // 1) Peso y altura inventados (62 kg / 165 cm) que Lucía nunca guardó: se vacían.
+  if(gymProfile&&!gymProfile.savedAt&&Number(gymProfile.weight)===62&&Number(gymProfile.height)===165){
+    gymProfile={...gymProfile,weight:0,height:0};S.s('gymProfile',gymProfile);
+  }
+  // 2) Plan por meses por defecto (Fase 3 los últimos 9 meses sin descarga): pasa al plan recomendado en orden.
+  const tpl=(INLINE_PROGRAMS_DATA?.yearTemplates||[])[0],plan=S.g('gymPlan1',{})||{},keys=Object.keys(plan).sort();
+  const old=['fase1-casa-base-mcgill-3d','fase1-gym-adaptacion-3d','fase2-gym-espalda-gluteos-3d','fase3-gym-tonificacion-total-3d'];
+  if(tpl&&keys.length===12&&keys.every((k,i)=>plan[k]===old[Math.min(i,old.length-1)]))S.s('gymPlan1',yearTemplatePlan(tpl,{},keys,true));
+  S.s('lucia_mig_v2',true);
 }
 
 function updateUserAvatars(){
