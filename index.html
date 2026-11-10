@@ -10282,8 +10282,8 @@ function openMemoria(){
 }
 // ── PIN de acceso: se pide una sola vez por dispositivo y queda guardado ──
 // Solo se guarda el hash (sal + PIN). Para cambiar el PIN: generar un hash nuevo; los dispositivos lo vuelven a pedir.
-const LUCIA_PIN_SALT='043cd6455fa8b1d7';
-const LUCIA_PIN_HASH='0339e8aa0aa4dcfb5cb6e7214fd0155d1e15dd59ed4f41dbc6bc152dcf2ecbf5';
+const LUCIA_PIN_SALT='a6f0f79fc1cc1263';
+const LUCIA_PIN_HASH='bf79766188f0670a7727a28da1652ccdda8e0f04503304d4d4ec6d72f12c7edd';
 const LUCIA_PIN_KEY='lucia_pin_ok_v1';
 async function luciaPinHash(pin){
   const buf=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(LUCIA_PIN_SALT+':'+pin));
