@@ -1,0 +1,1754 @@
+{
+  "version": 2,
+  "updatedAt": "2026-11-10",
+  "note": "Programas diseñados exclusivamente para Lucía (31 años · Operación lumbar L4-L5 por laparoscopía hace 1.5 años · Nivel inicial). Todos los ejercicios fueron seleccionados con criterio biomecánico 0% compresión axial ni flexión lumbar bajo carga, basados en la Tríada de Stuart McGill y estabilización lumbo-pélvica.",
+  "disciplines": {
+    "fase-1-base": "Fase 1 · Base y Core McGill",
+    "fase-2-fuerza": "Fase 2 · Espalda y Glúteos",
+    "fase-3-tonificacion": "Fase 3 · Tonificación 0% Compresión",
+    "movilidad-alivio": "Movilidad y Alivio L4-L5"
+  },
+  "programs": [
+    {
+      "id": "fase1-casa-base-mcgill-3d",
+      "name": "Fase 1 (Casa) · Despertar Espalda, Glúteos y Core McGill",
+      "discipline": "fase-1-base",
+      "level": "principiante",
+      "daysPerWeek": 3,
+      "weeks": 4,
+      "sessionMin": 30,
+      "equipment": [
+        "colchoneta",
+        "banda elástica",
+        "silla firme",
+        "pared"
+      ],
+      "goal": "salud",
+      "summary": "El punto de partida ideal en casa para Lucía. Enseña a activar la faja abdominal profunda (Tríada de McGill), despierta los glúteos para que sostengan la pelvis y fortalece la espalda alta con banda elástica sin ningún impacto sobre L4-L5.",
+      "progression": "En esta Fase 1 la prioridad es la técnica perfecta y sentir qué músculo trabaja sin ninguna molestia en la cintura. Cada semana sumá 1 o 2 repeticiones o 2 segundos de pausa isométrica sólo si sentís control total (RIR 3-4: te quedan varias repeticiones en la recámara).",
+      "basedOn": "Protocolo de estabilización lumbar del Dr. Stuart McGill (Back Mechanic / Big 3: Bird-Dog, Plancha lateral modificada y control abdominal neutro) combinado con activación glútea y tracción escapular en descarga.",
+      "weekPlan": [
+        {
+          "week": 1,
+          "focus": "Conexión neuromuscular y postura neutra",
+          "rir": "4 (muy suave)",
+          "volume": "Base (2-3 series)"
+        },
+        {
+          "week": 2,
+          "focus": "Control de respiración y pausas de 2-3 seg",
+          "rir": "3",
+          "volume": "100%"
+        },
+        {
+          "week": 3,
+          "focus": "Sumar 1-2 repeticiones manteniendo columna neutra",
+          "rir": "2-3",
+          "volume": "100%"
+        },
+        {
+          "week": 4,
+          "focus": "Consolidación de Fase 1 (lista para Fase 2 o Gym)",
+          "rir": "2-3",
+          "volume": "100%"
+        }
+      ],
+      "days": [
+        {
+          "label": "Día 1 · Core McGill + Espalda Postural",
+          "exercises": [
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 2,
+              "reps": "10",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "Suave: apoyá la cintura en la colchoneta largando el aire y mantené 3 seg."
+            },
+            {
+              "name": "Bird-Dog (Perro-Pájaro McGill)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "6-8",
+              "rir": "3",
+              "rest": "60 s",
+              "note": "6 a 8 por lado con pausa de 3 seg arriba. Estirá hacia atrás sin levantar la pierna por encima del glúteo."
+            },
+            {
+              "name": "Puente de glúteos en colchoneta (Glute Bridge)",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Subí empujando con los talones hasta quedar en línea recta (no arquees la cintura arriba)."
+            },
+            {
+              "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Hacelo de pie o sentada en silla con la banda sujeta a la altura del abdomen. Juntá omóplatos 2 seg."
+            },
+            {
+              "name": "Flexiones en pared (Push-up suave)",
+              "muscle": "Pecho",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Cuerpo recto como una tabla, abdomen y glúteos firmes."
+            },
+            {
+              "name": "Dead Bug (Bicho Muerto controlado)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "6-8",
+              "rir": "3",
+              "rest": "60 s",
+              "note": "6 a 8 por lado. La cintura queda 100% pegada a la colchoneta."
+            }
+          ]
+        },
+        {
+          "label": "Día 2 · Glúteos Protectores + Tracción Dorsal",
+          "exercises": [
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 2,
+              "reps": "8",
+              "rir": "4",
+              "rest": "45 s",
+              "note": "Movilidad suave de espalda alta y media sin forzar los extremos."
+            },
+            {
+              "name": "Sentadilla a silla o cajón (Box Squat controlada)",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "75 s",
+              "note": "Tocá suavemente la silla con la cola manteniendo el pecho alto y subí."
+            },
+            {
+              "name": "Jalón al pecho con banda elástica (en casa)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Banda sujeta arriba de la puerta. Bajá los codos hacia las costillas sin arquear la espalda."
+            },
+            {
+              "name": "Abducción de cadera acostada de lado (Glúteo medio)",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Por lado. Fortalece el glúteo medio que estabiliza tu pelvis al caminar."
+            },
+            {
+              "name": "Plancha lateral (o modificada sobre rodillas)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "15",
+              "unit": "s",
+              "rir": "3",
+              "rest": "60 s",
+              "note": "Apoyando antebrazo y rodillas flexionadas a 90°. 15 seg de cada lado."
+            }
+          ]
+        },
+        {
+          "label": "Día 3 · Estabilidad Completa + Anti-rotación",
+          "exercises": [
+            {
+              "name": "Bird-Dog (Perro-Pájaro McGill)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "8",
+              "rir": "3",
+              "rest": "60 s",
+              "note": "Controlá que la pelvis no gire al extender la pierna."
+            },
+            {
+              "name": "Puente de glúteos con marcha alternada",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "8-10",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Mantené la cadera arriba firme mientras despegás apenas un pie y el otro."
+            },
+            {
+              "name": "Subida al cajón o escalón (Step-up)",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "8-10",
+              "rir": "2-3",
+              "rest": "75 s",
+              "note": "En un escalón bajo con peso corporal. Tronco derechito."
+            },
+            {
+              "name": "Vuelos posteriores / Face pull con banda elástica",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Abre el pecho y fortalece la parte alta de la espalda."
+            },
+            {
+              "name": "Press Pallof anti-rotación (banda o polea)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "10",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Extendé la banda al frente sin dejar que te gire el torso. 10 por lado."
+            },
+            {
+              "name": "Estiramiento de glúteo y piramidal acostada",
+              "muscle": "Femoral",
+              "series": 2,
+              "reps": "25",
+              "unit": "s",
+              "rir": "4",
+              "rest": "30 s",
+              "note": "Acostada boca arriba, alivia toda la tensión de la zona glútea y lumbar."
+            }
+          ]
+        }
+      ],
+      "conditioning": [
+        {
+          "day": "Días sin rutina (2 a 4 veces/sem)",
+          "text": "Caminata a paso vivo de 20 a 30 min en terreno plano con calzado cómodo (según McGill, caminar suave moviendo los brazos nutre los discos L4-L5 mejor que estar quieta)."
+        }
+      ],
+      "nutrition": {
+        "target": "Energía estable, recuperación de tejidos y hábito saludable",
+        "calories": "Mantenimiento ligero (~1.650–1.850 kcal orientativas según peso)",
+        "protein": "1,4 a 1,6 g por kg de peso (huevo, pollo, pescado, carne magra, yogur, legumbres)",
+        "activity": "3 sesiones de 30 min + caminatas suaves",
+        "note": "Tomar buena agua durante el día ayuda a mantener hidratados los discos intervertebrales."
+      },
+      "sources": [
+        {
+          "title": "Dr. Stuart McGill · Big 3 para estabilidad lumbar",
+          "url": "https://www.youtube.com/results?search_query=mcgill+big+3+espa%C3%B1ol+fisioterapia"
+        },
+        {
+          "title": "Ejercicios seguros para hernia/operación L4-L5",
+          "url": "https://www.youtube.com/results?search_query=ejercicios+fortalecer+espalda+l4+l5+fisioterapia"
+        }
+      ]
+    },
+    {
+      "id": "fase1-gym-adaptacion-3d",
+      "name": "Fase 1 (Gimnasio) · Adaptación Guiada 0% Compresión Lumbar",
+      "discipline": "fase-1-base",
+      "level": "principiante",
+      "daysPerWeek": 3,
+      "weeks": 4,
+      "sessionMin": 35,
+      "equipment": [
+        "máquinas con respaldo",
+        "poleas",
+        "banco inclinado",
+        "colchoneta"
+      ],
+      "goal": "salud",
+      "summary": "Diseñado para empezar en el gimnasio desde cero cuidando tu operación L4-L5 al 100%. Usa únicamente máquinas con soporte pectoral o respaldo y poleas de tracción suave, combinadas con ejercicios de core en colchoneta.",
+      "progression": "Empezá con cargas muy livianas las primeras 2 semanas para aprender el recorrido de cada máquina. Cuando completes el tope de repeticiones (ej. las 12 reps) sintiendo que podrías hacer 3 más con postura impecable, recién ahí subí un ladrillito o 1–2 kg.",
+      "basedOn": "Selección biomecánica de ejercicios con vector de carga descargado (pecho apoyado y respaldo lumbar) + estabilización central de McGill.",
+      "weekPlan": [
+        {
+          "week": 1,
+          "focus": "Conocer las máquinas y ajustar asientos",
+          "rir": "4 (muy liviano)",
+          "volume": "Base"
+        },
+        {
+          "week": 2,
+          "focus": "Técnica fluida sin despegar espalda de los respaldos",
+          "rir": "3",
+          "volume": "100%"
+        },
+        {
+          "week": 3,
+          "focus": "Subir 1-2 repeticiones por serie con control",
+          "rir": "2-3",
+          "volume": "100%"
+        },
+        {
+          "week": 4,
+          "focus": "Firmeza postural lista para Fase 2",
+          "rir": "2",
+          "volume": "100%"
+        }
+      ],
+      "days": [
+        {
+          "label": "Día 1 · Espalda con Apoyo + Glúteos y Core",
+          "exercises": [
+            {
+              "name": "Bird-Dog (Perro-Pájaro McGill)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "6-8",
+              "rir": "3",
+              "rest": "60 s",
+              "note": "Entrada en calor en colchoneta: activa tu faja lumbar antes de ir a las máquinas."
+            },
+            {
+              "name": "Remo sentado en máquina con apoyo en el pecho",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "75 s",
+              "note": "Pecho siempre apoyado contra la almohadilla: 0% carga en L4-L5."
+            },
+            {
+              "name": "Jalón al pecho en polea alta",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "75 s",
+              "note": "Bajá la barra a la clavícula con el abdomen firme, sin tirarte hacia atrás."
+            },
+            {
+              "name": "Puente de glúteos en colchoneta (Glute Bridge)",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Apretá los glúteos 2 segundos arriba sin arquear la cintura."
+            },
+            {
+              "name": "Extensión de cuádriceps en máquina",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Espalda bien apoyada en el respaldo de la máquina."
+            },
+            {
+              "name": "Dead Bug (Bicho Muerto controlado)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "8",
+              "rir": "3",
+              "rest": "60 s",
+              "note": "Cintura pegada a la colchoneta durante todo el movimiento."
+            }
+          ]
+        },
+        {
+          "label": "Día 2 · Tren Inferior Guiado + Postura Alta",
+          "exercises": [
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 2,
+              "reps": "10",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "Activación suave de abdomen bajo antes de empezar."
+            },
+            {
+              "name": "Prensa de piernas 45° (rango controlado, sacro apoyado)",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "3",
+              "rest": "90 s",
+              "note": "REGLA DE ORO: bajá solo hasta ~90° en las rodillas. La cola jamás se despega del asiento."
+            },
+            {
+              "name": "Curl femoral sentado en máquina",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "75 s",
+              "note": "Trabaja isquiotibiales sentada con respaldo, sin cargar la espalda."
+            },
+            {
+              "name": "Press de pecho sentado en máquina",
+              "muscle": "Pecho",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "75 s",
+              "note": "Omóplatos y espalda apoyados en el respaldo."
+            },
+            {
+              "name": "Face pull en polea o banda (Espalda alta y postura)",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Un pie medio paso adelante para máxima estabilidad. Llevá la soga hacia la frente."
+            },
+            {
+              "name": "Plancha lateral (o modificada sobre rodillas)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "15",
+              "unit": "s",
+              "rir": "3",
+              "rest": "60 s",
+              "note": "Sobre rodillas: 15 seg por lado."
+            }
+          ]
+        },
+        {
+          "label": "Día 3 · Espalda Completa + Glúteo Medio",
+          "exercises": [
+            {
+              "name": "Remo con mancuernas en banco inclinado (pecho apoyado)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "75 s",
+              "note": "Banco a 45°, pecho apoyado y mancuernas livianas. Ejercicio estrella para cuidar L4-L5."
+            },
+            {
+              "name": "Pull-over en polea alta con brazos rectos",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Trabaja dorsales y abdomen anti-extensión al mismo tiempo."
+            },
+            {
+              "name": "Sentadilla a silla o cajón (Box Squat controlada)",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "75 s",
+              "note": "Con un banco detrás: tocás suave con los glúteos y subís con el tronco derecho."
+            },
+            {
+              "name": "Abducción de cadera sentada en máquina",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Con la espalda apoyada en el respaldo."
+            },
+            {
+              "name": "Press Pallof anti-rotación (banda o polea)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "10",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "En polea a la altura del pecho con peso muy liviano: 10 por lado."
+            }
+          ]
+        }
+      ],
+      "conditioning": [
+        {
+          "day": "Entrada en calor (5-8 min antes de cada sesión)",
+          "text": "Caminata en cinta plana (sin inclinación exagerada) o bici estática con respaldo / manillar alto a ritmo suave."
+        },
+        {
+          "day": "Al terminar (opcional 10-15 min)",
+          "text": "Caminata suave en cinta + Estiramiento de glúteo/piramidal acostada."
+        }
+      ],
+      "nutrition": {
+        "target": "Recuperación muscular y energía",
+        "calories": "Adecuado a tu objetivo en la pestaña Nutrición",
+        "protein": "20 a 30 g de proteína en cada comida principal",
+        "activity": "3 días de gimnasio (35 min) + pasos diarios",
+        "note": "Orientación general pensada para acompañar tu adaptación al gimnasio."
+      },
+      "sources": [
+        {
+          "title": "Remo con pecho apoyado: técnica segura para espalda",
+          "url": "https://www.youtube.com/results?search_query=remo+con+mancuernas+pecho+apoyado+banco+inclinado"
+        },
+        {
+          "title": "Prensa de piernas sin dolor lumbar",
+          "url": "https://www.youtube.com/results?search_query=prensa+de+piernas+tecnica+correcta+lumbar"
+        }
+      ]
+    },
+    {
+      "id": "fase2-casa-espalda-gluteos-3d",
+      "name": "Fase 2 (Casa) · Fortalecer Espalda, Glúteos y Postura",
+      "discipline": "fase-2-fuerza",
+      "level": "principiante",
+      "daysPerWeek": 3,
+      "weeks": 6,
+      "sessionMin": 40,
+      "equipment": [
+        "mancuernas livianas/medianas",
+        "banda elástica",
+        "silla o banco firme",
+        "colchoneta"
+      ],
+      "goal": "hipertrofia",
+      "summary": "Segundo escalón para entrenar en casa cuando ya dominás la Fase 1. Incorpora mancuernas con apoyos de 3 puntos (mano y rodilla en silla/banco), Hip Thrust con espalda en banco/sillón y Sentadilla Goblet al pecho.",
+      "progression": "Doble progresión suave: empezá en el mínimo de repeticiones (ej. 10 reps). Cuando logres el máximo (12 o 15 reps) en todas las series con 2 RIR y 0 molestia lumbar, subí un poquito el peso o usá una banda más firme.",
+      "basedOn": "Progresión de carga sin compresión axial: contrapeso anterior (Goblet), tracción con soporte de brazo libre y extensión de cadera horizontal (Hip Thrust).",
+      "weekPlan": [
+        {
+          "week": 1,
+          "focus": "Adaptación a los nuevos ejercicios con mancuernas",
+          "rir": "3",
+          "volume": "100%"
+        },
+        {
+          "week": 2,
+          "focus": "Acumulación técnica",
+          "rir": "2-3",
+          "volume": "100%"
+        },
+        {
+          "week": 3,
+          "focus": "Subir 1-2 reps por serie",
+          "rir": "2",
+          "volume": "100%"
+        },
+        {
+          "week": 4,
+          "focus": "Consolidación de fuerza postural",
+          "rir": "2",
+          "volume": "100%"
+        },
+        {
+          "week": 5,
+          "focus": "Semana más fuerte del bloque (siempre sin dolor)",
+          "rir": "1-2",
+          "volume": "100%"
+        },
+        {
+          "week": 6,
+          "focus": "Semana de alivio / descarga activa",
+          "rir": "4",
+          "volume": "65% de las series"
+        }
+      ],
+      "days": [
+        {
+          "label": "Día 1 · Espalda Firme + Sentadilla Controlada",
+          "exercises": [
+            {
+              "name": "Bird-Dog (Perro-Pájaro McGill)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "8",
+              "rir": "3",
+              "rest": "60 s",
+              "note": "Pausa de 3 segundos en cada extensión."
+            },
+            {
+              "name": "Remo con mancuerna a un brazo (con apoyo en banco/silla)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Apoyá mano y rodilla en una silla firme. Llevá la mancuerna hacia la cadera."
+            },
+            {
+              "name": "Sentadilla Goblet con mancuerna al pecho",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "75 s",
+              "note": "Mancuerna pegada al pecho, podés poner la silla detrás como referencia de altura."
+            },
+            {
+              "name": "Jalón al pecho con banda elástica (en casa)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Pausa de 1 segundo abajo apretando dorsales."
+            },
+            {
+              "name": "Flexiones inclinadas sobre banco o mesada",
+              "muscle": "Pecho",
+              "series": 3,
+              "reps": "8-12",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Manos en mesada o respaldo firme, cuerpo recto y abdomen activo."
+            },
+            {
+              "name": "Dead Bug (Bicho Muerto controlado)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "8-10",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Por lado, manteniendo la cintura pegada a la colchoneta."
+            }
+          ]
+        },
+        {
+          "label": "Día 2 · Glúteos Fuertes + Hombros con Respaldo",
+          "exercises": [
+            {
+              "name": "Hip Thrust / Puente de glúteos con espalda en banco",
+              "muscle": "Femoral",
+              "series": 4,
+              "reps": "10-15",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Espalda alta apoyada en sillón/banco. Mirada al frente, costillas bajas."
+            },
+            {
+              "name": "Subida al cajón o escalón (Step-up)",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Con mancuernas livianas en las manos y tronco bien derecho."
+            },
+            {
+              "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Controlá 2 segundos al volver."
+            },
+            {
+              "name": "Press de hombros sentada con respaldo y mancuernas",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Sentada en silla con respaldo firme: la espalda nunca se despega del respaldo."
+            },
+            {
+              "name": "Plancha lateral (o modificada sobre rodillas)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "20",
+              "unit": "s",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "20 seg por lado."
+            }
+          ]
+        },
+        {
+          "label": "Día 3 · Espalda Alta + Glúteo Medio y Core",
+          "exercises": [
+            {
+              "name": "Remo con mancuerna a un brazo (con apoyo en banco/silla)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Excelente para dar fuerza a toda la espalda sin comprimir L4-L5."
+            },
+            {
+              "name": "Vuelos posteriores / Face pull con banda elástica",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Abre los hombros y mejora la postura."
+            },
+            {
+              "name": "Puente de glúteos con marcha alternada",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "10",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Pelvis firme y horizontal."
+            },
+            {
+              "name": "Abducción de cadera sentada con banda elástica",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "15-20",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Sentada derecha en la silla con banda sobre las rodillas."
+            },
+            {
+              "name": "Paseo del granjero con mancuernas (postura alta)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "30",
+              "unit": "s",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Caminá 30 segundos por casa bien derechita sosteniendo las mancuernas."
+            }
+          ]
+        }
+      ],
+      "conditioning": [
+        {
+          "day": "2 a 3 veces por semana",
+          "text": "Caminata continua de 25–35 min o bicicleta fija con postura erguida."
+        }
+      ],
+      "nutrition": {
+        "target": "Fortalecimiento y tonificación muscular",
+        "calories": "Mantenimiento o ligero ajuste según objetivo",
+        "protein": "1,5 a 1,7 g por kg de peso corporal",
+        "activity": "3 sesiones en casa (40 min)",
+        "note": "Orientación general, adaptable en la pestaña Nutrición."
+      },
+      "sources": [
+        {
+          "title": "Remo con mancuerna apoyado en banco",
+          "url": "https://www.youtube.com/results?search_query=remo+con+mancuerna+a+una+mano+en+banco+tecnica"
+        },
+        {
+          "title": "Sentadilla Goblet paso a paso",
+          "url": "https://www.youtube.com/results?search_query=sentadilla+goblet+tecnica+correcta"
+        }
+      ]
+    },
+    {
+      "id": "fase2-gym-espalda-gluteos-3d",
+      "name": "Fase 2 (Gimnasio) · Espalda Fuerte y Glúteos (Columna Blindada)",
+      "discipline": "fase-2-fuerza",
+      "level": "principiante",
+      "daysPerWeek": 3,
+      "weeks": 6,
+      "sessionMin": 45,
+      "equipment": [
+        "gimnasio completo",
+        "bancos inclinados",
+        "poleas",
+        "máquinas"
+      ],
+      "goal": "hipertrofia",
+      "summary": "El programa central de gimnasio para Lucía: construye una espalda firme y sana (remos con pecho apoyado, jalones, face pulls) y glúteos/piernas fuertes (hip thrust, prensa controlada, curl femoral sentado y step-ups) con 0% de carga vertical en la columna.",
+      "progression": "Mantené el peso hasta llegar al tope de repeticiones en todas las series con técnica limpia y RIR 2. Recién ahí subí el mínimo incremento posible (1 a 2,5 kg).",
+      "basedOn": "Hipertrofia y fortalecimiento sin compresión axial (0 barras sobre la espalda ni tirones desde el piso).",
+      "weekPlan": [
+        {
+          "week": 1,
+          "focus": "Encontrar cargas cómodas en cada ejercicio",
+          "rir": "3",
+          "volume": "100%"
+        },
+        {
+          "week": 2,
+          "focus": "Acumulación con control técnico",
+          "rir": "2-3",
+          "volume": "100%"
+        },
+        {
+          "week": 3,
+          "focus": "Sumar repeticiones sin perder postura",
+          "rir": "2",
+          "volume": "100%"
+        },
+        {
+          "week": 4,
+          "focus": "Progresión gradual",
+          "rir": "2",
+          "volume": "100%"
+        },
+        {
+          "week": 5,
+          "focus": "Consolidación del bloque",
+          "rir": "1-2",
+          "volume": "100%"
+        },
+        {
+          "week": 6,
+          "focus": "Descarga activa (menos series, misma técnica)",
+          "rir": "4",
+          "volume": "60%"
+        }
+      ],
+      "days": [
+        {
+          "label": "Día 1 · Espalda (Pecho Apoyado) + Piernas Guiadas",
+          "exercises": [
+            {
+              "name": "Bird-Dog (Perro-Pájaro McGill)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "8",
+              "rir": "3",
+              "rest": "60 s",
+              "note": "Activación inicial de core y multífidos en colchoneta."
+            },
+            {
+              "name": "Remo con mancuernas en banco inclinado (pecho apoyado)",
+              "muscle": "Espalda",
+              "series": 4,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "90 s",
+              "note": "Pecho pegado al banco a 45°: trabajás toda la espalda con 0 presión en L4-L5."
+            },
+            {
+              "name": "Jalón al pecho en polea alta",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Bajá a la clavícula manteniendo las costillas bajas."
+            },
+            {
+              "name": "Prensa de piernas 45° (rango controlado, sacro apoyado)",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2-3",
+              "rest": "90 s",
+              "note": "Bajá solo hasta 90° de rodilla con el sacro pegado al respaldo."
+            },
+            {
+              "name": "Extensión de cuádriceps en máquina",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Pausa de 1 segundo arriba."
+            },
+            {
+              "name": "Dead Bug (Bicho Muerto controlado)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "8-10",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Zona lumbar apoyada firme en la colchoneta."
+            }
+          ]
+        },
+        {
+          "label": "Día 2 · Glúteos + Hombros y Postura",
+          "exercises": [
+            {
+              "name": "Hip thrust con barra o mancuerna",
+              "muscle": "Femoral",
+              "series": 4,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "90 s",
+              "note": "Empezá con mancuerna sobre la cadera. Mirada al frente, sin arquear cintura arriba."
+            },
+            {
+              "name": "Curl femoral sentado en máquina",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Espalda bien apoyada contra el respaldo."
+            },
+            {
+              "name": "Patada de glúteo en polea baja (rango corto sin arquear)",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Movimiento corto hacia atrás (20-30°) apretando glúteo sin mover la cintura."
+            },
+            {
+              "name": "Press de hombros en máquina con respaldo",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Espalda pegada al respaldo durante todo el empuje."
+            },
+            {
+              "name": "Face pull en polea o banda (Espalda alta y postura)",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Clave para una espalda alta erguida y sana."
+            },
+            {
+              "name": "Plancha lateral (o modificada sobre rodillas)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "20",
+              "unit": "s",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "20 seg de cada lado."
+            }
+          ]
+        },
+        {
+          "label": "Día 3 · Dorsal Estilizado + Pierna Unilateral",
+          "exercises": [
+            {
+              "name": "Remo sentado en máquina con apoyo en el pecho",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Pecho apoyado contra el cojín, juntá omóplatos atrás."
+            },
+            {
+              "name": "Pull-over en polea alta con brazos rectos",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Abdomen activo y brazos casi rectos."
+            },
+            {
+              "name": "Subida al cajón o escalón (Step-up)",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "10",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "10 por pierna en cajón moderado."
+            },
+            {
+              "name": "Abducción de cadera sentada en máquina",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Con la espalda apoyada en el respaldo."
+            },
+            {
+              "name": "Press de pecho sentado en máquina",
+              "muscle": "Pecho",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Controlá 2 segundos al volver."
+            },
+            {
+              "name": "Press Pallof anti-rotación (banda o polea)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Pausa de 2 seg con los brazos extendidos al frente."
+            }
+          ]
+        }
+      ],
+      "conditioning": [
+        {
+          "day": "Días de entrenamiento",
+          "text": "5 min de caminata suave al iniciar + 10 min de caminata o bici con respaldo al finalizar."
+        }
+      ],
+      "nutrition": {
+        "target": "Fuerza, postura y recomposición corporal",
+        "calories": "Mantenimiento (~1.750–1.900 kcal)",
+        "protein": "1,6 g por kg de peso corporal",
+        "activity": "3 sesiones de 45 min + caminatas",
+        "note": "Orientación general, no reemplaza consulta médica."
+      },
+      "sources": [
+        {
+          "title": "Hip Thrust sin dolor lumbar (técnica correcta)",
+          "url": "https://www.youtube.com/results?search_query=hip+thrust+sin+dolor+lumbar+tecnica"
+        },
+        {
+          "title": "Entrenamiento de espalda cuidando la columna",
+          "url": "https://www.youtube.com/results?search_query=ejercicios+espalda+sin+cargar+lumbares"
+        }
+      ]
+    },
+    {
+      "id": "fase3-casa-tonificacion-3d",
+      "name": "Fase 3 (Casa) · Cuerpo Completo y Tonificación 0% Lesiva",
+      "discipline": "fase-3-tonificacion",
+      "level": "intermedio",
+      "daysPerWeek": 3,
+      "weeks": 6,
+      "sessionMin": 42,
+      "equipment": [
+        "mancuernas",
+        "bandas elásticas",
+        "silla/banco",
+        "colchoneta"
+      ],
+      "goal": "hipertrofia",
+      "summary": "Para cuando Lucía ya completó las Fases 1 y 2 en casa y quiere un entrenamiento completo de espalda, glúteos, piernas, hombros y brazos con biseries ágiles y cero estrés en L4-L5.",
+      "progression": "Doble progresión en los ejercicios principales y biseries dinámicas de hombros/brazos al final para tonificar sin alargar la sesión.",
+      "basedOn": "Entrenamiento de cuerpo completo 3×/semana con selección de ejercicios axialmente descargados.",
+      "weekPlan": [
+        {
+          "week": 1,
+          "focus": "Inicio de bloque con biseries ágiles",
+          "rir": "3",
+          "volume": "100%"
+        },
+        {
+          "week": 2,
+          "focus": "Acumulación",
+          "rir": "2",
+          "volume": "100%"
+        },
+        {
+          "week": 3,
+          "focus": "Progresión de repeticiones",
+          "rir": "2",
+          "volume": "100%"
+        },
+        {
+          "week": 4,
+          "focus": "Consolidación",
+          "rir": "1-2",
+          "volume": "100%"
+        },
+        {
+          "week": 5,
+          "focus": "Pico técnico del bloque",
+          "rir": "1-2",
+          "volume": "100%"
+        },
+        {
+          "week": 6,
+          "focus": "Descarga activa",
+          "rir": "4",
+          "volume": "60%"
+        }
+      ],
+      "days": [
+        {
+          "label": "Día 1 · Espalda + Glúteos + Brazos",
+          "exercises": [
+            {
+              "name": "Remo con mancuerna a un brazo (con apoyo en banco/silla)",
+              "muscle": "Espalda",
+              "series": 4,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Mano y rodilla apoyadas en silla/banco."
+            },
+            {
+              "name": "Hip Thrust / Puente de glúteos con espalda en banco",
+              "muscle": "Femoral",
+              "series": 4,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Con mancuerna sobre la cadera y mirada al frente."
+            },
+            {
+              "name": "Jalón al pecho con banda elástica (en casa)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Curl de bíceps con mancuernas alternado (o sentada)",
+              "muscle": "Bíceps",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "superset": "A"
+            },
+            {
+              "name": "Elevaciones laterales con mancuernas (sentada o de pie)",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "superset": "A"
+            },
+            {
+              "name": "Dead Bug (Bicho Muerto controlado)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "10",
+              "rir": "2",
+              "rest": "60 s"
+            }
+          ]
+        },
+        {
+          "label": "Día 2 · Piernas Seguras + Postura Alta",
+          "exercises": [
+            {
+              "name": "Sentadilla Goblet con mancuerna al pecho",
+              "muscle": "Cuádriceps",
+              "series": 4,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Tronco vertical, mancuerna pegada al pecho."
+            },
+            {
+              "name": "Subida al cajón o escalón (Step-up)",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s"
+            },
+            {
+              "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Press de hombros sentada con respaldo y mancuernas",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "Espalda siempre apoyada en el respaldo."
+            },
+            {
+              "name": "Abducción de cadera sentada con banda elástica",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "15-20",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Plancha lateral (o modificada sobre rodillas)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "20",
+              "unit": "s",
+              "rir": "2",
+              "rest": "60 s"
+            }
+          ]
+        },
+        {
+          "label": "Día 3 · Cuerpo Completo Estilizado + Core McGill",
+          "exercises": [
+            {
+              "name": "Bird-Dog (Perro-Pájaro McGill)",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "8-10",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Flexiones inclinadas sobre banco o mesada",
+              "muscle": "Pecho",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Vuelos posteriores / Face pull con banda elástica",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "15",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Puente de glúteos con marcha alternada",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Curl martillo con mancuernas",
+              "muscle": "Bíceps",
+              "series": 3,
+              "reps": "12",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Paseo del granjero con mancuernas (postura alta)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "35",
+              "unit": "s",
+              "rir": "2",
+              "rest": "60 s"
+            }
+          ]
+        }
+      ],
+      "conditioning": [
+        {
+          "day": "Semana",
+          "text": "3 caminatas ágiles de 30 min."
+        }
+      ],
+      "nutrition": {
+        "target": "Tonificación y energía diaria",
+        "calories": "Mantenimiento",
+        "protein": "1,6 g/kg",
+        "activity": "3 días en casa + caminatas",
+        "note": "Orientación general."
+      },
+      "sources": [
+        {
+          "title": "Entrenamiento en casa cuidando la espalda baja",
+          "url": "https://www.youtube.com/results?search_query=rutina+en+casa+sin+impacto+lumbar"
+        }
+      ]
+    },
+    {
+      "id": "fase3-gym-tonificacion-total-3d",
+      "name": "Fase 3 (Gimnasio) · Tonificación Total 0% Compresión",
+      "discipline": "fase-3-tonificacion",
+      "level": "intermedio",
+      "daysPerWeek": 3,
+      "weeks": 6,
+      "sessionMin": 48,
+      "equipment": [
+        "gimnasio completo"
+      ],
+      "goal": "hipertrofia",
+      "summary": "El programa más completo de gimnasio para Lucía una vez consolidada su base: trabaja espalda, glúteos, piernas, hombros y brazos con biseries eficientes, manteniendo 0% de ejercicios lesivos para L4-L5.",
+      "progression": "Doble progresión: cuando alcances el máximo de repeticiones con 1-2 RIR y técnica perfecta en todas las series, subí la carga mínima disponible.",
+      "basedOn": "Full-Body / Torso-Pierna adaptado sin carga axial sobre la columna.",
+      "weekPlan": [
+        {
+          "week": 1,
+          "focus": "Ajuste de cargas de Fase 3",
+          "rir": "3",
+          "volume": "100%"
+        },
+        {
+          "week": 2,
+          "focus": "Acumulación",
+          "rir": "2",
+          "volume": "100%"
+        },
+        {
+          "week": 3,
+          "focus": "Progresión",
+          "rir": "2",
+          "volume": "100%"
+        },
+        {
+          "week": 4,
+          "focus": "Sobrecarga controlada",
+          "rir": "1-2",
+          "volume": "100%"
+        },
+        {
+          "week": 5,
+          "focus": "Semana pico (técnica estricta)",
+          "rir": "1-2",
+          "volume": "100%"
+        },
+        {
+          "week": 6,
+          "focus": "Descarga activa",
+          "rir": "4",
+          "volume": "60%"
+        }
+      ],
+      "days": [
+        {
+          "label": "Día 1 · Espalda + Glúteos + Brazos",
+          "exercises": [
+            {
+              "name": "Hip thrust con barra o mancuerna",
+              "muscle": "Femoral",
+              "series": 4,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "90 s",
+              "note": "Mirada al frente, costillas cerradas, pausa 1 seg arriba."
+            },
+            {
+              "name": "Remo con mancuernas en banco inclinado (pecho apoyado)",
+              "muscle": "Espalda",
+              "series": 4,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Pecho siempre apoyado en el banco."
+            },
+            {
+              "name": "Jalón al pecho en polea alta",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s"
+            },
+            {
+              "name": "Press inclinado con mancuernas (espalda apoyada)",
+              "muscle": "Pecho",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s",
+              "note": "Pies firmes sobre el piso o un step para no arquear cintura."
+            },
+            {
+              "name": "Curl de bíceps con mancuernas alternado (o sentada)",
+              "muscle": "Bíceps",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "superset": "A"
+            },
+            {
+              "name": "Extensión de tríceps en polea alta (cuerda o barra)",
+              "muscle": "Tríceps",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "superset": "A"
+            },
+            {
+              "name": "Dead Bug (Bicho Muerto controlado)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "10",
+              "rir": "2",
+              "rest": "60 s"
+            }
+          ]
+        },
+        {
+          "label": "Día 2 · Piernas Seguras + Hombros y Postura",
+          "exercises": [
+            {
+              "name": "Prensa de piernas 45° (rango controlado, sacro apoyado)",
+              "muscle": "Cuádriceps",
+              "series": 4,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "90 s",
+              "note": "Bajá solo hasta 90° sin despegar jamás la cola del respaldo."
+            },
+            {
+              "name": "Curl femoral sentado en máquina",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s"
+            },
+            {
+              "name": "Subida al cajón o escalón (Step-up)",
+              "muscle": "Cuádriceps",
+              "series": 3,
+              "reps": "10",
+              "rir": "2",
+              "rest": "75 s"
+            },
+            {
+              "name": "Face pull en polea o banda (Espalda alta y postura)",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "superset": "A"
+            },
+            {
+              "name": "Elevaciones laterales con mancuernas (sentada o de pie)",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s",
+              "superset": "A"
+            },
+            {
+              "name": "Plancha frontal corta (estilo McGill)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "15",
+              "unit": "s",
+              "rir": "2",
+              "rest": "60 s",
+              "note": "15 seg con glúteos y abdomen al 100%."
+            }
+          ]
+        },
+        {
+          "label": "Día 3 · Espalda Estilizada + Glúteos y Core",
+          "exercises": [
+            {
+              "name": "Remo sentado en máquina con apoyo en el pecho",
+              "muscle": "Espalda",
+              "series": 4,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s"
+            },
+            {
+              "name": "Pull-over en polea alta con brazos rectos",
+              "muscle": "Espalda",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Patada de glúteo en polea baja (rango corto sin arquear)",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Abducción de cadera sentada en máquina",
+              "muscle": "Femoral",
+              "series": 3,
+              "reps": "15",
+              "rir": "2",
+              "rest": "60 s"
+            },
+            {
+              "name": "Press de hombros en máquina con respaldo",
+              "muscle": "Hombros",
+              "series": 3,
+              "reps": "10-12",
+              "rir": "2",
+              "rest": "75 s"
+            },
+            {
+              "name": "Gemelos sentado en máquina (o de pie con apoyo)",
+              "muscle": "Gemelos",
+              "series": 3,
+              "reps": "15",
+              "rir": "2",
+              "rest": "45 s"
+            },
+            {
+              "name": "Press Pallof anti-rotación (banda o polea)",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "12",
+              "rir": "2",
+              "rest": "60 s"
+            }
+          ]
+        }
+      ],
+      "conditioning": [
+        {
+          "day": "Post-entreno o días libres",
+          "text": "20-30 min de caminata plana o elíptica suave."
+        }
+      ],
+      "nutrition": {
+        "target": "Tonificación estética y fuerza saludable",
+        "calories": "Mantenimiento o recomposición",
+        "protein": "1,6 a 1,8 g/kg",
+        "activity": "3 días de gimnasio + pasos diarios",
+        "note": "Orientación general."
+      },
+      "sources": [
+        {
+          "title": "Guía de hipertrofia sin compresión axial",
+          "url": "https://www.youtube.com/results?search_query=entrenar+piernas+y+gluteos+sin+comprimir+la+columna"
+        }
+      ]
+    },
+    {
+      "id": "rutina-express-alivio-movilidad-2d",
+      "name": "Especial 15 min · Movilidad, Descompresión y Espalda Feliz",
+      "discipline": "movilidad-alivio",
+      "level": "principiante",
+      "daysPerWeek": 2,
+      "weeks": 6,
+      "sessionMin": 15,
+      "equipment": [
+        "colchoneta"
+      ],
+      "goal": "salud",
+      "summary": "Una rutina suave de 15 minutos en colchoneta para cualquier día que Lucía sienta la espalda cansada por estar mucho tiempo parada o sentada, o para los días de descanso activo.",
+      "progression": "Sin cargas ni apuro: respirá profundo por la nariz y largá el aire lento en cada ejercicio. Buscá terminar la sesión sintiendo la cintura más liviana y suelta que cuando empezaste.",
+      "basedOn": "Movilidad de cadera (psoas y piramidal) + hidratación discal suave (Gato-Camello McGill) + activación estabilizadora de bajo umbral.",
+      "weekPlan": [
+        {
+          "week": 1,
+          "focus": "Alivio postural y respiración",
+          "rir": "4",
+          "volume": "Suave (15 min)"
+        },
+        {
+          "week": 2,
+          "focus": "Soltar cadera (psoas y glúteos)",
+          "rir": "4",
+          "volume": "Suave (15 min)"
+        },
+        {
+          "week": 3,
+          "focus": "Fluidez y control pélvico",
+          "rir": "4",
+          "volume": "Suave (15 min)"
+        },
+        {
+          "week": 4,
+          "focus": "Mantenimiento de espalda sana",
+          "rir": "4",
+          "volume": "Suave (15 min)"
+        },
+        {
+          "week": 5,
+          "focus": "Mantenimiento de espalda sana",
+          "rir": "4",
+          "volume": "Suave (15 min)"
+        },
+        {
+          "week": 6,
+          "focus": "Mantenimiento de espalda sana",
+          "rir": "4",
+          "volume": "Suave (15 min)"
+        }
+      ],
+      "days": [
+        {
+          "label": "Sesión A · Descompresión y Cadera Suelta (15 min)",
+          "exercises": [
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 2,
+              "reps": "10",
+              "rir": "4",
+              "rest": "30 s",
+              "note": "Apoyá suavemente la cintura contra la colchoneta al exhalar."
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 2,
+              "reps": "8",
+              "rir": "4",
+              "rest": "30 s",
+              "note": "Rango corto y cómodo, sin forzar extremos."
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 2,
+              "reps": "25",
+              "unit": "s",
+              "rir": "4",
+              "rest": "30 s",
+              "note": "25 seg por lado apretando el glúteo de atrás para soltar el psoas."
+            },
+            {
+              "name": "Estiramiento de glúteo y piramidal acostada",
+              "muscle": "Femoral",
+              "series": 2,
+              "reps": "25",
+              "unit": "s",
+              "rir": "4",
+              "rest": "30 s",
+              "note": "25 seg por pierna con toda la espalda apoyada."
+            },
+            {
+              "name": "Bird-Dog (Perro-Pájaro McGill)",
+              "muscle": "Espalda",
+              "series": 2,
+              "reps": "6",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "6 por lado con pausa de 3 seg para dejar la espalda firme."
+            },
+            {
+              "name": "Puente de glúteos en colchoneta (Glute Bridge)",
+              "muscle": "Femoral",
+              "series": 2,
+              "reps": "10",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "Activación final de glúteos."
+            }
+          ]
+        },
+        {
+          "label": "Sesión B · Alargamiento Dorsal y Core Suave (15 min)",
+          "exercises": [
+            {
+              "name": "Estiramiento de dorsal y espalda de rodillas",
+              "muscle": "Espalda",
+              "series": 2,
+              "reps": "25",
+              "unit": "s",
+              "rir": "4",
+              "rest": "30 s",
+              "note": "Alargá los brazos adelante respirando hacia las costillas."
+            },
+            {
+              "name": "Dead Bug (Bicho Muerto controlado)",
+              "muscle": "Abdomen",
+              "series": 2,
+              "reps": "6",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "Movimientos lentos con cintura pegada al suelo."
+            },
+            {
+              "name": "Plancha frontal sobre rodillas (o toque de hombro)",
+              "muscle": "Abdomen",
+              "series": 2,
+              "reps": "15",
+              "unit": "s",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "15 seg manteniendo glúteos y abdomen firmes."
+            },
+            {
+              "name": "Abducción de cadera acostada de lado (Glúteo medio)",
+              "muscle": "Femoral",
+              "series": 2,
+              "reps": "12",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "12 por lado."
+            },
+            {
+              "name": "Estiramiento de glúteo y piramidal acostada",
+              "muscle": "Femoral",
+              "series": 2,
+              "reps": "25",
+              "unit": "s",
+              "rir": "4",
+              "rest": "30 s"
+            }
+          ]
+        }
+      ],
+      "conditioning": [
+        {
+          "day": "Ideal después de la sesión",
+          "text": "Caminata tranquila de 10-15 minutos."
+        }
+      ],
+      "nutrition": {
+        "target": "Hidratación y bienestar",
+        "calories": "Normal",
+        "protein": "Normal",
+        "activity": "Movilidad diaria",
+        "note": "Podés hacer la Sesión A o B todas las veces que quieras en la semana."
+      },
+      "sources": [
+        {
+          "title": "Rutina McGill y movilidad de cadera para L4-L5",
+          "url": "https://www.youtube.com/results?search_query=movilidad+cadera+para+aliviar+dolor+lumbar+fisioterapia"
+        }
+      ]
+    }
+  ],
+  "yearTemplates": [
+    {
+      "id": "plan-lucia-casa-a-gym",
+      "name": "🌟 Recomendado Lucía: Empezar en Casa → Pasar al Gimnasio",
+      "summary": "Mes 1 en Casa (Fase 1 McGill) · Mes 2 Adaptación en Gimnasio · Mes 3 en adelante Espalda Fuerte y Tonificación 0% compresión.",
+      "maxDaysPerWeek": 3,
+      "months": [
+        "fase1-casa-base-mcgill-3d",
+        "fase1-gym-adaptacion-3d",
+        "fase2-gym-espalda-gluteos-3d",
+        "fase2-gym-espalda-gluteos-3d",
+        "fase3-gym-tonificacion-total-3d",
+        "fase3-gym-tonificacion-total-3d",
+        "fase2-gym-espalda-gluteos-3d",
+        "fase3-gym-tonificacion-total-3d",
+        "fase3-gym-tonificacion-total-3d",
+        "fase2-gym-espalda-gluteos-3d",
+        "fase1-casa-base-mcgill-3d",
+        "fase2-gym-espalda-gluteos-3d"
+      ]
+    },
+    {
+      "id": "plan-lucia-100-gym",
+      "name": "🏋️‍♀️ Plan Progresivo 100% en Gimnasio (Fase 1 → 2 → 3)",
+      "summary": "Empezás con máquinas guiadas y core (Fase 1), pasás a Espalda y Glúteos (Fase 2) y luego a Tonificación Completa (Fase 3).",
+      "maxDaysPerWeek": 3,
+      "months": [
+        "fase1-gym-adaptacion-3d",
+        "fase2-gym-espalda-gluteos-3d",
+        "fase3-gym-tonificacion-total-3d",
+        "fase1-gym-adaptacion-3d",
+        "fase2-gym-espalda-gluteos-3d",
+        "fase3-gym-tonificacion-total-3d",
+        "fase2-gym-espalda-gluteos-3d",
+        "fase3-gym-tonificacion-total-3d",
+        "fase2-gym-espalda-gluteos-3d",
+        "fase3-gym-tonificacion-total-3d",
+        "fase1-gym-adaptacion-3d",
+        "fase2-gym-espalda-gluteos-3d"
+      ]
+    },
+    {
+      "id": "plan-lucia-100-casa",
+      "name": "🏠 Plan Progresivo 100% en Casa (Fase 1 → 2 → 3)",
+      "summary": "Todo el camino desde cero en casa usando colchoneta, silla, bandas elásticas y mancuernas livianas.",
+      "maxDaysPerWeek": 3,
+      "months": [
+        "fase1-casa-base-mcgill-3d",
+        "fase2-casa-espalda-gluteos-3d",
+        "fase3-casa-tonificacion-3d",
+        "fase1-casa-base-mcgill-3d",
+        "fase2-casa-espalda-gluteos-3d",
+        "fase3-casa-tonificacion-3d",
+        "fase2-casa-espalda-gluteos-3d",
+        "fase3-casa-tonificacion-3d",
+        "fase2-casa-espalda-gluteos-3d",
+        "fase3-casa-tonificacion-3d",
+        "fase1-casa-base-mcgill-3d",
+        "fase2-casa-espalda-gluteos-3d"
+      ]
+    }
+  ]
+}
