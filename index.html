@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="mobile-web-app-capable" content="yes">
@@ -9398,26 +9399,10 @@ function openUserMgmt(){
       <div style="width:44px;height:44px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-weight:800;font-size:19px;flex-shrink:0;color:#fff">${currentUser.name[0].toUpperCase()}</div>
       <div>
         <div style="font-weight:700;font-size:15px">${esc(currentUser.name)}</div>
-        <div style="font-size:11px;color:${currentUser.isAdmin?'var(--gold)':'var(--text2)'};margin-top:3px">${currentUser.isAdmin?'✦ Administrador':'Usuario'}</div>
+        <div style="font-size:11px;color:var(--text2);margin-top:3px">Tu perfil en este iPhone</div>
       </div>
-    </div>`;
-    if(currentUser.isAdmin){
-      h+=`<div class="sec-t">Usuarios (${users.length})</div>`;
-      users.forEach(u=>{
-        const isSelf=u.id===currentUser.id;
-        h+=`<div style="display:flex;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid var(--border)">
-          <div style="width:34px;height:34px;border-radius:50%;background:${u.isAdmin?'var(--gold-d)':'var(--bg3)'};border:1px solid ${u.isAdmin?'var(--gold-b)':'var(--border2)'};display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;flex-shrink:0;color:${u.isAdmin?'var(--gold)':'var(--text1)'}">${u.name[0].toUpperCase()}</div>
-          <div style="flex:1;min-width:0">
-            <div style="font-size:13px;font-weight:600">${esc(u.name)}${isSelf?` <span style="color:var(--text2);font-weight:400;font-size:11px">(vos)</span>`:''}</div>
-            <div style="font-size:10px;color:${u.isAdmin?'var(--gold)':'var(--text2)'};margin-top:2px">${u.isAdmin?'Administrador':'Usuario'}</div>
-          </div>
-          ${!isSelf?`<button class="btn b-xs b-red" onclick="deleteUser('${u.id}')">Borrar</button>`:''}
-        </div>`;
-      });
-      h+=`<button class="btn b-md b-g" style="width:100%;margin-top:16px;margin-bottom:20px" onclick="showCreateUser()">+ Crear usuario</button>
-      <div class="div"></div>`;
-    }
-    h+=`<button class="btn b-lg b-g" style="color:var(--red);border-color:var(--red-b);margin-top:4px" onclick="doLogout()">Cerrar sesión</button>`;
+    </div>
+    <div class="alert al-info" style="margin-bottom:18px"><div class="al-i">🔒</div><div class="al-t">Tus datos se guardan solo en este iPhone. Hacé un respaldo cada tanto desde <strong>Configuración → Respaldo</strong>.</div></div>`;
   } else {
     h+=rConfig();
   }
