@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updatedAt": "2026-11-12",
   "note": "Programas diseñados exclusivamente para Lucía (31 años · Operación lumbar L4-L5 por laparoscopía hace 1.5 años · Nivel inicial). Todos los ejercicios fueron seleccionados con criterio biomecánico carga baja y controlada sobre la columna, sin flexión ni rotación lumbar bajo carga, basados en la Tríada de Stuart McGill y estabilización lumbo-pélvica. Revisión 12/11/2026: Big 3 de McGill completo (bird-dog, curl-up, plancha lateral), bisagra de cadera, caminata diaria, descargas reales y RIR mínimo 2. Mostrá el plan a tu kinesiólogo y respetá el semáforo de dolor.",
   "disciplines": {
@@ -16,7 +16,7 @@
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 4,
-      "sessionMin": 35,
+      "sessionMin": 48,
       "equipment": [
         "colchoneta",
         "banda elástica",
@@ -170,6 +170,22 @@
                 "2-3",
                 "2-3"
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "10",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "10",
+                "12",
+                "15",
+                "15"
+              ]
             }
           ]
         },
@@ -262,6 +278,22 @@
                 3,
                 3,
                 3
+              ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "10",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "10",
+                "12",
+                "15",
+                "15"
               ]
             }
           ]
@@ -404,14 +436,30 @@
               "rir": "4",
               "rest": "30 s",
               "note": "Acostada boca arriba, alivia toda la tensión de la zona glútea y lumbar."
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "10",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "10",
+                "12",
+                "15",
+                "15"
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "Todos los días",
-          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+          "day": "Los días sin rutina",
+          "text": "Caminata a ritmo cómodo (o bici fija / elíptico): 20-30 min. Los días de rutina el cardio ya está al final de la sesión."
         },
         {
           "day": "Antes de cada sesión",
@@ -447,7 +495,7 @@
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 4,
-      "sessionMin": 40,
+      "sessionMin": 53,
       "equipment": [
         "máquinas con respaldo",
         "poleas",
@@ -613,6 +661,22 @@
                 "2-3",
                 "2"
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "10",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "10",
+                "12",
+                "15",
+                "15"
+              ]
             }
           ]
         },
@@ -726,6 +790,22 @@
                 3,
                 3,
                 3
+              ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "10",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "10",
+                "12",
+                "15",
+                "15"
               ]
             }
           ]
@@ -858,14 +938,30 @@
                 "2-3",
                 "2"
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "10",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "10",
+                "12",
+                "15",
+                "15"
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "Todos los días",
-          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+          "day": "Los días sin rutina",
+          "text": "Caminata a ritmo cómodo (o bici fija / elíptico): 20-30 min. Los días de rutina el cardio ya está al final de la sesión."
         },
         {
           "day": "Antes de cada sesión",
@@ -901,7 +997,7 @@
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 45,
+      "sessionMin": 62,
       "equipment": [
         "mancuernas livianas/medianas",
         "banda elástica",
@@ -1103,6 +1199,24 @@
                 "2",
                 "4"
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "15",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "15",
+                "15",
+                "20",
+                "20",
+                "20",
+                "10"
+              ]
             }
           ]
         },
@@ -1250,6 +1364,24 @@
                 3,
                 3,
                 2
+              ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "15",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "15",
+                "15",
+                "20",
+                "20",
+                "20",
+                "10"
               ]
             }
           ]
@@ -1399,14 +1531,32 @@
                 3,
                 2
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "15",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "15",
+                "15",
+                "20",
+                "20",
+                "20",
+                "10"
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "Todos los días",
-          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+          "day": "Los días sin rutina",
+          "text": "Caminata a ritmo cómodo (o bici fija / elíptico): 20-30 min. Los días de rutina el cardio ya está al final de la sesión."
         },
         {
           "day": "Antes de cada sesión",
@@ -1442,7 +1592,7 @@
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 50,
+      "sessionMin": 67,
       "equipment": [
         "gimnasio completo",
         "bancos inclinados",
@@ -1644,6 +1794,24 @@
                 "2",
                 "4"
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "15",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "15",
+                "15",
+                "20",
+                "20",
+                "20",
+                "10"
+              ]
             }
           ]
         },
@@ -1791,6 +1959,24 @@
                 3,
                 3,
                 2
+              ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "15",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "15",
+                "15",
+                "20",
+                "20",
+                "20",
+                "10"
               ]
             }
           ]
@@ -1947,14 +2133,32 @@
                 "2",
                 "4"
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "15",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "15",
+                "15",
+                "20",
+                "20",
+                "20",
+                "10"
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "Todos los días",
-          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+          "day": "Los días sin rutina",
+          "text": "Caminata a ritmo cómodo (o bici fija / elíptico): 20-30 min. Los días de rutina el cardio ya está al final de la sesión."
         },
         {
           "day": "Antes de cada sesión",
@@ -1990,7 +2194,7 @@
       "level": "intermedio",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 47,
+      "sessionMin": 69,
       "equipment": [
         "mancuernas",
         "bandas elásticas",
@@ -2191,6 +2395,24 @@
                 "2",
                 "4"
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "20",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "20",
+                "20",
+                "25",
+                "25",
+                "25",
+                "15"
+              ]
             }
           ]
         },
@@ -2360,6 +2582,24 @@
                 3,
                 2
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "20",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "20",
+                "20",
+                "25",
+                "25",
+                "25",
+                "15"
+              ]
             }
           ]
         },
@@ -2502,14 +2742,32 @@
                 3,
                 2
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "20",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "20",
+                "20",
+                "25",
+                "25",
+                "25",
+                "15"
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "Todos los días",
-          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+          "day": "Los días sin rutina",
+          "text": "Caminata a ritmo cómodo (o bici fija / elíptico): 20-30 min. Los días de rutina el cardio ya está al final de la sesión."
         },
         {
           "day": "Antes de cada sesión",
@@ -2541,7 +2799,7 @@
       "level": "intermedio",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 53,
+      "sessionMin": 75,
       "equipment": [
         "gimnasio completo"
       ],
@@ -2764,6 +3022,24 @@
                 "2",
                 "4"
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "20",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "20",
+                "20",
+                "25",
+                "25",
+                "25",
+                "15"
+              ]
             }
           ]
         },
@@ -2909,6 +3185,24 @@
                 3,
                 3,
                 2
+              ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "20",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "20",
+                "20",
+                "25",
+                "25",
+                "25",
+                "15"
               ]
             }
           ]
@@ -3084,14 +3378,32 @@
                 "2",
                 "4"
               ]
+            },
+            {
+              "name": "Cardio final (caminadora, bici fija o elíptico)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "20",
+              "unit": "min",
+              "rest": "—",
+              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "autoProgress": false,
+              "repsByWeek": [
+                "20",
+                "20",
+                "25",
+                "25",
+                "25",
+                "15"
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "Todos los días",
-          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+          "day": "Los días sin rutina",
+          "text": "Caminata a ritmo cómodo (o bici fija / elíptico): 20-30 min. Los días de rutina el cardio ya está al final de la sesión."
         },
         {
           "day": "Antes de cada sesión",
