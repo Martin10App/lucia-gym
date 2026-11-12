@@ -1535,6 +1535,7 @@ function rGymList(){
   const a=routines.find(r=>r.id===activeRid);
   const p=gymProfile||{};
   let h='<div class="sec">';
+  h+=painTodayCardHtml();
   h+=`<div class="card" style="margin-bottom:12px;padding:13px 14px;border-color:var(--green-b);background:linear-gradient(135deg,rgba(16,210,155,.10),var(--bg2))">
     <div style="display:flex;align-items:center;justify-content:space-between;gap:10px">
       <div>
@@ -1914,17 +1915,25 @@ function saveSess(rid,did){
   oOv2(`<div class="mt">Cerrar ${esc(d.label)}</div>
     <div class="inp-r">
       <div class="fld"><label>Energía</label><select class="inp" id="sess-energy"><option value="1">1 · Muy baja</option><option value="2">2 · Baja</option><option value="3" selected>3 · Normal</option><option value="4">4 · Buena</option><option value="5">5 · Excelente</option></select></div>
-      <div class="fld"><label>Esfuerzo sesión</label><select class="inp" id="sess-rpe">${[5,6,7,8,9,10].map(n=>`<option value="${n}" ${n===8?'selected':''}>RPE ${n}</option>`).join('')}</select></div>
+      <div class="fld"><label>Esfuerzo sesión</label><select class="inp" id="sess-rpe">${[4,5,6,7,8,9,10].map(n=>`<option value="${n}" ${n===6?'selected':''}>RPE ${n}</option>`).join('')}</select></div>
     </div>
-    <div class="fld"><label>Nota opcional</label><input class="inp" id="sess-note" maxlength="180" placeholder="Técnica, dolor, sueño, sensaciones…"></div>
+    <div class="fld"><label>Dolor de espalda o pierna ahora (0 a 10)</label>${painPickerHtml('sess-pain')}${painLegHtml('sess-leg')}</div>
+    <div class="fld"><label>Nota opcional</label><input class="inp" id="sess-note" maxlength="180" placeholder="Técnica, qué ejercicio molestó, sueño, sensaciones…"></div>
     <div class="alert al-info"><div class="al-t">${pct}% del día completado. Estos datos ayudan a decidir si progresar, mantener o revisar el volumen.</div></div>
     <button class="btn b-lg b-p" onclick="finishGymSession('${rid}','${did}')">Guardar sesión</button>`);
 }
 function finishGymSession(rid,did){
   const pct=getDayPct(rid,did),r=routines.find(x=>x.id===rid),d=r?.days.find(x=>x.id===did);if(!r||!d)return;
   const progressSummary=sessionProgressSummary(dayProgressItems(rid,did));
-  gymHist=[{d:new Date().toLocaleDateString('es-ES',{day:'numeric',month:'short'}),rn:r.name,dn:d.label,pct,progress:progressSummary,energy:Number(document.getElementById('sess-energy')?.value)||3,rpe:Number(document.getElementById('sess-rpe')?.value)||8,note:(document.getElementById('sess-note')?.value||'').trim().slice(0,180),ts:Date.now()},...gymHist].slice(0,80);
-  S.s('ghst2',gymHist);updateWeekLogFromCurrent();tst(`✓ ${d.label} — ${pct}%`+(progressSummary?' · '+progressSummary:''),progressSummary?5500:2300);cOv2();cOv1();updWring();
+  const painRaw=document.getElementById('sess-pain')?.value;
+  if(painRaw===''||painRaw==null){tst('Anotá tu dolor del 0 al 10 (0 si no te duele nada)');return;}
+  const pain=Number(painRaw),leg=!!document.getElementById('sess-leg')?.checked,note=(document.getElementById('sess-note')?.value||'').trim().slice(0,180),now=Date.now();
+  const painEntry={ts:now,date:todayStr(),pain,leg,when:'sesion',note:note.slice(0,140)};
+  const adv=painAdvice(painEntry);savePainEntry(painEntry);
+  gymHist=[{d:new Date().toLocaleDateString('es-ES',{day:'numeric',month:'short'}),rn:r.name,dn:d.label,pct,progress:progressSummary,energy:Number(document.getElementById('sess-energy')?.value)||3,rpe:Number(document.getElementById('sess-rpe')?.value)||6,pain,leg,note,ts:now},...gymHist].slice(0,80);
+  S.s('ghst2',gymHist);updateWeekLogFromCurrent();
+  const msg=`✓ ${d.label} — ${pct}%`+(progressSummary?' · '+progressSummary:'');
+  tst(adv.level==='verde'?msg+' · Mañana anotá cómo amaneciste 🩺':msg+' · '+adv.text,adv.level==='verde'?(progressSummary?5500:3500):8000);cOv2();cOv1();updWring();
   if(progressSummary&&S.g('ai_always_speak',false))speak(progressSummary);
 }
 
@@ -2011,13 +2020,106 @@ function rGymTrain(){
   return h+'</div>';
 }
 
+// ══════ REGISTRO DE DOLOR (0-10) ══════
+// Lucía anota su dolor al cerrar cada sesión y cualquier día (sobre todo el día después de entrenar).
+// Cada registro: {ts, date:'AAAA-MM-DD', pain:0-10, leg:bool (baja a la pierna / hormigueo), when:'sesion'|'dia', note}
+function painLog(){const l=S.g('painLog1',[]);return Array.isArray(l)?l:[];}
+function savePainEntry(e){const l=painLog();l.unshift(e);S.s('painLog1',l.slice(0,730));}
+function painColor(v){return v<=2?'var(--green)':v<=4?'var(--gold)':'var(--red)';}
+function painPickerHtml(id,selected=null){
+  return `<input type="hidden" id="${id}" value="${selected==null?'':selected}">
+    <div class="pain-pick" role="radiogroup" aria-label="Dolor del 0 al 10" style="display:grid;grid-template-columns:repeat(6,1fr);gap:6px">
+    ${Array.from({length:11},(_,v)=>`<button type="button" role="radio" aria-checked="${selected===v}" data-v="${v}" onclick="pickPain('${id}',${v},this)"
+      style="min-height:42px;border-radius:10px;border:1px solid ${selected===v?painColor(v):'var(--border2)'};background:${selected===v?'var(--bg4)':'var(--bg2)'};color:${painColor(v)};font-weight:800;font-size:15px;font-family:var(--fm)">${v}</button>`).join('')}
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--text3);margin-top:4px"><span>0 = nada</span><span>10 = insoportable</span></div>`;
+}
+function pickPain(id,v,btn){
+  const inp=document.getElementById(id);if(inp)inp.value=String(v);
+  btn.parentElement.querySelectorAll('button').forEach(b=>{const on=Number(b.dataset.v)===v;b.setAttribute('aria-checked',String(on));b.style.background=on?'var(--bg4)':'var(--bg2)';b.style.borderColor=on?painColor(Number(b.dataset.v)):'var(--border2)';});
+}
+function painLegHtml(id){
+  return `<label style="display:flex;gap:10px;align-items:flex-start;margin-top:12px;font-size:12.5px;color:var(--text1);cursor:pointer">
+    <input type="checkbox" id="${id}" style="width:20px;height:20px;margin-top:1px;flex-shrink:0">
+    <span><strong style="color:var(--text0)">Me baja a la pierna</strong> (tipo ciático, quema, corriente u hormigueo)</span></label>`;
+}
+const PAIN_ALARM_HTML=`<div style="font-size:11px;line-height:1.5;color:var(--text2);margin-top:12px;padding:9px 11px;border-radius:10px;background:var(--red-d);border:1px solid var(--red-b)">🚨 Si se te duerme la pierna o el pie, perdés fuerza, se te duerme la zona de la cola o entre las piernas, o te cuesta hacer pis: <strong style="color:var(--text0)">andá a urgencias</strong>.</div>`;
+function painAdvice(entry){
+  // Semáforo: lo que la app le dice después de anotar.
+  const {pain,leg,when}=entry;
+  const prevSession=painLog().find(e=>e.when==='sesion'&&e.ts<entry.ts&&entry.ts-e.ts<40*3600*1000);
+  const worseNextDay=when==='dia'&&prevSession&&pain>=prevSession.pain+2;
+  if(pain>=5)return {level:'rojo',text:'🔴 Dolor alto. Hoy nada de rutina: solo caminata suave si no te duele. Si en 2-3 días no baja, o si te baja a la pierna, consultá a tu médico o kinesiólogo.'};
+  if(leg)return {level:'amarillo',text:'🟡 Dolor que baja a la pierna: frená la rutina hasta que se calme, hacé movilidad suave y contáselo a tu kinesiólogo o médico.'+(worseNextDay?' Además estás peor que después de entrenar ('+prevSession.pain+' → '+pain+').':'')};
+  if(worseNextDay)return {level:'amarillo',text:'🟡 Estás peor que después de entrenar ('+prevSession.pain+' → '+pain+'). La rutina anterior fue demasiado: la próxima hacé menos series, rango más corto o la rutina de 15 min de movilidad.'};
+  if(pain>=3)return {level:'amarillo',text:'🟡 Molestia moderada. Podés entrenar suave: mantené las cargas, sacá lo que moleste y priorizá movilidad.'};
+  return {level:'verde',text:'🟢 Bien. Podés seguir con tu plan normal.'};
+}
+function openPainLog(){
+  oOv1(`<div class="mt">¿Cómo está tu espalda hoy?</div>
+    <div class="ed-sum" style="margin-bottom:12px">Anotá el dolor de espalda o pierna que tenés <b>ahora</b>. Lo más útil es anotarlo el día después de entrenar.</div>
+    ${painPickerHtml('pain-day')}
+    ${painLegHtml('pain-day-leg')}
+    <div class="fld" style="margin-top:12px"><label for="pain-day-note">Nota (opcional)</label><input class="inp" id="pain-day-note" maxlength="140" placeholder="Dónde te duele, qué lo empeora…"></div>
+    ${PAIN_ALARM_HTML}
+    <button class="btn b-lg b-p" style="margin-top:14px" onclick="saveDayPain()">Guardar</button>`);
+}
+function saveDayPain(){
+  const raw=document.getElementById('pain-day')?.value;
+  if(raw===''||raw==null){tst('Elegí un número del 0 al 10');return;}
+  const entry={ts:Date.now(),date:todayStr(),pain:Number(raw),leg:!!document.getElementById('pain-day-leg')?.checked,when:'dia',note:(document.getElementById('pain-day-note')?.value||'').trim().slice(0,140)};
+  const adv=painAdvice(entry);savePainEntry(entry);cOv1();renderGym();tst(adv.text,7000);
+}
+function painTodayCardHtml(){
+  const today=painLog().find(e=>e.date===todayStr());
+  if(today){const adv=painAdvice(today);
+    return `<div class="card" style="margin-bottom:12px;padding:12px 14px;border-left:3px solid ${painColor(today.pain)}">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px"><div style="font-size:12px;color:var(--text2)">Dolor de hoy</div>
+      <button type="button" class="btn b-xs b-g" onclick="openPainLog()">Anotar otra vez</button></div>
+      <div style="font-size:22px;font-weight:800;color:${painColor(today.pain)};font-family:var(--fm)">${today.pain}/10${today.leg?' <span style="font-size:12px;font-family:inherit">· baja a la pierna</span>':''}</div>
+      <div style="font-size:12px;line-height:1.5;color:var(--text1);margin-top:4px">${esc(adv.text)}</div></div>`;}
+  return `<button type="button" class="card" onclick="openPainLog()" style="width:100%;text-align:left;margin-bottom:12px;padding:13px 14px;display:flex;align-items:center;gap:12px;cursor:pointer;color:inherit">
+    <span style="font-size:24px" aria-hidden="true">🩺</span>
+    <span style="flex:1"><strong style="display:block;font-size:14px">¿Cómo está tu espalda hoy?</strong><small style="color:var(--text2);font-size:11.5px">Anotá tu dolor del 0 al 10 (lleva 5 segundos)</small></span>
+    <span aria-hidden="true" style="color:var(--text2)">›</span></button>`;
+}
+function painSummaryHtml(){
+  const log=painLog();
+  if(!log.length)return `<div class="card" style="margin-bottom:14px"><div class="sec-t" style="margin-bottom:6px">🩺 Dolor</div><div style="font-size:12px;color:var(--text2);line-height:1.5">Todavía no anotaste el dolor. Hacelo al cerrar cada sesión y el día siguiente: en unas semanas vas a ver si baja.</div><button type="button" class="btn b-md b-p" style="margin-top:10px" onclick="openPainLog()">Anotar dolor de hoy</button></div>`;
+  // Un valor por día (el más alto) de los últimos 28 días.
+  const days=Array.from({length:28},(_,i)=>{const d=new Date();d.setDate(d.getDate()-27+i);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');});
+  const byDay={};log.forEach(e=>{if(!(e.date in byDay)||e.pain>byDay[e.date].pain)byDay[e.date]={pain:e.pain,leg:byDay[e.date]?.leg||e.leg};else if(e.leg)byDay[e.date].leg=true;});
+  const avg=list=>{const v=list.map(d=>byDay[d]?.pain).filter(x=>x!=null);return v.length?Math.round(v.reduce((a,b)=>a+b,0)/v.length*10)/10:null;};
+  const last7=avg(days.slice(21)),prev7=avg(days.slice(14,21));
+  const legDays=days.slice(21).filter(d=>byDay[d]?.leg).length;
+  const W=300,H=90,bw=W/28;
+  const bars=days.map((d,i)=>{const e=byDay[d];if(!e)return '';const h=Math.max(3,e.pain/10*(H-14));
+    return `<rect x="${(i*bw+1.5).toFixed(1)}" y="${(H-h).toFixed(1)}" width="${(bw-3).toFixed(1)}" height="${h.toFixed(1)}" rx="2" fill="${painColor(e.pain)}"><title>${d}: ${e.pain}/10${e.leg?' · pierna':''}</title></rect>${e.leg?`<circle cx="${(i*bw+bw/2).toFixed(1)}" cy="${(H-h-5).toFixed(1)}" r="2.2" fill="var(--text0)"/>`:''}`;}).join('');
+  let trend='';
+  if(last7!=null&&prev7!=null){const diff=Math.round((last7-prev7)*10)/10;trend=diff<=-0.5?'📉 Bajando: '+prev7+' → '+last7+' de promedio. ¡Va bien!':diff>=0.5?'📈 Subiendo: '+prev7+' → '+last7+' de promedio. Bajá la intensidad y contáselo a tu kinesiólogo.':'➡️ Estable: '+last7+' de promedio esta semana.';}
+  else if(last7!=null)trend='Promedio de esta semana: '+last7+'/10.';
+  return `<div class="card" style="margin-bottom:14px">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px"><div class="sec-t" style="margin:0">🩺 Dolor · últimas 4 semanas</div><button type="button" class="btn b-xs b-g" onclick="openPainLog()">+ Anotar</button></div>
+    <svg viewBox="0 0 ${W} ${H}" width="100%" height="${H}" role="img" aria-label="Dolor por día de las últimas 4 semanas" style="display:block;background:var(--bg1);border-radius:10px">
+      <line x1="0" x2="${W}" y1="${(H-5/10*(H-14)).toFixed(1)}" y2="${(H-5/10*(H-14)).toFixed(1)}" stroke="var(--red-b)" stroke-dasharray="3 3"/>${bars}</svg>
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--text3);margin-top:3px"><span>hace 4 semanas</span><span>hoy</span></div>
+    ${trend?`<div style="font-size:12.5px;color:var(--text1);margin-top:8px">${trend}</div>`:''}
+    ${legDays?`<div style="font-size:12px;color:var(--gold);margin-top:4px">⚠️ ${plural(legDays,'día','días')} esta semana con dolor que baja a la pierna (punto blanco en el gráfico).</div>`:''}
+  </div>`;
+}
+function painContextForAI(){
+  const log=painLog().slice(0,10);
+  if(!log.length)return '- Dolor: todavía no registró dolor en la app.\n';
+  return '- Registro de DOLOR (0-10, más reciente primero; usalo con el semáforo): '+log.map(e=>e.date+' '+(e.when==='sesion'?'post-sesión':'día')+' '+e.pain+'/10'+(e.leg?' con dolor a la pierna':'')+(e.note?' ('+e.note+')':'')).join('; ')+'.\n';
+}
+
 function rGymHist(){
-  if(!gymHist.length)return`<div class="sec"><div class="empty"><div class="empty-i">📊</div><div class="empty-t">Sin historial</div><div class="empty-s">Tus sesiones aparecerán aquí</div></div></div>`;
-  return`<div class="sec">`+gymHist.map((h,i)=>{const col=DC[i%DC.length];
+  if(!gymHist.length)return`<div class="sec">${painSummaryHtml()}<div class="empty"><div class="empty-i">📊</div><div class="empty-t">Sin historial</div><div class="empty-s">Tus sesiones aparecerán aquí</div></div></div>`;
+  return`<div class="sec">`+painSummaryHtml()+gymHist.map((h,i)=>{const col=DC[i%DC.length];
     return`<div class="card" style="display:flex;align-items:center;gap:12px;margin-bottom:9px">
       <div style="width:44px;height:44px;border-radius:12px;background:linear-gradient(135deg,${col},${DC[(i+2)%DC.length]});display:flex;align-items:center;justify-content:center;font-family:var(--fd);font-size:16px;font-weight:800;flex-shrink:0">${(h.dn||'?')[0]}</div>
       <div style="flex:1;min-width:0"><div style="font-size:14px;font-weight:700">${esc(h.dn||'')} <span style="font-size:11px;color:var(--text2);font-weight:400">· ${esc(h.rn||'')}</span></div>
-      <div style="font-size:11px;color:var(--text2);margin-top:2px">${h.d}${h.rpe?' · RPE '+h.rpe:''}${h.energy?' · energía '+h.energy+'/5':''}</div>${h.note?`<div style="font-size:10px;color:var(--text1);margin-top:4px">${esc(h.note)}</div>`:''}</div>
+      <div style="font-size:11px;color:var(--text2);margin-top:2px">${h.d}${h.pain!=null?` · <span style="color:${painColor(h.pain)};font-weight:700">dolor ${h.pain}/10${h.leg?' (pierna)':''}</span>`:''}${h.rpe?' · RPE '+h.rpe:''}${h.energy?' · energía '+h.energy+'/5':''}</div>${h.note?`<div style="font-size:10px;color:var(--text1);margin-top:4px">${esc(h.note)}</div>`:''}</div>
       <div style="background:${h.pct===100?'var(--green-d)':'var(--gold-d)'};border:1px solid ${h.pct===100?'var(--green-b)':'var(--gold-b)'};color:${h.pct===100?'var(--green)':'var(--gold)'};padding:4px 10px;border-radius:8px;font-size:12px;font-weight:700;font-family:var(--fm)">${h.pct}%</div>
     </div>`;}).join('')+'</div>';
 }
@@ -6302,6 +6404,7 @@ function buildAppContext(){
   return 'PANORAMA DE LUCÍA:\n'+
     '- Físico: '+(profile.weight?'peso '+profile.weight+'kg, ':'')+(profile.goal?'objetivo '+profile.goal+', ':'')+'entrenamientos registrados: '+diasEntreno+(gymRecientes?' (últimos: '+gymRecientes+')':'')+'.\n'+
     '- Agua hoy: '+waterGlasses+' vasos.\n'+
+    painContextForAI()+
     buildGymProgressContext(1800);
 }
 
@@ -9988,7 +10091,7 @@ const BACKUP_MAX_AGE_DAYS=14;
 const BACKUP_DATA_KEYS=['rt2','arid','sets2','wts2','setPerf3','ghst2','gymWeekLog','gymProfile','gymCycles1','activeWeekId','cardio1','nutData',
   'gst4','pf4','pe4','sld4','cats4','cards1','cpurch1','shop1','evts1','chat1','chatSessions','activeChatId','coachHist1','coachSessions',
   'activeCoachId','coachProfile1','userMem1','last_mem_compile','gemini_key','ai_provider','ai_free','ai_always_speak','seed_v2',
-  'permissionPrimerDismissedV1','micPermissionGrantedV1','gymPlan1','lastBackupAt'];
+  'permissionPrimerDismissedV1','micPermissionGrantedV1','gymPlan1','lastBackupAt','painLog1'];
 // Las claves de IA (…_key) no viajan en el respaldo salvo que se pida: el archivo se manda por WhatsApp o Drive.
 function isSecretBackupKey(key){return /_key$/.test(String(key));}
 function buildBackup(includeKeys=false){
