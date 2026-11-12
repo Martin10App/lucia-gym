@@ -1,11 +1,11 @@
 {
-  "version": 2,
-  "updatedAt": "2026-11-10",
-  "note": "Programas diseñados exclusivamente para Lucía (31 años · Operación lumbar L4-L5 por laparoscopía hace 1.5 años · Nivel inicial). Todos los ejercicios fueron seleccionados con criterio biomecánico 0% compresión axial ni flexión lumbar bajo carga, basados en la Tríada de Stuart McGill y estabilización lumbo-pélvica.",
+  "version": 3,
+  "updatedAt": "2026-11-12",
+  "note": "Programas diseñados exclusivamente para Lucía (31 años · Operación lumbar L4-L5 por laparoscopía hace 1.5 años · Nivel inicial). Todos los ejercicios fueron seleccionados con criterio biomecánico carga baja y controlada sobre la columna, sin flexión ni rotación lumbar bajo carga, basados en la Tríada de Stuart McGill y estabilización lumbo-pélvica. Revisión 12/11/2026: Big 3 de McGill completo (bird-dog, curl-up, plancha lateral), bisagra de cadera, caminata diaria, descargas reales y RIR mínimo 2. Mostrá el plan a tu kinesiólogo y respetá el semáforo de dolor.",
   "disciplines": {
     "fase-1-base": "Fase 1 · Base y Core McGill",
     "fase-2-fuerza": "Fase 2 · Espalda y Glúteos",
-    "fase-3-tonificacion": "Fase 3 · Tonificación 0% Compresión",
+    "fase-3-tonificacion": "Fase 3 · Tonificación con Columna Cuidada",
     "movilidad-alivio": "Movilidad y Alivio L4-L5"
   },
   "programs": [
@@ -16,7 +16,7 @@
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 4,
-      "sessionMin": 30,
+      "sessionMin": 35,
       "equipment": [
         "colchoneta",
         "banda elástica",
@@ -24,7 +24,7 @@
         "pared"
       ],
       "goal": "salud",
-      "summary": "El punto de partida ideal en casa para Lucía. Enseña a activar la faja abdominal profunda (Tríada de McGill), despierta los glúteos para que sostengan la pelvis y fortalece la espalda alta con banda elástica sin ningún impacto sobre L4-L5.",
+      "summary": "El punto de partida ideal en casa para Lucía. Enseña a activar la faja abdominal profunda (Tríada de McGill), despierta los glúteos para que sostengan la pelvis y fortalece la espalda alta con banda elástica con muy poca carga sobre L4-L5.",
       "progression": "En esta Fase 1 la prioridad es la técnica perfecta y sentir qué músculo trabaja sin ninguna molestia en la cintura. Cada semana sumá 1 o 2 repeticiones o 2 segundos de pausa isométrica sólo si sentís control total (RIR 3-4: te quedan varias repeticiones en la recámara).",
       "basedOn": "Protocolo de estabilización lumbar del Dr. Stuart McGill (Back Mechanic / Big 3: Bird-Dog, Plancha lateral modificada y control abdominal neutro) combinado con activación glútea y tracción escapular en descarga.",
       "weekPlan": [
@@ -32,7 +32,7 @@
           "week": 1,
           "focus": "Conexión neuromuscular y postura neutra",
           "rir": "4 (muy suave)",
-          "volume": "Base (2-3 series)"
+          "volume": "2 series por ejercicio"
         },
         {
           "week": 2,
@@ -58,13 +58,13 @@
           "label": "Día 1 · Core McGill + Espalda Postural",
           "exercises": [
             {
-              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
-              "muscle": "Abdomen",
-              "series": 2,
-              "reps": "10",
-              "rir": "3",
-              "rest": "45 s",
-              "note": "Suave: apoyá la cintura en la colchoneta largando el aire y mantené 3 seg."
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "6-8",
+              "rir": "4",
+              "rest": "15 s",
+              "note": "Entrada en calor de McGill: 6 a 8 movimientos lentos, sin forzar los extremos. Prepara la columna sin cargarla."
             },
             {
               "name": "Bird-Dog (Perro-Pájaro McGill)",
@@ -73,16 +73,40 @@
               "reps": "6-8",
               "rir": "3",
               "rest": "60 s",
-              "note": "6 a 8 por lado con pausa de 3 seg arriba. Estirá hacia atrás sin levantar la pierna por encima del glúteo."
+              "note": "6 a 8 por lado con pausa de 3 seg arriba. Estirá hacia atrás sin levantar la pierna por encima del glúteo.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Puente de glúteos en colchoneta (Glute Bridge)",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "10-12",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Subí empujando con los talones hasta quedar en línea recta (no arquees la cintura arriba)."
+              "note": "Subí empujando con los talones hasta quedar en línea recta (no arquees la cintura arriba).",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
@@ -91,7 +115,19 @@
               "reps": "12-15",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Hacelo de pie o sentada en silla con la banda sujeta a la altura del abdomen. Juntá omóplatos 2 seg."
+              "note": "Hacelo de pie o sentada en silla con la banda sujeta a la altura del abdomen. Juntá omóplatos 2 seg.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Flexiones en pared (Push-up suave)",
@@ -100,16 +136,40 @@
               "reps": "10-12",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Cuerpo recto como una tabla, abdomen y glúteos firmes."
+              "note": "Cuerpo recto como una tabla, abdomen y glúteos firmes.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
-              "name": "Dead Bug (Bicho Muerto controlado)",
+              "name": "Curl-up de McGill",
               "muscle": "Abdomen",
               "series": 3,
-              "reps": "6-8",
+              "reps": "5-6",
               "rir": "3",
-              "rest": "60 s",
-              "note": "6 a 8 por lado. La cintura queda 100% pegada a la colchoneta."
+              "rest": "45 s",
+              "note": "Una pierna doblada y la otra estirada, manos debajo de la cintura para mantener su curva. Despegá apenas cabeza y hombros (como sobre una balanza) y aguantá 8-10 seg respirando. Sin doblar la cintura. Cambiá de pierna en cada serie.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             }
           ]
         },
@@ -132,7 +192,19 @@
               "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Tocá suavemente la silla con la cola manteniendo el pecho alto y subí."
+              "note": "Tocá suavemente la silla con la cola manteniendo el pecho alto y subí.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Jalón al pecho con banda elástica (en casa)",
@@ -141,16 +213,40 @@
               "reps": "12-15",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Banda sujeta arriba de la puerta. Bajá los codos hacia las costillas sin arquear la espalda."
+              "note": "Banda sujeta arriba de la puerta. Bajá los codos hacia las costillas sin arquear la espalda.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Abducción de cadera acostada de lado (Glúteo medio)",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Por lado. Fortalece el glúteo medio que estabiliza tu pelvis al caminar."
+              "note": "Por lado. Fortalece el glúteo medio que estabiliza tu pelvis al caminar.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Plancha lateral (o modificada sobre rodillas)",
@@ -160,7 +256,13 @@
               "unit": "s",
               "rir": "3",
               "rest": "60 s",
-              "note": "Apoyando antebrazo y rodillas flexionadas a 90°. 15 seg de cada lado."
+              "note": "Apoyando antebrazo y rodillas flexionadas a 90°. 15 seg de cada lado.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ]
             }
           ]
         },
@@ -174,16 +276,61 @@
               "reps": "8",
               "rir": "3",
               "rest": "60 s",
-              "note": "Controlá que la pelvis no gire al extender la pierna."
+              "note": "Controlá que la pelvis no gire al extender la pierna.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
+            },
+            {
+              "name": "Bisagra de cadera con palo (Hip hinge)",
+              "muscle": "Glúteos",
+              "series": 3,
+              "reps": "8-10",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "Palo de escoba apoyado en la espalda tocando cabeza, entre omóplatos y cola. Llevá la cola hacia atrás doblando apenas las rodillas sin que el palo se despegue. Es el movimiento que te protege al levantar cosas del piso.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Puente de glúteos con marcha alternada",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "8-10",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Mantené la cadera arriba firme mientras despegás apenas un pie y el otro."
+              "note": "Mantené la cadera arriba firme mientras despegás apenas un pie y el otro.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Subida al cajón o escalón (Step-up)",
@@ -192,7 +339,19 @@
               "reps": "8-10",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "En un escalón bajo con peso corporal. Tronco derechito."
+              "note": "En un escalón bajo con peso corporal. Tronco derechito.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Vuelos posteriores / Face pull con banda elástica",
@@ -201,7 +360,19 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Abre el pecho y fortalece la parte alta de la espalda."
+              "note": "Abre el pecho y fortalece la parte alta de la espalda.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Press Pallof anti-rotación (banda o polea)",
@@ -210,11 +381,23 @@
               "reps": "10",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Extendé la banda al frente sin dejar que te gire el torso. 10 por lado."
+              "note": "Extendé la banda al frente sin dejar que te gire el torso. 10 por lado.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2-3"
+              ]
             },
             {
               "name": "Estiramiento de glúteo y piramidal acostada",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 2,
               "reps": "25",
               "unit": "s",
@@ -227,8 +410,16 @@
       ],
       "conditioning": [
         {
-          "day": "Días sin rutina (2 a 4 veces/sem)",
-          "text": "Caminata a paso vivo de 20 a 30 min en terreno plano con calzado cómodo (según McGill, caminar suave moviendo los brazos nutre los discos L4-L5 mejor que estar quieta)."
+          "day": "Todos los días",
+          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+        },
+        {
+          "day": "Antes de cada sesión",
+          "text": "5 min de caminata + gato-camello suave. Evitá entrenar o agacharte en la primera hora después de levantarte: los discos están más cargados de líquido."
+        },
+        {
+          "day": "Durante el día",
+          "text": "Cada 30-45 min sentada, parate 1-2 min y caminá. Al levantar algo del piso, usá la bisagra de cadera."
         }
       ],
       "nutrition": {
@@ -251,12 +442,12 @@
     },
     {
       "id": "fase1-gym-adaptacion-3d",
-      "name": "Fase 1 (Gimnasio) · Adaptación Guiada 0% Compresión Lumbar",
+      "name": "Fase 1 (Gimnasio) · Adaptación Guiada con Columna Cuidada",
       "discipline": "fase-1-base",
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 4,
-      "sessionMin": 35,
+      "sessionMin": 40,
       "equipment": [
         "máquinas con respaldo",
         "poleas",
@@ -272,7 +463,7 @@
           "week": 1,
           "focus": "Conocer las máquinas y ajustar asientos",
           "rir": "4 (muy liviano)",
-          "volume": "Base"
+          "volume": "2 series por ejercicio"
         },
         {
           "week": 2,
@@ -304,7 +495,19 @@
               "reps": "6-8",
               "rir": "3",
               "rest": "60 s",
-              "note": "Entrada en calor en colchoneta: activa tu faja lumbar antes de ir a las máquinas."
+              "note": "Entrada en calor en colchoneta: activa tu faja lumbar antes de ir a las máquinas.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Remo sentado en máquina con apoyo en el pecho",
@@ -313,7 +516,19 @@
               "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Pecho siempre apoyado contra la almohadilla: 0% carga en L4-L5."
+              "note": "Pecho siempre apoyado contra la almohadilla: mínima carga en L4-L5.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Jalón al pecho en polea alta",
@@ -322,16 +537,40 @@
               "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Bajá la barra a la clavícula con el abdomen firme, sin tirarte hacia atrás."
+              "note": "Bajá la barra a la clavícula con el abdomen firme, sin tirarte hacia atrás.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Puente de glúteos en colchoneta (Glute Bridge)",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Apretá los glúteos 2 segundos arriba sin arquear la cintura."
+              "note": "Apretá los glúteos 2 segundos arriba sin arquear la cintura.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Extensión de cuádriceps en máquina",
@@ -340,16 +579,40 @@
               "reps": "12-15",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Espalda bien apoyada en el respaldo de la máquina."
+              "note": "Espalda bien apoyada en el respaldo de la máquina.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
-              "name": "Dead Bug (Bicho Muerto controlado)",
+              "name": "Curl-up de McGill",
               "muscle": "Abdomen",
               "series": 3,
-              "reps": "8",
+              "reps": "5-6",
               "rir": "3",
-              "rest": "60 s",
-              "note": "Cintura pegada a la colchoneta durante todo el movimiento."
+              "rest": "45 s",
+              "note": "Una pierna doblada y la otra estirada, manos debajo de la cintura para mantener su curva. Despegá apenas cabeza y hombros (como sobre una balanza) y aguantá 8-10 seg respirando. Sin doblar la cintura. Cambiá de pierna en cada serie.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             }
           ]
         },
@@ -357,13 +620,13 @@
           "label": "Día 2 · Tren Inferior Guiado + Postura Alta",
           "exercises": [
             {
-              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
-              "muscle": "Abdomen",
-              "series": 2,
-              "reps": "10",
-              "rir": "3",
-              "rest": "45 s",
-              "note": "Activación suave de abdomen bajo antes de empezar."
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "6-8",
+              "rir": "4",
+              "rest": "15 s",
+              "note": "Entrada en calor de McGill: 6 a 8 movimientos lentos, sin forzar los extremos. Prepara la columna sin cargarla."
             },
             {
               "name": "Prensa de piernas 45° (rango controlado, sacro apoyado)",
@@ -372,7 +635,19 @@
               "reps": "10-12",
               "rir": "3",
               "rest": "90 s",
-              "note": "REGLA DE ORO: bajá solo hasta ~90° en las rodillas. La cola jamás se despega del asiento."
+              "note": "REGLA DE ORO: bajá solo hasta ~90° en las rodillas. La cola jamás se despega del asiento.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Curl femoral sentado en máquina",
@@ -381,7 +656,19 @@
               "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Trabaja isquiotibiales sentada con respaldo, sin cargar la espalda."
+              "note": "Trabaja isquiotibiales sentada con respaldo, sin cargar la espalda.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Press de pecho sentado en máquina",
@@ -390,7 +677,19 @@
               "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Omóplatos y espalda apoyados en el respaldo."
+              "note": "Omóplatos y espalda apoyados en el respaldo.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Face pull en polea o banda (Espalda alta y postura)",
@@ -399,7 +698,19 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Un pie medio paso adelante para máxima estabilidad. Llevá la soga hacia la frente."
+              "note": "Un pie medio paso adelante para máxima estabilidad. Llevá la soga hacia la frente.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Plancha lateral (o modificada sobre rodillas)",
@@ -409,7 +720,13 @@
               "unit": "s",
               "rir": "3",
               "rest": "60 s",
-              "note": "Sobre rodillas: 15 seg por lado."
+              "note": "Sobre rodillas: 15 seg por lado.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ]
             }
           ]
         },
@@ -417,13 +734,46 @@
           "label": "Día 3 · Espalda Completa + Glúteo Medio",
           "exercises": [
             {
+              "name": "Bisagra de cadera con palo (Hip hinge)",
+              "muscle": "Glúteos",
+              "series": 3,
+              "reps": "8-10",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "Palo de escoba apoyado en la espalda tocando cabeza, entre omóplatos y cola. Llevá la cola hacia atrás doblando apenas las rodillas sin que el palo se despegue. Es el movimiento que te protege al levantar cosas del piso.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
+            },
+            {
               "name": "Remo con mancuernas en banco inclinado (pecho apoyado)",
               "muscle": "Espalda",
               "series": 3,
               "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Banco a 45°, pecho apoyado y mancuernas livianas. Ejercicio estrella para cuidar L4-L5."
+              "note": "Banco a 45°, pecho apoyado y mancuernas livianas. Ejercicio estrella para cuidar L4-L5.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Pull-over en polea alta con brazos rectos",
@@ -432,7 +782,19 @@
               "reps": "12-15",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Trabaja dorsales y abdomen anti-extensión al mismo tiempo."
+              "note": "Trabaja dorsales y abdomen anti-extensión al mismo tiempo.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Sentadilla a silla o cajón (Box Squat controlada)",
@@ -441,16 +803,40 @@
               "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Con un banco detrás: tocás suave con los glúteos y subís con el tronco derecho."
+              "note": "Con un banco detrás: tocás suave con los glúteos y subís con el tronco derecho.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Abducción de cadera sentada en máquina",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Con la espalda apoyada en el respaldo."
+              "note": "Con la espalda apoyada en el respaldo.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             },
             {
               "name": "Press Pallof anti-rotación (banda o polea)",
@@ -459,19 +845,35 @@
               "reps": "10",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "En polea a la altura del pecho con peso muy liviano: 10 por lado."
+              "note": "En polea a la altura del pecho con peso muy liviano: 10 por lado.",
+              "seriesByWeek": [
+                2,
+                3,
+                3,
+                3
+              ],
+              "rirByWeek": [
+                "4",
+                "3",
+                "2-3",
+                "2"
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "Entrada en calor (5-8 min antes de cada sesión)",
-          "text": "Caminata en cinta plana (sin inclinación exagerada) o bici estática con respaldo / manillar alto a ritmo suave."
+          "day": "Todos los días",
+          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
         },
         {
-          "day": "Al terminar (opcional 10-15 min)",
-          "text": "Caminata suave en cinta + Estiramiento de glúteo/piramidal acostada."
+          "day": "Antes de cada sesión",
+          "text": "5 min de caminata + gato-camello suave. Evitá entrenar o agacharte en la primera hora después de levantarte: los discos están más cargados de líquido."
+        },
+        {
+          "day": "Durante el día",
+          "text": "Cada 30-45 min sentada, parate 1-2 min y caminá. Al levantar algo del piso, usá la bisagra de cadera."
         }
       ],
       "nutrition": {
@@ -499,7 +901,7 @@
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 40,
+      "sessionMin": 45,
       "equipment": [
         "mancuernas livianas/medianas",
         "banda elástica",
@@ -538,14 +940,14 @@
         {
           "week": 5,
           "focus": "Semana más fuerte del bloque (siempre sin dolor)",
-          "rir": "1-2",
+          "rir": "2",
           "volume": "100%"
         },
         {
           "week": 6,
           "focus": "Semana de alivio / descarga activa",
           "rir": "4",
-          "volume": "65% de las series"
+          "volume": "Descarga: 2 series por ejercicio"
         }
       ],
       "days": [
@@ -559,7 +961,23 @@
               "reps": "8",
               "rir": "3",
               "rest": "60 s",
-              "note": "Pausa de 3 segundos en cada extensión."
+              "note": "Pausa de 3 segundos en cada extensión.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Remo con mancuerna a un brazo (con apoyo en banco/silla)",
@@ -568,7 +986,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Apoyá mano y rodilla en una silla firme. Llevá la mancuerna hacia la cadera."
+              "note": "Apoyá mano y rodilla en una silla firme. Llevá la mancuerna hacia la cadera.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Sentadilla Goblet con mancuerna al pecho",
@@ -577,7 +1011,23 @@
               "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Mancuerna pegada al pecho, podés poner la silla detrás como referencia de altura."
+              "note": "Mancuerna pegada al pecho, podés poner la silla detrás como referencia de altura.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Jalón al pecho con banda elástica (en casa)",
@@ -586,7 +1036,23 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Pausa de 1 segundo abajo apretando dorsales."
+              "note": "Pausa de 1 segundo abajo apretando dorsales.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Flexiones inclinadas sobre banco o mesada",
@@ -595,7 +1061,23 @@
               "reps": "8-12",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Manos en mesada o respaldo firme, cuerpo recto y abdomen activo."
+              "note": "Manos en mesada o respaldo firme, cuerpo recto y abdomen activo.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Dead Bug (Bicho Muerto controlado)",
@@ -604,7 +1086,23 @@
               "reps": "8-10",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Por lado, manteniendo la cintura pegada a la colchoneta."
+              "note": "Por lado, manteniendo la cintura pegada a la colchoneta.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             }
           ]
         },
@@ -613,12 +1111,53 @@
           "exercises": [
             {
               "name": "Hip Thrust / Puente de glúteos con espalda en banco",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 4,
               "reps": "10-15",
               "rir": "2",
               "rest": "75 s",
-              "note": "Espalda alta apoyada en sillón/banco. Mirada al frente, costillas bajas."
+              "note": "Espalda alta apoyada en sillón/banco. Mirada al frente, costillas bajas.",
+              "seriesByWeek": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
+            },
+            {
+              "name": "Pull-through con banda (bisagra de cadera)",
+              "muscle": "Glúteos",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Banda atada abajo, detrás tuyo, pasando entre las piernas. Hacé la bisagra (cola atrás, espalda recta) y volvé apretando glúteos. Sin arquear la cintura arriba.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Subida al cajón o escalón (Step-up)",
@@ -627,7 +1166,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Con mancuernas livianas en las manos y tronco bien derecho."
+              "note": "Con mancuernas livianas en las manos y tronco bien derecho.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
@@ -636,7 +1191,23 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Controlá 2 segundos al volver."
+              "note": "Controlá 2 segundos al volver.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Press de hombros sentada con respaldo y mancuernas",
@@ -645,7 +1216,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "60 s",
-              "note": "Sentada en silla con respaldo firme: la espalda nunca se despega del respaldo."
+              "note": "Sentada en silla con respaldo firme: la espalda nunca se despega del respaldo.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Plancha lateral (o modificada sobre rodillas)",
@@ -655,7 +1242,15 @@
               "unit": "s",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "20 seg por lado."
+              "note": "20 seg por lado.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ]
             }
           ]
         },
@@ -669,7 +1264,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Excelente para dar fuerza a toda la espalda sin comprimir L4-L5."
+              "note": "Excelente para dar fuerza a toda la espalda sin comprimir L4-L5.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Vuelos posteriores / Face pull con banda elástica",
@@ -678,25 +1289,98 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Abre los hombros y mejora la postura."
+              "note": "Abre los hombros y mejora la postura.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Puente de glúteos con marcha alternada",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "10",
               "rir": "2",
               "rest": "60 s",
-              "note": "Pelvis firme y horizontal."
+              "note": "Pelvis firme y horizontal.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Abducción de cadera sentada con banda elástica",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "15-20",
               "rir": "2",
               "rest": "60 s",
-              "note": "Sentada derecha en la silla con banda sobre las rodillas."
+              "note": "Sentada derecha en la silla con banda sobre las rodillas.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
+            },
+            {
+              "name": "Curl-up de McGill",
+              "muscle": "Abdomen",
+              "series": 3,
+              "reps": "5-6",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "Una pierna doblada y la otra estirada, manos debajo de la cintura para mantener su curva. Despegá apenas cabeza y hombros (como sobre una balanza) y aguantá 8-10 seg respirando. Sin doblar la cintura. Cambiá de pierna en cada serie.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Paseo del granjero con mancuernas (postura alta)",
@@ -706,15 +1390,31 @@
               "unit": "s",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Caminá 30 segundos por casa bien derechita sosteniendo las mancuernas."
+              "note": "Caminá 30 segundos por casa bien derechita sosteniendo las mancuernas.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "2 a 3 veces por semana",
-          "text": "Caminata continua de 25–35 min o bicicleta fija con postura erguida."
+          "day": "Todos los días",
+          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+        },
+        {
+          "day": "Antes de cada sesión",
+          "text": "5 min de caminata + gato-camello suave. Evitá entrenar o agacharte en la primera hora después de levantarte: los discos están más cargados de líquido."
+        },
+        {
+          "day": "Durante el día",
+          "text": "Cada 30-45 min sentada, parate 1-2 min y caminá. Al levantar algo del piso, usá la bisagra de cadera."
         }
       ],
       "nutrition": {
@@ -737,12 +1437,12 @@
     },
     {
       "id": "fase2-gym-espalda-gluteos-3d",
-      "name": "Fase 2 (Gimnasio) · Espalda Fuerte y Glúteos (Columna Blindada)",
+      "name": "Fase 2 (Gimnasio) · Espalda Fuerte y Glúteos (Columna Cuidada)",
       "discipline": "fase-2-fuerza",
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 45,
+      "sessionMin": 50,
       "equipment": [
         "gimnasio completo",
         "bancos inclinados",
@@ -750,7 +1450,7 @@
         "máquinas"
       ],
       "goal": "hipertrofia",
-      "summary": "El programa central de gimnasio para Lucía: construye una espalda firme y sana (remos con pecho apoyado, jalones, face pulls) y glúteos/piernas fuertes (hip thrust, prensa controlada, curl femoral sentado y step-ups) con 0% de carga vertical en la columna.",
+      "summary": "El programa central de gimnasio para Lucía: construye una espalda firme y sana (remos con pecho apoyado, jalones, face pulls) y glúteos/piernas fuertes (hip thrust, prensa controlada, curl femoral sentado y step-ups) con muy poca carga vertical en la columna.",
       "progression": "Mantené el peso hasta llegar al tope de repeticiones en todas las series con técnica limpia y RIR 2. Recién ahí subí el mínimo incremento posible (1 a 2,5 kg).",
       "basedOn": "Hipertrofia y fortalecimiento sin compresión axial (0 barras sobre la espalda ni tirones desde el piso).",
       "weekPlan": [
@@ -781,14 +1481,14 @@
         {
           "week": 5,
           "focus": "Consolidación del bloque",
-          "rir": "1-2",
+          "rir": "2",
           "volume": "100%"
         },
         {
           "week": 6,
           "focus": "Descarga activa (menos series, misma técnica)",
           "rir": "4",
-          "volume": "60%"
+          "volume": "Descarga: 2 series por ejercicio"
         }
       ],
       "days": [
@@ -802,7 +1502,23 @@
               "reps": "8",
               "rir": "3",
               "rest": "60 s",
-              "note": "Activación inicial de core y multífidos en colchoneta."
+              "note": "Activación inicial de core y multífidos en colchoneta.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Remo con mancuernas en banco inclinado (pecho apoyado)",
@@ -811,7 +1527,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "90 s",
-              "note": "Pecho pegado al banco a 45°: trabajás toda la espalda con 0 presión en L4-L5."
+              "note": "Pecho pegado al banco a 45°: trabajás toda la espalda con muy poca carga en L4-L5.",
+              "seriesByWeek": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Jalón al pecho en polea alta",
@@ -820,7 +1552,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Bajá a la clavícula manteniendo las costillas bajas."
+              "note": "Bajá a la clavícula manteniendo las costillas bajas.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Prensa de piernas 45° (rango controlado, sacro apoyado)",
@@ -829,7 +1577,23 @@
               "reps": "10-12",
               "rir": "2-3",
               "rest": "90 s",
-              "note": "Bajá solo hasta 90° de rodilla con el sacro pegado al respaldo."
+              "note": "Bajá solo hasta 90° de rodilla con el sacro pegado al respaldo.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Extensión de cuádriceps en máquina",
@@ -838,16 +1602,48 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Pausa de 1 segundo arriba."
+              "note": "Pausa de 1 segundo arriba.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
-              "name": "Dead Bug (Bicho Muerto controlado)",
+              "name": "Curl-up de McGill",
               "muscle": "Abdomen",
               "series": 3,
-              "reps": "8-10",
-              "rir": "2",
-              "rest": "60 s",
-              "note": "Zona lumbar apoyada firme en la colchoneta."
+              "reps": "5-6",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "Una pierna doblada y la otra estirada, manos debajo de la cintura para mantener su curva. Despegá apenas cabeza y hombros (como sobre una balanza) y aguantá 8-10 seg respirando. Sin doblar la cintura. Cambiá de pierna en cada serie.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             }
           ]
         },
@@ -856,12 +1652,28 @@
           "exercises": [
             {
               "name": "Hip thrust con barra o mancuerna",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 4,
               "reps": "10-12",
               "rir": "2",
               "rest": "90 s",
-              "note": "Empezá con mancuerna sobre la cadera. Mirada al frente, sin arquear cintura arriba."
+              "note": "Empezá con mancuerna sobre la cadera. Mirada al frente, sin arquear cintura arriba.",
+              "seriesByWeek": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Curl femoral sentado en máquina",
@@ -870,16 +1682,48 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Espalda bien apoyada contra el respaldo."
+              "note": "Espalda bien apoyada contra el respaldo.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
-              "name": "Patada de glúteo en polea baja (rango corto sin arquear)",
-              "muscle": "Femoral",
+              "name": "Pull-through en polea baja (bisagra de cadera)",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Movimiento corto hacia atrás (20-30°) apretando glúteo sin mover la cintura."
+              "note": "De espaldas a la polea baja con la soga entre las piernas. Cola atrás con espalda recta y volvé apretando glúteos. Peso liviano: el objetivo es la técnica de la bisagra.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Press de hombros en máquina con respaldo",
@@ -888,7 +1732,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Espalda pegada al respaldo durante todo el empuje."
+              "note": "Espalda pegada al respaldo durante todo el empuje.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Face pull en polea o banda (Espalda alta y postura)",
@@ -897,7 +1757,23 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Clave para una espalda alta erguida y sana."
+              "note": "Clave para una espalda alta erguida y sana.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Plancha lateral (o modificada sobre rodillas)",
@@ -907,7 +1783,15 @@
               "unit": "s",
               "rir": "2",
               "rest": "60 s",
-              "note": "20 seg de cada lado."
+              "note": "20 seg de cada lado.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ]
             }
           ]
         },
@@ -921,7 +1805,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Pecho apoyado contra el cojín, juntá omóplatos atrás."
+              "note": "Pecho apoyado contra el cojín, juntá omóplatos atrás.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Pull-over en polea alta con brazos rectos",
@@ -930,7 +1830,23 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Abdomen activo y brazos casi rectos."
+              "note": "Abdomen activo y brazos casi rectos.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Subida al cajón o escalón (Step-up)",
@@ -939,16 +1855,48 @@
               "reps": "10",
               "rir": "2",
               "rest": "75 s",
-              "note": "10 por pierna en cajón moderado."
+              "note": "10 por pierna en cajón moderado.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Abducción de cadera sentada en máquina",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "Con la espalda apoyada en el respaldo."
+              "note": "Con la espalda apoyada en el respaldo.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Press de pecho sentado en máquina",
@@ -957,7 +1905,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Controlá 2 segundos al volver."
+              "note": "Controlá 2 segundos al volver.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Press Pallof anti-rotación (banda o polea)",
@@ -966,15 +1930,39 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "60 s",
-              "note": "Pausa de 2 seg con los brazos extendidos al frente."
+              "note": "Pausa de 2 seg con los brazos extendidos al frente.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2-3",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "Días de entrenamiento",
-          "text": "5 min de caminata suave al iniciar + 10 min de caminata o bici con respaldo al finalizar."
+          "day": "Todos los días",
+          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+        },
+        {
+          "day": "Antes de cada sesión",
+          "text": "5 min de caminata + gato-camello suave. Evitá entrenar o agacharte en la primera hora después de levantarte: los discos están más cargados de líquido."
+        },
+        {
+          "day": "Durante el día",
+          "text": "Cada 30-45 min sentada, parate 1-2 min y caminá. Al levantar algo del piso, usá la bisagra de cadera."
         }
       ],
       "nutrition": {
@@ -997,12 +1985,12 @@
     },
     {
       "id": "fase3-casa-tonificacion-3d",
-      "name": "Fase 3 (Casa) · Cuerpo Completo y Tonificación 0% Lesiva",
+      "name": "Fase 3 (Casa) · Cuerpo Completo y Tonificación con Columna Cuidada",
       "discipline": "fase-3-tonificacion",
       "level": "intermedio",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 42,
+      "sessionMin": 47,
       "equipment": [
         "mancuernas",
         "bandas elásticas",
@@ -1035,20 +2023,20 @@
         {
           "week": 4,
           "focus": "Consolidación",
-          "rir": "1-2",
+          "rir": "2",
           "volume": "100%"
         },
         {
           "week": 5,
           "focus": "Pico técnico del bloque",
-          "rir": "1-2",
+          "rir": "2",
           "volume": "100%"
         },
         {
           "week": 6,
           "focus": "Descarga activa",
           "rir": "4",
-          "volume": "60%"
+          "volume": "Descarga: 2 series por ejercicio"
         }
       ],
       "days": [
@@ -1062,16 +2050,48 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Mano y rodilla apoyadas en silla/banco."
+              "note": "Mano y rodilla apoyadas en silla/banco.",
+              "seriesByWeek": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Hip Thrust / Puente de glúteos con espalda en banco",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 4,
               "reps": "12-15",
               "rir": "2",
               "rest": "75 s",
-              "note": "Con mancuerna sobre la cadera y mirada al frente."
+              "note": "Con mancuerna sobre la cadera y mirada al frente.",
+              "seriesByWeek": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Jalón al pecho con banda elástica (en casa)",
@@ -1079,7 +2099,23 @@
               "series": 3,
               "reps": "12-15",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Curl de bíceps con mancuernas alternado (o sentada)",
@@ -1088,7 +2124,23 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "superset": "A"
+              "superset": "A",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Elevaciones laterales con mancuernas (sentada o de pie)",
@@ -1097,15 +2149,48 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "superset": "A"
+              "superset": "A",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
-              "name": "Dead Bug (Bicho Muerto controlado)",
+              "name": "Curl-up de McGill",
               "muscle": "Abdomen",
               "series": 3,
-              "reps": "10",
-              "rir": "2",
-              "rest": "60 s"
+              "reps": "5-6",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "Una pierna doblada y la otra estirada, manos debajo de la cintura para mantener su curva. Despegá apenas cabeza y hombros (como sobre una balanza) y aguantá 8-10 seg respirando. Sin doblar la cintura. Cambiá de pierna en cada serie.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             }
           ]
         },
@@ -1119,7 +2204,48 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Tronco vertical, mancuerna pegada al pecho."
+              "note": "Tronco vertical, mancuerna pegada al pecho.",
+              "seriesByWeek": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
+            },
+            {
+              "name": "Pull-through con banda (bisagra de cadera)",
+              "muscle": "Glúteos",
+              "series": 3,
+              "reps": "12-15",
+              "rir": "2-3",
+              "rest": "60 s",
+              "note": "Banda atada abajo, detrás tuyo, pasando entre las piernas. Hacé la bisagra (cola atrás, espalda recta) y volvé apretando glúteos. Sin arquear la cintura arriba.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Subida al cajón o escalón (Step-up)",
@@ -1127,7 +2253,23 @@
               "series": 3,
               "reps": "10-12",
               "rir": "2",
-              "rest": "75 s"
+              "rest": "75 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
@@ -1135,7 +2277,23 @@
               "series": 3,
               "reps": "12-15",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Press de hombros sentada con respaldo y mancuernas",
@@ -1144,15 +2302,47 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "60 s",
-              "note": "Espalda siempre apoyada en el respaldo."
+              "note": "Espalda siempre apoyada en el respaldo.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Abducción de cadera sentada con banda elástica",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "15-20",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Plancha lateral (o modificada sobre rodillas)",
@@ -1161,7 +2351,15 @@
               "reps": "20",
               "unit": "s",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ]
             }
           ]
         },
@@ -1174,7 +2372,23 @@
               "series": 3,
               "reps": "8-10",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Flexiones inclinadas sobre banco o mesada",
@@ -1182,7 +2396,23 @@
               "series": 3,
               "reps": "10-12",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Vuelos posteriores / Face pull con banda elástica",
@@ -1190,15 +2420,47 @@
               "series": 3,
               "reps": "15",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Puente de glúteos con marcha alternada",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "10-12",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Curl martillo con mancuernas",
@@ -1206,7 +2468,23 @@
               "series": 3,
               "reps": "12",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Paseo del granjero con mancuernas (postura alta)",
@@ -1215,15 +2493,31 @@
               "reps": "35",
               "unit": "s",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "Semana",
-          "text": "3 caminatas ágiles de 30 min."
+          "day": "Todos los días",
+          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+        },
+        {
+          "day": "Antes de cada sesión",
+          "text": "5 min de caminata + gato-camello suave. Evitá entrenar o agacharte en la primera hora después de levantarte: los discos están más cargados de líquido."
+        },
+        {
+          "day": "Durante el día",
+          "text": "Cada 30-45 min sentada, parate 1-2 min y caminá. Al levantar algo del piso, usá la bisagra de cadera."
         }
       ],
       "nutrition": {
@@ -1242,17 +2536,17 @@
     },
     {
       "id": "fase3-gym-tonificacion-total-3d",
-      "name": "Fase 3 (Gimnasio) · Tonificación Total 0% Compresión",
+      "name": "Fase 3 (Gimnasio) · Tonificación Total con Columna Cuidada",
       "discipline": "fase-3-tonificacion",
       "level": "intermedio",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 48,
+      "sessionMin": 53,
       "equipment": [
         "gimnasio completo"
       ],
       "goal": "hipertrofia",
-      "summary": "El programa más completo de gimnasio para Lucía una vez consolidada su base: trabaja espalda, glúteos, piernas, hombros y brazos con biseries eficientes, manteniendo 0% de ejercicios lesivos para L4-L5.",
+      "summary": "El programa más completo de gimnasio para Lucía una vez consolidada su base: trabaja espalda, glúteos, piernas, hombros y brazos con biseries eficientes, sin ejercicios de riesgo para L4-L5.",
       "progression": "Doble progresión: cuando alcances el máximo de repeticiones con 1-2 RIR y técnica perfecta en todas las series, subí la carga mínima disponible.",
       "basedOn": "Full-Body / Torso-Pierna adaptado sin carga axial sobre la columna.",
       "weekPlan": [
@@ -1277,20 +2571,20 @@
         {
           "week": 4,
           "focus": "Sobrecarga controlada",
-          "rir": "1-2",
+          "rir": "2",
           "volume": "100%"
         },
         {
           "week": 5,
           "focus": "Semana pico (técnica estricta)",
-          "rir": "1-2",
+          "rir": "2",
           "volume": "100%"
         },
         {
           "week": 6,
           "focus": "Descarga activa",
           "rir": "4",
-          "volume": "60%"
+          "volume": "Descarga: 2 series por ejercicio"
         }
       ],
       "days": [
@@ -1299,12 +2593,28 @@
           "exercises": [
             {
               "name": "Hip thrust con barra o mancuerna",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 4,
               "reps": "10-12",
               "rir": "2",
               "rest": "90 s",
-              "note": "Mirada al frente, costillas cerradas, pausa 1 seg arriba."
+              "note": "Mirada al frente, costillas cerradas, pausa 1 seg arriba.",
+              "seriesByWeek": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Remo con mancuernas en banco inclinado (pecho apoyado)",
@@ -1313,7 +2623,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Pecho siempre apoyado en el banco."
+              "note": "Pecho siempre apoyado en el banco.",
+              "seriesByWeek": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Jalón al pecho en polea alta",
@@ -1321,7 +2647,23 @@
               "series": 3,
               "reps": "10-12",
               "rir": "2",
-              "rest": "75 s"
+              "rest": "75 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Press inclinado con mancuernas (espalda apoyada)",
@@ -1330,7 +2672,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Pies firmes sobre el piso o un step para no arquear cintura."
+              "note": "Pies firmes sobre el piso o un step para no arquear cintura.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Curl de bíceps con mancuernas alternado (o sentada)",
@@ -1339,7 +2697,23 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "superset": "A"
+              "superset": "A",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Extensión de tríceps en polea alta (cuerda o barra)",
@@ -1348,15 +2722,48 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "superset": "A"
+              "superset": "A",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
-              "name": "Dead Bug (Bicho Muerto controlado)",
+              "name": "Curl-up de McGill",
               "muscle": "Abdomen",
               "series": 3,
-              "reps": "10",
-              "rir": "2",
-              "rest": "60 s"
+              "reps": "5-6",
+              "rir": "3",
+              "rest": "45 s",
+              "note": "Una pierna doblada y la otra estirada, manos debajo de la cintura para mantener su curva. Despegá apenas cabeza y hombros (como sobre una balanza) y aguantá 8-10 seg respirando. Sin doblar la cintura. Cambiá de pierna en cada serie.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             }
           ]
         },
@@ -1370,7 +2777,23 @@
               "reps": "10-12",
               "rir": "2",
               "rest": "90 s",
-              "note": "Bajá solo hasta 90° sin despegar jamás la cola del respaldo."
+              "note": "Bajá solo hasta 90° sin despegar jamás la cola del respaldo.",
+              "seriesByWeek": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Curl femoral sentado en máquina",
@@ -1378,7 +2801,23 @@
               "series": 3,
               "reps": "10-12",
               "rir": "2",
-              "rest": "75 s"
+              "rest": "75 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Subida al cajón o escalón (Step-up)",
@@ -1386,7 +2825,23 @@
               "series": 3,
               "reps": "10",
               "rir": "2",
-              "rest": "75 s"
+              "rest": "75 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Face pull en polea o banda (Espalda alta y postura)",
@@ -1395,7 +2850,23 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "superset": "A"
+              "superset": "A",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Elevaciones laterales con mancuernas (sentada o de pie)",
@@ -1404,7 +2875,23 @@
               "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "superset": "A"
+              "superset": "A",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Plancha frontal corta (estilo McGill)",
@@ -1414,7 +2901,15 @@
               "unit": "s",
               "rir": "2",
               "rest": "60 s",
-              "note": "15 seg con glúteos y abdomen al 100%."
+              "note": "15 seg con glúteos y abdomen al 100%.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ]
             }
           ]
         },
@@ -1427,7 +2922,23 @@
               "series": 4,
               "reps": "10-12",
               "rir": "2",
-              "rest": "75 s"
+              "rest": "75 s",
+              "seriesByWeek": [
+                4,
+                4,
+                4,
+                4,
+                4,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Pull-over en polea alta con brazos rectos",
@@ -1435,23 +2946,72 @@
               "series": 3,
               "reps": "12-15",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
-              "name": "Patada de glúteo en polea baja (rango corto sin arquear)",
-              "muscle": "Femoral",
+              "name": "Pull-through en polea baja (bisagra de cadera)",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "12-15",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "note": "De espaldas a la polea baja con la soga entre las piernas. Cola atrás con espalda recta y volvé apretando glúteos. Peso liviano: el objetivo es la técnica de la bisagra.",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Abducción de cadera sentada en máquina",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 3,
               "reps": "15",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Press de hombros en máquina con respaldo",
@@ -1459,7 +3019,23 @@
               "series": 3,
               "reps": "10-12",
               "rir": "2",
-              "rest": "75 s"
+              "rest": "75 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Gemelos sentado en máquina (o de pie con apoyo)",
@@ -1467,7 +3043,23 @@
               "series": 3,
               "reps": "15",
               "rir": "2",
-              "rest": "45 s"
+              "rest": "45 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             },
             {
               "name": "Press Pallof anti-rotación (banda o polea)",
@@ -1475,15 +3067,39 @@
               "series": 3,
               "reps": "12",
               "rir": "2",
-              "rest": "60 s"
+              "rest": "60 s",
+              "seriesByWeek": [
+                3,
+                3,
+                3,
+                3,
+                3,
+                2
+              ],
+              "rirByWeek": [
+                "3",
+                "2",
+                "2",
+                "2",
+                "2",
+                "4"
+              ]
             }
           ]
         }
       ],
       "conditioning": [
         {
-          "day": "Post-entreno o días libres",
-          "text": "20-30 min de caminata plana o elíptica suave."
+          "day": "Todos los días",
+          "text": "Caminata a ritmo cómodo: arrancá con 10-15 min y sumá 5 min por semana hasta 30-40 min. Si te aparece dolor a la pierna, partila en tramos de 10 min."
+        },
+        {
+          "day": "Antes de cada sesión",
+          "text": "5 min de caminata + gato-camello suave. Evitá entrenar o agacharte en la primera hora después de levantarte: los discos están más cargados de líquido."
+        },
+        {
+          "day": "Durante el día",
+          "text": "Cada 30-45 min sentada, parate 1-2 min y caminá. Al levantar algo del piso, usá la bisagra de cadera."
         }
       ],
       "nutrition": {
@@ -1587,7 +3203,7 @@
             },
             {
               "name": "Estiramiento de glúteo y piramidal acostada",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 2,
               "reps": "25",
               "unit": "s",
@@ -1606,7 +3222,7 @@
             },
             {
               "name": "Puente de glúteos en colchoneta (Glute Bridge)",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 2,
               "reps": "10",
               "rir": "3",
@@ -1649,7 +3265,7 @@
             },
             {
               "name": "Abducción de cadera acostada de lado (Glúteo medio)",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 2,
               "reps": "12",
               "rir": "3",
@@ -1658,7 +3274,7 @@
             },
             {
               "name": "Estiramiento de glúteo y piramidal acostada",
-              "muscle": "Femoral",
+              "muscle": "Glúteos",
               "series": 2,
               "reps": "25",
               "unit": "s",
@@ -1693,7 +3309,7 @@
     {
       "id": "plan-lucia-casa-a-gym",
       "name": "🌟 Recomendado Lucía: Empezar en Casa → Pasar al Gimnasio",
-      "summary": "Mes 1 en Casa (Fase 1 McGill) · Mes 2 Adaptación en Gimnasio · Mes 3 en adelante Espalda Fuerte y Tonificación 0% compresión.",
+      "summary": "Mes 1 en Casa (Fase 1 McGill) · Mes 2 Adaptación en Gimnasio · Mes 3 en adelante Espalda Fuerte y Tonificación carga baja sobre la columna.",
       "maxDaysPerWeek": 3,
       "months": [
         "fase1-casa-base-mcgill-3d",

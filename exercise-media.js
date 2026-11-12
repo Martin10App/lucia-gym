@@ -42,7 +42,8 @@ function exerciseMovementMuscle(item){
   if(/delt|shoulder/.test(target))return 'Hombros';
   if(/bicep/.test(target))return 'Bíceps';
   if(/tricep/.test(target))return 'Tríceps';
-  if(/hamstring|glute|abductor/.test(target))return 'Femoral';
+  if(/glute|abductor/.test(target))return 'Glúteos';
+  if(/hamstring/.test(target))return 'Femoral';
   if(/calf|calves/.test(target))return 'Gemelos';
   if(/abs|waist/.test(target))return 'Abdomen';
   if(/quad|adductor/.test(target))return 'Cuádriceps';
