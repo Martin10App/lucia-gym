@@ -1932,8 +1932,13 @@ function finishGymSession(rid,did){
   const adv=painAdvice(painEntry);savePainEntry(painEntry);
   gymHist=[{d:new Date().toLocaleDateString('es-ES',{day:'numeric',month:'short'}),rn:r.name,dn:d.label,pct,progress:progressSummary,energy:Number(document.getElementById('sess-energy')?.value)||3,rpe:Number(document.getElementById('sess-rpe')?.value)||6,pain,leg,note,ts:now},...gymHist].slice(0,80);
   S.s('ghst2',gymHist);updateWeekLogFromCurrent();
-  const msg=`✓ ${d.label} — ${pct}%`+(progressSummary?' · '+progressSummary:'');
-  tst(adv.level==='verde'?msg+' · Mañana anotá cómo amaneciste 🩺':msg+' · '+adv.text,adv.level==='verde'?(progressSummary?5500:3500):8000);cOv2();cOv1();updWring();
+  cOv2();updWring();
+  // Cierre: resultado + semáforo + opción de mandarle el resumen a Martín.
+  oOv1(`<div class="mt">✓ ${esc(d.label)}</div>
+    <div class="ed-sum" style="margin-bottom:10px">${pct}% completado${progressSummary?' · '+esc(progressSummary):''}</div>
+    <div class="card" style="margin-bottom:12px;border-left:3px solid ${painColor(pain)};font-size:12.5px;line-height:1.55;color:var(--text1)">${esc(adv.text)}${adv.level==='verde'?'<br>Mañana anotá cómo amaneciste 🩺':''}</div>
+    ${shareMartinButtonHtml()}
+    <button type="button" class="btn b-md b-g" style="width:100%;margin-top:8px" onclick="cOv1()">Listo</button>`);
   if(progressSummary&&S.g('ai_always_speak',false))speak(progressSummary);
 }
 
@@ -2049,6 +2054,9 @@ function painAdvice(entry){
   const {pain,leg,when}=entry;
   const prevSession=painLog().find(e=>e.when==='sesion'&&e.ts<entry.ts&&entry.ts-e.ts<40*3600*1000);
   const worseNextDay=when==='dia'&&prevSession&&pain>=prevSession.pain+2;
+  // Dolor a la pierna anotado en las últimas 48 h cuenta aunque este registro no lo marque.
+  const recentLeg=painLog().some(e=>e.leg&&e.ts<entry.ts&&entry.ts-e.ts<48*3600*1000);
+  if(!leg&&recentLeg&&pain<5)return {level:'amarillo',text:'🟡 En los últimos 2 días anotaste dolor que baja a la pierna: entrená suave o hacé solo movilidad hasta que pase, y si sigue contáselo a tu kinesiólogo.'};
   if(pain>=5)return {level:'rojo',text:'🔴 Dolor alto. Hoy nada de rutina: solo caminata suave si no te duele. Si en 2-3 días no baja, o si te baja a la pierna, consultá a tu médico o kinesiólogo.'};
   if(leg)return {level:'amarillo',text:'🟡 Dolor que baja a la pierna: frená la rutina hasta que se calme, hacé movilidad suave y contáselo a tu kinesiólogo o médico.'+(worseNextDay?' Además estás peor que después de entrenar ('+prevSession.pain+' → '+pain+').':'')};
   if(worseNextDay)return {level:'amarillo',text:'🟡 Estás peor que después de entrenar ('+prevSession.pain+' → '+pain+'). La rutina anterior fue demasiado: la próxima hacé menos series, rango más corto o la rutina de 15 min de movilidad.'};
@@ -2068,7 +2076,11 @@ function saveDayPain(){
   const raw=document.getElementById('pain-day')?.value;
   if(raw===''||raw==null){tst('Elegí un número del 0 al 10');return;}
   const entry={ts:Date.now(),date:todayStr(),pain:Number(raw),leg:!!document.getElementById('pain-day-leg')?.checked,when:'dia',note:(document.getElementById('pain-day-note')?.value||'').trim().slice(0,140)};
-  const adv=painAdvice(entry);savePainEntry(entry);cOv1();renderGym();tst(adv.text,7000);
+  const adv=painAdvice(entry);savePainEntry(entry);renderGym();
+  oOv1(`<div class="mt">Dolor anotado: ${entry.pain}/10</div>
+    <div class="card" style="margin-bottom:12px;border-left:3px solid ${painColor(entry.pain)};font-size:12.5px;line-height:1.55;color:var(--text1)">${esc(adv.text)}</div>
+    ${shareMartinButtonHtml()}
+    <button type="button" class="btn b-md b-g" style="width:100%;margin-top:8px" onclick="cOv1()">Listo</button>`);
 }
 function painTodayCardHtml(){
   const today=painLog().find(e=>e.date===todayStr());
@@ -2105,12 +2117,57 @@ function painSummaryHtml(){
     <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--text3);margin-top:3px"><span>hace 4 semanas</span><span>hoy</span></div>
     ${trend?`<div style="font-size:12.5px;color:var(--text1);margin-top:8px">${trend}</div>`:''}
     ${legDays?`<div style="font-size:12px;color:var(--gold);margin-top:4px">⚠️ ${plural(legDays,'día','días')} esta semana con dolor que baja a la pierna (punto blanco en el gráfico).</div>`:''}
+    ${shareMartinButtonHtml('margin-top:12px')}
   </div>`;
 }
 function painContextForAI(){
   const log=painLog().slice(0,10);
   if(!log.length)return '- Dolor: todavía no registró dolor en la app.\n';
   return '- Registro de DOLOR (0-10, más reciente primero; usalo con el semáforo): '+log.map(e=>e.date+' '+(e.when==='sesion'?'post-sesión':'día')+' '+e.pain+'/10'+(e.leg?' con dolor a la pierna':'')+(e.note?' ('+e.note+')':'')).join('; ')+'.\n';
+}
+
+// ══════ RESUMEN PARA MARTÍN (se comparte por WhatsApp desde el iPhone) ══════
+// Usa la hoja de compartir del sistema: los datos van del teléfono de Lucía al chat que ella elija, sin pasar por ningún servidor.
+function summaryDayLabel(d){return d.toLocaleDateString('es-UY',{weekday:'short',day:'numeric',month:'numeric'});}
+function buildMartinSummary(days=7){
+  const now=new Date(),from=new Date(now.getFullYear(),now.getMonth(),now.getDate()-(days-1)),fromTs=from.getTime();
+  const lines=[`*Lucía Gym · últimos ${days} días* (${summaryDayLabel(from)} al ${summaryDayLabel(now)})`,''];
+  const sess=gymHist.filter(h=>h.ts>=fromTs).slice().reverse();
+  lines.push(`🏋️ *Entrenamientos: ${sess.length}*`);
+  if(sess.length)sess.forEach(h=>lines.push(`• ${summaryDayLabel(new Date(h.ts))} · ${h.dn||''} · ${h.pct}% hecho`+(h.pain!=null?` · dolor ${h.pain}/10${h.leg?' ⚡pierna':''}`:'')+(h.rpe?` · esfuerzo ${h.rpe}/10`:'')+(h.note?`\n   📝 ${h.note}`:'')));
+  else lines.push('• No entrenó en estos días.');
+  lines.push('');
+  const pains=painLog().filter(e=>e.ts>=fromTs).slice().reverse();
+  lines.push('🩺 *Dolor (0 a 10)*');
+  if(pains.length)pains.forEach(e=>lines.push(`• ${summaryDayLabel(new Date(e.ts))}: ${e.pain}/10 ${e.when==='sesion'?'(después de entrenar)':'(en el día)'}${e.leg?' ⚡ le baja a la pierna':''}`+(e.note?` — ${e.note}`:'')));
+  else lines.push('• No anotó dolor en estos días.');
+  // Promedio de esta semana contra la anterior (un valor por día: el más alto).
+  const avgRange=(a,b)=>{const byDay={};painLog().forEach(e=>{if(e.ts>=a&&e.ts<b)byDay[e.date]=Math.max(byDay[e.date]??0,e.pain);});const v=Object.values(byDay);return v.length?Math.round(v.reduce((x,y)=>x+y,0)/v.length*10)/10:null;};
+  const cur=avgRange(fromTs,Infinity),prev=avgRange(fromTs-days*864e5,fromTs);
+  if(cur!=null){
+    lines.push('');
+    let t=`📊 Promedio: ${cur}/10`;
+    if(prev!=null){const diff=Math.round((cur-prev)*10)/10;t+=` (antes ${prev}/10) ${diff<=-0.5?'📉 bajando':diff>=0.5?'📈 subiendo':'➡️ estable'}`;}
+    lines.push(t);
+  }
+  const legDays=new Set(pains.filter(e=>e.leg).map(e=>e.date)).size;
+  if(legDays)lines.push(`⚡ Días con dolor a la pierna: ${legDays}`);
+  const last=painLog()[0];
+  if(last&&last.ts>=fromTs)lines.push('',`Último aviso de la app: ${painAdvice(last).text}`);
+  const r=routines.find(x=>x.id===activeRid);
+  if(r){const c=getCycleStatus(r.id,activeWeekId);lines.push('',`📋 Rutina: ${r.name} · semana ${c.week} de ${c.length}`);}
+  return lines.join('\n');
+}
+async function sendSummaryToMartin(){
+  const text=buildMartinSummary(7);
+  try{
+    if(navigator.share){await navigator.share({text});return;}
+  }catch(e){if(e&&e.name==='AbortError')return;}
+  try{await navigator.clipboard.writeText(text);tst('📋 Resumen copiado: pegalo en WhatsApp',4500);}
+  catch{oOv2(`<div class="mt">Resumen para Martín</div><div class="ed-sum" style="margin-bottom:8px">Copiá este texto y pegalo en WhatsApp.</div><textarea class="inp" rows="14" readonly style="font-size:12px">${esc(text)}</textarea>`);}
+}
+function shareMartinButtonHtml(style=''){
+  return `<button type="button" class="btn b-md b-p" style="width:100%;${style}" onclick="sendSummaryToMartin()">📤 Mandarle el resumen a Martín</button>`;
 }
 
 function rGymHist(){
