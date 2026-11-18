@@ -831,7 +831,7 @@ const S={
   _p(k){return currentUser?currentUser.id+'_'+k:k;},
   g(k,d=null){try{const v=localStorage.getItem(this._p(k));return v!=null?JSON.parse(v):d;}catch{return d;}},
   s(k,v){
-    try{localStorage.setItem(this._p(k),JSON.stringify(v));return true;}
+    try{localStorage.setItem(this._p(k),JSON.stringify(v));try{window.__syncOnWrite&&window.__syncOnWrite(k);}catch{}return true;}
     catch(e){console.error('No se pudo guardar en el dispositivo:',e);if(typeof tst==='function')tst('No se pudo guardar. Liberá espacio y reintentá.',5000);return false;}
   }
 };
@@ -5524,6 +5524,7 @@ function capacitorPlugin(name){return window.Capacitor?.Plugins?.[name]||null;}
 function isNativeMartinApp(){try{return !!window.Capacitor?.isNativePlatform?.();}catch(_){return false;}}
 function rConfig(){
   return`<div class="sec" style="padding:0">
+    ${typeof window.syncConfigHtml==='function'?window.syncConfigHtml():''}
     <div class="sec-t">Inteligencia Artificial</div>
     <div style="font-size:11px;color:var(--text2);margin-bottom:12px;line-height:1.6">Elegí el proveedor de IA y pegá tu API key. Podés cambiar entre ellos cuando quieras.</div>
     <div style="display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap">
@@ -9730,7 +9731,7 @@ function openUserMgmt(){
         <div style="font-size:11px;color:var(--text2);margin-top:3px">Tu perfil en este iPhone</div>
       </div>
     </div>
-    <div class="alert al-info" style="margin-bottom:18px"><div class="al-i">🔒</div><div class="al-t">Tus datos se guardan solo en este iPhone. Hacé un respaldo cada tanto desde <strong>Configuración → Respaldo</strong>.</div></div>`;
+    <div class="alert al-info" style="margin-bottom:18px"><div class="al-i">🔒</div><div class="al-t">${window.LuciaSync&&LuciaSync.state.status==='live'?'Tus datos se guardan en este iPhone y se comparten con Martín. Igual conviene hacer un respaldo cada tanto desde <strong>Configuración → Respaldo</strong>.':'Tus datos se guardan solo en este iPhone. Hacé un respaldo cada tanto desde <strong>Configuración → Respaldo</strong>.'}</div></div>`;
   } else {
     h+=rConfig();
   }
@@ -10612,6 +10613,7 @@ function luciaPinGate(){
 luciaPinGate().then(()=>initAuth());
 
 </script>
+<script type="module" src="sync.js?v=1"></script>
 <button id="mic-btn" onclick="startVoice()" aria-label="Registrar gasto por voz">🎤</button>
 </body>
 </html>
