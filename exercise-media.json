@@ -2572,6 +2572,127 @@
     "title": "Bicicleta elíptica: virtudes y beneficios para la salud de tu espalda",
     "channel": "FisioOnline"
    }
+  },
+  {
+   "aliases": [
+    "Entrada en calor en cinta o bici fija (suave)",
+    "Entrada en calor",
+    "Calentamiento en cinta o bici"
+   ],
+   "name": "easy warm-up treadmill or bike",
+   "body_part": "cardio",
+   "equipment": "Cinta o bici fija",
+   "target": "cardiovascular system",
+   "instructions_es": "Caminá en la cinta sin inclinación o pedaleá en la bici fija a un ritmo cómodo durante 5 minutos. Mantené la espalda derecha, los hombros sueltos y la mirada al frente. En la cinta no te agarres de las barras ni te inclines hacia adelante; en la bici, ajustá el asiento para que la rodilla quede apenas doblada abajo. Tiene que ser suave: tenés que poder hablar sin problema.",
+   "safety_l4l5": "Calentar 5 minutos sube la temperatura de músculos y articulaciones y le da movimiento suave a los discos antes de hacer fuerza. Es la mejor prevención para que no aparezca el dolor en la pierna.",
+   "cues_es": [
+    "Ritmo cómodo: es para entrar en calor, no para cansarte.",
+    "Pasos cortos y suaves en la cinta.",
+    "Si la pierna molesta caminando, pasá a la bici."
+   ],
+   "avoid_es": "No arranques el día con ejercicios de fuerza en frío.",
+   "id": "L021",
+   "image": "",
+   "gif_url": "",
+   "mistakes_es": [
+    "Ir rápido o con inclinación desde el primer minuto.",
+    "Encorvarse sobre las barras de la cinta o el manubrio.",
+    "Saltearlo por apuro."
+   ],
+   "feel_es": "Cuerpo más caliente y suelto, respiración apenas agitada. Ningún dolor en la cintura ni en la pierna.",
+   "steps_es": [
+    "Caminá en la cinta sin inclinación o pedaleá en la bici fija a un ritmo cómodo durante 5 minutos.",
+    "Mantené la espalda derecha, los hombros sueltos y la mirada al frente.",
+    "En la cinta no te agarres de las barras ni te inclines hacia adelante; en la bici, ajustá el asiento para que la rodilla quede apenas doblada abajo.",
+    "Tiene que ser suave: tenés que poder hablar sin problema."
+   ],
+   "photos": [
+    "photos/L021_0.jpg",
+    "photos/L021_1.jpg"
+   ],
+   "video": {
+    "id": "tUm4jGHF3cg",
+    "title": "Cómo caminar cuando tenés ciática",
+    "channel": "Marcos Sacristán | Fisioterapia a tu alcance"
+   }
+  },
+  {
+   "aliases": [
+    "Descarga lumbar 90/90 (piernas sobre el banco)",
+    "Descarga lumbar 90/90",
+    "Posición de descarga lumbar"
+   ],
+   "name": "90/90 supine lumbar unloading",
+   "body_part": "waist",
+   "equipment": "Banco o silla + colchoneta",
+   "target": "spine",
+   "instructions_es": "Acostate boca arriba en la colchoneta y apoyá las pantorrillas sobre un banco o una silla, de modo que caderas y rodillas queden dobladas a 90 grados. Dejá los brazos sueltos al costado. Respirá lento por la nariz inflando la panza y largá el aire por la boca. Quedate así 1 minuto sintiendo cómo la cintura se apoya y se afloja.",
+   "safety_l4l5": "En esta posición la presión sobre el disco L4-L5 es de las más bajas y los músculos de la espalda se relajan. Es una forma simple de descomprimir la zona antes de entrenar y de calmar la pierna.",
+   "cues_es": [
+    "Las pantorrillas apoyadas enteras, sin hacer fuerza con las piernas.",
+    "Respiración lenta: 4 segundos para tomar aire y 6 para largarlo.",
+    "Si el banco te queda alto, poné una toalla doblada debajo de la cola."
+   ],
+   "avoid_es": "No levantes la cola ni hagas fuerza con la panza: es una posición de relajación.",
+   "id": "L022",
+   "image": "",
+   "gif_url": "",
+   "mistakes_es": [
+    "Dejar las piernas colgando o en el borde del banco.",
+    "Respirar rápido y corto.",
+    "Apurarse: quedate el minuto completo."
+   ],
+   "feel_es": "La espalda baja apoyada y relajada. Si la pierna molestaba, suele aliviarse.",
+   "steps_es": [
+    "Acostate boca arriba en la colchoneta y apoyá las pantorrillas sobre un banco o una silla, de modo que caderas y rodillas queden dobladas a 90 grados.",
+    "Dejá los brazos sueltos al costado.",
+    "Respirá lento por la nariz inflando la panza y largá el aire por la boca.",
+    "Quedate así 1 minuto sintiendo cómo la cintura se apoya y se afloja."
+   ],
+   "video": {
+    "id": "YlGWRyiMdX0",
+    "title": "Rutina de 5 minutos para descomprimir tu lumbar con solo una silla",
+    "channel": "Fisiodavidpueyo"
+   }
+  },
+  {
+   "aliases": [
+    "Deslizamiento del nervio ciático (sentada)",
+    "Deslizamiento del nervio ciático",
+    "Neurodinamia del ciático"
+   ],
+   "name": "seated sciatic nerve slider",
+   "body_part": "upper legs",
+   "equipment": "Banco o silla",
+   "target": "hamstrings",
+   "instructions_es": "Sentate derecha en el borde del banco o de una silla, con las manos apoyadas en el asiento. Estirá una rodilla llevando el pie hacia adelante y, al mismo tiempo, mirá hacia el techo. Después doblá la rodilla y llevá la barbilla hacia el pecho. Hacelo suave y continuo, como un vaivén, 10 veces con cada pierna.",
+   "safety_l4l5": "Hace que el nervio ciático se deslice sin tensarlo. Ayuda a que no se irrite y a prevenir el dolor que baja a la pierna desde L4-L5.",
+   "cues_es": [
+    "Cuando la rodilla se estira, la cabeza mira arriba; cuando la rodilla se dobla, la cabeza baja.",
+    "Movimiento chico y suave: no buscás estirar fuerte.",
+    "Espalda derecha todo el tiempo."
+   ],
+   "avoid_es": "No lo fuerces ni te quedes en la posición estirada: si aparece hormigueo o dolor en la pierna, hacé el movimiento más chico.",
+   "id": "L023",
+   "image": "",
+   "gif_url": "",
+   "mistakes_es": [
+    "Estirar la rodilla y bajar la cabeza al mismo tiempo (eso tensa el nervio en vez de deslizarlo).",
+    "Hacerlo rápido o con rebotes.",
+    "Encorvar la espalda."
+   ],
+   "feel_es": "Como mucho, un tironcito suave atrás de la pierna que se va al doblar la rodilla. Nunca dolor ni hormigueo que se quede.",
+   "steps_es": [
+    "Sentate derecha en el borde del banco o de una silla, con las manos apoyadas en el asiento.",
+    "Estirá una rodilla llevando el pie hacia adelante y, al mismo tiempo, mirá hacia el techo.",
+    "Después doblá la rodilla y llevá la barbilla hacia el pecho.",
+    "Hacelo suave y continuo, como un vaivén, 10 veces con cada pierna."
+   ],
+   "video": {
+    "id": "bNX33ni_Olk",
+    "title": "Deslizamiento neurodinámico del nervio ciático sentado",
+    "channel": "InstitutoDeColumna"
+   }
   }
  ],
  "photos_source": "https://github.com/yuhonas/free-exercise-db (Unlicense, dominio público)"

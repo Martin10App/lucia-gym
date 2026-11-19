@@ -16,7 +16,7 @@
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 4,
-      "sessionMin": 48,
+      "sessionMin": 56,
       "equipment": [
         "colchoneta",
         "banda elástica",
@@ -24,7 +24,7 @@
         "pared"
       ],
       "goal": "salud",
-      "summary": "El punto de partida ideal en casa para Lucía. Enseña a activar la faja abdominal profunda (Tríada de McGill), despierta los glúteos para que sostengan la pelvis y fortalece la espalda alta con banda elástica con muy poca carga sobre L4-L5.",
+      "summary": "El punto de partida ideal en casa para Lucía. Enseña a activar la faja abdominal profunda (Tríada de McGill), despierta los glúteos para que sostengan la pelvis y fortalece la espalda alta con banda elástica con muy poca carga sobre L4-L5. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
       "progression": "En esta Fase 1 la prioridad es la técnica perfecta y sentir qué músculo trabaja sin ninguna molestia en la cintura. Cada semana sumá 1 o 2 repeticiones o 2 segundos de pausa isométrica sólo si sentís control total (RIR 3-4: te quedan varias repeticiones en la recámara).",
       "basedOn": "Protocolo de estabilización lumbar del Dr. Stuart McGill (Back Mechanic / Big 3: Bird-Dog, Plancha lateral modificada y control abdominal neutro) combinado con activación glútea y tracción escapular en descarga.",
       "weekPlan": [
@@ -58,13 +58,103 @@
           "label": "Día 1 · Core McGill + Espalda Postural",
           "exercises": [
             {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco o una silla: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
               "name": "Gato-Camello suave (Movilidad sin dolor)",
               "muscle": "Espalda",
               "series": 1,
-              "reps": "6-8",
-              "rir": "4",
-              "rest": "15 s",
-              "note": "Entrada en calor de McGill: 6 a 8 movimientos lentos, sin forzar los extremos. Prepara la columna sin cargarla."
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
             },
             {
               "name": "Bird-Dog (Perro-Pájaro McGill)",
@@ -193,13 +283,103 @@
           "label": "Día 2 · Glúteos Protectores + Tracción Dorsal",
           "exercises": [
             {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco o una silla: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
               "name": "Gato-Camello suave (Movilidad sin dolor)",
               "muscle": "Espalda",
-              "series": 2,
+              "series": 1,
               "reps": "8",
-              "rir": "4",
-              "rest": "45 s",
-              "note": "Movilidad suave de espalda alta y media sin forzar los extremos."
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
             },
             {
               "name": "Sentadilla a silla o cajón (Box Squat controlada)",
@@ -301,6 +481,105 @@
         {
           "label": "Día 3 · Estabilidad Completa + Anti-rotación",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco o una silla: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Bird-Dog (Perro-Pájaro McGill)",
               "muscle": "Espalda",
@@ -495,7 +774,7 @@
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 4,
-      "sessionMin": 53,
+      "sessionMin": 61,
       "equipment": [
         "poleas (jalón y remo bajo)",
         "prensa de piernas",
@@ -506,7 +785,7 @@
         "colchoneta"
       ],
       "goal": "salud",
-      "summary": "Diseñado para empezar en el gimnasio desde cero cuidando tu operación L4-L5 al 100%. Usa poleas, prensa, banco de rodillos y banco regulable con respaldo, combinados con ejercicios de core en colchoneta. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3.",
+      "summary": "Diseñado para empezar en el gimnasio desde cero cuidando tu operación L4-L5 al 100%. Usa poleas, prensa, banco de rodillos y banco regulable con respaldo, combinados con ejercicios de core en colchoneta. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
       "progression": "Empezá con cargas muy livianas las primeras 2 semanas para aprender el recorrido de cada máquina. Cuando completes el tope de repeticiones (ej. las 12 reps) sintiendo que podrías hacer 3 más con postura impecable, recién ahí subí un ladrillito o 1–2 kg.",
       "basedOn": "Selección biomecánica de ejercicios con vector de carga descargado (pecho apoyado y respaldo lumbar) + estabilización central de McGill.",
       "weekPlan": [
@@ -539,6 +818,105 @@
         {
           "label": "Día 1 · Espalda con Apoyo + Glúteos y Core",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Bird-Dog (Perro-Pájaro McGill)",
               "muscle": "Espalda",
@@ -687,13 +1065,103 @@
           "label": "Día 2 · Tren Inferior Guiado + Postura Alta",
           "exercises": [
             {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
               "name": "Gato-Camello suave (Movilidad sin dolor)",
               "muscle": "Espalda",
               "series": 1,
-              "reps": "6-8",
-              "rir": "4",
-              "rest": "15 s",
-              "note": "Entrada en calor de McGill: 6 a 8 movimientos lentos, sin forzar los extremos. Prepara la columna sin cargarla."
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
             },
             {
               "name": "Prensa de piernas 45° (rango controlado, sacro apoyado)",
@@ -816,6 +1284,105 @@
         {
           "label": "Día 3 · Espalda Completa + Glúteo Medio",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Bisagra de cadera con palo (Hip hinge)",
               "muscle": "Glúteos",
@@ -1000,7 +1567,7 @@
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 62,
+      "sessionMin": 70,
       "equipment": [
         "mancuernas livianas/medianas",
         "banda elástica",
@@ -1008,7 +1575,7 @@
         "colchoneta"
       ],
       "goal": "hipertrofia",
-      "summary": "Segundo escalón para entrenar en casa cuando ya dominás la Fase 1. Incorpora mancuernas con apoyos de 3 puntos (mano y rodilla en silla/banco), Hip Thrust con espalda en banco/sillón y Sentadilla Goblet al pecho.",
+      "summary": "Segundo escalón para entrenar en casa cuando ya dominás la Fase 1. Incorpora mancuernas con apoyos de 3 puntos (mano y rodilla en silla/banco), Hip Thrust con espalda en banco/sillón y Sentadilla Goblet al pecho. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
       "progression": "Doble progresión suave: empezá en el mínimo de repeticiones (ej. 10 reps). Cuando logres el máximo (12 o 15 reps) en todas las series con 2 RIR y 0 molestia lumbar, subí un poquito el peso o usá una banda más firme.",
       "basedOn": "Progresión de carga sin compresión axial: contrapeso anterior (Goblet), tracción con soporte de brazo libre y extensión de cadera horizontal (Hip Thrust).",
       "weekPlan": [
@@ -1053,6 +1620,117 @@
         {
           "label": "Día 1 · Espalda Firme + Sentadilla Controlada",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco o una silla: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Bird-Dog (Perro-Pájaro McGill)",
               "muscle": "Espalda",
@@ -1227,6 +1905,117 @@
           "label": "Día 2 · Glúteos Fuertes + Hombros con Respaldo",
           "exercises": [
             {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco o una silla: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
               "name": "Hip Thrust / Puente de glúteos con espalda en banco",
               "muscle": "Glúteos",
               "series": 4,
@@ -1392,6 +2181,117 @@
         {
           "label": "Día 3 · Espalda Alta + Glúteo Medio y Core",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco o una silla: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Remo con mancuerna a un brazo (con apoyo en banco/silla)",
               "muscle": "Espalda",
@@ -1595,7 +2495,7 @@
       "level": "principiante",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 67,
+      "sessionMin": 75,
       "equipment": [
         "poleas (jalón y remo bajo)",
         "prensa de piernas",
@@ -1606,7 +2506,7 @@
         "colchoneta"
       ],
       "goal": "hipertrofia",
-      "summary": "El programa central de gimnasio para Lucía: construye una espalda firme y sana (remos con pecho apoyado, jalones, face pulls) y glúteos/piernas fuertes (hip thrust, prensa controlada, curl femoral acostada y step-ups) con muy poca carga vertical en la columna. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3.",
+      "summary": "El programa central de gimnasio para Lucía: construye una espalda firme y sana (remos con pecho apoyado, jalones, face pulls) y glúteos/piernas fuertes (hip thrust, prensa controlada, curl femoral acostada y step-ups) con muy poca carga vertical en la columna. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
       "progression": "Mantené el peso hasta llegar al tope de repeticiones en todas las series con técnica limpia y RIR 2. Recién ahí subí el mínimo incremento posible (1 a 2,5 kg).",
       "basedOn": "Hipertrofia y fortalecimiento sin compresión axial (0 barras sobre la espalda ni tirones desde el piso).",
       "weekPlan": [
@@ -1651,6 +2551,117 @@
         {
           "label": "Día 1 · Espalda (Pecho Apoyado) + Piernas Guiadas",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Bird-Dog (Perro-Pájaro McGill)",
               "muscle": "Espalda",
@@ -1825,6 +2836,117 @@
           "label": "Día 2 · Glúteos + Hombros y Postura",
           "exercises": [
             {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
               "name": "Hip thrust con barra o mancuerna",
               "muscle": "Glúteos",
               "series": 4,
@@ -1990,6 +3112,117 @@
         {
           "label": "Día 3 · Dorsal Estilizado + Pierna Unilateral",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Remo sentado en polea baja (torso erguido, sin balanceo)",
               "muscle": "Espalda",
@@ -2200,7 +3433,7 @@
       "level": "intermedio",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 69,
+      "sessionMin": 77,
       "equipment": [
         "mancuernas",
         "bandas elásticas",
@@ -2208,7 +3441,7 @@
         "colchoneta"
       ],
       "goal": "hipertrofia",
-      "summary": "Para cuando Lucía ya completó las Fases 1 y 2 en casa y quiere un entrenamiento completo de espalda, glúteos, piernas, hombros y brazos con biseries ágiles y cero estrés en L4-L5.",
+      "summary": "Para cuando Lucía ya completó las Fases 1 y 2 en casa y quiere un entrenamiento completo de espalda, glúteos, piernas, hombros y brazos con biseries ágiles y cero estrés en L4-L5. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
       "progression": "Doble progresión en los ejercicios principales y biseries dinámicas de hombros/brazos al final para tonificar sin alargar la sesión.",
       "basedOn": "Entrenamiento de cuerpo completo 3×/semana con selección de ejercicios axialmente descargados.",
       "weekPlan": [
@@ -2253,6 +3486,117 @@
         {
           "label": "Día 1 · Espalda + Glúteos + Brazos",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco o una silla: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Remo con mancuerna a un brazo (con apoyo en banco/silla)",
               "muscle": "Espalda",
@@ -2425,6 +3769,117 @@
         {
           "label": "Día 2 · Piernas Seguras + Postura Alta",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco o una silla: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Sentadilla Goblet con mancuerna al pecho",
               "muscle": "Cuádriceps",
@@ -2612,6 +4067,117 @@
         {
           "label": "Día 3 · Cuerpo Completo Estilizado + Core McGill",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco o una silla: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Bird-Dog (Perro-Pájaro McGill)",
               "muscle": "Espalda",
@@ -2805,7 +4371,7 @@
       "level": "intermedio",
       "daysPerWeek": 3,
       "weeks": 6,
-      "sessionMin": 75,
+      "sessionMin": 83,
       "equipment": [
         "poleas (jalón y remo bajo)",
         "prensa de piernas",
@@ -2816,7 +4382,7 @@
         "colchoneta"
       ],
       "goal": "hipertrofia",
-      "summary": "El programa más completo de gimnasio para Lucía una vez consolidada su base: trabaja espalda, glúteos, piernas, hombros y brazos con biseries eficientes, sin ejercicios de riesgo para L4-L5. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3.",
+      "summary": "El programa más completo de gimnasio para Lucía una vez consolidada su base: trabaja espalda, glúteos, piernas, hombros y brazos con biseries eficientes, sin ejercicios de riesgo para L4-L5. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
       "progression": "Doble progresión: cuando alcances el máximo de repeticiones con 1-2 RIR y técnica perfecta en todas las series, subí la carga mínima disponible.",
       "basedOn": "Full-Body / Torso-Pierna adaptado sin carga axial sobre la columna.",
       "weekPlan": [
@@ -2861,6 +4427,117 @@
         {
           "label": "Día 1 · Espalda + Glúteos + Brazos",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Hip thrust con barra o mancuerna",
               "muscle": "Glúteos",
@@ -3059,6 +4736,117 @@
           "label": "Día 2 · Piernas Seguras + Hombros y Postura",
           "exercises": [
             {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
               "name": "Prensa de piernas 45° (rango controlado, sacro apoyado)",
               "muscle": "Cuádriceps",
               "series": 4,
@@ -3223,6 +5011,117 @@
         {
           "label": "Día 3 · Espalda Estilizada + Glúteos y Core",
           "exercises": [
+            {
+              "name": "Entrada en calor en cinta o bici fija (suave)",
+              "muscle": "Cardio",
+              "series": 1,
+              "reps": "5",
+              "rest": "0 s",
+              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "min"
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "rest": "0 s",
+              "note": "Boca arriba con las pantorrillas sobre el banco: respirá lento y dejá que la cintura se afloje.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
+            {
+              "name": "Inclinación pélvica en colchoneta (Pelvic Tilt)",
+              "muscle": "Abdomen",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "Movimiento chiquito de la pelvis, sin levantar la cola.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Gato-Camello suave (Movilidad sin dolor)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "8",
+              "rest": "0 s",
+              "note": "Lento, acompañando la respiración y sin forzar.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Deslizamiento del nervio ciático (sentada)",
+              "muscle": "Femoral",
+              "series": 1,
+              "reps": "10",
+              "rest": "0 s",
+              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false
+            },
+            {
+              "name": "Estiramiento de psoas y flexor de cadera (Caballero)",
+              "muscle": "Cuádriceps",
+              "series": 1,
+              "reps": "30",
+              "rest": "0 s",
+              "note": "30 segundos por lado, apretando el glúteo de la pierna de atrás.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "warmup": true,
+              "autoProgress": false,
+              "unit": "s"
+            },
             {
               "name": "Remo sentado en polea baja (torso erguido, sin balanceo)",
               "muscle": "Espalda",

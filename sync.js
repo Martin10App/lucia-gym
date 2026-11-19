@@ -172,6 +172,21 @@ function applyRemote(changes, force) {
     if (fromCoach.some(([k]) => ROUTINE_KEYS.has(k))) safeToast('🔄 Martín actualizó tu rutina', 4500);
     else if (fromCoach.length) safeToast('🔄 Martín hizo un cambio', 3000);
   }
+  // Al entrenador: aviso cuando Lucía cierra una sesión, con cómo se sintió.
+  if (applied.length && state.role === 'coach' && !force) {
+    const hist = applied.find(([k, d]) => k === 'ghst2' && d.by === 'lucia');
+    if (hist) {
+      try {
+        const last = (JSON.parse(hist[1].v) || [])[0];
+        if (last && last.ts && last.ts > (meta.lastSessTs || 0)) {
+          meta.lastSessTs = last.ts; saveMeta();
+          const feel = typeof sessionFeelLabel === 'function' && last.feel ? ' · ' + sessionFeelLabel(last.feel) : '';
+          const pain = last.pain != null ? ` · dolor ${last.pain}/10${last.leg ? ' (pierna)' : ''}` : '';
+          safeToast(`🏁 Lucía terminó ${last.dn || 'la sesión'}${feel}${pain}`, 7000);
+        }
+      } catch {}
+    }
+  }
   return applied.length;
 }
 

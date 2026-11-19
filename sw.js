@@ -1,14 +1,14 @@
-const CACHE_NAME = 'lucia-gym-v10';
+const CACHE_NAME = 'lucia-gym-v12';
 const ASSETS = [
   './',
   './index.html',
   './exercise-media.js',
   './sync.js',
-  './sync.js?v=3',
+  './sync.js?v=4',
   './vendor/firebase/firebase-app.js',
   './vendor/firebase/firebase-auth.js',
   './vendor/firebase/firebase-firestore.js',
-  './exercise-media.js?v=7',
+  './exercise-media.js?v=8',
   './exercise-media.json',
   './exercise-media.json?v=5',
   './programas.json',
@@ -22,6 +22,8 @@ const ASSETS = [
   './local/cat-cow.jpg'
 ];
 const MEDIA_ASSETS = [
+  "./photos/L021_1.jpg",
+  "./photos/L021_0.jpg",
   "./photos/0058_0.jpg",
   "./photos/0058_1.jpg",
   "./photos/0165_0.jpg",
