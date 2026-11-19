@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-19",
   "note": "Programas diseñados exclusivamente para Lucía (31 años · Operación lumbar L4-L5 por laparoscopía hace 1.5 años · Nivel inicial). Todos los ejercicios fueron seleccionados con criterio biomecánico carga baja y controlada sobre la columna, sin flexión ni rotación lumbar bajo carga, basados en la Tríada de Stuart McGill y estabilización lumbo-pélvica. Revisión 12/11/2026: Big 3 de McGill completo (bird-dog, curl-up, plancha lateral), bisagra de cadera, caminata diaria, descargas reales y RIR mínimo 2. Mostrá el plan a tu kinesiólogo y respetá el semáforo de dolor.",
   "disciplines": {
     "fase-1-base": "Fase 1 · Base y Core McGill",
@@ -497,13 +497,16 @@
       "weeks": 4,
       "sessionMin": 53,
       "equipment": [
-        "máquinas con respaldo",
-        "poleas",
-        "banco inclinado",
+        "poleas (jalón y remo bajo)",
+        "prensa de piernas",
+        "banco regulable",
+        "banco de rodillos",
+        "mancuernas",
+        "bandas",
         "colchoneta"
       ],
       "goal": "salud",
-      "summary": "Diseñado para empezar en el gimnasio desde cero cuidando tu operación L4-L5 al 100%. Usa únicamente máquinas con soporte pectoral o respaldo y poleas de tracción suave, combinadas con ejercicios de core en colchoneta.",
+      "summary": "Diseñado para empezar en el gimnasio desde cero cuidando tu operación L4-L5 al 100%. Usa poleas, prensa, banco de rodillos y banco regulable con respaldo, combinados con ejercicios de core en colchoneta. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3.",
       "progression": "Empezá con cargas muy livianas las primeras 2 semanas para aprender el recorrido de cada máquina. Cuando completes el tope de repeticiones (ej. las 12 reps) sintiendo que podrías hacer 3 más con postura impecable, recién ahí subí un ladrillito o 1–2 kg.",
       "basedOn": "Selección biomecánica de ejercicios con vector de carga descargado (pecho apoyado y respaldo lumbar) + estabilización central de McGill.",
       "weekPlan": [
@@ -558,13 +561,13 @@
               ]
             },
             {
-              "name": "Remo sentado en máquina con apoyo en el pecho",
+              "name": "Remo sentado en polea baja (torso erguido, sin balanceo)",
               "muscle": "Espalda",
               "series": 3,
               "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Pecho siempre apoyado contra la almohadilla: mínima carga en L4-L5.",
+              "note": "Sentada derecha y rodillas apenas flojas: tirá hacia el ombligo sin mover el tronco.",
               "seriesByWeek": [
                 2,
                 3,
@@ -714,13 +717,13 @@
               ]
             },
             {
-              "name": "Curl femoral sentado en máquina",
+              "name": "Curl femoral tumbado en máquina",
               "muscle": "Femoral",
               "series": 3,
               "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Trabaja isquiotibiales sentada con respaldo, sin cargar la espalda.",
+              "note": "En el banco de rodillos, boca abajo: cadera pegada al banco y abdomen firme.",
               "seriesByWeek": [
                 2,
                 3,
@@ -735,13 +738,13 @@
               ]
             },
             {
-              "name": "Press de pecho sentado en máquina",
+              "name": "Flexiones inclinadas sobre banco o mesada",
               "muscle": "Pecho",
               "series": 3,
-              "reps": "10-12",
+              "reps": "8-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Omóplatos y espalda apoyados en el respaldo.",
+              "note": "Manos en la barra de la jaula a la altura de la cadera (o en el banco): cuerpo recto y abdomen activo.",
               "seriesByWeek": [
                 2,
                 3,
@@ -898,13 +901,13 @@
               ]
             },
             {
-              "name": "Abducción de cadera sentada en máquina",
+              "name": "Abducción de cadera sentada con banda elástica",
               "muscle": "Glúteos",
               "series": 3,
-              "reps": "12-15",
+              "reps": "15-20",
               "rir": "2",
               "rest": "60 s",
-              "note": "Con la espalda apoyada en el respaldo.",
+              "note": "Sentada derecha en el banco con la minibanda arriba de las rodillas.",
               "seriesByWeek": [
                 2,
                 3,
@@ -1594,13 +1597,16 @@
       "weeks": 6,
       "sessionMin": 67,
       "equipment": [
-        "gimnasio completo",
-        "bancos inclinados",
-        "poleas",
-        "máquinas"
+        "poleas (jalón y remo bajo)",
+        "prensa de piernas",
+        "banco regulable",
+        "banco de rodillos",
+        "mancuernas",
+        "bandas",
+        "colchoneta"
       ],
       "goal": "hipertrofia",
-      "summary": "El programa central de gimnasio para Lucía: construye una espalda firme y sana (remos con pecho apoyado, jalones, face pulls) y glúteos/piernas fuertes (hip thrust, prensa controlada, curl femoral sentado y step-ups) con muy poca carga vertical en la columna.",
+      "summary": "El programa central de gimnasio para Lucía: construye una espalda firme y sana (remos con pecho apoyado, jalones, face pulls) y glúteos/piernas fuertes (hip thrust, prensa controlada, curl femoral acostada y step-ups) con muy poca carga vertical en la columna. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3.",
       "progression": "Mantené el peso hasta llegar al tope de repeticiones en todas las series con técnica limpia y RIR 2. Recién ahí subí el mínimo incremento posible (1 a 2,5 kg).",
       "basedOn": "Hipertrofia y fortalecimiento sin compresión axial (0 barras sobre la espalda ni tirones desde el piso).",
       "weekPlan": [
@@ -1844,13 +1850,13 @@
               ]
             },
             {
-              "name": "Curl femoral sentado en máquina",
+              "name": "Curl femoral tumbado en máquina",
               "muscle": "Femoral",
               "series": 3,
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Espalda bien apoyada contra el respaldo.",
+              "note": "En el banco de rodillos, boca abajo: cadera pegada al banco y abdomen firme.",
               "seriesByWeek": [
                 3,
                 3,
@@ -1894,13 +1900,13 @@
               ]
             },
             {
-              "name": "Press de hombros en máquina con respaldo",
+              "name": "Press de hombros sentada con respaldo y mancuernas",
               "muscle": "Hombros",
               "series": 3,
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Espalda pegada al respaldo durante todo el empuje.",
+              "note": "En el banco regulable con el respaldo casi vertical: la espalda nunca se despega.",
               "seriesByWeek": [
                 3,
                 3,
@@ -1985,13 +1991,13 @@
           "label": "Día 3 · Dorsal Estilizado + Pierna Unilateral",
           "exercises": [
             {
-              "name": "Remo sentado en máquina con apoyo en el pecho",
+              "name": "Remo sentado en polea baja (torso erguido, sin balanceo)",
               "muscle": "Espalda",
               "series": 3,
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Pecho apoyado contra el cojín, juntá omóplatos atrás.",
+              "note": "Sentada derecha y rodillas apenas flojas: tirá hacia el ombligo sin mover el tronco.",
               "seriesByWeek": [
                 3,
                 3,
@@ -2060,13 +2066,13 @@
               ]
             },
             {
-              "name": "Abducción de cadera sentada en máquina",
+              "name": "Abducción de cadera sentada con banda elástica",
               "muscle": "Glúteos",
               "series": 3,
-              "reps": "12-15",
+              "reps": "15-20",
               "rir": "2",
               "rest": "60 s",
-              "note": "Con la espalda apoyada en el respaldo.",
+              "note": "Sentada derecha en el banco con la minibanda arriba de las rodillas.",
               "seriesByWeek": [
                 3,
                 3,
@@ -2085,13 +2091,13 @@
               ]
             },
             {
-              "name": "Press de pecho sentado en máquina",
+              "name": "Press inclinado con mancuernas (espalda apoyada)",
               "muscle": "Pecho",
               "series": 3,
               "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Controlá 2 segundos al volver.",
+              "note": "Banco regulable a 30°: espalda apoyada y pies firmes en el piso o en un step.",
               "seriesByWeek": [
                 3,
                 3,
@@ -2801,10 +2807,16 @@
       "weeks": 6,
       "sessionMin": 75,
       "equipment": [
-        "gimnasio completo"
+        "poleas (jalón y remo bajo)",
+        "prensa de piernas",
+        "banco regulable",
+        "banco de rodillos",
+        "mancuernas",
+        "bandas",
+        "colchoneta"
       ],
       "goal": "hipertrofia",
-      "summary": "El programa más completo de gimnasio para Lucía una vez consolidada su base: trabaja espalda, glúteos, piernas, hombros y brazos con biseries eficientes, sin ejercicios de riesgo para L4-L5.",
+      "summary": "El programa más completo de gimnasio para Lucía una vez consolidada su base: trabaja espalda, glúteos, piernas, hombros y brazos con biseries eficientes, sin ejercicios de riesgo para L4-L5. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3.",
       "progression": "Doble progresión: cuando alcances el máximo de repeticiones con 1-2 RIR y técnica perfecta en todas las series, subí la carga mínima disponible.",
       "basedOn": "Full-Body / Torso-Pierna adaptado sin carga axial sobre la columna.",
       "weekPlan": [
@@ -3072,7 +3084,7 @@
               ]
             },
             {
-              "name": "Curl femoral sentado en máquina",
+              "name": "Curl femoral tumbado en máquina",
               "muscle": "Femoral",
               "series": 3,
               "reps": "10-12",
@@ -3093,7 +3105,8 @@
                 "2",
                 "2",
                 "4"
-              ]
+              ],
+              "note": "En el banco de rodillos, boca abajo: cadera pegada al banco y abdomen firme."
             },
             {
               "name": "Subida al cajón o escalón (Step-up)",
@@ -3211,7 +3224,7 @@
           "label": "Día 3 · Espalda Estilizada + Glúteos y Core",
           "exercises": [
             {
-              "name": "Remo sentado en máquina con apoyo en el pecho",
+              "name": "Remo sentado en polea baja (torso erguido, sin balanceo)",
               "muscle": "Espalda",
               "series": 4,
               "reps": "10-12",
@@ -3232,7 +3245,8 @@
                 "2",
                 "2",
                 "4"
-              ]
+              ],
+              "note": "Sentada derecha y rodillas apenas flojas: tirá hacia el ombligo sin mover el tronco."
             },
             {
               "name": "Pull-over en polea alta con brazos rectos",
@@ -3284,10 +3298,10 @@
               ]
             },
             {
-              "name": "Abducción de cadera sentada en máquina",
+              "name": "Abducción de cadera sentada con banda elástica",
               "muscle": "Glúteos",
               "series": 3,
-              "reps": "15",
+              "reps": "15-20",
               "rir": "2",
               "rest": "60 s",
               "seriesByWeek": [
@@ -3305,10 +3319,11 @@
                 "2",
                 "2",
                 "4"
-              ]
+              ],
+              "note": "Sentada derecha en el banco con la minibanda arriba de las rodillas."
             },
             {
-              "name": "Press de hombros en máquina con respaldo",
+              "name": "Press de hombros sentada con respaldo y mancuernas",
               "muscle": "Hombros",
               "series": 3,
               "reps": "10-12",
@@ -3329,7 +3344,8 @@
                 "2",
                 "2",
                 "4"
-              ]
+              ],
+              "note": "En el banco regulable con el respaldo casi vertical: la espalda nunca se despega."
             },
             {
               "name": "Gemelos sentado en máquina (o de pie con apoyo)",
@@ -3353,7 +3369,8 @@
                 "2",
                 "2",
                 "4"
-              ]
+              ],
+              "note": "De pie sobre un step, agarrada de la jaula para no perder el equilibrio."
             },
             {
               "name": "Press Pallof anti-rotación (banda o polea)",
