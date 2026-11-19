@@ -366,7 +366,7 @@ textarea.inp{resize:vertical;min-height:64px;line-height:1.45;font-family:inheri
 .backup-keys input{width:20px;height:20px;margin-top:1px;accent-color:var(--accent);flex-shrink:0}
 .backup-keys small{display:block;font-size:10.5px;color:var(--text2);margin-top:2px}
 .set-log-head.timed,.set-log-row.timed{grid-template-columns:30px minmax(80px,1.6fr) minmax(52px,.8fr) 48px}
-.progression-note.manual{border-color:var(--purple-b);background:var(--purple-d)}
+.progression-note.manual{border:none;background:none}
 .wk-now{display:flex;align-items:center;gap:12px;padding:12px 14px;margin-bottom:14px;border-radius:var(--r-sm);background:linear-gradient(90deg,var(--accent-d),transparent);border:1px solid var(--accent-b)}
 .wk-now strong,.wk-row strong{display:block;font-size:13px;line-height:1.35;color:var(--text0)}
 .wk-now small,.wk-row small{display:block;font-size:10.5px;color:var(--text2);margin-top:2px;line-height:1.4}
@@ -479,7 +479,7 @@ textarea.inp{resize:vertical;min-height:64px;line-height:1.45;font-family:inheri
 .bilbo-note{margin-top:8px;padding:7px 10px;border-radius:8px;border:1px solid var(--gold-b);background:var(--gold-d);font-size:10.5px;line-height:1.45;color:var(--text1)}
 .bilbo-ask{display:block;width:100%;margin-top:8px;min-height:40px;padding:8px 10px;border-radius:8px;border:1px dashed var(--gold-b);background:transparent;color:var(--gold);font-size:11px;font-weight:700;text-align:left}
 .ex-feedback.bilbo{border-color:var(--gold-b);background:var(--gold-d);color:var(--text0)}.ex-feedback.bilbo+.ex-feedback{margin-top:6px}
-.progression-note{margin-top:10px;padding:10px 12px;border-radius:10px;border:1px solid var(--blue-b);background:rgba(59,127,255,.06);font-size:11px;line-height:1.45;color:var(--text1)}
+.progression-note{margin-top:10px;padding:0 2px;border:none;background:none;font-size:12px;line-height:1.45;color:var(--text2)}
 .set-cmp{grid-column:1/-1;justify-self:end;font-size:10.5px;font-weight:700;padding:2px 9px;border-radius:999px;margin-top:-1px}
 .set-cmp.up{color:var(--green);background:var(--green-d)}.set-cmp.down{color:var(--gold);background:var(--gold-d)}.set-cmp.same{color:var(--text2);background:var(--bg3)}
 .ex-feedback{margin-top:10px;padding:10px 12px;border-radius:10px;font-size:11.5px;line-height:1.45;border:1px solid var(--border);background:var(--bg3);color:var(--text1)}
@@ -733,6 +733,31 @@ textarea.inp{resize:vertical;min-height:64px;line-height:1.45;font-family:inheri
 .wu-banner span{font-size:12.5px;color:var(--text1);line-height:1.4}
 .wu-banner.calm{background:#F2EFFD;border-color:rgba(139,92,246,.25)}.wu-banner.calm strong{color:var(--purple)}
 .wu-banner.main{background:#EEF8F3;border-color:rgba(46,157,117,.3)}.wu-banner.main strong{color:var(--green)}
+.exm2-head{margin-bottom:14px}.exm2-head .mt{margin-bottom:4px;font-size:22px;line-height:1.2}
+.exm2-dose{display:inline-block;font-size:14px;font-weight:700;color:var(--accent2);background:var(--accent-d);padding:5px 12px;border-radius:999px}
+.exm2{display:flex;flex-direction:column;gap:16px;margin-bottom:18px}
+.exm2-media .exm-photos{aspect-ratio:16/9}
+.exm2-media .exm-gif img{max-width:100%}
+.exm2-alt{align-self:center;margin-top:-6px;font-size:13.5px;font-weight:600;color:var(--accent2);min-height:40px;padding:0 10px}
+.exm2-steps{list-style:none;counter-reset:st;display:flex;flex-direction:column;gap:14px;padding:4px 2px}
+.exm2-steps li{counter-increment:st;position:relative;padding-left:52px;min-height:38px;display:flex;align-items:center;font-size:18px;line-height:1.35;font-weight:600;color:var(--text0)}
+.exm2-steps li::before{content:counter(st);position:absolute;left:0;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;background:var(--accent);color:#fff;font-size:18px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.exm2-tip{display:flex;gap:12px;align-items:flex-start;padding:14px 16px;border-radius:var(--r-sm);font-size:16px;line-height:1.4;font-weight:600;color:var(--text0)}
+.exm2-tip>span:first-child{font-size:20px;line-height:1.2}
+.exm2-tip.ok{background:#EEF8F3}.exm2-tip.warn{background:#FDEEEE}
+.exm2-nerve{font-size:13.5px;font-weight:600;padding:8px 12px;border-radius:999px;align-self:flex-start}
+.exm2-nerve.o{background:#EEF8F3;color:var(--green)}.exm2-nerve.c{background:#FFF1E6;color:var(--accent2)}
+.exm2-more{border:1px solid var(--border2);border-radius:var(--r-sm);background:var(--bg2)}
+.exm2-more summary{list-style:none;cursor:pointer;min-height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;font-size:15.5px;font-weight:700;color:var(--text0)}
+.exm2-more summary::-webkit-details-marker{display:none}
+.exm2-more summary::after{content:'›';font-size:22px;color:var(--text2);transition:transform .2s}
+.exm2-more[open] summary::after{transform:rotate(90deg)}
+.exm2-more-b{padding:0 16px 16px;display:flex;flex-direction:column;gap:6px}
+.exm2-more-b h4{font-size:14px;font-weight:700;color:var(--text0);margin-top:10px}
+.exm2-more-b p,.exm2-more-b li{font-size:14.5px;line-height:1.55;color:var(--text1)}
+.exm2-more-b ul,.exm2-more-b ol{padding-left:20px;display:flex;flex-direction:column;gap:5px}
+.add-set-link{display:block;margin:8px auto 0;min-height:40px;padding:0 14px;font-size:13px;font-weight:600;color:var(--text2)}
+.how-btn{min-height:40px;padding:6px 16px;font-size:14px}
 .exm-chips{display:flex;gap:6px;flex-wrap:wrap}
 .exm-chips span{font-size:12px;font-weight:600;padding:5px 10px;border-radius:999px;background:var(--bg3);color:var(--text1)}
 .exm-sec{background:var(--bg2);border:1px solid var(--border2);border-radius:var(--r-sm);padding:14px 16px}
@@ -912,7 +937,7 @@ textarea.inp{resize:vertical;min-height:64px;line-height:1.45;font-family:inheri
 <div class="ov" id="ov1" onclick="cOv1()"><div class="mdl" onclick="event.stopPropagation()"><div class="mh"></div><div id="m1"></div></div></div>
 <div class="ov" id="ov2" onclick="cOv2()"><div class="mdl" onclick="event.stopPropagation()"><div class="mh"></div><div id="m2"></div></div></div>
 
-<script src="exercise-media.js?v=9"></script>
+<script src="exercise-media.js?v=10"></script>
 <script src="motivacion.js?v=2"></script>
 <script>
 'use strict';
@@ -1769,8 +1794,7 @@ function openDay(rid,did){
             <div style="display:flex;align-items:center;gap:7px;flex-wrap:wrap">${ss?`<span class="superset-chip">${ss.label}${ss.position}</span>`:''}<span style="font-size:14.5px;font-weight:700;color:${allDone?'var(--text2)':'var(--text0)'};${allDone?'text-decoration:line-through':''}">${esc(ex.name)}</span></div>
           </button>
           <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px">
-            <button type="button" class="btn b-xs b-grn" style="min-height:32px;padding:4px 10px" onclick="toggleInlineExerciseGif('${rid}','${did}',${ei},this)">👀 Ver cómo se hace</button>
-            <button type="button" class="btn b-xs b-p" style="min-height:32px;padding:4px 10px" data-rid="${esc(rid)}" data-did="${esc(did)}" data-ei="${ei}" onclick="openExInfo(this)">📖 Ficha completa</button>
+            <button type="button" class="btn b-sm b-p how-btn" data-rid="${esc(rid)}" data-did="${esc(did)}" data-ei="${ei}" onclick="openExInfo(this)">👀 Cómo se hace</button>
           </div>
           <div id="inline-gif-${ei}" hidden></div>
           <div style="display:flex;align-items:center;gap:8px;margin-top:6px">
@@ -1809,7 +1833,7 @@ function openDay(rid,did){
       </div>
       <div id="fb-${ei}">${exerciseFeedbackHtml(feedback)}</div>
       <div class="progression-note${advice.kind==='manual'?' manual':''}" id="prog-${ei}"><strong>${advice.kind==='up'?'Subir carga':advice.kind==='advance'?'Avanzar':advice.kind==='review'?'Revisar':advice.kind==='manual'?'Según el programa':'Progresión'}:</strong> ${esc(advice.text)}</div>
-      <button class="btn b-sm b-g" style="width:100%;margin-top:10px;min-height:44px" onclick="addSet('${rid}','${did}','${ei}','${col}')">+ Agregar serie</button>
+      <button class="add-set-link" onclick="addSet('${rid}','${did}','${ei}','${col}')">+ Agregar serie</button>
       `}
     </div>`;
   });
@@ -2108,12 +2132,7 @@ function openExInfoByName(name, muscle='Espalda', series=3, reps='10-12'){
   const mediaSlotId = 'ex-media-'+uid();
   const mov = typeof findExerciseMovement==='function' ? findExerciseMovement(ex) : null;
   const qBase = mov?.video_query_es || ex.name;
-  let h=`<div style="margin-bottom:16px">
-    <div style="font-size:9px;font-weight:700;color:${mc};letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">${esc(ex.muscle)} · 0% LESIVO L4-L5</div>
-    <div class="mt" style="margin-bottom:0">${esc(ex.name)}</div></div>
-  <div class="stats s2" style="margin-bottom:14px">
-    <div class="st"><div class="sv" style="color:${mc}">${ex.series}</div><div class="sl">Series</div></div>
-    <div class="st"><div class="sv" style="color:${mc}">${esc(ex.reps)}</div><div class="sl">Reps / Seg</div></div></div>
+  let h=`<div class="exm2-head"><div class="mt">${esc(ex.name)}</div><div class="exm2-dose">${ex.series} ${ex.series==1?'serie':'series'} × ${esc(ex.reps)}</div></div>
   <div id="${mediaSlotId}" aria-live="polite" aria-busy="true"><div class="ex-media-skeleton">Cargando…</div></div>
 `;
   oOv2(h);setTimeout(()=>loadExerciseMovement(ex,mediaSlotId),0);
@@ -2123,12 +2142,7 @@ function openExInfo(button){
   const ex=getRoutineExercise(rid,did,ei);
   if(!ex){tst('No encontré ese ejercicio en la rutina');return;}
   const related=apiForMuscle(ex.muscle);const mc=MC[ex.muscle]||'#aaa';const mediaSlotId='ex-media-'+uid();
-  let h=`<div style="margin-bottom:16px">
-    <div style="font-size:9px;font-weight:700;color:${mc};letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">${esc(ex.muscle)} · SEGURO L4-L5</div>
-    <div class="mt" style="margin-bottom:0">${esc(ex.name)}</div></div>
-  <div class="stats s2" style="margin-bottom:14px">
-    <div class="st"><div class="sv" style="color:${mc}">${ex.series}</div><div class="sl">Series</div></div>
-    <div class="st"><div class="sv" style="color:${mc}">${esc(ex.reps)}</div><div class="sl">Reps</div></div></div>
+  let h=`<div class="exm2-head"><div class="mt">${esc(ex.name)}</div><div class="exm2-dose">${ex.series} ${ex.series==1?'serie':'series'} × ${esc(ex.reps)}${typeof unitSuffix==='function'?unitSuffix(ex):''}</div></div>
   <div id="${mediaSlotId}" aria-live="polite" aria-busy="true"><div class="ex-media-skeleton">Cargando…</div></div>
   ${exerciseHistoryHTML(rid,did,ei,ex)}`;
   oOv2(h);setTimeout(()=>loadExerciseMovement(ex,mediaSlotId),0);

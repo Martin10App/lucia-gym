@@ -1,5 +1,5 @@
 {
- "version": 3,
+ "version": 4,
  "source": "https://github.com/hasaneyldrm/exercises-dataset + local biomechanics L4-L5",
  "usage": "educational-non-commercial",
  "media_base": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/",
@@ -46,7 +46,14 @@
     "channel": "Supera tu dolor de espalda - HERNIA DISCAL"
    },
    "nerve_es": "Amigable: la pierna va hacia atrás (cadera estirada) y eso afloja el nervio.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "En 4 apoyos, abdomen firme",
+    "Estirá un brazo y la pierna contraria",
+    "3 segundos quieta y volvé"
+   ],
+   "key_es": "Cintura quieta como una mesa",
+   "care_es": "La pierna no sube más que la cadera"
   },
   {
    "id": "0276",
@@ -141,7 +148,14 @@
    },
    "photo_note_es": "Las fotos muestran la versión con piernas estiradas. Empezá con las rodillas dobladas, como dice el paso 2.",
    "nerve_es": "Amigable: no estira el nervio.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "De costado, codo debajo del hombro",
+    "Rodillas dobladas y apoyadas",
+    "Subí la cadera y sostené"
+   ],
+   "key_es": "Hombros, cadera y rodillas en línea",
+   "care_es": "No dejes caer la cadera"
   },
   {
    "id": "0979",
@@ -188,7 +202,14 @@
     "channel": "Vitar Club"
    },
    "nerve_es": "Amigable: de pie y con la cadera derecha.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "De costado a la polea o banda",
+    "Agarre pegado al pecho",
+    "Estirá los brazos y sostené 2 segundos"
+   ],
+   "key_es": "Que el tronco no gire",
+   "care_es": "Pies separados, no te inclines"
   },
   {
    "id": "3239",
@@ -229,7 +250,14 @@
     "channel": "Javier Giménez - Healthy Fitness"
    },
    "nerve_es": "Amigable: la cadera queda estirada.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Antebrazos y rodillas en la colchoneta",
+    "Línea recta de cabeza a rodillas",
+    "Sostené respirando"
+   ],
+   "key_es": "Glúteos y abdomen apretados",
+   "care_es": "Que la panza no caiga al piso"
   },
   {
    "id": "2135",
@@ -273,7 +301,14 @@
     "channel": "Marcos Sacristán | Fisioterapia a tu alcance"
    },
    "nerve_es": "Amigable: la cadera queda estirada.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Antebrazos debajo de los hombros",
+    "Cuerpo recto, glúteos apretados",
+    "10 a 20 segundos y descansá"
+   ],
+   "key_es": "Mejor varias cortas que una larga",
+   "care_es": "Cortá antes de que se hunda la cintura"
   },
   {
    "id": "2133",
@@ -313,7 +348,14 @@
     "channel": "Vitar Club"
    },
    "nerve_es": "Levantá y dejá las mancuernas sobre un banco o step, nunca desde el piso con las piernas estiradas.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "Una mancuerna en cada mano",
+    "Crecé hacia arriba, hombros atrás",
+    "Caminá lento en línea recta"
+   ],
+   "key_es": "Tronco derecho, sin inclinarte",
+   "care_es": "Levantá las mancuernas de un banco, no del piso"
   },
   {
    "id": "L002",
@@ -357,7 +399,14 @@
     "channel": "SEReumatologia"
    },
    "nerve_es": "Amigable si es suave y sin forzar.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "En 4 apoyos sobre la colchoneta",
+    "Redondeá suave la espalda al largar el aire",
+    "Volvé a la espalda recta al tomar aire"
+   ],
+   "key_es": "Lento y sin forzar los extremos",
+   "care_es": "No arquees la cintura hacia abajo"
   },
   {
    "id": "3147",
@@ -398,7 +447,14 @@
     "channel": "SEReumatologia"
    },
    "nerve_es": "Amigable: movimiento chiquito acostada.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Boca arriba, rodillas dobladas",
+    "Al largar el aire, apoyá la cintura en el piso",
+    "Sostené 3 segundos y aflojá"
+   ],
+   "key_es": "Movimiento chiquito de la pelvis",
+   "care_es": "No levantes la cola del piso"
   },
   {
    "id": "1710",
@@ -482,7 +538,14 @@
     "channel": "Marcos Sacristán | Fisioterapia a tu alcance"
    },
    "nerve_es": "Amigable: la cadera de la pierna de atrás queda estirada.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Una rodilla apoyada en la colchoneta",
+    "Apretá el glúteo de esa pierna",
+    "Llevá la cadera 3 o 4 cm adelante"
+   ],
+   "key_es": "30 segundos por lado, pecho alto",
+   "care_es": "No arquees la cintura para llegar más lejos"
   },
   {
    "id": "1346",
@@ -518,7 +581,14 @@
     "id": "mZzqAueXuws",
     "title": "Estiramiento del costado - Músculo dorsal ancho",
     "channel": "FisioOnline"
-   }
+   },
+   "short_steps_es": [
+    "De rodillas, manos lejos adelante",
+    "Llevá la cadera suave hacia atrás",
+    "Respirá hondo y sostené"
+   ],
+   "key_es": "Sentí cómo se alargan los costados",
+   "care_es": "No fuerces si molesta la cintura"
   },
   {
    "id": "0327",
@@ -564,7 +634,14 @@
     "channel": "Vitar Club"
    },
    "nerve_es": "Amigable: boca abajo con la cadera estirada. Dejá las mancuernas sobre un step al lado del banco, nunca las levantes del piso.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Pecho apoyado en el banco inclinado",
+    "Brazos colgando con las mancuernas",
+    "Llevá los codos atrás y bajá lento"
+   ],
+   "key_es": "El pecho no se despega del banco",
+   "care_es": "Mancuernas sobre un step, nunca desde el piso"
   },
   {
    "id": "1350",
@@ -655,7 +732,14 @@
     "channel": "Zonapablo"
    },
    "nerve_es": "Amigable: sentada con las rodillas dobladas bajo el apoyo.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Sentada con las piernas trabadas",
+    "Bajá la barra al pecho",
+    "Subí lento"
+   ],
+   "key_es": "Codos hacia abajo y atrás",
+   "care_es": "Nunca por detrás de la nuca"
   },
   {
    "id": "3144",
@@ -696,7 +780,14 @@
     "channel": "YoPRO"
    },
    "nerve_es": "Hacelo de pie con un pie adelante. Sentada en el piso con las piernas estiradas tensa el ciático.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "De pie, un pie adelante",
+    "Banda a la altura del ombligo",
+    "Tirá llevando los codos atrás"
+   ],
+   "key_es": "Juntá los omóplatos al final",
+   "care_es": "No te sientes con las piernas estiradas"
   },
   {
    "id": "0974",
@@ -737,7 +828,14 @@
     "channel": "Meli Cardenas"
    },
    "nerve_es": "Amigable: de rodillas o sentada en silla con las rodillas dobladas.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Banda atada arriba, de rodillas o sentada",
+    "Tirá llevando los codos a las costillas",
+    "Volvé lento"
+   ],
+   "key_es": "Costillas abajo todo el tiempo",
+   "care_es": "No subas los hombros a las orejas"
   },
   {
    "id": "0292",
@@ -781,7 +879,14 @@
     "channel": "Priscilla_bc"
    },
    "nerve_es": "La pierna de apoyo queda estirada con la cadera doblada y eso tensa el nervio. Preferí el remo con pecho apoyado o con banda de pie.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "Mano y rodilla apoyadas en el banco",
+    "Llevá la mancuerna hacia la cadera",
+    "Bajá lento sin girar"
+   ],
+   "key_es": "Espalda plana como una mesa",
+   "care_es": "La pierna de apoyo estirada tensa el ciático"
   },
   {
    "id": "0213",
@@ -822,7 +927,14 @@
     "channel": "Entrenamiento Diferencial"
    },
    "nerve_es": "Sentada con las piernas estiradas e inclinándote hacia adelante es la posición que más tensa el ciático. Por eso no está en tus programas.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "Sentada derecha, rodillas dobladas",
+    "Tirá hacia el ombligo",
+    "Volvé sin inclinarte adelante"
+   ],
+   "key_es": "Tronco quieto",
+   "care_es": "Con piernas estiradas tensa el ciático"
   },
   {
    "id": "0238",
@@ -867,7 +979,14 @@
     "channel": "Manuel Escalera"
    },
    "nerve_es": "Amigable: de pie y casi derecha.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "De pie frente a la polea alta",
+    "Brazos casi rectos arriba",
+    "Bajá la barra hasta los muslos"
+   ],
+   "key_es": "Lo sentís debajo de las axilas",
+   "care_es": "No te inclines ni arquees"
   },
   {
    "id": "0203",
@@ -913,7 +1032,14 @@
     "channel": "Zonapablo"
    },
    "nerve_es": "Amigable: de pie.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Soga a la altura de la cara",
+    "Un pie medio paso adelante",
+    "Tirá hacia la frente abriendo los codos"
+   ],
+   "key_es": "Peso liviano, sentí la espalda alta",
+   "care_es": "No te eches para atrás"
   },
   {
    "id": "1022",
@@ -951,7 +1077,14 @@
     "channel": "Paco The Fisio"
    },
    "nerve_es": "Amigable: de pie.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "De pie, banda al frente a la altura del pecho",
+    "Tirá abriendo los codos",
+    "Juntá los omóplatos y volvé lento"
+   ],
+   "key_es": "Hombros lejos de las orejas",
+   "care_es": "No arquees la cintura"
   },
   {
    "id": "3013",
@@ -996,7 +1129,14 @@
     "channel": "Meli Cardenas"
    },
    "nerve_es": "Ideal: fortalece glúteos con la cadera yendo a estirarse, lo que afloja el nervio.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Boca arriba, rodillas dobladas",
+    "Empujá con los talones y subí la cadera",
+    "Apretá el glúteo 2 segundos y bajá"
+   ],
+   "key_es": "Lo sentís en el glúteo, no en la cintura",
+   "care_es": "No subas de más ni arquees la espalda"
   },
   {
    "id": "3561",
@@ -1034,7 +1174,14 @@
     "channel": "Stephania Ruiz"
    },
    "nerve_es": "Ideal: glúteo y abdomen sin tensar el nervio.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Subí al puente de glúteos",
+    "Despegá un pie unos centímetros",
+    "Apoyalo y cambiá de pie"
+   ],
+   "key_es": "La cadera no se mueve",
+   "care_es": "Si la cadera cae, levantá menos el pie"
   },
   {
    "id": "3523",
@@ -1073,7 +1220,14 @@
     "channel": "Diana Ayala"
    },
    "nerve_es": "Ideal: glúteos con la cadera estirándose.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Espalda alta apoyada en el borde del banco",
+    "Empujá con los talones y subí la cadera",
+    "Apretá el glúteo arriba y bajá lento"
+   ],
+   "key_es": "Mentón adentro, mirá hacia adelante",
+   "care_es": "No arquees la cintura arriba"
   },
   {
    "id": "0058",
@@ -1116,7 +1270,14 @@
     "channel": "Zonapablo"
    },
    "nerve_es": "Ideal: glúteos con la cadera estirándose.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Espalda alta en el banco, peso sobre la cadera",
+    "Empujá con los talones",
+    "Tronco y muslos paralelos al piso"
+   ],
+   "key_es": "Mentón adentro, apretá el glúteo",
+   "care_es": "Usá almohadilla y no arquees arriba"
   },
   {
    "id": "0291",
@@ -1161,7 +1322,14 @@
     "channel": "Entrenador Wellness"
    },
    "nerve_es": "Amigable: rodillas dobladas y el cajón pone el tope.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "De pie delante de una silla o cajón",
+    "Bajá con la cola hacia atrás",
+    "Rozá el asiento y subí"
+   ],
+   "key_es": "Rodillas en línea con la punta de los pies",
+   "care_es": "No te dejes caer en la silla"
   },
   {
    "id": "1760",
@@ -1253,7 +1421,14 @@
     "channel": "Priscilla_bc"
    },
    "nerve_es": "Amigable con un escalón bajo.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Un pie entero arriba del escalón",
+    "Empujá con ese talón y subí",
+    "Bajá despacio en 2 segundos"
+   ],
+   "key_es": "La fuerza la hace la pierna de arriba",
+   "care_es": "Escalón bajo, sin impulso"
   },
   {
    "id": "0739",
@@ -1294,7 +1469,14 @@
     "channel": "En Forma CONANlvaro"
    },
    "nerve_es": "Al estirar las rodillas con la cadera doblada se tensa el ciático. Por eso no está en tus programas; si algún día la hacés, rango corto.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "Cola y espalda pegadas al respaldo",
+    "Pies al ancho de hombros",
+    "Bajá solo hasta 90° y empujá"
+   ],
+   "key_es": "Rango corto y controlado",
+   "care_es": "Tensa el ciático: no está en tus programas"
   },
   {
    "id": "0599",
@@ -1338,7 +1520,14 @@
     "channel": "Vitar Club"
    },
    "nerve_es": "Sentada con la rodilla estirándose tensa el nervio. Preferí el curl acostada.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "Rodilla alineada con el eje",
+    "Espalda apoyada en el respaldo",
+    "Llevá los talones abajo y volvé lento"
+   ],
+   "key_es": "Controlá la vuelta",
+   "care_es": "Preferí el curl acostada por el ciático"
   },
   {
    "id": "0586",
@@ -1381,7 +1570,14 @@
     "channel": "Vitar Club"
    },
    "nerve_es": "Amigable: boca abajo con la cadera estirada.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Boca abajo en el banco de rodillos",
+    "Doblá las rodillas llevando los talones a la cola",
+    "Bajá lento"
+   ],
+   "key_es": "Cadera pegada al banco",
+   "care_es": "No levantes la cola"
   },
   {
    "id": "0585",
@@ -1423,7 +1619,14 @@
     "channel": "Fitness Consciente"
    },
    "nerve_es": "Estirar la rodilla del todo estando sentada tensa el ciático. Por eso no está en tus programas.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "Sentada con la espalda apoyada",
+    "Estirá las rodillas sin patear",
+    "Bajá en 2 segundos"
+   ],
+   "key_es": "Sostené 1 segundo arriba",
+   "care_es": "Tensa el ciático: no está en tus programas"
   },
   {
    "id": "0228",
@@ -1466,7 +1669,14 @@
     "channel": "Vitar Club"
    },
    "nerve_es": "Ideal: la pierna va hacia atrás y afloja el nervio.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Tobillera en la polea baja",
+    "Manos en la máquina, abdomen firme",
+    "Llevá la pierna atrás apenas"
+   ],
+   "key_es": "Apretá el glúteo, rango corto",
+   "care_es": "No arquees la cintura"
   },
   {
    "id": "0597",
@@ -1545,7 +1755,14 @@
     "channel": "Karen Zárate"
    },
    "nerve_es": "Amigable: rodillas dobladas.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Sentada derecha, minibanda sobre las rodillas",
+    "Abrí las rodillas contra la banda",
+    "Sostené 2 segundos y cerrá lento"
+   ],
+   "key_es": "Lo sentís al costado del glúteo",
+   "care_es": "No te tires hacia atrás"
   },
   {
    "id": "0710",
@@ -1584,7 +1801,14 @@
     "channel": "Javier Giménez - Healthy Fitness"
    },
    "nerve_es": "Amigable: acostada de lado.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Acostada de costado, pierna de abajo doblada",
+    "Pierna de arriba apenas hacia atrás",
+    "Subila un poco y bajá lento"
+   ],
+   "key_es": "La cadera queda quieta",
+   "care_es": "No la subas demasiado alto"
   },
   {
    "id": "0594",
@@ -1626,7 +1850,14 @@
     "channel": "Dr. Oscar Ares - Traumatología"
    },
    "nerve_es": "Bajar el talón con la rodilla recta estira justo la zona del Aquiles por donde te duele. Por eso no está en tus programas.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "De pie en un escalón, agarrada de algo firme",
+    "Subí en puntas de pie",
+    "Bajá lento sin pasar del nivel del escalón"
+   ],
+   "key_es": "Pausa de 1 segundo arriba",
+   "care_es": "Bajar el talón estira la zona del Aquiles: cuidado"
   },
   {
    "id": "0659",
@@ -1662,7 +1893,14 @@
     "id": "JkBOBJjb28w",
     "title": "Flexiones en la pared: empieza con el apoyo CORRECTO 💪",
     "channel": "Vitar Club"
-   }
+   },
+   "short_steps_es": [
+    "Manos en la pared a la altura del pecho",
+    "Cuerpo recto como una tabla",
+    "Acercá el pecho a la pared y empujá"
+   ],
+   "key_es": "Glúteos y abdomen apretados",
+   "care_es": "Que la panza no se adelante"
   },
   {
    "id": "0493",
@@ -1703,7 +1941,14 @@
     "id": "uCTbmCjiF7Y",
     "title": "Claves para hacer: Flexiones Inclinadas",
     "channel": "Instituto de Entrenamiento Personal"
-   }
+   },
+   "short_steps_es": [
+    "Manos en el banco o en la barra de la jaula",
+    "Cuerpo recto de cabeza a talones",
+    "Bajá el pecho y empujá"
+   ],
+   "key_es": "Glúteos y abdomen firmes",
+   "care_es": "No hundas la cintura"
   },
   {
    "id": "0577",
@@ -1744,7 +1989,14 @@
     "id": "d-gwsl5BlMQ",
     "title": "Press de Pecho en Máquina 💪 | Cómo Hacerlo con Técnica Correcta",
     "channel": "Vitar Club"
-   }
+   },
+   "short_steps_es": [
+    "Asiento con las manijas a la altura del pecho",
+    "Espalda apoyada en el respaldo",
+    "Empujá adelante y volvé lento"
+   ],
+   "key_es": "Omóplatos pegados al respaldo",
+   "care_es": "No despegues la espalda baja"
   },
   {
    "id": "0314",
@@ -1785,7 +2037,14 @@
     "id": "oTD5g77GgSA",
     "title": "Cómo Hacer Press Inclinado Con Mancuernas (Tutorial Paso a Paso)",
     "channel": "Your House Fitness y Sergio Pedemonte"
-   }
+   },
+   "short_steps_es": [
+    "Banco a 30°, espalda apoyada",
+    "Mancuernas sobre el pecho",
+    "Bajá controlado y empujá"
+   ],
+   "key_es": "Pies firmes en el piso o en un step",
+   "care_es": "No arquees la cintura"
   },
   {
    "id": "0603",
@@ -1825,7 +2084,14 @@
     "id": "NjZy28n8Qto",
     "title": "Press de Hombro en Máquina | Cómo hacerlo bien 💪",
     "channel": "Vitar Club"
-   }
+   },
+   "short_steps_es": [
+    "Espalda entera apoyada en el respaldo",
+    "Agarres a la altura de los hombros",
+    "Empujá arriba y bajá lento"
+   ],
+   "key_es": "Costillas pegadas al respaldo",
+   "care_es": "No arquees la cintura"
   },
   {
    "id": "0405",
@@ -1866,7 +2132,14 @@
     "id": "wRpEZ6QqVQA",
     "title": "PRESS DE HOMBRO SENTADO CON MANCUERNAS",
     "channel": "Nutriólogo Conrado 👨‍⚕️"
-   }
+   },
+   "short_steps_es": [
+    "Sentada con el respaldo casi vertical",
+    "Mancuernas a la altura de las orejas",
+    "Empujá arriba y bajá lento"
+   ],
+   "key_es": "La espalda siempre apoyada",
+   "care_es": "Peso liviano, sin arquear"
   },
   {
    "id": "0334",
@@ -1906,7 +2179,14 @@
     "id": "nOAUECQEpHs",
     "title": "¿Cómo Hacer Laterales con Mancuernas? || Técnica Correcta",
     "channel": "Dra. Isabel Junio"
-   }
+   },
+   "short_steps_es": [
+    "Mancuernas livianas a los costados",
+    "Subí los brazos hasta los hombros",
+    "Bajá en 2 segundos"
+   ],
+   "key_es": "Hombros bajos, cuello largo",
+   "care_es": "Sin impulso con el cuerpo"
   },
   {
    "id": "0285",
@@ -1946,7 +2226,14 @@
     "id": "96O5mvyblQM",
     "title": "CURL DE BICEPS CON MANCUERNA SENTADO",
     "channel": "Carlos Ruiz"
-   }
+   },
+   "short_steps_es": [
+    "Sentada con respaldo o de pie firme",
+    "Codos pegados al cuerpo",
+    "Subí la mancuerna y bajá lento"
+   ],
+   "key_es": "Solo se mueve el antebrazo",
+   "care_es": "No balancees el tronco"
   },
   {
    "id": "0313",
@@ -1984,7 +2271,14 @@
     "id": "znTSJ_2zJN0",
     "title": "Curl martillo con mancuernas: la técnica PERFECTA",
     "channel": "Sergio Tejeda"
-   }
+   },
+   "short_steps_es": [
+    "Palmas mirándose entre sí",
+    "Codos fijos a los costados",
+    "Subí y bajá controlado"
+   ],
+   "key_es": "Tronco quieto",
+   "care_es": "No balancees"
   },
   {
    "id": "0241",
@@ -2025,7 +2319,14 @@
     "id": "OlZnLb3S8pk",
     "title": "Jalón de cuerda para tríceps en polea alta",
     "channel": "Fitness Consciente"
-   }
+   },
+   "short_steps_es": [
+    "De pie frente a la polea alta",
+    "Codos pegados a las costillas",
+    "Estirá los brazos hacia abajo y subí lento"
+   ],
+   "key_es": "Los codos no se mueven",
+   "care_es": "No te tires encima de la polea"
   },
   {
    "aliases": [
@@ -2068,7 +2369,14 @@
     "channel": "Drwithin Chiropractic"
    },
    "nerve_es": "Amigable: una pierna doblada y la otra apoyada en el piso.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Boca arriba: una pierna doblada, la otra estirada",
+    "Manos debajo de la cintura",
+    "Despegá apenas cabeza y hombros, 8 segundos"
+   ],
+   "key_es": "Subí muy poquito, como un bloque",
+   "care_es": "No tires del cuello"
   },
   {
    "aliases": [
@@ -2274,7 +2582,14 @@
     "id": "aKDYtQbCKWY",
     "title": "🟠Elevaciones Laterales en Máquina 🏋️‍♂️ | Hombro Lateral SIN Errores (Técnica Correcta)",
     "channel": "Vitar Club"
-   }
+   },
+   "short_steps_es": [
+    "Hombros alineados con el eje de la máquina",
+    "Antebrazos en las almohadillas",
+    "Subí los codos hasta los hombros"
+   ],
+   "key_es": "Subí en 1 segundo, bajá en 3",
+   "care_es": "No encojas los hombros"
   },
   {
    "id": "0602",
@@ -2317,7 +2632,14 @@
     "id": "TtJmmR2RuHU",
     "title": "Deltoides posterior en máquina de peck deck",
     "channel": "Fitness Consciente"
-   }
+   },
+   "short_steps_es": [
+    "Pecho apoyado en el respaldo",
+    "Brazos estirados al frente",
+    "Abrí hacia atrás juntando los omóplatos"
+   ],
+   "key_es": "Codos apenas doblados y fijos",
+   "care_es": "No despegues el pecho"
   },
   {
    "id": "0596",
@@ -2360,7 +2682,14 @@
     "id": "WKfTStqIXrw",
     "title": "Cómo Hacer Aperturas de Pecho en Máquina Peck Deck 💪 | Técnica Correcta",
     "channel": "Vitar Club"
-   }
+   },
+   "short_steps_es": [
+    "Espalda apoyada, manijas a la altura del pecho",
+    "Cerrá los brazos al frente",
+    "Volvé lento sin pasar la línea del cuerpo"
+   ],
+   "key_es": "Exhalá al cerrar",
+   "care_es": "No arquees la cintura"
   },
   {
    "id": "0200",
@@ -2446,7 +2775,14 @@
     "id": "BNxez0L-9LQ",
     "title": "CURL DE BICEPS EN POLEA BAJA",
     "channel": "Carlos Ruiz"
-   }
+   },
+   "short_steps_es": [
+    "De pie frente a la polea baja",
+    "Codos pegados al cuerpo",
+    "Subí la barra y bajá en 3 segundos"
+   ],
+   "key_es": "Glúteos firmes, tronco quieto",
+   "care_es": "No te tires hacia atrás"
   },
   {
    "id": "0165",
@@ -2530,7 +2866,14 @@
     "id": "U1iY5dCxggg",
     "title": "Bíceps Predicador en Máquina",
     "channel": "Zonapablo"
-   }
+   },
+   "short_steps_es": [
+    "Axilas apoyadas en el borde del almohadón",
+    "Subí doblando los codos",
+    "Bajá en 3 segundos"
+   ],
+   "key_es": "Los brazos no se despegan",
+   "care_es": "No estires de golpe abajo"
   },
   {
    "id": "0235",
@@ -2573,7 +2916,14 @@
     "id": "DplyMccjRrE",
     "title": "🟢ROTACIONES EXTERNAS de Hombro en Polea: ✅ Técnica PERFECTA y SEGURA",
     "channel": "Vitar Club"
-   }
+   },
+   "short_steps_es": [
+    "De costado, polea a la altura del codo",
+    "Codo pegado a la cintura",
+    "Rotá el antebrazo hacia afuera y volvé"
+   ],
+   "key_es": "Peso muy liviano, lento",
+   "care_es": "No gires el tronco"
   },
   {
    "id": "1015",
@@ -2655,7 +3005,14 @@
     "channel": "FisioOnline"
    },
    "nerve_es": "Mejor caminando en la cinta. En la bici, el pedal abajo con la cadera doblada puede tironear la pierna.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "Caminá en la cinta a ritmo cómodo",
+    "Espalda derecha y hombros sueltos",
+    "Los últimos 2 minutos, más despacio"
+   ],
+   "key_es": "Tenés que poder hablar mientras caminás",
+   "care_es": "La bici, solo si no te molesta la pierna"
   },
   {
    "aliases": [
@@ -2700,7 +3057,14 @@
     "channel": "Marcos Sacristán | Fisioterapia a tu alcance"
    },
    "nerve_es": "Mejor caminando en la cinta. En la bici, el pedal abajo con la cadera doblada puede tironear la pierna.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "Caminá en la cinta, sin inclinación",
+    "Paso cómodo: tenés que poder hablar",
+    "5 minutos, espalda derecha"
+   ],
+   "key_es": "Es para entrar en calor, no para cansarte",
+   "care_es": "No te agarres de las barras ni te inclines"
   },
   {
    "aliases": [
@@ -2741,7 +3105,14 @@
     "channel": "Fisiodavidpueyo"
    },
    "nerve_es": "Ideal: es la posición que más descomprime la zona y afloja el nervio.",
-   "nerve_level": "ok"
+   "nerve_level": "ok",
+   "short_steps_es": [
+    "Boca arriba en la colchoneta",
+    "Pantorrillas apoyadas sobre el banco",
+    "Respirá lento 1 minuto"
+   ],
+   "key_es": "Dejá que la cintura se afloje sola",
+   "care_es": "No hagas fuerza con las piernas ni la panza"
   },
   {
    "aliases": [
@@ -2782,7 +3153,14 @@
     "channel": "InstitutoDeColumna"
    },
    "nerve_es": "Hacelo chiquito: cuando la rodilla se estira la cabeza sube, y así el nervio se desliza sin tensarse. Si aparece el dolor, ese día salteálo.",
-   "nerve_level": "cuidado"
+   "nerve_level": "cuidado",
+   "short_steps_es": [
+    "Sentada derecha en el borde del banco",
+    "Estirá la rodilla mirando al techo",
+    "Doblá la rodilla bajando la cabeza"
+   ],
+   "key_es": "Vaivén suave: 10 con cada pierna",
+   "care_es": "Si aparece dolor u hormigueo, hacelo más chico o salteálo"
   }
  ],
  "photos_source": "https://github.com/yuhonas/free-exercise-db (Unlicense, dominio público)"
