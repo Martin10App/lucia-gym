@@ -35,7 +35,7 @@ const SYNC_KEYS = [
   'rt2', 'arid', 'sets2', 'wts2', 'setPerf3', 'gymCycles1', 'ghst2',
   'gymWeekLog', 'activeWeekId', 'gymProfile', 'gymPlan1', 'gymPlanHorizon1',
   'cardio1', 'painLog1', 'nutData', 'coachProfile1',
-  'lucia_seeded_v1', 'lucia_mig_v2', 'lucia_mig_v3', 'lucia_mig_v4',
+  'exVideos1', 'lucia_seeded_v1', 'lucia_mig_v2', 'lucia_mig_v3', 'lucia_mig_v4',
 ];
 const SYNC_SET = new Set(SYNC_KEYS);
 const ROUTINE_KEYS = new Set(['rt2', 'arid', 'gymPlan1', 'gymPlanHorizon1', 'gymCycles1']);

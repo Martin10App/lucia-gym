@@ -1,5 +1,5 @@
 {
- "version": 2,
+ "version": 3,
  "source": "https://github.com/hasaneyldrm/exercises-dataset + local biomechanics L4-L5",
  "usage": "educational-non-commercial",
  "media_base": "https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/",
@@ -27,7 +27,24 @@
    "avoid_es": "Nunca levantes la pierna por encima de la línea del glúteo ni dejes que se hunda la cintura.",
    "video_query_es": "bird dog ejercicio tecnica correcta fisioterapia lumbar mcgill",
    "image": "local/bird-dog.jpg",
-   "gif_url": "local/bird-dog.gif"
+   "gif_url": "local/bird-dog.gif",
+   "mistakes_es": [
+    "Levantar la pierna muy alto y arquear la cintura.",
+    "Girar la cadera hacia el costado de la pierna que sube.",
+    "Hacerlo rápido: cada repetición son 3 segundos quieta arriba."
+   ],
+   "feel_es": "Glúteo y espalda baja de la pierna que estirás, y el hombro del brazo que levantás. La cintura trabaja quieta, sin dolor.",
+   "steps_es": [
+    "Apoyá manos debajo de los hombros y rodillas debajo de las caderas en la colchoneta.",
+    "Activá suavemente el abdomen como si fueras a toser.",
+    "Extendé al mismo tiempo un brazo hacia adelante y la pierna contraria hacia atrás en línea recta con el tronco (sin levantar la pierna más arriba de la cadera).",
+    "Mantené 3 segundos respirando normal, volvé lento apoyando o tocando rodilla y repetí del otro lado."
+   ],
+   "video": {
+    "id": "YHehHSKJyHg",
+    "title": "Fortalece tu espalda y tu abdomen con este ejercicio, bird-dog o perro pájaro explicado en español",
+    "channel": "Supera tu dolor de espalda - HERNIA DISCAL"
+   }
   },
   {
    "id": "0276",
@@ -51,7 +68,28 @@
    "avoid_es": "No bajes la pierna hasta el suelo si perdés el contacto de la espalda baja con la colchoneta.",
    "video_query_es": "dead bug ejercicio tecnica correcta abdomen columna lumbar",
    "image": "images/0276-iny3m5y.jpg",
-   "gif_url": "videos/0276-iny3m5y.gif"
+   "gif_url": "videos/0276-iny3m5y.gif",
+   "mistakes_es": [
+    "Despegar la cintura del piso cuando la pierna baja.",
+    "Aguantar la respiración en vez de largar el aire.",
+    "Mover brazo y pierna del mismo lado (tienen que ser opuestos)."
+   ],
+   "feel_es": "Abdomen profundo, debajo del ombligo. La espalda baja queda apoyada y tranquila.",
+   "steps_es": [
+    "Acostate boca arriba en la colchoneta con los brazos extendidos hacia el techo y las rodillas levantadas a 90 grados.",
+    "Apoyá toda la zona lumbar contra la colchoneta cerrando el espacio debajo de tu cintura.",
+    "Exhalá despacio mientras bajás el brazo derecho hacia atrás y extendés la pierna izquierda sin que tu cintura se despegue ni un milímetro del suelo.",
+    "Volvé al centro tomando aire y cambiá de lado."
+   ],
+   "photos": [
+    "photos/0276_0.jpg",
+    "photos/0276_1.jpg"
+   ],
+   "video": {
+    "id": "d7Fk08oFX7o",
+    "title": "Dead bug, abdominales inferiores para mejorar la lumbalgia",
+    "channel": "InfoEspalda"
+   }
   },
   {
    "id": "0705",
@@ -75,7 +113,29 @@
    "avoid_es": "No dejes caer la cadera ni aguantes la respiración hasta marearte.",
    "video_query_es": "plancha lateral sobre rodillas mcgill tecnica correcta fisioterapia",
    "image": "images/0705-RKjH6Lt.jpg",
-   "gif_url": "videos/0705-RKjH6Lt.gif"
+   "gif_url": "videos/0705-RKjH6Lt.gif",
+   "mistakes_es": [
+    "Dejar caer la cadera hacia el piso.",
+    "Codo adelantado o atrasado respecto del hombro.",
+    "Encorvarse hacia adelante en lugar de quedar de perfil."
+   ],
+   "feel_es": "Costado del abdomen (oblicuos) y glúteo del lado de abajo.",
+   "steps_es": [
+    "Acostate de costado apoyando el antebrazo justo debajo del hombro.",
+    "Para empezar (versión más segura y amigable), doblá las rodillas a 90 grados y apoyate sobre antebrazo y rodillas; cuando ganes fuerza podés estirar las piernas.",
+    "Levantá la cadera hasta formar una línea recta desde los hombros hasta las rodillas.",
+    "Mantené el tiempo indicado respirando corto y controlado, bajá suave y cambiá de lado."
+   ],
+   "photos": [
+    "photos/0705_0.jpg",
+    "photos/0705_1.jpg"
+   ],
+   "video": {
+    "id": "uTUlAq_6-RI",
+    "title": "Plancha lateral con rodillas flexionadas",
+    "channel": "HolaDoctor"
+   },
+   "photo_note_es": "Las fotos muestran la versión con piernas estiradas. Empezá con las rodillas dobladas, como dice el paso 2."
   },
   {
    "id": "0979",
@@ -99,7 +159,28 @@
    "avoid_es": "No pongas tanta tensión que te obligue a torcer la cintura o inclinarte.",
    "video_query_es": "press pallof tecnica correcta core antirotacion",
    "image": "images/0979-9pa4H5m.jpg",
-   "gif_url": "videos/0979-9pa4H5m.gif"
+   "gif_url": "videos/0979-9pa4H5m.gif",
+   "mistakes_es": [
+    "Dejar que el tronco gire hacia la polea o banda.",
+    "Arquear la espalda al estirar los brazos.",
+    "Pararse con los pies muy juntos: separalos al ancho de cadera."
+   ],
+   "feel_es": "Abdomen y costados resistiendo que la banda te gire. Los brazos solo sostienen.",
+   "steps_es": [
+    "Atá una banda elástica (o poné la polea) a la altura del pecho y parate de costado a ella con los pies al ancho de hombros y rodillas apenas destrabadas.",
+    "Agarrá la banda con las dos manos pegadas al esternón.",
+    "Exhalá y extendé los brazos rectos hacia adelante resistiendo la fuerza de la banda que intenta girarte el tronco.",
+    "Mantené 2 segundos al frente y volvé al pecho."
+   ],
+   "photos": [
+    "photos/0979_0.jpg",
+    "photos/0979_1.jpg"
+   ],
+   "video": {
+    "id": "W8Yf1uyUnoM",
+    "title": "🧠Press PALLOF en polea: core ANTI-ROTACIÓN (técnica segura)",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "3239",
@@ -122,7 +203,23 @@
    "avoid_es": "Jamás sigas la serie si sentís que la panza cae hacia el piso y se arquea la espalda baja.",
    "video_query_es": "plancha abdominal con rodillas apoyadas tecnica correcta espalda",
    "image": "images/3239-h1ezqSu.jpg",
-   "gif_url": "videos/3239-h1ezqSu.gif"
+   "gif_url": "videos/3239-h1ezqSu.gif",
+   "mistakes_es": [
+    "Hundir la cintura (panza hacia el piso).",
+    "Levantar la cola muy alto.",
+    "Mirar adelante: la mirada va al piso para cuidar el cuello."
+   ],
+   "feel_es": "Abdomen y hombros. La cintura no tiene que doler.",
+   "steps_es": [
+    "Apoyá manos o antebrazos y las rodillas en la colchoneta, formando una línea recta entre cabeza, espalda y rodillas.",
+    "Contraé glúteos y abdomen para que la cintura no se hunda.",
+    "Mantené la postura estable o tocá suavemente un hombro y el otro sin que la cadera se balancee."
+   ],
+   "video": {
+    "id": "qVnZtJGK4zY",
+    "title": "¿Cómo Hacer una PLANCHA ABDOMINAL CORRECTAMENTE? ✅ Para PRINCIPIANTES y con RODILLAS apoyadas 👌",
+    "channel": "Javier Giménez - Healthy Fitness"
+   }
   },
   {
    "id": "2135",
@@ -144,7 +241,27 @@
    "avoid_es": "No dejes colgar la cadera hacia la colchoneta.",
    "video_query_es": "plancha abdominal correcta sin dolor lumbar fisioterapia",
    "image": "images/2135-VBAWRPG.jpg",
-   "gif_url": "videos/2135-VBAWRPG.gif"
+   "gif_url": "videos/2135-VBAWRPG.gif",
+   "mistakes_es": [
+    "Hundir la cintura cuando aparece el cansancio.",
+    "Hacer planchas larguísimas: mejor varias cortas de 10 segundos.",
+    "Olvidarse de apretar los glúteos."
+   ],
+   "feel_es": "Todo el abdomen y los glúteos apretados. Aguantes cortos, de pocos segundos.",
+   "steps_es": [
+    "Apoyá antebrazos debajo de los hombros y puntas de los pies en el suelo.",
+    "Activá glúteos, muslos y abdomen formando una tabla recta.",
+    "En vez de aguantar 1 minuto cansada, hacé series cortas de 10 a 20 segundos con máxima firmeza, descansá 10 segundos y repetí."
+   ],
+   "photos": [
+    "photos/2135_0.jpg",
+    "photos/2135_1.jpg"
+   ],
+   "video": {
+    "id": "zfY5XXa26ug",
+    "title": "Como hacer la plancha correctamente, trabaja tus abdominales sin dañar la espalda",
+    "channel": "Marcos Sacristán | Fisioterapia a tu alcance"
+   }
   },
   {
    "id": "2133",
@@ -167,7 +284,22 @@
    "avoid_es": "No inclines el tronco hacia los costados ni encorves los hombros.",
    "video_query_es": "paseo del granjero ejercicio core postura tecnica",
    "image": "images/2133-qPEzJjA.jpg",
-   "gif_url": "videos/2133-qPEzJjA.gif"
+   "gif_url": "videos/2133-qPEzJjA.gif",
+   "mistakes_es": [
+    "Levantar las mancuernas del piso con la espalda redonda: agachate con las piernas.",
+    "Inclinarse hacia un costado.",
+    "Pasos largos y apurados: caminá corto y firme."
+   ],
+   "feel_es": "Antebrazos (agarre), hombros y abdomen sosteniendo el cuerpo derecho.",
+   "steps_es": [
+    "Sostené una mancuerna moderada en cada mano a los costados del cuerpo.",
+    "Crecé hacia el techo como si te tiraran de un hilo en la coronilla, llevá los hombros ligeramente atrás y abajo, activá el abdomen y caminá a paso lento y controlado en línea recta."
+   ],
+   "video": {
+    "id": "69hTPgHwA08",
+    "title": "💪 CAMINATA DE GRANJERO (FARMER'S WALK): técnica correcta paso a paso",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "L002",
@@ -190,7 +322,26 @@
    "avoid_es": "No fuerces el arco lumbar al bajar ni empujes hasta sentir tirantez en L4-L5.",
    "video_query_es": "ejercicio gato camello mcgill columna lumbar fisioterapia",
    "image": "local/cat-cow.jpg",
-   "gif_url": "local/cat-cow.gif"
+   "gif_url": "local/cat-cow.gif",
+   "mistakes_es": [
+    "Forzar los extremos hasta sentir tirón.",
+    "Hacerlo rápido: cada movimiento lento, acompañando la respiración.",
+    "Sentarse sobre los talones."
+   ],
+   "feel_es": "Movilidad suave en toda la espalda. Es una entrada en calor, no un estiramiento fuerte.",
+   "steps_es": [
+    "En cuatro apoyos sobre la colchoneta (manos bajo hombros, rodillas bajo caderas), mové la columna muy suavemente hacia arriba (redondeando la espalda alta al largar el aire) y hacia la posición neutra al tomar aire.",
+    "No busques llegar al tope del arco: es un movimiento de lubricación suave sin ninguna presión."
+   ],
+   "photos": [
+    "photos/L002_0.jpg",
+    "photos/L002_1.jpg"
+   ],
+   "video": {
+    "id": "J99uL4J5khE",
+    "title": "Dolor lumbar: Ejercicio del gato camello",
+    "channel": "SEReumatologia"
+   }
   },
   {
    "id": "3147",
@@ -213,7 +364,23 @@
    "avoid_es": "No empujes con el cuello ni contengas el aire.",
    "video_query_es": "basculacion pelvica en suelo fisioterapia lumbar",
    "image": "images/3147-NKJ8o6x.jpg",
-   "gif_url": "videos/3147-NKJ8o6x.gif"
+   "gif_url": "videos/3147-NKJ8o6x.gif",
+   "mistakes_es": [
+    "Levantar la cola del piso (eso ya es un puente).",
+    "Empujar con las piernas en vez de mover la pelvis.",
+    "Hacer el movimiento grande o brusco."
+   ],
+   "feel_es": "Abdomen bajo y glúteos, con un movimiento chiquito de la pelvis.",
+   "steps_es": [
+    "Acostate boca arriba con las rodillas flexionadas y las plantas de los pies en el suelo.",
+    "Tomá aire suave y, al largarlo, llevá el pubis ligeramente hacia el ombligo apoyando toda tu cintura contra la colchoneta.",
+    "Mantené 3 segundos sintiendo cómo se activa el abdomen bajo y aflojá suave."
+   ],
+   "video": {
+    "id": "pD0ECeS_frM",
+    "title": "Dolor lumbar: Ejercicio de báscula pélvica tumbado en el suelo",
+    "channel": "SEReumatologia"
+   }
   },
   {
    "id": "1710",
@@ -235,7 +402,23 @@
    "avoid_es": "No levantes la cola ni el cuello del suelo al tirar de la pierna.",
    "video_query_es": "estiramiento piramidal y gluteo boca arriba fisioterapia",
    "image": "images/1710-RQNVT10.jpg",
-   "gif_url": "videos/1710-RQNVT10.gif"
+   "gif_url": "videos/1710-RQNVT10.gif",
+   "mistakes_es": [
+    "Tirar fuerte hasta que duela.",
+    "Despegar la espalda baja del piso.",
+    "Aguantar la respiración."
+   ],
+   "feel_es": "Estiramiento en el glúteo y el costado de la cadera de la pierna cruzada.",
+   "steps_es": [
+    "Acostate boca arriba con la cabeza y toda la espalda apoyadas en la colchoneta.",
+    "Cruzá un tobillo sobre la rodilla contraria (formando un número 4) y traé suavemente el muslo hacia vos tomándolo por detrás de la rodilla hasta sentir un estiramiento agradable en el glúteo.",
+    "Mantené 20-30 segundos respirando profundo y cambiá de pierna."
+   ],
+   "video": {
+    "id": "C12bTqPVGDs",
+    "title": "Estiramientos:  Estiramientos del piramidal y glúteos",
+    "channel": "FREMAP Mutua Colaboradora con la S. S. nº 61"
+   }
   },
   {
    "id": "1564",
@@ -257,7 +440,27 @@
    "avoid_es": "No te tires lejos hacia adelante arqueando la cintura.",
    "video_query_es": "estiramiento de psoas iliaco correcto sin arquear lumbar fisioterapia",
    "image": "images/1564-tFGKm99.jpg",
-   "gif_url": "videos/1564-tFGKm99.gif"
+   "gif_url": "videos/1564-tFGKm99.gif",
+   "mistakes_es": [
+    "Arquear la cintura para llegar más lejos.",
+    "Adelantar la rodilla de adelante más allá del pie.",
+    "No apretar el glúteo de la pierna de atrás (es lo que hace que estire bien)."
+   ],
+   "feel_es": "Estiramiento adelante de la cadera de la pierna de atrás (psoas).",
+   "steps_es": [
+    "Apoyá una rodilla sobre una almohada o colchoneta doble y el otro pie adelante a 90 grados.",
+    "Antes de avanzar, apretá el glúteo de la pierna de atrás y mantené el tronco bien derechito.",
+    "Desplazá apenas la cadera hacia adelante hasta sentir un estiramiento suave en la ingle/frente del muslo de atrás."
+   ],
+   "photos": [
+    "photos/1564_0.jpg",
+    "photos/1564_1.jpg"
+   ],
+   "video": {
+    "id": "KqJGVj5aA1I",
+    "title": "Estiramiento del psoas #fisioterapiatualcance",
+    "channel": "Marcos Sacristán | Fisioterapia a tu alcance"
+   }
   },
   {
    "id": "1346",
@@ -278,7 +481,22 @@
    "avoid_es": "No fuerces la flexión si sentís presión en la cintura.",
    "video_query_es": "estiramiento dorsal ancho de rodillas espalda sana",
    "image": "images/1346-f38OEuO.jpg",
-   "gif_url": "videos/1346-f38OEuO.gif"
+   "gif_url": "videos/1346-f38OEuO.gif",
+   "mistakes_es": [
+    "Hundir la cintura.",
+    "Forzar hasta sentir tirón en la espalda baja.",
+    "Hacerlo con rebotes."
+   ],
+   "feel_es": "Estiramiento en los costados de la espalda (dorsales) y debajo de los brazos.",
+   "steps_es": [
+    "De rodillas frente a una silla, banco o en la colchoneta, apoyá las manos lejos hacia adelante y llevá la cadera suavemente hacia atrás alargando los costados de la espalda (dorsales) mientras mantenés la columna larga y neutra.",
+    "Respirá profundo inflando las costillas."
+   ],
+   "video": {
+    "id": "mZzqAueXuws",
+    "title": "Estiramiento del costado - Músculo dorsal ancho",
+    "channel": "FisioOnline"
+   }
   },
   {
    "id": "0327",
@@ -301,7 +519,28 @@
    "avoid_es": "No arquees la cintura despegando el pecho del banco para levantar más peso.",
    "video_query_es": "remo con mancuernas pecho apoyado en banco inclinado tecnica",
    "image": "images/0327-7vG5o25.jpg",
-   "gif_url": "videos/0327-7vG5o25.gif"
+   "gif_url": "videos/0327-7vG5o25.gif",
+   "mistakes_es": [
+    "Despegar el pecho del banco para tirar más.",
+    "Tirar con los brazos sin juntar los omóplatos.",
+    "Subir los hombros hacia las orejas."
+   ],
+   "feel_es": "Espalda media y alta, entre los omóplatos, y la parte de atrás de los hombros.",
+   "steps_es": [
+    "Colocá un banco inclinado a 30 o 45 grados y apoyá todo el pecho y el abdomen sobre el respaldo, con los pies firmes en el suelo.",
+    "Tomá una mancuerna en cada mano dejando que los brazos cuelguen.",
+    "Exhalá y llevá los codos hacia atrás juntando los omóplatos.",
+    "Hacé una pausa de 1 segundo arriba y bajá lento."
+   ],
+   "photos": [
+    "photos/0327_0.jpg",
+    "photos/0327_1.jpg"
+   ],
+   "video": {
+    "id": "kEyu3GkRavA",
+    "title": "REMO con mancuernas en banco inclinado 💪 Cómo hacerlo bien",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "1350",
@@ -324,7 +563,27 @@
    "avoid_es": "No te separes de la almohadilla pectoral ni des tirones bruscos.",
    "video_query_es": "remo en maquina con apoyo en el pecho tecnica espalda",
    "image": "images/1350-7I6LNUG.jpg",
-   "gif_url": "videos/1350-7I6LNUG.gif"
+   "gif_url": "videos/1350-7I6LNUG.gif",
+   "mistakes_es": [
+    "Despegar el pecho del apoyo.",
+    "Tirar con los bíceps y no con la espalda.",
+    "Soltar el peso de golpe al volver."
+   ],
+   "feel_es": "Espalda media, entre los omóplatos, y los dorsales.",
+   "steps_es": [
+    "Ajustá el asiento de la máquina de remo para que la almohadilla quede justo en el centro de tu pecho.",
+    "Apoyate firme contra el soporte pectoral, tomá los agarres y tirá llevando los codos hacia atrás y juntando las escápulas.",
+    "Volvé controlado sin dejar que las pesas choquen."
+   ],
+   "photos": [
+    "photos/1350_0.jpg",
+    "photos/1350_1.jpg"
+   ],
+   "video": {
+    "id": "LDxVARwqzy4",
+    "title": "TECNICA REMO DE PECHO APOYADO",
+    "channel": "Gabriel Fischman"
+   }
   },
   {
    "id": "2330",
@@ -347,7 +606,28 @@
    "avoid_es": "No te tires hacia atrás con la cintura para bajar la barra.",
    "video_query_es": "jalon al pecho en polea alta tecnica correcta mujeres principiantes",
    "image": "images/2330-LEprlgG.jpg",
-   "gif_url": "videos/2330-LEprlgG.gif"
+   "gif_url": "videos/2330-LEprlgG.gif",
+   "mistakes_es": [
+    "Tirarse para atrás con el cuerpo para bajar la barra.",
+    "Bajar la barra detrás de la nuca.",
+    "Subir los hombros hacia las orejas."
+   ],
+   "feel_es": "Dorsales: los costados de la espalda, debajo de las axilas.",
+   "steps_es": [
+    "Sentate en la máquina de jalón al pecho ajustando las almohadillas sobre los muslos.",
+    "Sujetá la barra un poco más ancho que los hombros (o el agarre neutro/cerrado).",
+    "Mantené el tronco erguido con el abdomen firme, bajá los hombros y traé la barra hacia la parte alta del pecho llevando los codos hacia abajo.",
+    "Subí lento controlando el peso."
+   ],
+   "photos": [
+    "photos/2330_0.jpg",
+    "photos/2330_1.jpg"
+   ],
+   "video": {
+    "id": "oLQj4fySWQQ",
+    "title": "Jalón al Pecho en Polea Alta. Espalda y Dorsal",
+    "channel": "Zonapablo"
+   }
   },
   {
    "id": "3144",
@@ -370,7 +650,23 @@
    "avoid_es": "No redondees la espalda baja hacia adelante cuando estires los brazos.",
    "video_query_es": "remo con banda elastica espalda tecnica correcta en casa",
    "image": "images/3144-Nu7jqFE.jpg",
-   "gif_url": "videos/3144-Nu7jqFE.gif"
+   "gif_url": "videos/3144-Nu7jqFE.gif",
+   "mistakes_es": [
+    "Redondear la espalda baja al sentarte.",
+    "Balancear el tronco para tirar.",
+    "Codos abiertos muy arriba."
+   ],
+   "feel_es": "Espalda media, entre los omóplatos.",
+   "steps_es": [
+    "Podés hacerlo sentada en una silla/suelo con rodillas semiflexionadas o de pie sujetando la banda en un picaporte/columna firme a la altura del abdomen.",
+    "Con la espalda bien derecha y el abdomen activo, tirá de la banda llevando los codos pegados al cuerpo y juntando los omóplatos atrás.",
+    "Mantené 2 segundos y volvé lento."
+   ],
+   "video": {
+    "id": "mm4Oob4g3zU",
+    "title": "REMO CON BANDA para FORTALECER la ESPALDA | #YoPRObooster",
+    "channel": "YoPRO"
+   }
   },
   {
    "id": "0974",
@@ -393,7 +689,23 @@
    "avoid_es": "No subas los hombros hacia las orejas.",
    "video_query_es": "jalon al pecho con banda elastica en casa tecnica espalda",
    "image": "images/0974-DptumMx.jpg",
-   "gif_url": "videos/0974-DptumMx.gif"
+   "gif_url": "videos/0974-DptumMx.gif",
+   "mistakes_es": [
+    "Arquear la cintura al tirar.",
+    "Tirar solo con los brazos.",
+    "Usar una banda tan dura que no puedas controlar la vuelta."
+   ],
+   "feel_es": "Dorsales, a los costados de la espalda.",
+   "steps_es": [
+    "Sujetá la banda elástica arriba (en el marco superior de una puerta o soporte alto) y ponete de rodillas sobre una almohada o sentada en una silla.",
+    "Con el abdomen firme y las costillas bajas, tirá de la banda llevando los codos hacia las costillas y apretando los dorsales.",
+    "Subí en 2 segundos controlando la banda."
+   ],
+   "video": {
+    "id": "RgPmw5cg3fQ",
+    "title": "¿Cómo hacer jalón con banda para espalda? Aquí te explico",
+    "channel": "Meli Cardenas"
+   }
   },
   {
    "id": "0292",
@@ -415,7 +727,27 @@
    "avoid_es": "No des un tirón girando el tronco ni lo hagas sin apoyar la mano libre.",
    "video_query_es": "remo con mancuerna a una mano apoyado en banco tecnica correcta",
    "image": "images/0292-C0MA9bC.jpg",
-   "gif_url": "videos/0292-C0MA9bC.gif"
+   "gif_url": "videos/0292-C0MA9bC.gif",
+   "mistakes_es": [
+    "Girar el tronco para subir la mancuerna.",
+    "Espalda redonda: tiene que quedar plana, como una mesa.",
+    "Tirar hacia el pecho en vez de hacia la cadera."
+   ],
+   "feel_es": "Dorsal y espalda media del lado del brazo que tira.",
+   "steps_es": [
+    "Apoyá una mano y la rodilla del mismo lado sobre un banco o silla firme (3 puntos de apoyo), dejando la espalda horizontal como una mesa plana.",
+    "Con la otra mano tomá la mancuerna y llevala hacia el bolsillo de tu cadera manteniendo el codo cerca del cuerpo.",
+    "Bajá lento sin girar la cintura."
+   ],
+   "photos": [
+    "photos/0292_0.jpg",
+    "photos/0292_1.jpg"
+   ],
+   "video": {
+    "id": "6sP06AxKAzU",
+    "title": "REMO CON MANCUERNA",
+    "channel": "Priscilla_bc"
+   }
   },
   {
    "id": "0213",
@@ -438,7 +770,23 @@
    "avoid_es": "Prohibido balancear el tronco hacia adelante y hacia atrás desde la cintura.",
    "video_query_es": "remo en polea baja sentado tecnica correcta sin arquear espalda",
    "image": "images/0213-pwt0pnM.jpg",
-   "gif_url": "videos/0213-pwt0pnM.gif"
+   "gif_url": "videos/0213-pwt0pnM.gif",
+   "mistakes_es": [
+    "Balancear el torso hacia atrás y adelante.",
+    "Redondear la espalda al estirar los brazos.",
+    "Subir los hombros."
+   ],
+   "feel_es": "Espalda media y dorsales.",
+   "steps_es": [
+    "Sentate en el remo de polea con los pies en los soportes y las rodillas semiflexionadas.",
+    "Primero enderezá bien el torso y activá el abdomen; desde ahí dejá el tronco 100% quieto y tirá del agarre hacia el abdomen llevando los codos hacia atrás y juntando los omóplatos.",
+    "Extendé los brazos sin doblarte desde la cintura."
+   ],
+   "video": {
+    "id": "gfc5NDJrVOk",
+    "title": "REMO SENTADO ¡POSICIÓN CORRECTA!",
+    "channel": "Entrenamiento Diferencial"
+   }
   },
   {
    "id": "0238",
@@ -461,7 +809,27 @@
    "avoid_es": "No uses tanto peso que te obligue a encorvarte sobre la barra.",
    "video_query_es": "pullover en polea alta brazos rectos tecnica espalda",
    "image": "images/0238-x69MAlq.jpg",
-   "gif_url": "videos/0238-x69MAlq.gif"
+   "gif_url": "videos/0238-x69MAlq.gif",
+   "mistakes_es": [
+    "Doblar mucho los codos (se vuelve un jalón).",
+    "Inclinarse hacia adelante y arquear.",
+    "Hacerlo rápido."
+   ],
+   "feel_es": "Dorsales, con los brazos casi rectos.",
+   "steps_es": [
+    "De pie frente a una polea alta (o banda elástica sujeta arriba), separá los pies al ancho de hombros, destrabá apenas las rodillas y activá el abdomen.",
+    "Con los brazos casi extendidos, bajá la barra o soga en un arco hasta los muslos apretando fuerte los dorsales.",
+    "Subí controlado hasta la altura de los ojos."
+   ],
+   "photos": [
+    "photos/0238_0.jpg",
+    "photos/0238_1.jpg"
+   ],
+   "video": {
+    "id": "9YQ1YXKko8s",
+    "title": "✅ PULLOVER con CUERDA en POLEA ALTA | Hazlo BIEN así |",
+    "channel": "Manuel Escalera"
+   }
   },
   {
    "id": "0203",
@@ -484,7 +852,28 @@
    "avoid_es": "No tires con la cintura hacia atrás.",
    "video_query_es": "face pull en polea o banda tecnica correcta postura",
    "image": "images/0203-wqNPGCg.jpg",
-   "gif_url": "videos/0203-wqNPGCg.gif"
+   "gif_url": "videos/0203-wqNPGCg.gif",
+   "mistakes_es": [
+    "Tirar con los hombros subidos.",
+    "Echar el cuerpo hacia atrás.",
+    "Usar demasiado peso: es un ejercicio liviano."
+   ],
+   "feel_es": "Parte de atrás de los hombros y espalda alta. Mejora la postura.",
+   "steps_es": [
+    "Colocá la soga en la polea a la altura de tu cara (o atá la banda elástica a esa altura).",
+    "Tomá los extremos y da un paso atrás dejando un pie apenas adelantado para tener base súper estable.",
+    "Tirá de la soga hacia tu frente separando las manos y llevando los pulgares hacia atrás de las orejas.",
+    "Pausa 1 segundo y volvé."
+   ],
+   "photos": [
+    "photos/0203_0.jpg",
+    "photos/0203_1.jpg"
+   ],
+   "video": {
+    "id": "UaZPhyztYNU",
+    "title": "FACE PULL Polea Alta. Ejercicio de Hombro Posterior",
+    "channel": "Zonapablo"
+   }
   },
   {
    "id": "1022",
@@ -505,7 +894,22 @@
    "avoid_es": "No empujes la cabeza hacia adelante ni arquees la espalda baja.",
    "video_query_es": "face pull con banda elastica en casa tecnica",
    "image": "images/1022-tc5dYrf.jpg",
-   "gif_url": "videos/1022-tc5dYrf.gif"
+   "gif_url": "videos/1022-tc5dYrf.gif",
+   "mistakes_es": [
+    "Arquear la cintura al abrir los brazos.",
+    "Subir los hombros.",
+    "Soltar la banda de golpe."
+   ],
+   "feel_es": "Parte de atrás de los hombros y entre los omóplatos.",
+   "steps_es": [
+    "Parada bien erguida con el abdomen firme y la banda sujeta al frente a la altura del pecho/hombros, tirá abriendo los codos hacia afuera a la altura de los hombros y juntando las escápulas atrás.",
+    "Volvé despacio."
+   ],
+   "video": {
+    "id": "w06tVYSLH20",
+    "title": "FORTALECIMIENTO. Ejericicio Face Pull con goma elastica",
+    "channel": "Paco The Fisio"
+   }
   },
   {
    "id": "3013",
@@ -528,7 +932,27 @@
    "avoid_es": "No hiperextiendas (no arquees la espalda baja arriba del todo buscando subir más).",
    "video_query_es": "puente de gluteos en suelo tecnica correcta sin dolor lumbar",
    "image": "images/3013-u0cNiij.jpg",
-   "gif_url": "videos/3013-u0cNiij.gif"
+   "gif_url": "videos/3013-u0cNiij.gif",
+   "mistakes_es": [
+    "Subir de más y arquear la cintura.",
+    "Empujar con la punta de los pies: empujá con los talones.",
+    "Sentirlo en la cintura: si pasa, subí menos y apretá más el glúteo."
+   ],
+   "feel_es": "Glúteos y un poco los isquiotibiales. No en la espalda baja.",
+   "steps_es": [
+    "Acostate boca arriba con las rodillas flexionadas y los talones a unos 20 cm de los glúteos, pies al ancho de caderas.",
+    "Primero apoyá la cintura en el suelo, apretá los glúteos y empujá con los talones para subir la cadera hasta que rodillas, caderas y hombros formen una línea recta.",
+    "Mantené 2 segundos apretando los glúteos arriba y bajá controlado."
+   ],
+   "photos": [
+    "photos/3013_0.jpg",
+    "photos/3013_1.jpg"
+   ],
+   "video": {
+    "id": "uuiN9NRFMBo",
+    "title": "¿Cómo hacer Puente de Glúteos? Aquí te explico 💪🏻",
+    "channel": "Meli Cardenas"
+   }
   },
   {
    "id": "3561",
@@ -549,7 +973,22 @@
    "avoid_es": "No dejes que la pelvis gire ni que se arquee la espalda.",
    "video_query_es": "puente de gluteos con marcha estabilidad pelvica fisioterapia",
    "image": "images/3561-GibBPPg.jpg",
-   "gif_url": "videos/3561-GibBPPg.gif"
+   "gif_url": "videos/3561-GibBPPg.gif",
+   "mistakes_es": [
+    "Dejar que la cadera baje o se tuerza al levantar el pie.",
+    "Arquear la cintura.",
+    "Hacerlo rápido."
+   ],
+   "feel_es": "Glúteos de las dos piernas, y abdomen que mantiene la cadera quieta.",
+   "steps_es": [
+    "Subí a la posición de puente de glúteos manteniendo la pelvis firme y horizontal.",
+    "Sin dejar que la cadera caiga ni se incline de costado, despegá suavemente un pie unos centímetros del suelo durante 2 segundos, apoyalo y cambiá al otro pie."
+   ],
+   "video": {
+    "id": "dfKMCV5UWsA",
+    "title": "Marchas en puente de glúteos",
+    "channel": "Stephania Ruiz"
+   }
   },
   {
    "id": "3523",
@@ -571,7 +1010,22 @@
    "avoid_es": "No tires la cabeza hacia atrás mirando al techo porque eso hace arquear la zona lumbar.",
    "video_query_es": "hip thrust tecnica correcta sin dolor lumbar mirada y costillas",
    "image": "images/3523-aWedzZX.jpg",
-   "gif_url": "videos/3523-aWedzZX.gif"
+   "gif_url": "videos/3523-aWedzZX.gif",
+   "mistakes_es": [
+    "Arquear la cintura arriba en lugar de terminar con el glúteo.",
+    "Pies muy lejos (lo sentís en los isquios) o muy cerca (en las rodillas).",
+    "Mirar al techo: mirá hacia adelante, mentón levemente adentro."
+   ],
+   "feel_es": "Glúteos. Arriba apretalos 1 o 2 segundos.",
+   "steps_es": [
+    "Apoyá la parte inferior de los omóplatos en el borde de un banco o sillón estable, con los pies al ancho de caderas de modo que al subir tus tibias queden verticales (90° en las rodillas).",
+    "Llevá el mentón ligeramente hacia el pecho, mirá hacia tus rodillas y subí la cadera empujando con los talones como una tabla única entre pecho y pelvis."
+   ],
+   "video": {
+    "id": "BH9er7oJM_s",
+    "title": "💡NO MÁS DOLOR LUMBAR haciendo HIP THRUST | ✅ Mejor corriges este ERROR ❌ #consejofit #HipThrust",
+    "channel": "Diana Ayala"
+   }
   },
   {
    "id": "0058",
@@ -593,7 +1047,26 @@
    "avoid_es": "No bajes ni subas quebrando la cintura: el tronco pivota entero sobre el banco.",
    "video_query_es": "hip thrust con mancuerna o barra tecnica correcta gluteos",
    "image": "images/0058-SNFfUff.jpg",
-   "gif_url": "videos/0058-SNFfUff.gif"
+   "gif_url": "videos/0058-SNFfUff.gif",
+   "mistakes_es": [
+    "Hiperextender la cintura arriba.",
+    "Que la barra o mancuerna ruede: usá una almohadilla.",
+    "Bajar sin control."
+   ],
+   "feel_es": "Glúteos, sobre todo arriba del movimiento.",
+   "steps_es": [
+    "Con la espalda alta (debajo de los omóplatos) apoyada en un banco y una mancuerna o barra con almohadilla sobre la pelvis, empujá con los talones hasta que el torso y los muslos queden paralelos al suelo.",
+    "Mantené el mentón recogido y el abdomen firme para que la espalda no se arquee."
+   ],
+   "photos": [
+    "photos/0058_0.jpg",
+    "photos/0058_1.jpg"
+   ],
+   "video": {
+    "id": "3SHkXmrQtxQ",
+    "title": "Hip Thrust con BARRA  - GLÚTEOS TIPS PASO A PASO",
+    "channel": "Zonapablo"
+   }
   },
   {
    "id": "0291",
@@ -607,7 +1080,7 @@
    "equipment": "dumbbell",
    "target": "glutes",
    "instructions_es": "Parate delante de una silla o banco firme con los pies al ancho de hombros (sin peso o sosteniendo una mancuerna liviana pegada al pecho). Con el pecho erguido y el abdomen firme, llevá la cadera hacia atrás y bajá controlado hasta tocar suavemente la silla con los glúteos (sin desplomarte ni perder la postura). Empujá el piso con los pies para volver a pararte.",
-   "safety_l4l5": "🔒 BLOQUEADO hasta aprobar el Test de Abdomen (pestaña Guía). El tope de la silla garantiza que nunca bajes más allá del punto donde tu pelvis se redondea (evita el famoso \"guiño glúteo\" que flexiona L4-L5).",
+   "safety_l4l5": "El tope de la silla garantiza que nunca bajes más allá del punto donde tu pelvis se redondea (evita el famoso \"guiño glúteo\" que flexiona L4-L5).",
    "cues_es": [
     "Tocá la silla suave como si fuera de vidrio y subí manteniendo el abdomen activo.",
     "Rodillas siempre alineadas con la punta de los pies (que no se junten hacia adentro).",
@@ -617,7 +1090,26 @@
    "video_query_es": "sentadilla en silla o cajon box squat tecnica correcta espalda",
    "image": "images/0291-mnzcrIB.jpg",
    "gif_url": "videos/0291-mnzcrIB.gif",
-   "locked_until_core_test": true
+   "mistakes_es": [
+    "Dejarse caer en la silla en vez de rozarla.",
+    "Redondear la espalda al bajar.",
+    "Rodillas que se van hacia adentro."
+   ],
+   "feel_es": "Muslos (cuádriceps) y glúteos.",
+   "steps_es": [
+    "Parate delante de una silla o banco firme con los pies al ancho de hombros (sin peso o sosteniendo una mancuerna liviana pegada al pecho).",
+    "Con el pecho erguido y el abdomen firme, llevá la cadera hacia atrás y bajá controlado hasta tocar suavemente la silla con los glúteos (sin desplomarte ni perder la postura).",
+    "Empujá el piso con los pies para volver a pararte."
+   ],
+   "photos": [
+    "photos/0291_0.jpg",
+    "photos/0291_1.jpg"
+   ],
+   "video": {
+    "id": "I63oel2pBKM",
+    "title": "Sentadilla con Silla [ tutorial simple ] - Entrenador Wellness",
+    "channel": "Entrenador Wellness"
+   }
   },
   {
    "id": "1760",
@@ -631,7 +1123,7 @@
    "equipment": "dumbbell",
    "target": "quads",
    "instructions_es": "Sostené una mancuerna verticalmente pegada contra tu pecho con ambas manos, codos apuntando hacia abajo. Separá los pies un poco más que el ancho de caderas con las puntas levemente hacia afuera. Tomá aire, activá el abdomen y bajá con el tronco bien derecho hasta donde tu espalda baja se mantenga neutra (aprox. muslos paralelos o un poco antes). Subí exhalando.",
-   "safety_l4l5": "🔒 BLOQUEADO hasta aprobar el Test de Abdomen (pestaña Guía). Al llevar la mancuerna adelante en el pecho (y no una barra en la nuca), actúa como contrapeso natural permitiéndote bajar con el torso mucho más vertical y sin inclinar la columna lumbar.",
+   "safety_l4l5": "Al llevar la mancuerna adelante en el pecho (y no una barra en la nuca), actúa como contrapeso natural permitiéndote bajar con el torso mucho más vertical y sin inclinar la columna lumbar.",
    "cues_es": [
     "Mantené la mancuerna pegada al esternón durante todo el movimiento.",
     "Bajá solo hasta la profundidad donde tu cintura quede firme y derecha (podés poner un banco detrás como referencia).",
@@ -641,7 +1133,28 @@
    "video_query_es": "sentadilla goblet con mancuerna tecnica correcta espalda recta",
    "image": "images/1760-yn8yg1r.jpg",
    "gif_url": "videos/1760-yn8yg1r.gif",
-   "locked_until_core_test": true
+   "mistakes_es": [
+    "Bajar tanto que la pelvis se redondee.",
+    "Levantar los talones.",
+    "Despegar la mancuerna del pecho."
+   ],
+   "feel_es": "Cuádriceps y glúteos, con el abdomen firme sosteniendo la mancuerna.",
+   "steps_es": [
+    "Sostené una mancuerna verticalmente pegada contra tu pecho con ambas manos, codos apuntando hacia abajo.",
+    "Separá los pies un poco más que el ancho de caderas con las puntas levemente hacia afuera.",
+    "Tomá aire, activá el abdomen y bajá con el tronco bien derecho hasta donde tu espalda baja se mantenga neutra (aprox. muslos paralelos o un poco antes).",
+    "Subí exhalando."
+   ],
+   "photos": [
+    "photos/1760_0.jpg",
+    "photos/1760_1.jpg"
+   ],
+   "video": {
+    "id": "__73ZFQaOow",
+    "title": "Sentadilla goblet con mancuerna: técnica paso a paso",
+    "channel": "BuhoSalud"
+   },
+   "photo_note_es": "En la foto baja más de lo recomendado para vos: frená donde la espalda siga recta."
   },
   {
    "id": "0431",
@@ -664,7 +1177,27 @@
    "avoid_es": "No uses un cajón tan alto que te obligue a encorvar la espalda para subir.",
    "video_query_es": "step up subida al cajon tecnica correcta gluteos y piernas",
    "image": "images/0431-aXtJhlg.jpg",
-   "gif_url": "videos/0431-aXtJhlg.gif"
+   "gif_url": "videos/0431-aXtJhlg.gif",
+   "mistakes_es": [
+    "Impulsarse con la pierna de abajo.",
+    "Inclinar mucho el tronco hacia adelante.",
+    "Usar un cajón muy alto."
+   ],
+   "feel_es": "Glúteo y muslo de la pierna que está arriba del cajón.",
+   "steps_es": [
+    "Frente a un escalón o cajón bajo/medio (donde tu rodilla quede a 90° o menos), apoyá todo un pie arriba.",
+    "Con el tronco alto y el abdomen firme, empujá con el talón del pie de arriba para subir sin darte envión con el pie de abajo.",
+    "Bajá controlado en 2 segundos y completá las repeticiones de esa pierna antes de cambiar."
+   ],
+   "photos": [
+    "photos/0431_0.jpg",
+    "photos/0431_1.jpg"
+   ],
+   "video": {
+    "id": "tLOhKheqPN8",
+    "title": "SUBIDAS EN  CAJÓN",
+    "channel": "Priscilla_bc"
+   }
   },
   {
    "id": "0739",
@@ -678,7 +1211,7 @@
    "equipment": "sled machine",
    "target": "glutes",
    "instructions_es": "Sentate en la prensa apoyando bien toda la espalda y la cola (el sacro) contra el respaldo. Colocá los pies al ancho de hombros en la mitad media-alta de la plataforma. Destrabá el seguro, bajá la plataforma controladamente SOLO hasta unos 90° en las rodillas (sin que tu cola se despegue ni un milímetro del asiento) y empujá hacia arriba sin trabar del todo las rodillas.",
-   "safety_l4l5": "🔒 BLOQUEADO hasta aprobar el Test de Abdomen (pestaña Guía). Es súper segura para piernas y glúteos SIEMPRE que respetes la regla #1: bajar solo hasta donde la cola y el sacro quedan 100% pegados al respaldo.",
+   "safety_l4l5": "Es súper segura para piernas y glúteos SIEMPRE que respetes la regla #1: bajar solo hasta donde la cola y el sacro quedan 100% pegados al respaldo.",
    "cues_es": [
     "Regla de oro L4-L5 en prensa: sujetá las manijas laterales para mantener la cola pegada al asiento y frená a 90° de rodilla.",
     "Nunca bajes las rodillas hasta el pecho (eso despega el sacro y flexiona L4-L5 bajo peso).",
@@ -688,7 +1221,22 @@
    "video_query_es": "prensa de piernas tecnica correcta sin despegar lumbar",
    "image": "images/0739-10Z2DXU.jpg",
    "gif_url": "videos/0739-10Z2DXU.gif",
-   "locked_until_core_test": true
+   "mistakes_es": [
+    "Bajar tanto que la cola se despegue del respaldo.",
+    "Trabar las rodillas arriba.",
+    "Pies muy abajo en la plataforma."
+   ],
+   "feel_es": "Cuádriceps y glúteos.",
+   "steps_es": [
+    "Sentate en la prensa apoyando bien toda la espalda y la cola (el sacro) contra el respaldo.",
+    "Colocá los pies al ancho de hombros en la mitad media-alta de la plataforma.",
+    "Destrabá el seguro, bajá la plataforma controladamente SOLO hasta unos 90° en las rodillas (sin que tu cola se despegue ni un milímetro del asiento) y empujá hacia arriba sin trabar del todo las rodillas."
+   ],
+   "video": {
+    "id": "czfq74EkNUo",
+    "title": "CUIDADO CON LA PRENSA! EVITA EL DOLOR DE ESPALDA",
+    "channel": "En Forma CONANlvaro"
+   }
   },
   {
    "id": "0599",
@@ -710,7 +1258,27 @@
    "avoid_es": "No arquees la cintura al final de la flexión.",
    "video_query_es": "curl femoral sentado en maquina tecnica correcta",
    "image": "images/0599-Zg3XY7P.jpg",
-   "gif_url": "videos/0599-Zg3XY7P.gif"
+   "gif_url": "videos/0599-Zg3XY7P.gif",
+   "mistakes_es": [
+    "Despegar la espalda del respaldo.",
+    "Soltar la vuelta de golpe.",
+    "Rodilla desalineada con el eje de la máquina."
+   ],
+   "feel_es": "Parte de atrás de los muslos (isquiotibiales).",
+   "steps_es": [
+    "Ajustá el respaldo de la máquina para que tus rodillas coincidan con el eje de giro y el rodillo quede sobre la parte baja de tus gemelos/tobillos.",
+    "Con la espalda bien apoyada en el respaldo y el soporte sobre los muslos, flexioná las rodillas llevando los talones hacia abajo y atrás.",
+    "Hacé 1 segundo de pausa y subí lento."
+   ],
+   "photos": [
+    "photos/0599_0.jpg",
+    "photos/0599_1.jpg"
+   ],
+   "video": {
+    "id": "CBCPBnMzsMI",
+    "title": "Curl Femoral Sentado en Máquina 🏋️‍♂️ | Técnica Correcta",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "0586",
@@ -731,7 +1299,27 @@
    "avoid_es": "No levantes la cadera de la camilla al subir el peso.",
    "video_query_es": "curl femoral tumbado tecnica correcta sin arquear lumbar",
    "image": "images/0586-17lJ1kr.jpg",
-   "gif_url": "videos/0586-17lJ1kr.gif"
+   "gif_url": "videos/0586-17lJ1kr.gif",
+   "mistakes_es": [
+    "Levantar la cadera del banco al flexionar.",
+    "Arquear la cintura.",
+    "Hacerlo con rebote."
+   ],
+   "feel_es": "Isquiotibiales, atrás del muslo.",
+   "steps_es": [
+    "Acostate boca abajo en la máquina con las rodillas justo fuera del borde de la camilla y el rodillo detrás de los tobillos.",
+    "Antes de subir, apretá los glúteos y mantené la pelvis pegada a la camilla.",
+    "Flexioná las rodillas subiendo el rodillo y bajá lento."
+   ],
+   "photos": [
+    "photos/0586_0.jpg",
+    "photos/0586_1.jpg"
+   ],
+   "video": {
+    "id": "9xbBr5Ytl8c",
+    "title": "Cómo hacer curl femoral tumbado en máquina · Técnica correcta",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "0585",
@@ -752,7 +1340,26 @@
    "avoid_es": "No despegues la cola del asiento.",
    "video_query_es": "extension de cuadriceps en maquina tecnica correcta",
    "image": "images/0585-my33uHU.jpg",
-   "gif_url": "videos/0585-my33uHU.gif"
+   "gif_url": "videos/0585-my33uHU.gif",
+   "mistakes_es": [
+    "Despegar la cola del asiento.",
+    "Trabar las rodillas de golpe arriba.",
+    "Bajar sin control."
+   ],
+   "feel_es": "Cuádriceps, adelante del muslo.",
+   "steps_es": [
+    "Sentate con la espalda bien apoyada en el respaldo de la máquina y las manos en los agarres laterales.",
+    "Extendé las rodillas levantando el rodillo hasta estirar las piernas, mantené 1 segundo apretando los muslos y bajá en 2 segundos."
+   ],
+   "photos": [
+    "photos/0585_0.jpg",
+    "photos/0585_1.jpg"
+   ],
+   "video": {
+    "id": "DI34ngDC8FU",
+    "title": "Extensiones de piernas en máquina",
+    "channel": "Fitness Consciente"
+   }
   },
   {
    "id": "0228",
@@ -773,7 +1380,27 @@
    "avoid_es": "Nunca des un latigazo con la pierna hacia arriba arqueando la espalda baja.",
    "video_query_es": "patada de gluteo en polea tecnica correcta sin arquear espalda",
    "image": "images/0228-Kpajagk.jpg",
-   "gif_url": "videos/0228-Kpajagk.gif"
+   "gif_url": "videos/0228-Kpajagk.gif",
+   "mistakes_es": [
+    "Llevar la pierna muy atrás y arquear la cintura.",
+    "Girar la cadera.",
+    "Balancearse."
+   ],
+   "feel_es": "Glúteo de la pierna que va hacia atrás.",
+   "steps_es": [
+    "Colocate la tobillera en la polea baja, sujetate firme de la estructura con las manos e incliná apenas el tronco manteniendo el abdomen activo.",
+    "Llevá la pierna hacia atrás unos 20 a 30 grados apretando el glúteo (frenando apenas el glúteo se contrae al máximo, sin arquear la cintura).",
+    "Volvé controlado."
+   ],
+   "photos": [
+    "photos/0228_0.jpg",
+    "photos/0228_1.jpg"
+   ],
+   "video": {
+    "id": "62QSw6JcxEU",
+    "title": "Patada de glúteo en polea: cómo aislar el GLÚTEO sin arquear la espalda 🍑",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "0597",
@@ -794,7 +1421,26 @@
    "avoid_es": "No te separes del respaldo doblando la cintura hacia adelante.",
    "video_query_es": "abduccion de cadera en maquina tecnica correcta gluteo medio",
    "image": "images/0597-CHpahtl.jpg",
-   "gif_url": "videos/0597-CHpahtl.gif"
+   "gif_url": "videos/0597-CHpahtl.gif",
+   "mistakes_es": [
+    "Despegar la espalda del respaldo.",
+    "Abrir y cerrar rápido.",
+    "Usar tanto peso que no puedas frenar la vuelta."
+   ],
+   "feel_es": "Costado del glúteo (glúteo medio).",
+   "steps_es": [
+    "Sentate en la máquina de abductores con la espalda apoyada en el respaldo (no te inclines hacia adelante sin apoyo).",
+    "Empujá las almohadillas con la parte externa de las rodillas hacia afuera, mantené 1 segundo y cerrá lento."
+   ],
+   "photos": [
+    "photos/0597_0.jpg",
+    "photos/0597_1.jpg"
+   ],
+   "video": {
+    "id": "7Oa_6915l3M",
+    "title": "Cómo Hacer Abducciones de Glúteo en Máquina 💪 | Técnica Correcta",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "3006",
@@ -815,7 +1461,21 @@
    "avoid_es": "No dejes que la banda te cierre las rodillas de golpe.",
    "video_query_es": "abduccion de cadera sentado con banda elastica gluteo medio",
    "image": "images/3006-0xDpB4L.jpg",
-   "gif_url": "videos/3006-0xDpB4L.gif"
+   "gif_url": "videos/3006-0xDpB4L.gif",
+   "mistakes_es": [
+    "Inclinarse hacia atrás para abrir más.",
+    "Banda muy floja (no trabaja) o muy dura (no controlás).",
+    "Hacerlo rápido."
+   ],
+   "feel_es": "Costado del glúteo.",
+   "steps_es": [
+    "Sentada en el borde de una silla firme con una minibanda elástica justo por encima de las rodillas y la espalda bien derecha, separá las rodillas hacia afuera contra la banda, mantené 2 segundos sintiendo los costados del glúteo y volvé controlado."
+   ],
+   "video": {
+    "id": "cMAELC6-oXk",
+    "title": "Abducciones Sentada con Liga / Band Seated Hip Abduction",
+    "channel": "Karen Zárate"
+   }
   },
   {
    "id": "0710",
@@ -836,7 +1496,23 @@
    "avoid_es": "No subas la pierna tan alto que se mueva tu cintura.",
    "video_query_es": "abduccion de cadera acostado de lado gluteo medio fisioterapia",
    "image": "images/0710-7WaDzyL.jpg",
-   "gif_url": "videos/0710-7WaDzyL.gif"
+   "gif_url": "videos/0710-7WaDzyL.gif",
+   "mistakes_es": [
+    "Llevar la pierna hacia adelante (trabaja otro músculo).",
+    "Rodar la cadera hacia atrás.",
+    "Subir la pierna demasiado alto."
+   ],
+   "feel_es": "Costado del glúteo de la pierna de arriba.",
+   "steps_es": [
+    "Acostate de costado en la colchoneta con la pierna de abajo flexionada para mayor estabilidad y la de arriba estirada en línea con el tronco.",
+    "Llevá la pierna de arriba ligeramente hacia atrás (5 cm) con la punta del pie mirando al frente o apenas hacia abajo, y subila unos 35-40 grados.",
+    "Bajá lento sin apoyar del todo."
+   ],
+   "video": {
+    "id": "dILxTvY88uI",
+    "title": "Ejercicio ABDUCCIÓN de CADERA 💪 Tumbado o Acostado ✅ (APRENDE la Mejor Técnica para Glúteo Medio)",
+    "channel": "Javier Giménez - Healthy Fitness"
+   }
   },
   {
    "id": "0594",
@@ -858,7 +1534,25 @@
    "avoid_es": "Evitá la máquina de gemelos de pie con carga sobre los hombros.",
    "video_query_es": "elevacion de talones gemelos tecnica correcta",
    "image": "images/0594-bOOdeyc.jpg",
-   "gif_url": "videos/0594-bOOdeyc.gif"
+   "gif_url": "videos/0594-bOOdeyc.gif",
+   "mistakes_es": [
+    "Rebotar abajo.",
+    "Rango corto: subí bien en puntas de pie.",
+    "Inclinarse para ayudarse con el cuerpo."
+   ],
+   "feel_es": "Pantorrillas.",
+   "steps_es": [
+    "Sentada en la máquina (o de pie tomándote de una pared/soporte con peso corporal), subí en puntas de pie lo más alto posible apretando las pantorrillas 1 segundo y bajá lento estirando el talón."
+   ],
+   "photos": [
+    "photos/0594_0.jpg",
+    "photos/0594_1.jpg"
+   ],
+   "video": {
+    "id": "aAniiWqBuOY",
+    "title": "Ejercicio 7 - Elevación de talones para fortalecer gemelos - Dr. Oscar Ares",
+    "channel": "Dr. Oscar Ares - Traumatología"
+   }
   },
   {
    "id": "0659",
@@ -879,7 +1573,22 @@
    "avoid_es": "No dejes que la panza se adelante hacia la pared quebrando la cintura.",
    "video_query_es": "flexiones en la pared tecnica correcta principiantes",
    "image": "images/0659-LEH9jxP.jpg",
-   "gif_url": "videos/0659-LEH9jxP.gif"
+   "gif_url": "videos/0659-LEH9jxP.gif",
+   "mistakes_es": [
+    "Dejar la cadera atrás (cuerpo en V).",
+    "Hundir la cintura.",
+    "Codos muy abiertos."
+   ],
+   "feel_es": "Pecho, hombros y tríceps. El abdomen mantiene el cuerpo recto.",
+   "steps_es": [
+    "Parate frente a una pared a un paso de distancia y apoyá las manos un poquito más abiertas que el ancho de hombros, a la altura del pecho.",
+    "Activá glúteos y abdomen para que tu cuerpo sea una tabla recta, flexioná los codos acercando el pecho a la pared y empujá para volver."
+   ],
+   "video": {
+    "id": "JkBOBJjb28w",
+    "title": "Flexiones en la pared: empieza con el apoyo CORRECTO 💪",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "0493",
@@ -900,7 +1609,27 @@
    "avoid_es": "No bajes si sentís que la cadera se hunde.",
    "video_query_es": "flexiones inclinadas en banco tecnica correcta mujeres",
    "image": "images/0493-B1EVP9F.jpg",
-   "gif_url": "videos/0493-B1EVP9F.gif"
+   "gif_url": "videos/0493-B1EVP9F.gif",
+   "mistakes_es": [
+    "Hundir la cintura.",
+    "Bajar a medias.",
+    "Manos muy adelantadas respecto de los hombros."
+   ],
+   "feel_es": "Pecho y tríceps, con el abdomen firme.",
+   "steps_es": [
+    "Apoyá las manos en el borde de un banco firme, respaldo o mesada estable.",
+    "Caminá con los pies hacia atrás hasta quedar en línea recta de cabeza a talones.",
+    "Con glúteos y abdomen firmes, bajá el pecho hacia el borde del banco y empujá arriba."
+   ],
+   "photos": [
+    "photos/0493_0.jpg",
+    "photos/0493_1.jpg"
+   ],
+   "video": {
+    "id": "uCTbmCjiF7Y",
+    "title": "Claves para hacer: Flexiones Inclinadas",
+    "channel": "Instituto de Entrenamiento Personal"
+   }
   },
   {
    "id": "0577",
@@ -921,7 +1650,27 @@
    "avoid_es": "No despegues la espalda baja del respaldo al empujar.",
    "video_query_es": "press de pecho en maquina sentado tecnica correcta",
    "image": "images/0577-T0yTjgW.jpg",
-   "gif_url": "videos/0577-T0yTjgW.gif"
+   "gif_url": "videos/0577-T0yTjgW.gif",
+   "mistakes_es": [
+    "Despegar la espalda del respaldo.",
+    "Trabar los codos arriba.",
+    "Asiento muy alto o muy bajo: las manijas a la altura del pecho."
+   ],
+   "feel_es": "Pecho y parte de adelante de los hombros.",
+   "steps_es": [
+    "Ajustá el asiento para que los agarres queden a la altura media de tu pecho.",
+    "Apoyá bien la espalda y la cabeza contra el respaldo, pies firmes en el suelo.",
+    "Empujá las manijas hacia adelante exhalando y volvé lento hasta que los codos queden en línea con el torso."
+   ],
+   "photos": [
+    "photos/0577_0.jpg",
+    "photos/0577_1.jpg"
+   ],
+   "video": {
+    "id": "d-gwsl5BlMQ",
+    "title": "Press de Pecho en Máquina 💪 | Cómo Hacerlo con Técnica Correcta",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "0314",
@@ -943,7 +1692,26 @@
    "avoid_es": "No arquees la cintura como hacen en powerlifting; mantené la espalda neutra.",
    "video_query_es": "press inclinado con mancuernas tecnica correcta mujeres",
    "image": "images/0314-ns0SIbU.jpg",
-   "gif_url": "videos/0314-ns0SIbU.gif"
+   "gif_url": "videos/0314-ns0SIbU.gif",
+   "mistakes_es": [
+    "Arquear la cintura y despegarla del banco.",
+    "Bajar las mancuernas sin control.",
+    "Chocar las mancuernas arriba."
+   ],
+   "feel_es": "Parte alta del pecho y hombros.",
+   "steps_es": [
+    "En un banco inclinado a 30-45 grados, apoyá bien toda la espalda y los pies en el suelo (o sobre un step si el banco es alto, para que tu cintura quede cómoda).",
+    "Subí las mancuernas sobre el pecho y bajalas controladas con los codos a 45 grados."
+   ],
+   "photos": [
+    "photos/0314_0.jpg",
+    "photos/0314_1.jpg"
+   ],
+   "video": {
+    "id": "oTD5g77GgSA",
+    "title": "Cómo Hacer Press Inclinado Con Mancuernas (Tutorial Paso a Paso)",
+    "channel": "Your House Fitness y Sergio Pedemonte"
+   }
   },
   {
    "id": "0603",
@@ -964,7 +1732,26 @@
    "avoid_es": "Nunca hagas press militar de pie con barra libre ni arquees la cintura al subir.",
    "video_query_es": "press de hombros en maquina tecnica correcta sin arquear espalda",
    "image": "images/0603-67n3r98.jpg",
-   "gif_url": "videos/0603-67n3r98.gif"
+   "gif_url": "videos/0603-67n3r98.gif",
+   "mistakes_es": [
+    "Despegar la espalda del respaldo y arquear.",
+    "Subir los hombros hacia las orejas.",
+    "Trabar los codos arriba."
+   ],
+   "feel_es": "Hombros.",
+   "steps_es": [
+    "Sentate en la máquina de hombros con toda la espalda apoyada en el respaldo y el abdomen activo.",
+    "Tomá los agarres (preferentemente el agarre neutro con palmas enfrentadas si la máquina lo tiene) y empujá hacia arriba sin despegar la espalda del respaldo."
+   ],
+   "photos": [
+    "photos/0603_0.jpg",
+    "photos/0603_1.jpg"
+   ],
+   "video": {
+    "id": "NjZy28n8Qto",
+    "title": "Press de Hombro en Máquina | Cómo hacerlo bien 💪",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "0405",
@@ -986,7 +1773,26 @@
    "avoid_es": "No uses pesos que te hagan despegar la espalda baja del respaldo.",
    "video_query_es": "press de hombros sentado con mancuernas tecnica correcta espalda apoyada",
    "image": "images/0405-znQUdHY.jpg",
-   "gif_url": "videos/0405-znQUdHY.gif"
+   "gif_url": "videos/0405-znQUdHY.gif",
+   "mistakes_es": [
+    "Arquear la cintura para empujar más.",
+    "Bajar las mancuernas detrás de la cabeza.",
+    "Usar demasiado peso."
+   ],
+   "feel_es": "Hombros y tríceps.",
+   "steps_es": [
+    "Sentate en un banco con respaldo a 75–85 grados (casi vertical).",
+    "Con la espalda bien apoyada en el respaldo y mancuernas livianas a la altura de las orejas (codos ligeramente hacia adelante, no abiertos del todo), empujá hacia arriba exhalando y bajá controlado."
+   ],
+   "photos": [
+    "photos/0405_0.jpg",
+    "photos/0405_1.jpg"
+   ],
+   "video": {
+    "id": "wRpEZ6QqVQA",
+    "title": "PRESS DE HOMBRO SENTADO CON MANCUERNAS",
+    "channel": "Nutriólogo Conrado 👨‍⚕️"
+   }
   },
   {
    "id": "0334",
@@ -1007,7 +1813,26 @@
    "avoid_es": "No tomes envión con la cadera o la espalda para subir las mancuernas.",
    "video_query_es": "elevaciones laterales con mancuernas tecnica correcta mujeres",
    "image": "images/0334-DsgkuIt.jpg",
-   "gif_url": "videos/0334-DsgkuIt.gif"
+   "gif_url": "videos/0334-DsgkuIt.gif",
+   "mistakes_es": [
+    "Balancear el cuerpo para subir.",
+    "Subir los brazos más arriba de los hombros.",
+    "Encoger los hombros."
+   ],
+   "feel_es": "Costado de los hombros.",
+   "steps_es": [
+    "De pie con un pie apenas adelantado (o sentada con respaldo) y mancuernas livianas (1 a 3 kg) en las manos, levantá los brazos hacia los costados con los codos apenas flexionados hasta llegar a la altura de los hombros.",
+    "Bajá lento en 2 segundos."
+   ],
+   "photos": [
+    "photos/0334_0.jpg",
+    "photos/0334_1.jpg"
+   ],
+   "video": {
+    "id": "nOAUECQEpHs",
+    "title": "¿Cómo Hacer Laterales con Mancuernas? || Técnica Correcta",
+    "channel": "Dra. Isabel Junio"
+   }
   },
   {
    "id": "0285",
@@ -1028,7 +1853,26 @@
    "avoid_es": "No te tires hacia atrás con la espalda para subir la pesa.",
    "video_query_es": "curl de biceps con mancuernas tecnica correcta sin balancear",
    "image": "images/0285-BU15nH4.jpg",
-   "gif_url": "videos/0285-BU15nH4.gif"
+   "gif_url": "videos/0285-BU15nH4.gif",
+   "mistakes_es": [
+    "Balancear el tronco.",
+    "Despegar los codos del cuerpo.",
+    "Bajar sin control."
+   ],
+   "feel_es": "Bíceps, adelante del brazo.",
+   "steps_es": [
+    "Sentada con respaldo o de pie con abdomen firme y rodillas destrabadas, sostené una mancuerna en cada mano.",
+    "Sin mover los codos de tus costados, flexioná el brazo subiendo la mancuerna y bajá lento sin columpiar el tronco."
+   ],
+   "photos": [
+    "photos/0285_0.jpg",
+    "photos/0285_1.jpg"
+   ],
+   "video": {
+    "id": "96O5mvyblQM",
+    "title": "CURL DE BICEPS CON MANCUERNA SENTADO",
+    "channel": "Carlos Ruiz"
+   }
   },
   {
    "id": "0313",
@@ -1048,7 +1892,25 @@
    "avoid_es": "Evitá usar pesos que te hagan mover el tronco.",
    "video_query_es": "curl martillo con mancuernas tecnica correcta",
    "image": "images/0313-slDvUAU.jpg",
-   "gif_url": "videos/0313-slDvUAU.gif"
+   "gif_url": "videos/0313-slDvUAU.gif",
+   "mistakes_es": [
+    "Balancear el cuerpo.",
+    "Mover los codos hacia adelante.",
+    "Girar la muñeca (las palmas se miran entre sí todo el tiempo)."
+   ],
+   "feel_es": "Bíceps y antebrazo.",
+   "steps_es": [
+    "Con las palmas mirándose entre sí (como sosteniendo un martillo) y el tronco erguido y firme, flexioná los codos llevando las mancuernas hacia los hombros y bajá controlado."
+   ],
+   "photos": [
+    "photos/0313_0.jpg",
+    "photos/0313_1.jpg"
+   ],
+   "video": {
+    "id": "znTSJ_2zJN0",
+    "title": "Curl martillo con mancuernas: la técnica PERFECTA",
+    "channel": "Sergio Tejeda"
+   }
   },
   {
    "id": "0241",
@@ -1070,7 +1932,190 @@
    "avoid_es": "No te tires encima de la barra con todo el cuerpo.",
    "video_query_es": "extension de triceps en polea alta con soga tecnica correcta",
    "image": "images/0241-gAwDzB3.jpg",
-   "gif_url": "videos/0241-gAwDzB3.gif"
+   "gif_url": "videos/0241-gAwDzB3.gif",
+   "mistakes_es": [
+    "Despegar los codos del cuerpo.",
+    "Inclinarse sobre la polea para empujar con el cuerpo.",
+    "Subir las manos más arriba del pecho."
+   ],
+   "feel_es": "Tríceps, atrás del brazo.",
+   "steps_es": [
+    "De pie frente a la polea alta (o banda elástica sujeta arriba en casa), pegá los codos a las costillas con el abdomen firme.",
+    "Extendé los brazos hacia abajo hasta estirarlos por completo apretando la parte posterior del brazo (tríceps) y subí lento solo hasta 90 grados."
+   ],
+   "photos": [
+    "photos/0241_0.jpg",
+    "photos/0241_1.jpg"
+   ],
+   "video": {
+    "id": "OlZnLb3S8pk",
+    "title": "Jalón de cuerda para tríceps en polea alta",
+    "channel": "Fitness Consciente"
+   }
+  },
+  {
+   "aliases": [
+    "Curl-up de McGill",
+    "Curl up McGill",
+    "McGill curl-up"
+   ],
+   "name": "mcgill curl-up",
+   "body_part": "waist",
+   "equipment": "body weight",
+   "target": "abs",
+   "instructions_es": "Acostate boca arriba con una pierna doblada y la otra estirada. Poné las manos debajo de la cintura para mantener su curva natural. Apretá suave el abdomen. Despegá apenas la cabeza y los hombros del piso, como si la cabeza y el pecho fueran un bloque. Mantené 8 a 10 segundos respirando y bajá lento.",
+   "safety_l4l5": "Es el abdominal del Dr. McGill: trabaja el recto abdominal sin doblar la columna lumbar, a diferencia del crunch o el abdominal clásico.",
+   "cues_es": [
+    "Las manos debajo de la cintura no te dejan aplastarla ni arquearla.",
+    "Subí muy poquito: lo justo para despegar los hombros.",
+    "No tires del cuello: imaginá que la cabeza está apoyada en una balanza."
+   ],
+   "avoid_es": "No hagas abdominales clásicos ni crunches: doblar la columna bajo carga es lo que más irrita L4-L5.",
+   "video_query_es": "curl up mcgill tecnica espalda",
+   "id": "L003",
+   "image": "",
+   "gif_url": "",
+   "mistakes_es": [
+    "Subir demasiado (se vuelve un abdominal común).",
+    "Tirar de la cabeza con las manos.",
+    "Aguantar la respiración."
+   ],
+   "feel_es": "Abdomen de adelante, sin tirón en el cuello.",
+   "steps_es": [
+    "Acostate boca arriba con una pierna doblada y la otra estirada.",
+    "Poné las manos debajo de la cintura para mantener su curva natural.",
+    "Apretá suave el abdomen.",
+    "Despegá apenas la cabeza y los hombros del piso, como si la cabeza y el pecho fueran un bloque.",
+    "Mantené 8 a 10 segundos respirando y bajá lento."
+   ],
+   "video": {
+    "id": "3pd_MLk5018",
+    "title": "McGill Curl Up Exercise Español",
+    "channel": "Drwithin Chiropractic"
+   }
+  },
+  {
+   "aliases": [
+    "Bisagra de cadera con palo (Hip hinge)",
+    "Bisagra de cadera con palo",
+    "Hip hinge"
+   ],
+   "name": "dowel hip hinge",
+   "body_part": "upper legs",
+   "equipment": "body weight",
+   "target": "glutes",
+   "instructions_es": "Parada con los pies al ancho de cadera, apoyá un palo de escoba sobre la espalda: tiene que tocar la nuca, entre los omóplatos y la cola. Con las rodillas apenas flojas, llevá la cola hacia atrás inclinando el tronco hacia adelante. El palo no se despega de ninguno de los tres puntos. Volvé arriba empujando la cadera hacia adelante y apretando los glúteos.",
+   "safety_l4l5": "Enseña a agacharte doblando la cadera y no la cintura: es el patrón para levantar cosas del piso cuidando L4-L5.",
+   "cues_es": [
+    "Imaginá que cerrás la puerta del auto con la cola.",
+    "Si el palo se despega de la cola o de la nuca, estás redondeando o arqueando.",
+    "Bajá solo hasta donde mantengas los tres puntos de contacto."
+   ],
+   "avoid_es": "No dobles la espalda para llegar más abajo: el movimiento sale de la cadera.",
+   "video_query_es": "bisagra de cadera con palo hip hinge tecnica",
+   "id": "L004",
+   "image": "",
+   "gif_url": "",
+   "mistakes_es": [
+    "Doblar mucho las rodillas (se vuelve una sentadilla).",
+    "Redondear la espalda para bajar más.",
+    "Mirar hacia arriba y arquear el cuello."
+   ],
+   "feel_es": "Parte de atrás de los muslos y glúteos estirándose. La espalda queda quieta.",
+   "steps_es": [
+    "Parada con los pies al ancho de cadera, apoyá un palo de escoba sobre la espalda: tiene que tocar la nuca, entre los omóplatos y la cola.",
+    "Con las rodillas apenas flojas, llevá la cola hacia atrás inclinando el tronco hacia adelante.",
+    "El palo no se despega de ninguno de los tres puntos.",
+    "Volvé arriba empujando la cadera hacia adelante y apretando los glúteos."
+   ],
+   "video": {
+    "id": "OHCc7I76srw",
+    "title": "Bisagra de cadera con palo",
+    "channel": "Brandon Alexis Trainer"
+   }
+  },
+  {
+   "aliases": [
+    "Pull-through con banda (bisagra de cadera)",
+    "Pull-through con banda",
+    "Pull through banda"
+   ],
+   "name": "band pull-through",
+   "body_part": "upper legs",
+   "equipment": "band",
+   "target": "glutes",
+   "instructions_es": "Atá la banda a algo firme bajo y quedate de espaldas, con la banda pasando entre las piernas y tomándola con las dos manos. Hacé la bisagra de cadera: cola hacia atrás, espalda recta y rodillas apenas flojas. Volvé arriba empujando la cadera hacia adelante y apretando los glúteos, sin tirar con los brazos.",
+   "safety_l4l5": "Trabaja glúteos con el patrón de bisagra y la carga tirando hacia atrás, sin comprimir la columna.",
+   "cues_es": [
+    "Los brazos son solo ganchos: la fuerza la hace la cadera.",
+    "Terminá parada derecha apretando glúteos, sin echarte para atrás.",
+    "Espalda plana todo el tiempo."
+   ],
+   "avoid_es": "No arquees la cintura al final ni redondees la espalda al bajar.",
+   "video_query_es": "pull through con banda elastica gluteos",
+   "id": "L010",
+   "image": "",
+   "gif_url": "",
+   "mistakes_es": [
+    "Tirar de la banda con los brazos.",
+    "Echarse hacia atrás arriba.",
+    "Hacer una sentadilla en lugar de una bisagra."
+   ],
+   "feel_es": "Glúteos e isquiotibiales.",
+   "steps_es": [
+    "Atá la banda a algo firme bajo y quedate de espaldas, con la banda pasando entre las piernas y tomándola con las dos manos.",
+    "Hacé la bisagra de cadera: cola hacia atrás, espalda recta y rodillas apenas flojas.",
+    "Volvé arriba empujando la cadera hacia adelante y apretando los glúteos, sin tirar con los brazos."
+   ],
+   "video": {
+    "id": "uhseHGsuIEg",
+    "title": "Pull through con banda elástica",
+    "channel": "Guillermo Pajuelo"
+   }
+  },
+  {
+   "aliases": [
+    "Pull-through en polea baja (bisagra de cadera)",
+    "Pull-through en polea baja",
+    "Pull through polea"
+   ],
+   "name": "cable pull-through",
+   "body_part": "upper legs",
+   "equipment": "cable",
+   "target": "glutes",
+   "instructions_es": "Poné la cuerda en la polea baja y quedate de espaldas a la máquina, con la cuerda entre las piernas. Alejate dos pasos. Hacé la bisagra de cadera: cola hacia atrás, espalda recta y rodillas apenas flojas. Volvé arriba empujando la cadera hacia adelante y apretando los glúteos.",
+   "safety_l4l5": "La polea tira hacia atrás y no hacia abajo: los glúteos trabajan sin cargar la columna.",
+   "cues_es": [
+    "Los brazos son solo ganchos.",
+    "Cola atrás como cerrando una puerta.",
+    "Arriba, glúteos apretados y cuerpo derecho."
+   ],
+   "avoid_es": "No uses tanto peso que te arrastre hacia la máquina ni arquees al final.",
+   "video_query_es": "pull through polea tecnica gluteos",
+   "id": "L011",
+   "image": "",
+   "gif_url": "",
+   "mistakes_es": [
+    "Pararse muy cerca de la polea.",
+    "Tirar con los brazos.",
+    "Redondear la espalda al bajar."
+   ],
+   "feel_es": "Glúteos e isquiotibiales.",
+   "steps_es": [
+    "Poné la cuerda en la polea baja y quedate de espaldas a la máquina, con la cuerda entre las piernas.",
+    "Alejate dos pasos.",
+    "Hacé la bisagra de cadera: cola hacia atrás, espalda recta y rodillas apenas flojas.",
+    "Volvé arriba empujando la cadera hacia adelante y apretando los glúteos."
+   ],
+   "photos": [
+    "photos/L011_0.jpg",
+    "photos/L011_1.jpg"
+   ],
+   "video": {
+    "id": "i04NloqHYBE",
+    "title": "🍑 PULL THROUGH en polea baja: técnica para activar GLÚTEO",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "0178",
@@ -1092,7 +2137,23 @@
    "avoid_es": "No te inclines hacia el costado ni arquees la cintura para subir más peso.",
    "video_query_es": "elevacion lateral en polea baja un brazo tecnica mujer",
    "image": "images/0178-goJ6ezq.jpg",
-   "gif_url": "videos/0178-goJ6ezq.gif"
+   "gif_url": "videos/0178-goJ6ezq.gif",
+   "mistakes_es": [
+    "Inclinarse hacia el lado contrario.",
+    "Subir más arriba del hombro.",
+    "Balancear el cuerpo."
+   ],
+   "feel_es": "Costado del hombro del brazo que sube.",
+   "steps_es": [
+    "Parate de costado a la polea baja con el agarre (manija) en la mano más lejana.",
+    "Rodillas apenas flojas, abdomen firme y la otra mano apoyada en la columna de la máquina.",
+    "Subí el brazo hacia el costado con el codo apenas doblado hasta la altura del hombro (no más arriba) y bajá lento en 3 segundos."
+   ],
+   "video": {
+    "id": "gjUrYfNU1-M",
+    "title": "Elevación Lateral Hombro Unilateral Polea Baja",
+    "channel": "Zonapablo"
+   }
   },
   {
    "id": "0584",
@@ -1114,7 +2175,24 @@
    "avoid_es": "No encojas los hombros hacia las orejas ni despegues la espalda del respaldo.",
    "video_query_es": "elevaciones laterales en maquina tecnica correcta",
    "image": "images/0584-dRTfGZT.jpg",
-   "gif_url": "videos/0584-dRTfGZT.gif"
+   "gif_url": "videos/0584-dRTfGZT.gif",
+   "mistakes_es": [
+    "Asiento mal ajustado: el hombro tiene que quedar alineado con el eje.",
+    "Encoger los hombros hacia las orejas.",
+    "Subir más arriba de la altura del hombro."
+   ],
+   "feel_es": "Costado de los hombros.",
+   "steps_es": [
+    "Sentate en la máquina de elevaciones laterales con el pecho apoyado o la espalda contra el respaldo.",
+    "Ajustá el asiento para que el eje de la máquina quede a la altura de tus hombros.",
+    "Apoyá los antebrazos en las almohadillas y subí los codos hacia los costados hasta la altura del hombro.",
+    "Bajá lento."
+   ],
+   "video": {
+    "id": "aKDYtQbCKWY",
+    "title": "🟠Elevaciones Laterales en Máquina 🏋️‍♂️ | Hombro Lateral SIN Errores (Técnica Correcta)",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "0602",
@@ -1137,7 +2215,27 @@
    "avoid_es": "No tires con los brazos de golpe ni despegues el pecho del respaldo.",
    "video_query_es": "pajaros en maquina peck deck invertido deltoides posterior tecnica",
    "image": "images/0602-myfUsKf.jpg",
-   "gif_url": "videos/0602-myfUsKf.gif"
+   "gif_url": "videos/0602-myfUsKf.gif",
+   "mistakes_es": [
+    "Despegar el pecho del respaldo.",
+    "Doblar los codos y tirar con los brazos.",
+    "Hacerlo con impulso."
+   ],
+   "feel_es": "Parte de atrás de los hombros y entre los omóplatos.",
+   "steps_es": [
+    "Sentate mirando hacia la máquina (pec-deck) con el pecho apoyado en el respaldo.",
+    "Tomá las manijas con los brazos estirados al frente a la altura del hombro.",
+    "Abrí los brazos hacia atrás en semicírculo juntando los omóplatos, pausá 1 segundo y volvé lento."
+   ],
+   "photos": [
+    "photos/0602_0.jpg",
+    "photos/0602_1.jpg"
+   ],
+   "video": {
+    "id": "TtJmmR2RuHU",
+    "title": "Deltoides posterior en máquina de peck deck",
+    "channel": "Fitness Consciente"
+   }
   },
   {
    "id": "0596",
@@ -1160,7 +2258,27 @@
    "avoid_es": "No arquees la cintura despegándote del respaldo al cerrar.",
    "video_query_es": "aperturas en maquina pec deck tecnica correcta",
    "image": "images/0596-v3xmPAR.jpg",
-   "gif_url": "videos/0596-v3xmPAR.gif"
+   "gif_url": "videos/0596-v3xmPAR.gif",
+   "mistakes_es": [
+    "Despegar la espalda del respaldo al cerrar.",
+    "Abrir los brazos más atrás de la línea de los hombros.",
+    "Cerrar de golpe en vez de controlado."
+   ],
+   "feel_es": "Pecho, sobre todo en el centro al cerrar los brazos.",
+   "steps_es": [
+    "Sentate con la espalda bien apoyada en el respaldo, pies firmes en el piso.",
+    "Ajustá el asiento para que las manijas queden a la altura del pecho.",
+    "Con los codos apenas doblados, cerrá los brazos al frente como si abrazaras un árbol grande, pausá 1 segundo y volvé lento sin pasar la línea del cuerpo."
+   ],
+   "photos": [
+    "photos/0596_0.jpg",
+    "photos/0596_1.jpg"
+   ],
+   "video": {
+    "id": "WKfTStqIXrw",
+    "title": "Cómo Hacer Aperturas de Pecho en Máquina Peck Deck 💪 | Técnica Correcta",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "0200",
@@ -1183,7 +2301,28 @@
    "avoid_es": "No te inclines sobre la polea ni uses el cuerpo para empujar: si pasa, bajá el peso.",
    "video_query_es": "extension de triceps en polea con cuerda tecnica correcta mujer",
    "image": "images/0200-dU605di.jpg",
-   "gif_url": "videos/0200-dU605di.gif"
+   "gif_url": "videos/0200-dU605di.gif",
+   "mistakes_es": [
+    "Despegar los codos del cuerpo.",
+    "Inclinarse sobre la polea.",
+    "Subir las manos más arriba del pecho."
+   ],
+   "feel_es": "Tríceps, atrás del brazo.",
+   "steps_es": [
+    "Parate frente a la polea alta con la cuerda colocada.",
+    "Pies al ancho de cadera, rodillas flojas, abdomen activo y el torso apenas inclinado (5-10°) con la espalda recta.",
+    "Codos pegados a los costados.",
+    "Estirá los brazos hacia abajo abriendo la cuerda al final, y subí lento hasta que los antebrazos queden paralelos al piso."
+   ],
+   "photos": [
+    "photos/0200_0.jpg",
+    "photos/0200_1.jpg"
+   ],
+   "video": {
+    "id": "uZg6VtRhwQY",
+    "title": "Tríceps en Polea con Cuerdas / Tips Claves",
+    "channel": "Zonapablo"
+   }
   },
   {
    "id": "0868",
@@ -1205,7 +2344,27 @@
    "avoid_es": "No te tires hacia atrás con la cintura para subir la barra.",
    "video_query_es": "curl de biceps en polea baja tecnica correcta",
    "image": "images/0868-G08RZcQ.jpg",
-   "gif_url": "videos/0868-G08RZcQ.gif"
+   "gif_url": "videos/0868-G08RZcQ.gif",
+   "mistakes_es": [
+    "Tirarse hacia atrás con la cintura.",
+    "Mover los codos hacia adelante.",
+    "Bajar sin control."
+   ],
+   "feel_es": "Bíceps, adelante del brazo.",
+   "steps_es": [
+    "Parate frente a la polea baja con la barra recta o EZ, a un paso de distancia.",
+    "Rodillas flojas, glúteos y abdomen firmes, codos pegados al cuerpo.",
+    "Subí la barra doblando los codos hasta la altura del pecho y bajá en 3 segundos hasta estirar casi del todo."
+   ],
+   "photos": [
+    "photos/0868_0.jpg",
+    "photos/0868_1.jpg"
+   ],
+   "video": {
+    "id": "BNxez0L-9LQ",
+    "title": "CURL DE BICEPS EN POLEA BAJA",
+    "channel": "Carlos Ruiz"
+   }
   },
   {
    "id": "0165",
@@ -1227,7 +2386,28 @@
    "avoid_es": "No balancees el torso.",
    "video_query_es": "curl martillo en polea con cuerda tecnica",
    "image": "images/0165-HPlPoQA.jpg",
-   "gif_url": "videos/0165-HPlPoQA.gif"
+   "gif_url": "videos/0165-HPlPoQA.gif",
+   "mistakes_es": [
+    "Balancear el torso.",
+    "Girar las muñecas: las palmas se miran todo el tiempo.",
+    "Mover los codos hacia adelante."
+   ],
+   "feel_es": "Bíceps y antebrazo.",
+   "steps_es": [
+    "Polea baja con la cuerda.",
+    "Agarre neutro (palmas mirándose).",
+    "Codos pegados, abdomen firme.",
+    "Subí la cuerda doblando los codos hasta el pecho y bajá lento."
+   ],
+   "photos": [
+    "photos/0165_0.jpg",
+    "photos/0165_1.jpg"
+   ],
+   "video": {
+    "id": "gL428OTY9Bo",
+    "title": "Curl martillo en polea con cuerda: agarre NEUTRO y control 💪",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "0592",
@@ -1249,7 +2429,26 @@
    "avoid_es": "No despegues los brazos del almohadón.",
    "video_query_es": "curl predicador en maquina scott tecnica",
    "image": "images/0592-b6hQYMb.jpg",
-   "gif_url": "videos/0592-b6hQYMb.gif"
+   "gif_url": "videos/0592-b6hQYMb.gif",
+   "mistakes_es": [
+    "Despegar los brazos del almohadón.",
+    "Estirar de golpe abajo.",
+    "Asiento muy bajo: las axilas tienen que apoyar en el borde."
+   ],
+   "feel_es": "Bíceps, adelante del brazo.",
+   "steps_es": [
+    "Sentate en la máquina Scott y ajustá el asiento para que las axilas queden apoyadas en el borde superior del almohadón.",
+    "Brazos apoyados, tomá las manijas, subí doblando los codos y bajá lento sin estirar de golpe al final."
+   ],
+   "photos": [
+    "photos/0592_0.jpg",
+    "photos/0592_1.jpg"
+   ],
+   "video": {
+    "id": "U1iY5dCxggg",
+    "title": "Bíceps Predicador en Máquina",
+    "channel": "Zonapablo"
+   }
   },
   {
    "id": "0235",
@@ -1271,7 +2470,28 @@
    "avoid_es": "No gires el torso para mover el brazo.",
    "video_query_es": "rotacion externa de hombro en polea manguito rotador",
    "image": "images/0235-FWdVhcW.jpg",
-   "gif_url": "videos/0235-FWdVhcW.gif"
+   "gif_url": "videos/0235-FWdVhcW.gif",
+   "mistakes_es": [
+    "Despegar el codo del cuerpo.",
+    "Girar el tronco para mover el brazo.",
+    "Usar demasiado peso."
+   ],
+   "feel_es": "Parte de atrás del hombro, un trabajo chiquito y profundo.",
+   "steps_es": [
+    "Polea a la altura del codo.",
+    "Parate de costado, con el codo del brazo de afuera pegado a la cintura (podés poner una toallita entre codo y cuerpo) y doblado a 90°.",
+    "Rotá el antebrazo hacia afuera, alejándolo del cuerpo, sin despegar el codo.",
+    "Volvé lento."
+   ],
+   "photos": [
+    "photos/0235_0.jpg",
+    "photos/0235_1.jpg"
+   ],
+   "video": {
+    "id": "DplyMccjRrE",
+    "title": "🟢ROTACIONES EXTERNAS de Hombro en Polea: ✅ Técnica PERFECTA y SEGURA",
+    "channel": "Vitar Club"
+   }
   },
   {
    "id": "1015",
@@ -1293,8 +2513,66 @@
    "avoid_es": "No arquees la espalda al subir los brazos.",
    "video_query_es": "press pallof vertical banda core antirrotacion",
    "image": "images/1015-G7PXMlT.jpg",
-   "gif_url": "videos/1015-G7PXMlT.gif"
+   "gif_url": "videos/1015-G7PXMlT.gif",
+   "mistakes_es": [
+    "Arquear la cintura al subir los brazos.",
+    "Girar el tronco hacia la polea o banda.",
+    "Subir más de lo que podés controlar."
+   ],
+   "feel_es": "Todo el abdomen resistiendo que la cintura se arquee o gire.",
+   "steps_es": [
+    "Polea o banda a la altura del pecho, de costado.",
+    "Llevá el agarre al centro del pecho, abdomen firme.",
+    "Estirá los brazos hacia arriba por encima de la cabeza sin que el cuerpo gire ni la cintura se arquee.",
+    "Volvé al pecho lento."
+   ],
+   "video": {
+    "id": "dmljHKmyaXw",
+    "title": "Pallof Press con extensión por encima de la cabeza",
+    "channel": "Tinsley Performance"
+   }
+  },
+  {
+   "aliases": [
+    "Cardio final (caminadora, bici fija o elíptico)",
+    "Cardio final",
+    "Cardio suave"
+   ],
+   "name": "low back friendly cardio",
+   "body_part": "cardio",
+   "equipment": "Caminadora, bici o elíptico",
+   "target": "cardiovascular system",
+   "instructions_es": "Elegí una de las tres máquinas: caminadora, bici fija o elíptico. Si tenés bici fija reclinada (con respaldo), es la más cómoda para la cintura. Ajustala antes de empezar: en la bici, el asiento a una altura en la que la rodilla quede apenas doblada abajo; en la caminadora, sin inclinación al principio. Hacé los minutos indicados a un ritmo en el que puedas hablar en frases cortas, con la espalda derecha y los hombros relajados. Terminá bajando el ritmo los últimos 2 o 3 minutos.",
+   "safety_l4l5": "El cardio suave sin impacto mejora la circulación y la nutrición de los discos lumbares. Lo importante es la postura: espalda derecha y sin impacto.",
+   "cues_es": [
+    "Prueba del habla: tenés que poder decir una frase corta sin ahogarte.",
+    "En la caminadora no te agarres de las barras ni te inclines hacia adelante.",
+    "En el elíptico, empujá con los talones y mantené el pecho alto."
+   ],
+   "avoid_es": "Por ahora nada de correr, saltar, spinning, remo ni escaladora rápida.",
+   "video_query_es": "bicicleta eliptica espalda",
+   "id": "L020",
+   "image": "",
+   "gif_url": "",
+   "mistakes_es": [
+    "Ir tan rápido que no puedas hablar.",
+    "Encorvarte sobre el manubrio o las barras.",
+    "Usar la caminadora con mucha inclinación desde el primer día."
+   ],
+   "feel_es": "Respiración un poco más agitada y piernas trabajando. La cintura no tiene que doler.",
+   "steps_es": [
+    "Elegí una de las tres máquinas: caminadora, bici fija o elíptico.",
+    "Si tenés bici fija reclinada (con respaldo), es la más cómoda para la cintura.",
+    "Ajustala antes de empezar: en la bici, el asiento a una altura en la que la rodilla quede apenas doblada abajo; en la caminadora, sin inclinación al principio.",
+    "Hacé los minutos indicados a un ritmo en el que puedas hablar en frases cortas, con la espalda derecha y los hombros relajados.",
+    "Terminá bajando el ritmo los últimos 2 o 3 minutos."
+   ],
+   "video": {
+    "id": "GM3KJs8PojY",
+    "title": "Bicicleta elíptica: virtudes y beneficios para la salud de tu espalda",
+    "channel": "FisioOnline"
+   }
   }
  ],
- "note": "Catálogo 0% lesivo L4-L5 para Lucía. Sentadillas y prensa quedan bloqueadas hasta aprobar el Test de Abdomen. Peso muerto excluido."
+ "photos_source": "https://github.com/yuhonas/free-exercise-db (Unlicense, dominio público)"
 }
