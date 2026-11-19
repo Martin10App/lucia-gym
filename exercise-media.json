@@ -44,7 +44,9 @@
     "id": "YHehHSKJyHg",
     "title": "Fortalece tu espalda y tu abdomen con este ejercicio, bird-dog o perro pájaro explicado en español",
     "channel": "Supera tu dolor de espalda - HERNIA DISCAL"
-   }
+   },
+   "nerve_es": "Amigable: la pierna va hacia atrás (cadera estirada) y eso afloja el nervio.",
+   "nerve_level": "ok"
   },
   {
    "id": "0276",
@@ -89,7 +91,9 @@
     "id": "d7Fk08oFX7o",
     "title": "Dead bug, abdominales inferiores para mejorar la lumbalgia",
     "channel": "InfoEspalda"
-   }
+   },
+   "nerve_es": "Estirar la pierna con la cadera doblada tensa el ciático. Si lo hacés, la rodilla queda doblada. En tus programas lo cambiamos por el curl-up.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "0705",
@@ -135,7 +139,9 @@
     "title": "Plancha lateral con rodillas flexionadas",
     "channel": "HolaDoctor"
    },
-   "photo_note_es": "Las fotos muestran la versión con piernas estiradas. Empezá con las rodillas dobladas, como dice el paso 2."
+   "photo_note_es": "Las fotos muestran la versión con piernas estiradas. Empezá con las rodillas dobladas, como dice el paso 2.",
+   "nerve_es": "Amigable: no estira el nervio.",
+   "nerve_level": "ok"
   },
   {
    "id": "0979",
@@ -180,7 +186,9 @@
     "id": "W8Yf1uyUnoM",
     "title": "🧠Press PALLOF en polea: core ANTI-ROTACIÓN (técnica segura)",
     "channel": "Vitar Club"
-   }
+   },
+   "nerve_es": "Amigable: de pie y con la cadera derecha.",
+   "nerve_level": "ok"
   },
   {
    "id": "3239",
@@ -219,7 +227,9 @@
     "id": "qVnZtJGK4zY",
     "title": "¿Cómo Hacer una PLANCHA ABDOMINAL CORRECTAMENTE? ✅ Para PRINCIPIANTES y con RODILLAS apoyadas 👌",
     "channel": "Javier Giménez - Healthy Fitness"
-   }
+   },
+   "nerve_es": "Amigable: la cadera queda estirada.",
+   "nerve_level": "ok"
   },
   {
    "id": "2135",
@@ -261,7 +271,9 @@
     "id": "zfY5XXa26ug",
     "title": "Como hacer la plancha correctamente, trabaja tus abdominales sin dañar la espalda",
     "channel": "Marcos Sacristán | Fisioterapia a tu alcance"
-   }
+   },
+   "nerve_es": "Amigable: la cadera queda estirada.",
+   "nerve_level": "ok"
   },
   {
    "id": "2133",
@@ -299,7 +311,9 @@
     "id": "69hTPgHwA08",
     "title": "💪 CAMINATA DE GRANJERO (FARMER'S WALK): técnica correcta paso a paso",
     "channel": "Vitar Club"
-   }
+   },
+   "nerve_es": "Levantá y dejá las mancuernas sobre un banco o step, nunca desde el piso con las piernas estiradas.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "L002",
@@ -341,7 +355,9 @@
     "id": "J99uL4J5khE",
     "title": "Dolor lumbar: Ejercicio del gato camello",
     "channel": "SEReumatologia"
-   }
+   },
+   "nerve_es": "Amigable si es suave y sin forzar.",
+   "nerve_level": "ok"
   },
   {
    "id": "3147",
@@ -380,7 +396,9 @@
     "id": "pD0ECeS_frM",
     "title": "Dolor lumbar: Ejercicio de báscula pélvica tumbado en el suelo",
     "channel": "SEReumatologia"
-   }
+   },
+   "nerve_es": "Amigable: movimiento chiquito acostada.",
+   "nerve_level": "ok"
   },
   {
    "id": "1710",
@@ -418,7 +436,9 @@
     "id": "C12bTqPVGDs",
     "title": "Estiramientos:  Estiramientos del piramidal y glúteos",
     "channel": "FREMAP Mutua Colaboradora con la S. S. nº 61"
-   }
+   },
+   "nerve_es": "Doblar mucho la cadera puede apretar el nervio. Si te tira la pierna, no lo hagas: usá la descarga 90/90.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "1564",
@@ -460,7 +480,9 @@
     "id": "KqJGVj5aA1I",
     "title": "Estiramiento del psoas #fisioterapiatualcance",
     "channel": "Marcos Sacristán | Fisioterapia a tu alcance"
-   }
+   },
+   "nerve_es": "Amigable: la cadera de la pierna de atrás queda estirada.",
+   "nerve_level": "ok"
   },
   {
    "id": "1346",
@@ -540,7 +562,9 @@
     "id": "kEyu3GkRavA",
     "title": "REMO con mancuernas en banco inclinado 💪 Cómo hacerlo bien",
     "channel": "Vitar Club"
-   }
+   },
+   "nerve_es": "Amigable: boca abajo con la cadera estirada. Dejá las mancuernas sobre un step al lado del banco, nunca las levantes del piso.",
+   "nerve_level": "ok"
   },
   {
    "id": "1350",
@@ -583,7 +607,9 @@
     "id": "LDxVARwqzy4",
     "title": "TECNICA REMO DE PECHO APOYADO",
     "channel": "Gabriel Fischman"
-   }
+   },
+   "nerve_es": "Amigable: pecho apoyado.",
+   "nerve_level": "ok"
   },
   {
    "id": "2330",
@@ -627,7 +653,9 @@
     "id": "oLQj4fySWQQ",
     "title": "Jalón al Pecho en Polea Alta. Espalda y Dorsal",
     "channel": "Zonapablo"
-   }
+   },
+   "nerve_es": "Amigable: sentada con las rodillas dobladas bajo el apoyo.",
+   "nerve_level": "ok"
   },
   {
    "id": "3144",
@@ -666,7 +694,9 @@
     "id": "mm4Oob4g3zU",
     "title": "REMO CON BANDA para FORTALECER la ESPALDA | #YoPRObooster",
     "channel": "YoPRO"
-   }
+   },
+   "nerve_es": "Hacelo de pie con un pie adelante. Sentada en el piso con las piernas estiradas tensa el ciático.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "0974",
@@ -705,7 +735,9 @@
     "id": "RgPmw5cg3fQ",
     "title": "¿Cómo hacer jalón con banda para espalda? Aquí te explico",
     "channel": "Meli Cardenas"
-   }
+   },
+   "nerve_es": "Amigable: de rodillas o sentada en silla con las rodillas dobladas.",
+   "nerve_level": "ok"
   },
   {
    "id": "0292",
@@ -747,7 +779,9 @@
     "id": "6sP06AxKAzU",
     "title": "REMO CON MANCUERNA",
     "channel": "Priscilla_bc"
-   }
+   },
+   "nerve_es": "La pierna de apoyo queda estirada con la cadera doblada y eso tensa el nervio. Preferí el remo con pecho apoyado o con banda de pie.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "0213",
@@ -786,7 +820,9 @@
     "id": "gfc5NDJrVOk",
     "title": "REMO SENTADO ¡POSICIÓN CORRECTA!",
     "channel": "Entrenamiento Diferencial"
-   }
+   },
+   "nerve_es": "Sentada con las piernas estiradas e inclinándote hacia adelante es la posición que más tensa el ciático. Por eso no está en tus programas.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "0238",
@@ -829,7 +865,9 @@
     "id": "9YQ1YXKko8s",
     "title": "✅ PULLOVER con CUERDA en POLEA ALTA | Hazlo BIEN así |",
     "channel": "Manuel Escalera"
-   }
+   },
+   "nerve_es": "Amigable: de pie y casi derecha.",
+   "nerve_level": "ok"
   },
   {
    "id": "0203",
@@ -873,7 +911,9 @@
     "id": "UaZPhyztYNU",
     "title": "FACE PULL Polea Alta. Ejercicio de Hombro Posterior",
     "channel": "Zonapablo"
-   }
+   },
+   "nerve_es": "Amigable: de pie.",
+   "nerve_level": "ok"
   },
   {
    "id": "1022",
@@ -909,7 +949,9 @@
     "id": "w06tVYSLH20",
     "title": "FORTALECIMIENTO. Ejericicio Face Pull con goma elastica",
     "channel": "Paco The Fisio"
-   }
+   },
+   "nerve_es": "Amigable: de pie.",
+   "nerve_level": "ok"
   },
   {
    "id": "3013",
@@ -952,7 +994,9 @@
     "id": "uuiN9NRFMBo",
     "title": "¿Cómo hacer Puente de Glúteos? Aquí te explico 💪🏻",
     "channel": "Meli Cardenas"
-   }
+   },
+   "nerve_es": "Ideal: fortalece glúteos con la cadera yendo a estirarse, lo que afloja el nervio.",
+   "nerve_level": "ok"
   },
   {
    "id": "3561",
@@ -988,7 +1032,9 @@
     "id": "dfKMCV5UWsA",
     "title": "Marchas en puente de glúteos",
     "channel": "Stephania Ruiz"
-   }
+   },
+   "nerve_es": "Ideal: glúteo y abdomen sin tensar el nervio.",
+   "nerve_level": "ok"
   },
   {
    "id": "3523",
@@ -1025,7 +1071,9 @@
     "id": "BH9er7oJM_s",
     "title": "💡NO MÁS DOLOR LUMBAR haciendo HIP THRUST | ✅ Mejor corriges este ERROR ❌ #consejofit #HipThrust",
     "channel": "Diana Ayala"
-   }
+   },
+   "nerve_es": "Ideal: glúteos con la cadera estirándose.",
+   "nerve_level": "ok"
   },
   {
    "id": "0058",
@@ -1066,7 +1114,9 @@
     "id": "3SHkXmrQtxQ",
     "title": "Hip Thrust con BARRA  - GLÚTEOS TIPS PASO A PASO",
     "channel": "Zonapablo"
-   }
+   },
+   "nerve_es": "Ideal: glúteos con la cadera estirándose.",
+   "nerve_level": "ok"
   },
   {
    "id": "0291",
@@ -1109,7 +1159,9 @@
     "id": "I63oel2pBKM",
     "title": "Sentadilla con Silla [ tutorial simple ] - Entrenador Wellness",
     "channel": "Entrenador Wellness"
-   }
+   },
+   "nerve_es": "Amigable: rodillas dobladas y el cajón pone el tope.",
+   "nerve_level": "ok"
   },
   {
    "id": "1760",
@@ -1154,7 +1206,9 @@
     "title": "Sentadilla goblet con mancuerna: técnica paso a paso",
     "channel": "BuhoSalud"
    },
-   "photo_note_es": "En la foto baja más de lo recomendado para vos: frená donde la espalda siga recta."
+   "photo_note_es": "En la foto baja más de lo recomendado para vos: frená donde la espalda siga recta.",
+   "nerve_es": "Bajar muy profundo con el tobillo doblado puede tironear el nervio. Usá un cajón como tope.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "0431",
@@ -1197,7 +1251,9 @@
     "id": "tLOhKheqPN8",
     "title": "SUBIDAS EN  CAJÓN",
     "channel": "Priscilla_bc"
-   }
+   },
+   "nerve_es": "Amigable con un escalón bajo.",
+   "nerve_level": "ok"
   },
   {
    "id": "0739",
@@ -1236,7 +1292,9 @@
     "id": "czfq74EkNUo",
     "title": "CUIDADO CON LA PRENSA! EVITA EL DOLOR DE ESPALDA",
     "channel": "En Forma CONANlvaro"
-   }
+   },
+   "nerve_es": "Al estirar las rodillas con la cadera doblada se tensa el ciático. Por eso no está en tus programas; si algún día la hacés, rango corto.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "0599",
@@ -1278,7 +1336,9 @@
     "id": "CBCPBnMzsMI",
     "title": "Curl Femoral Sentado en Máquina 🏋️‍♂️ | Técnica Correcta",
     "channel": "Vitar Club"
-   }
+   },
+   "nerve_es": "Sentada con la rodilla estirándose tensa el nervio. Preferí el curl acostada.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "0586",
@@ -1319,7 +1379,9 @@
     "id": "9xbBr5Ytl8c",
     "title": "Cómo hacer curl femoral tumbado en máquina · Técnica correcta",
     "channel": "Vitar Club"
-   }
+   },
+   "nerve_es": "Amigable: boca abajo con la cadera estirada.",
+   "nerve_level": "ok"
   },
   {
    "id": "0585",
@@ -1359,7 +1421,9 @@
     "id": "DI34ngDC8FU",
     "title": "Extensiones de piernas en máquina",
     "channel": "Fitness Consciente"
-   }
+   },
+   "nerve_es": "Estirar la rodilla del todo estando sentada tensa el ciático. Por eso no está en tus programas.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "0228",
@@ -1400,7 +1464,9 @@
     "id": "62QSw6JcxEU",
     "title": "Patada de glúteo en polea: cómo aislar el GLÚTEO sin arquear la espalda 🍑",
     "channel": "Vitar Club"
-   }
+   },
+   "nerve_es": "Ideal: la pierna va hacia atrás y afloja el nervio.",
+   "nerve_level": "ok"
   },
   {
    "id": "0597",
@@ -1440,7 +1506,9 @@
     "id": "7Oa_6915l3M",
     "title": "Cómo Hacer Abducciones de Glúteo en Máquina 💪 | Técnica Correcta",
     "channel": "Vitar Club"
-   }
+   },
+   "nerve_es": "Amigable: rodillas dobladas.",
+   "nerve_level": "ok"
   },
   {
    "id": "3006",
@@ -1475,7 +1543,9 @@
     "id": "cMAELC6-oXk",
     "title": "Abducciones Sentada con Liga / Band Seated Hip Abduction",
     "channel": "Karen Zárate"
-   }
+   },
+   "nerve_es": "Amigable: rodillas dobladas.",
+   "nerve_level": "ok"
   },
   {
    "id": "0710",
@@ -1512,7 +1582,9 @@
     "id": "dILxTvY88uI",
     "title": "Ejercicio ABDUCCIÓN de CADERA 💪 Tumbado o Acostado ✅ (APRENDE la Mejor Técnica para Glúteo Medio)",
     "channel": "Javier Giménez - Healthy Fitness"
-   }
+   },
+   "nerve_es": "Amigable: acostada de lado.",
+   "nerve_level": "ok"
   },
   {
    "id": "0594",
@@ -1552,7 +1624,9 @@
     "id": "aAniiWqBuOY",
     "title": "Ejercicio 7 - Elevación de talones para fortalecer gemelos - Dr. Oscar Ares",
     "channel": "Dr. Oscar Ares - Traumatología"
-   }
+   },
+   "nerve_es": "Bajar el talón con la rodilla recta estira justo la zona del Aquiles por donde te duele. Por eso no está en tus programas.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "0659",
@@ -1992,7 +2066,9 @@
     "id": "3pd_MLk5018",
     "title": "McGill Curl Up Exercise Español",
     "channel": "Drwithin Chiropractic"
-   }
+   },
+   "nerve_es": "Amigable: una pierna doblada y la otra apoyada en el piso.",
+   "nerve_level": "ok"
   },
   {
    "aliases": [
@@ -2032,7 +2108,9 @@
     "id": "OHCc7I76srw",
     "title": "Bisagra de cadera con palo",
     "channel": "Brandon Alexis Trainer"
-   }
+   },
+   "nerve_es": "Inclinarse con las rodillas casi rectas tensa el ciático. Por eso no está en tus programas.",
+   "nerve_level": "cuidado"
   },
   {
    "aliases": [
@@ -2071,7 +2149,9 @@
     "id": "uhseHGsuIEg",
     "title": "Pull through con banda elástica",
     "channel": "Guillermo Pajuelo"
-   }
+   },
+   "nerve_es": "Es una bisagra con las rodillas casi rectas: tensa el nervio. No está en tus programas.",
+   "nerve_level": "cuidado"
   },
   {
    "aliases": [
@@ -2115,7 +2195,9 @@
     "id": "i04NloqHYBE",
     "title": "🍑 PULL THROUGH en polea baja: técnica para activar GLÚTEO",
     "channel": "Vitar Club"
-   }
+   },
+   "nerve_es": "Es una bisagra con las rodillas casi rectas: tensa el nervio. No está en tus programas.",
+   "nerve_level": "cuidado"
   },
   {
    "id": "0178",
@@ -2571,7 +2653,9 @@
     "id": "GM3KJs8PojY",
     "title": "Bicicleta elíptica: virtudes y beneficios para la salud de tu espalda",
     "channel": "FisioOnline"
-   }
+   },
+   "nerve_es": "Mejor caminando en la cinta. En la bici, el pedal abajo con la cadera doblada puede tironear la pierna.",
+   "nerve_level": "cuidado"
   },
   {
    "aliases": [
@@ -2614,7 +2698,9 @@
     "id": "tUm4jGHF3cg",
     "title": "Cómo caminar cuando tenés ciática",
     "channel": "Marcos Sacristán | Fisioterapia a tu alcance"
-   }
+   },
+   "nerve_es": "Mejor caminando en la cinta. En la bici, el pedal abajo con la cadera doblada puede tironear la pierna.",
+   "nerve_level": "cuidado"
   },
   {
    "aliases": [
@@ -2653,7 +2739,9 @@
     "id": "YlGWRyiMdX0",
     "title": "Rutina de 5 minutos para descomprimir tu lumbar con solo una silla",
     "channel": "Fisiodavidpueyo"
-   }
+   },
+   "nerve_es": "Ideal: es la posición que más descomprime la zona y afloja el nervio.",
+   "nerve_level": "ok"
   },
   {
    "aliases": [
@@ -2692,7 +2780,9 @@
     "id": "bNX33ni_Olk",
     "title": "Deslizamiento neurodinámico del nervio ciático sentado",
     "channel": "InstitutoDeColumna"
-   }
+   },
+   "nerve_es": "Hacelo chiquito: cuando la rodilla se estira la cabeza sube, y así el nervio se desliza sin tensarse. Si aparece el dolor, ese día salteálo.",
+   "nerve_level": "cuidado"
   }
  ],
  "photos_source": "https://github.com/yuhonas/free-exercise-db (Unlicense, dominio público)"

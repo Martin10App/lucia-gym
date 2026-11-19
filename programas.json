@@ -24,7 +24,7 @@
         "pared"
       ],
       "goal": "salud",
-      "summary": "El punto de partida ideal en casa para Lucía. Enseña a activar la faja abdominal profunda (Tríada de McGill), despierta los glúteos para que sostengan la pelvis y fortalece la espalda alta con banda elástica con muy poca carga sobre L4-L5. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
+      "summary": "El punto de partida ideal en casa para Lucía. Enseña a activar la faja abdominal profunda (Tríada de McGill), despierta los glúteos para que sostengan la pelvis y fortalece la espalda alta con banda elástica con muy poca carga sobre L4-L5. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees. Pensado para cuidar el nervio ciático: nada de cadera doblada con la rodilla estirada, y mucho glúteo y abdomen.",
       "progression": "En esta Fase 1 la prioridad es la técnica perfecta y sentir qué músculo trabaja sin ninguna molestia en la cintura. Cada semana sumá 1 o 2 repeticiones o 2 segundos de pausa isométrica sólo si sentís control total (RIR 3-4: te quedan varias repeticiones en la recámara).",
       "basedOn": "Protocolo de estabilización lumbar del Dr. Stuart McGill (Back Mechanic / Big 3: Bird-Dog, Plancha lateral modificada y control abdominal neutro) combinado con activación glútea y tracción escapular en descarga.",
       "weekPlan": [
@@ -63,7 +63,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -129,7 +129,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -268,7 +268,7 @@
               "reps": "10",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "10",
@@ -276,6 +276,23 @@
                 "15",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre una silla, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -288,7 +305,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -354,7 +371,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -467,7 +484,7 @@
               "reps": "10",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "10",
@@ -475,6 +492,23 @@
                 "15",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre una silla, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -487,7 +521,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -553,7 +587,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -602,13 +636,13 @@
               ]
             },
             {
-              "name": "Bisagra de cadera con palo (Hip hinge)",
+              "name": "Hip Thrust / Puente de glúteos con espalda en banco",
               "muscle": "Glúteos",
+              "reps": "10-12",
+              "note": "Espalda alta apoyada en el borde de un sillón firme. Mentón adentro y costillas abajo.",
               "series": 3,
-              "reps": "8-10",
               "rir": "3",
               "rest": "45 s",
-              "note": "Palo de escoba apoyado en la espalda tocando cabeza, entre omóplatos y cola. Llevá la cola hacia atrás doblando apenas las rodillas sin que el palo se despegue. Es el movimiento que te protege al levantar cosas del piso.",
               "seriesByWeek": [
                 2,
                 3,
@@ -707,23 +741,13 @@
               ]
             },
             {
-              "name": "Estiramiento de glúteo y piramidal acostada",
-              "muscle": "Glúteos",
-              "series": 2,
-              "reps": "25",
-              "unit": "s",
-              "rir": "4",
-              "rest": "30 s",
-              "note": "Acostada boca arriba, alivia toda la tensión de la zona glútea y lumbar."
-            },
-            {
               "name": "Cardio final (caminadora, bici fija o elíptico)",
               "muscle": "Cardio",
               "series": 1,
               "reps": "10",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "10",
@@ -731,6 +755,23 @@
                 "15",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre una silla, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         }
@@ -785,7 +826,7 @@
         "colchoneta"
       ],
       "goal": "salud",
-      "summary": "Diseñado para empezar en el gimnasio desde cero cuidando tu operación L4-L5 al 100%. Usa poleas, prensa, banco de rodillos y banco regulable con respaldo, combinados con ejercicios de core en colchoneta. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
+      "summary": "Diseñado para empezar en el gimnasio desde cero cuidando tu operación L4-L5 al 100%. Usa poleas, prensa, banco de rodillos y banco regulable con respaldo, combinados con ejercicios de core en colchoneta. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees. Pensado para cuidar el nervio ciático: nada de cadera doblada con la rodilla estirada, y mucho glúteo y abdomen.",
       "progression": "Empezá con cargas muy livianas las primeras 2 semanas para aprender el recorrido de cada máquina. Cuando completes el tope de repeticiones (ej. las 12 reps) sintiendo que podrías hacer 3 más con postura impecable, recién ahí subí un ladrillito o 1–2 kg.",
       "basedOn": "Selección biomecánica de ejercicios con vector de carga descargado (pecho apoyado y respaldo lumbar) + estabilización central de McGill.",
       "weekPlan": [
@@ -824,7 +865,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -890,7 +931,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -939,13 +980,13 @@
               ]
             },
             {
-              "name": "Remo sentado en polea baja (torso erguido, sin balanceo)",
+              "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
               "muscle": "Espalda",
+              "reps": "12-15",
+              "note": "De pie con un pie adelante y la banda atada a la jaula a la altura del ombligo. Nada de sentarse con las piernas estiradas.",
               "series": 3,
-              "reps": "10-12",
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Sentada derecha y rodillas apenas flojas: tirá hacia el ombligo sin mover el tronco.",
               "seriesByWeek": [
                 2,
                 3,
@@ -1002,13 +1043,13 @@
               ]
             },
             {
-              "name": "Extensión de cuádriceps en máquina",
-              "muscle": "Cuádriceps",
-              "series": 3,
+              "name": "Patada de glúteo en polea baja (rango corto sin arquear)",
+              "muscle": "Glúteos",
               "reps": "12-15",
+              "note": "Tobillera en la polea baja, manos en la máquina: la pierna va atrás apenas, sin arquear la cintura. 12-15 por lado.",
+              "series": 3,
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Espalda bien apoyada en el respaldo de la máquina.",
               "seriesByWeek": [
                 2,
                 3,
@@ -1050,7 +1091,7 @@
               "reps": "10",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "10",
@@ -1058,6 +1099,23 @@
                 "15",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre el banco, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -1070,7 +1128,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -1136,7 +1194,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -1164,13 +1222,13 @@
               "unit": "s"
             },
             {
-              "name": "Prensa de piernas 45° (rango controlado, sacro apoyado)",
-              "muscle": "Cuádriceps",
-              "series": 3,
+              "name": "Hip Thrust / Puente de glúteos con espalda en banco",
+              "muscle": "Glúteos",
               "reps": "10-12",
+              "note": "Primero sin peso; cuando salga fácil, una mancuerna sobre la cadera. Mentón adentro y costillas abajo.",
+              "series": 3,
               "rir": "3",
               "rest": "90 s",
-              "note": "REGLA DE ORO: bajá solo hasta ~90° en las rodillas. La cola jamás se despega del asiento.",
               "seriesByWeek": [
                 2,
                 3,
@@ -1270,7 +1328,7 @@
               "reps": "10",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "10",
@@ -1278,6 +1336,23 @@
                 "15",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre el banco, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -1290,7 +1365,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -1356,7 +1431,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -1384,13 +1459,13 @@
               "unit": "s"
             },
             {
-              "name": "Bisagra de cadera con palo (Hip hinge)",
+              "name": "Puente de glúteos con marcha alternada",
               "muscle": "Glúteos",
-              "series": 3,
               "reps": "8-10",
+              "note": "Cadera alta y quieta mientras despegás un pie y el otro: glúteo y abdomen juntos.",
+              "series": 3,
               "rir": "3",
               "rest": "45 s",
-              "note": "Palo de escoba apoyado en la espalda tocando cabeza, entre omóplatos y cola. Llevá la cola hacia atrás doblando apenas las rodillas sin que el palo se despegue. Es el movimiento que te protege al levantar cosas del piso.",
               "seriesByWeek": [
                 2,
                 3,
@@ -1516,7 +1591,7 @@
               "reps": "10",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "10",
@@ -1524,6 +1599,23 @@
                 "15",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre el banco, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         }
@@ -1575,7 +1667,7 @@
         "colchoneta"
       ],
       "goal": "hipertrofia",
-      "summary": "Segundo escalón para entrenar en casa cuando ya dominás la Fase 1. Incorpora mancuernas con apoyos de 3 puntos (mano y rodilla en silla/banco), Hip Thrust con espalda en banco/sillón y Sentadilla Goblet al pecho. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
+      "summary": "Segundo escalón para entrenar en casa cuando ya dominás la Fase 1. Incorpora mancuernas con apoyos de 3 puntos (mano y rodilla en silla/banco), Hip Thrust con espalda en banco/sillón y Sentadilla Goblet al pecho. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees. Pensado para cuidar el nervio ciático: nada de cadera doblada con la rodilla estirada, y mucho glúteo y abdomen.",
       "progression": "Doble progresión suave: empezá en el mínimo de repeticiones (ej. 10 reps). Cuando logres el máximo (12 o 15 reps) en todas las series con 2 RIR y 0 molestia lumbar, subí un poquito el peso o usá una banda más firme.",
       "basedOn": "Progresión de carga sin compresión axial: contrapeso anterior (Goblet), tracción con soporte de brazo libre y extensión de cadera horizontal (Hip Thrust).",
       "weekPlan": [
@@ -1626,7 +1718,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -1700,7 +1792,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -1757,13 +1849,13 @@
               ]
             },
             {
-              "name": "Remo con mancuerna a un brazo (con apoyo en banco/silla)",
+              "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
               "muscle": "Espalda",
+              "reps": "12-15",
+              "note": "De pie con un pie adelante y la banda en un picaporte a la altura del ombligo.",
               "series": 3,
-              "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Apoyá mano y rodilla en una silla firme. Llevá la mancuerna hacia la cadera.",
               "seriesByWeek": [
                 3,
                 3,
@@ -1782,13 +1874,13 @@
               ]
             },
             {
-              "name": "Sentadilla Goblet con mancuerna al pecho",
+              "name": "Sentadilla a silla o cajón (Box Squat controlada)",
               "muscle": "Cuádriceps",
-              "series": 3,
               "reps": "10-12",
+              "note": "El cajón o la silla marcan el tope: rozás y subís. Espalda recta y pie entero apoyado.",
+              "series": 3,
               "rir": "2-3",
               "rest": "75 s",
-              "note": "Mancuerna pegada al pecho, podés poner la silla detrás como referencia de altura.",
               "seriesByWeek": [
                 3,
                 3,
@@ -1857,13 +1949,13 @@
               ]
             },
             {
-              "name": "Dead Bug (Bicho Muerto controlado)",
+              "name": "Curl-up de McGill",
               "muscle": "Abdomen",
+              "reps": "5-6",
+              "note": "Manos debajo de la cintura; despegá apenas cabeza y hombros y sostené 8-10 segundos.",
               "series": 3,
-              "reps": "8-10",
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Por lado, manteniendo la cintura pegada a la colchoneta.",
               "seriesByWeek": [
                 3,
                 3,
@@ -1888,7 +1980,7 @@
               "reps": "15",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "15",
@@ -1898,6 +1990,25 @@
                 "20",
                 "10"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre una silla, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -1910,7 +2021,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -1984,7 +2095,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -2041,13 +2152,13 @@
               ]
             },
             {
-              "name": "Pull-through con banda (bisagra de cadera)",
+              "name": "Abducción de cadera acostada de lado (Glúteo medio)",
               "muscle": "Glúteos",
-              "series": 3,
               "reps": "12-15",
+              "note": "Pierna de arriba apenas hacia atrás, sube unos 35-40 grados.",
+              "series": 3,
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Banda atada abajo, detrás tuyo, pasando entre las piernas. Hacé la bisagra (cola atrás, espalda recta) y volvé apretando glúteos. Sin arquear la cintura arriba.",
               "seriesByWeek": [
                 3,
                 3,
@@ -2165,7 +2276,7 @@
               "reps": "15",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "15",
@@ -2175,6 +2286,25 @@
                 "20",
                 "10"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre una silla, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -2187,7 +2317,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -2261,7 +2391,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -2293,13 +2423,13 @@
               "unit": "s"
             },
             {
-              "name": "Remo con mancuerna a un brazo (con apoyo en banco/silla)",
+              "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
               "muscle": "Espalda",
+              "reps": "12-15",
+              "note": "De pie con un pie adelante y la banda en un picaporte a la altura del ombligo.",
               "series": 3,
-              "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Excelente para dar fuerza a toda la espalda sin comprimir L4-L5.",
               "seriesByWeek": [
                 3,
                 3,
@@ -2442,7 +2572,7 @@
               "reps": "15",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "15",
@@ -2452,6 +2582,25 @@
                 "20",
                 "10"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre una silla, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         }
@@ -2506,7 +2655,7 @@
         "colchoneta"
       ],
       "goal": "hipertrofia",
-      "summary": "El programa central de gimnasio para Lucía: construye una espalda firme y sana (remos con pecho apoyado, jalones, face pulls) y glúteos/piernas fuertes (hip thrust, prensa controlada, curl femoral acostada y step-ups) con muy poca carga vertical en la columna. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
+      "summary": "El programa central de gimnasio para Lucía: construye una espalda firme y sana (remos con pecho apoyado, jalones, face pulls) y glúteos/piernas fuertes (hip thrust, prensa controlada, curl femoral acostada y step-ups) con muy poca carga vertical en la columna. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees. Pensado para cuidar el nervio ciático: nada de cadera doblada con la rodilla estirada, y mucho glúteo y abdomen.",
       "progression": "Mantené el peso hasta llegar al tope de repeticiones en todas las series con técnica limpia y RIR 2. Recién ahí subí el mínimo incremento posible (1 a 2,5 kg).",
       "basedOn": "Hipertrofia y fortalecimiento sin compresión axial (0 barras sobre la espalda ni tirones desde el piso).",
       "weekPlan": [
@@ -2557,7 +2706,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -2631,7 +2780,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -2738,13 +2887,13 @@
               ]
             },
             {
-              "name": "Prensa de piernas 45° (rango controlado, sacro apoyado)",
+              "name": "Sentadilla a silla o cajón (Box Squat controlada)",
               "muscle": "Cuádriceps",
-              "series": 3,
               "reps": "10-12",
+              "note": "El cajón o la silla marcan el tope: rozás y subís. Espalda recta y pie entero apoyado.",
+              "series": 3,
               "rir": "2-3",
               "rest": "90 s",
-              "note": "Bajá solo hasta 90° de rodilla con el sacro pegado al respaldo.",
               "seriesByWeek": [
                 3,
                 3,
@@ -2763,13 +2912,13 @@
               ]
             },
             {
-              "name": "Extensión de cuádriceps en máquina",
-              "muscle": "Cuádriceps",
-              "series": 3,
+              "name": "Patada de glúteo en polea baja (rango corto sin arquear)",
+              "muscle": "Glúteos",
               "reps": "12-15",
+              "note": "Tobillera en la polea baja, manos en la máquina: la pierna va atrás apenas, sin arquear la cintura. 12-15 por lado.",
+              "series": 3,
               "rir": "2",
               "rest": "60 s",
-              "note": "Pausa de 1 segundo arriba.",
               "seriesByWeek": [
                 3,
                 3,
@@ -2819,7 +2968,7 @@
               "reps": "15",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "15",
@@ -2829,6 +2978,25 @@
                 "20",
                 "10"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre el banco, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -2841,7 +3009,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -2915,7 +3083,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -2997,13 +3165,13 @@
               ]
             },
             {
-              "name": "Pull-through en polea baja (bisagra de cadera)",
+              "name": "Puente de glúteos con marcha alternada",
               "muscle": "Glúteos",
+              "reps": "8-10",
+              "note": "Cadera alta y quieta mientras despegás un pie y el otro: glúteo y abdomen juntos.",
               "series": 3,
-              "reps": "12-15",
               "rir": "2",
               "rest": "60 s",
-              "note": "De espaldas a la polea baja con la soga entre las piernas. Cola atrás con espalda recta y volvé apretando glúteos. Peso liviano: el objetivo es la técnica de la bisagra.",
               "seriesByWeek": [
                 3,
                 3,
@@ -3096,7 +3264,7 @@
               "reps": "15",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "15",
@@ -3106,6 +3274,25 @@
                 "20",
                 "10"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre el banco, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -3118,7 +3305,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -3192,7 +3379,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -3224,13 +3411,13 @@
               "unit": "s"
             },
             {
-              "name": "Remo sentado en polea baja (torso erguido, sin balanceo)",
+              "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
               "muscle": "Espalda",
+              "reps": "12-15",
+              "note": "De pie con un pie adelante y la banda atada a la jaula a la altura del ombligo. Nada de sentarse con las piernas estiradas.",
               "series": 3,
-              "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Sentada derecha y rodillas apenas flojas: tirá hacia el ombligo sin mover el tronco.",
               "seriesByWeek": [
                 3,
                 3,
@@ -3380,7 +3567,7 @@
               "reps": "15",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "15",
@@ -3390,6 +3577,25 @@
                 "20",
                 "10"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre el banco, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         }
@@ -3441,7 +3647,7 @@
         "colchoneta"
       ],
       "goal": "hipertrofia",
-      "summary": "Para cuando Lucía ya completó las Fases 1 y 2 en casa y quiere un entrenamiento completo de espalda, glúteos, piernas, hombros y brazos con biseries ágiles y cero estrés en L4-L5. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
+      "summary": "Para cuando Lucía ya completó las Fases 1 y 2 en casa y quiere un entrenamiento completo de espalda, glúteos, piernas, hombros y brazos con biseries ágiles y cero estrés en L4-L5. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees. Pensado para cuidar el nervio ciático: nada de cadera doblada con la rodilla estirada, y mucho glúteo y abdomen.",
       "progression": "Doble progresión en los ejercicios principales y biseries dinámicas de hombros/brazos al final para tonificar sin alargar la sesión.",
       "basedOn": "Entrenamiento de cuerpo completo 3×/semana con selección de ejercicios axialmente descargados.",
       "weekPlan": [
@@ -3492,7 +3698,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -3566,7 +3772,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -3598,13 +3804,13 @@
               "unit": "s"
             },
             {
-              "name": "Remo con mancuerna a un brazo (con apoyo en banco/silla)",
+              "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
               "muscle": "Espalda",
+              "reps": "12-15",
+              "note": "De pie con un pie adelante y la banda en un picaporte a la altura del ombligo.",
               "series": 4,
-              "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
-              "note": "Mano y rodilla apoyadas en silla/banco.",
               "seriesByWeek": [
                 4,
                 4,
@@ -3753,7 +3959,7 @@
               "reps": "20",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "20",
@@ -3763,6 +3969,25 @@
                 "25",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre una silla, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -3775,7 +4000,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -3849,7 +4074,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -3881,13 +4106,13 @@
               "unit": "s"
             },
             {
-              "name": "Sentadilla Goblet con mancuerna al pecho",
+              "name": "Sentadilla a silla o cajón (Box Squat controlada)",
               "muscle": "Cuádriceps",
-              "series": 4,
               "reps": "10-12",
+              "note": "El cajón o la silla marcan el tope: rozás y subís. Espalda recta y pie entero apoyado.",
+              "series": 4,
               "rir": "2",
               "rest": "75 s",
-              "note": "Tronco vertical, mancuerna pegada al pecho.",
               "seriesByWeek": [
                 4,
                 4,
@@ -3906,13 +4131,13 @@
               ]
             },
             {
-              "name": "Pull-through con banda (bisagra de cadera)",
+              "name": "Puente de glúteos en colchoneta (Glute Bridge)",
               "muscle": "Glúteos",
-              "series": 3,
               "reps": "12-15",
+              "note": "Apretá 2 segundos arriba. Lo tenés que sentir en el glúteo, no en la cintura.",
+              "series": 3,
               "rir": "2-3",
               "rest": "60 s",
-              "note": "Banda atada abajo, detrás tuyo, pasando entre las piernas. Hacé la bisagra (cola atrás, espalda recta) y volvé apretando glúteos. Sin arquear la cintura arriba.",
               "seriesByWeek": [
                 3,
                 3,
@@ -4051,7 +4276,7 @@
               "reps": "20",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "20",
@@ -4061,6 +4286,25 @@
                 "25",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre una silla, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -4073,7 +4317,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "En casa: 5 minutos de caminata o marcha en el lugar, suave. Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -4147,7 +4391,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -4322,7 +4566,7 @@
               "reps": "20",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "20",
@@ -4332,6 +4576,25 @@
                 "25",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre una silla, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         }
@@ -4382,7 +4645,7 @@
         "colchoneta"
       ],
       "goal": "hipertrofia",
-      "summary": "El programa más completo de gimnasio para Lucía una vez consolidada su base: trabaja espalda, glúteos, piernas, hombros y brazos con biseries eficientes, sin ejercicios de riesgo para L4-L5. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees.",
+      "summary": "El programa más completo de gimnasio para Lucía una vez consolidada su base: trabaja espalda, glúteos, piernas, hombros y brazos con biseries eficientes, sin ejercicios de riesgo para L4-L5. Si una semana vas solo 2 días (por la hidro), hacé Día 1 y Día 2, y la semana siguiente arrancá por el Día 3. Cada día arranca con 10 minutos de calentamiento y descompresión lumbar: no lo saltees. Pensado para cuidar el nervio ciático: nada de cadera doblada con la rodilla estirada, y mucho glúteo y abdomen.",
       "progression": "Doble progresión: cuando alcances el máximo de repeticiones con 1-2 RIR y técnica perfecta en todas las series, subí la carga mínima disponible.",
       "basedOn": "Full-Body / Torso-Pierna adaptado sin carga axial sobre la columna.",
       "weekPlan": [
@@ -4433,7 +4696,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -4507,7 +4770,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -4719,7 +4982,7 @@
               "reps": "20",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "20",
@@ -4729,6 +4992,25 @@
                 "25",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre el banco, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -4741,7 +5023,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -4815,7 +5097,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -4847,13 +5129,13 @@
               "unit": "s"
             },
             {
-              "name": "Prensa de piernas 45° (rango controlado, sacro apoyado)",
+              "name": "Sentadilla a silla o cajón (Box Squat controlada)",
               "muscle": "Cuádriceps",
-              "series": 4,
               "reps": "10-12",
+              "note": "El cajón o la silla marcan el tope: rozás y subís. Espalda recta y pie entero apoyado.",
+              "series": 4,
               "rir": "2",
               "rest": "90 s",
-              "note": "Bajá solo hasta 90° sin despegar jamás la cola del respaldo.",
               "seriesByWeek": [
                 4,
                 4,
@@ -4995,7 +5277,7 @@
               "reps": "20",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "20",
@@ -5005,6 +5287,25 @@
                 "25",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre el banco, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         },
@@ -5017,7 +5318,7 @@
               "series": 1,
               "reps": "5",
               "rest": "0 s",
-              "note": "Siempre primero, antes de cualquier ejercicio.",
+              "note": "Mejor caminando en la cinta, sin inclinación: es lo más amigable para el ciático. La bici, solo si no te molesta la pierna.",
               "seriesByWeek": [
                 1,
                 1,
@@ -5091,7 +5392,7 @@
               "series": 1,
               "reps": "10",
               "rest": "0 s",
-              "note": "10 con cada pierna. Suave: si aparece hormigueo, hacé el movimiento más chico.",
+              "note": "10 con cada pierna, chiquito y sin dolor. Si al hacerlo aparece el dolor de pierna, ese día salteálo.",
               "seriesByWeek": [
                 1,
                 1,
@@ -5123,10 +5424,11 @@
               "unit": "s"
             },
             {
-              "name": "Remo sentado en polea baja (torso erguido, sin balanceo)",
+              "name": "Remo sentado o de pie con banda elástica (espalda neutra)",
               "muscle": "Espalda",
+              "reps": "12-15",
+              "note": "De pie con un pie adelante y la banda atada a la jaula a la altura del ombligo. Nada de sentarse con las piernas estiradas.",
               "series": 4,
-              "reps": "10-12",
               "rir": "2",
               "rest": "75 s",
               "seriesByWeek": [
@@ -5144,8 +5446,7 @@
                 "2",
                 "2",
                 "4"
-              ],
-              "note": "Sentada derecha y rodillas apenas flojas: tirá hacia el ombligo sin mover el tronco."
+              ]
             },
             {
               "name": "Pull-over en polea alta con brazos rectos",
@@ -5172,13 +5473,13 @@
               ]
             },
             {
-              "name": "Pull-through en polea baja (bisagra de cadera)",
+              "name": "Patada de glúteo en polea baja (rango corto sin arquear)",
               "muscle": "Glúteos",
-              "series": 3,
               "reps": "12-15",
+              "note": "Tobillera en la polea baja, manos en la máquina: la pierna va atrás apenas, sin arquear la cintura. 12-15 por lado.",
+              "series": 3,
               "rir": "2",
               "rest": "60 s",
-              "note": "De espaldas a la polea baja con la soga entre las piernas. Cola atrás con espalda recta y volvé apretando glúteos. Peso liviano: el objetivo es la técnica de la bisagra.",
               "seriesByWeek": [
                 3,
                 3,
@@ -5247,10 +5548,11 @@
               "note": "En el banco regulable con el respaldo casi vertical: la espalda nunca se despega."
             },
             {
-              "name": "Gemelos sentado en máquina (o de pie con apoyo)",
-              "muscle": "Gemelos",
+              "name": "Bird-Dog (Perro-Pájaro McGill)",
+              "muscle": "Abdomen",
+              "reps": "6-8",
+              "note": "3 segundos quieta arriba en cada repetición. La pierna va hacia atrás, nunca más alta que la cadera.",
               "series": 3,
-              "reps": "15",
               "rir": "2",
               "rest": "45 s",
               "seriesByWeek": [
@@ -5268,8 +5570,7 @@
                 "2",
                 "2",
                 "4"
-              ],
-              "note": "De pie sobre un step, agarrada de la jaula para no perder el equilibrio."
+              ]
             },
             {
               "name": "Press Pallof anti-rotación (banda o polea)",
@@ -5302,7 +5603,7 @@
               "reps": "20",
               "unit": "min",
               "rest": "—",
-              "note": "Al terminar la fuerza. Caminadora (0-3% de inclinación), bici fija (mejor reclinada) o elíptico, a ritmo de conversación. Si aparece dolor a la pierna, pasá a caminata suave o cortá ahí.",
+              "note": "Caminando en la cinta a ritmo cómodo. La bici, solo si no te molesta la pierna.",
               "autoProgress": false,
               "repsByWeek": [
                 "20",
@@ -5312,6 +5613,25 @@
                 "25",
                 "15"
               ]
+            },
+            {
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "series": 1,
+              "reps": "60",
+              "unit": "s",
+              "rest": "0 s",
+              "note": "Vuelta a la calma: boca arriba con las pantorrillas sobre el banco, 1 minuto respirando lento para descomprimir.",
+              "seriesByWeek": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+              ],
+              "cooldown": true,
+              "autoProgress": false
             }
           ]
         }
@@ -5356,7 +5676,7 @@
         "colchoneta"
       ],
       "goal": "salud",
-      "summary": "Una rutina suave de 15 minutos en colchoneta para cualquier día que Lucía sienta la espalda cansada por estar mucho tiempo parada o sentada, o para los días de descanso activo.",
+      "summary": "Una rutina suave de 15 minutos en colchoneta para cualquier día que Lucía sienta la espalda cansada por estar mucho tiempo parada o sentada, o para los días de descanso activo. Pensado para cuidar el nervio ciático: nada de cadera doblada con la rodilla estirada, y mucho glúteo y abdomen.",
       "progression": "Sin cargas ni apuro: respirá profundo por la nariz y largá el aire lento en cada ejercicio. Buscá terminar la sesión sintiendo la cintura más liviana y suelta que cuando empezaste.",
       "basedOn": "Movilidad de cadera (psoas y piramidal) + hidratación discal suave (Gato-Camello McGill) + activación estabilizadora de bajo umbral.",
       "weekPlan": [
@@ -5430,14 +5750,14 @@
               "note": "25 seg por lado apretando el glúteo de atrás para soltar el psoas."
             },
             {
-              "name": "Estiramiento de glúteo y piramidal acostada",
-              "muscle": "Glúteos",
-              "series": 2,
-              "reps": "25",
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "reps": "60",
               "unit": "s",
+              "note": "Boca arriba con las pantorrillas sobre una silla o banco: respirá lento y dejá que la cintura se afloje.",
+              "series": 2,
               "rir": "4",
-              "rest": "30 s",
-              "note": "25 seg por pierna con toda la espalda apoyada."
+              "rest": "30 s"
             },
             {
               "name": "Bird-Dog (Perro-Pájaro McGill)",
@@ -5473,13 +5793,13 @@
               "note": "Alargá los brazos adelante respirando hacia las costillas."
             },
             {
-              "name": "Dead Bug (Bicho Muerto controlado)",
-              "muscle": "Abdomen",
+              "name": "Puente de glúteos en colchoneta (Glute Bridge)",
+              "muscle": "Glúteos",
+              "reps": "12-15",
+              "note": "Apretá 2 segundos arriba. Lo tenés que sentir en el glúteo, no en la cintura.",
               "series": 2,
-              "reps": "6",
               "rir": "3",
-              "rest": "45 s",
-              "note": "Movimientos lentos con cintura pegada al suelo."
+              "rest": "45 s"
             },
             {
               "name": "Plancha frontal sobre rodillas (o toque de hombro)",
@@ -5501,11 +5821,12 @@
               "note": "12 por lado."
             },
             {
-              "name": "Estiramiento de glúteo y piramidal acostada",
-              "muscle": "Glúteos",
-              "series": 2,
-              "reps": "25",
+              "name": "Descarga lumbar 90/90 (piernas sobre el banco)",
+              "muscle": "Espalda",
+              "reps": "60",
               "unit": "s",
+              "note": "Boca arriba con las pantorrillas sobre una silla o banco: respirá lento y dejá que la cintura se afloje.",
+              "series": 2,
               "rir": "4",
               "rest": "30 s"
             }

@@ -35,7 +35,7 @@ const SYNC_KEYS = [
   'rt2', 'arid', 'sets2', 'wts2', 'setPerf3', 'gymCycles1', 'ghst2',
   'gymWeekLog', 'activeWeekId', 'gymProfile', 'gymPlan1', 'gymPlanHorizon1',
   'cardio1', 'painLog1', 'nutData', 'coachProfile1',
-  'exVideos1', 'lucia_seeded_v1', 'lucia_mig_v2', 'lucia_mig_v3', 'lucia_mig_v4',
+  'exVideos1', 'legFlags1', 'medLog1', 'badges1', 'lucia_seeded_v1', 'lucia_mig_v2', 'lucia_mig_v3', 'lucia_mig_v4',
 ];
 const SYNC_SET = new Set(SYNC_KEYS);
 const ROUTINE_KEYS = new Set(['rt2', 'arid', 'gymPlan1', 'gymPlanHorizon1', 'gymCycles1']);
@@ -182,7 +182,20 @@ function applyRemote(changes, force) {
           meta.lastSessTs = last.ts; saveMeta();
           const feel = typeof sessionFeelLabel === 'function' && last.feel ? ' · ' + sessionFeelLabel(last.feel) : '';
           const pain = last.pain != null ? ` · dolor ${last.pain}/10${last.leg ? ' (pierna)' : ''}` : '';
-          safeToast(`🏁 Lucía terminó ${last.dn || 'la sesión'}${feel}${pain}`, 7000);
+          const legs = last.legEx && last.legEx.length ? ` · ⚡ pierna en ${last.legEx.join(', ')}` : '';
+          safeToast(`🏁 Lucía terminó ${last.dn || 'la sesión'}${feel}${pain}${legs}`, 8000);
+        }
+      } catch {}
+    }
+    const med = applied.find(([k, d]) => k === 'badges1' && d.by === 'lucia');
+    if (med) {
+      try {
+        const have = JSON.parse(med[1].v) || {}, seen = meta.badgesSeen || {};
+        const nuevos = Object.keys(have).filter((id) => !seen[id]);
+        meta.badgesSeen = have; saveMeta();
+        if (nuevos.length && typeof BADGES !== 'undefined') {
+          const t = nuevos.map((id) => { const b = BADGES.find((x) => x.id === id); return b ? b.e + ' ' + b.t : id; }).join(' · ');
+          setTimeout(() => safeToast('🏅 Lucía ganó: ' + t, 7000), 1500);
         }
       } catch {}
     }
