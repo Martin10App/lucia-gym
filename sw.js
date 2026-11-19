@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lucia-gym-v14';
+const CACHE_NAME = 'lucia-gym-v15';
 const ASSETS = [
   './',
   './index.html',
@@ -10,7 +10,7 @@ const ASSETS = [
   './vendor/firebase/firebase-app.js',
   './vendor/firebase/firebase-auth.js',
   './vendor/firebase/firebase-firestore.js',
-  './exercise-media.js?v=8',
+  './exercise-media.js?v=9',
   './exercise-media.json',
   './exercise-media.json?v=5',
   './programas.json',

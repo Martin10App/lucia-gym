@@ -688,6 +688,12 @@ textarea.inp{resize:vertical;min-height:64px;line-height:1.45;font-family:inheri
 .exm-vt small{display:block;font-size:11px;font-weight:500;opacity:.85;margin-top:2px}
 .exm-iframe{position:relative;aspect-ratio:16/9;border-radius:var(--r);overflow:hidden;background:#000}
 .exm-iframe iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.exm-clipbadge{position:absolute;top:10px;left:10px;padding:5px 10px;border-radius:999px;background:var(--accent);color:#fff;font-size:12px;font-weight:700;pointer-events:none}
+.exm-edit{margin-top:10px;padding:12px;border-radius:var(--r-sm);background:var(--bg3);border:1px solid var(--border2);display:flex;flex-direction:column;gap:10px}
+.exm-edit[hidden]{display:none}
+.exm-edit label{display:flex;flex-direction:column;gap:5px;font-size:12.5px;font-weight:600;color:var(--text1)}
+.exm-edit-btns{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.exm-edit-tip{font-size:11.5px;color:var(--text2);line-height:1.4}
 .exm-vlinks{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:8px;font-size:12.5px}
 .exm-vlinks a,.exm-vlinks button{color:var(--accent2);font-weight:600;text-decoration:none;min-height:36px;display:inline-flex;align-items:center}
 .exm-note{margin-top:8px;font-size:13px;line-height:1.45;color:var(--gold);background:var(--gold-d);border-radius:var(--r-xs);padding:8px 10px}
@@ -906,7 +912,7 @@ textarea.inp{resize:vertical;min-height:64px;line-height:1.45;font-family:inheri
 <div class="ov" id="ov1" onclick="cOv1()"><div class="mdl" onclick="event.stopPropagation()"><div class="mh"></div><div id="m1"></div></div></div>
 <div class="ov" id="ov2" onclick="cOv2()"><div class="mdl" onclick="event.stopPropagation()"><div class="mh"></div><div id="m2"></div></div></div>
 
-<script src="exercise-media.js?v=8"></script>
+<script src="exercise-media.js?v=9"></script>
 <script src="motivacion.js?v=2"></script>
 <script>
 'use strict';

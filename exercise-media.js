@@ -158,18 +158,14 @@ async function loadExerciseMovement(ex,slotId){
           <span class="exm-ph-tag a">1 · Inicio</span><span class="exm-ph-tag b">2 · Final</span>
           <span class="exm-hint">Tocá para pausar</span></div>${movement.photo_note_es?`<p class="exm-note">ℹ️ ${h(movement.photo_note_es)}</p>`:''}`,
       gif:()=>`<div class="exm-gif"><img src="${h(reduce?still:gif)}" alt="Animación de ${h(ex.name)}" decoding="async" data-gif="${h(gif)}" data-still="${h(still)}" data-playing="${reduce?'0':'1'}" onclick="toggleExerciseMovement(this)" onerror="if(this.dataset.still&&this.src.indexOf(this.dataset.still)<0){this.src=this.dataset.still}else{this.parentElement.innerHTML='<p class=exm-off>Animación no disponible</p>'}"></div>`,
-      video:()=>video?`<button type="button" class="exm-video" onclick="playExerciseVideo(this,'${h(video.id)}')" aria-label="Reproducir video: ${h(video.title||ex.name)}">
-          <img src="https://i.ytimg.com/vi/${h(video.id)}/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()">
-          <span class="exm-play" aria-hidden="true">▶</span>
-          <span class="exm-vt">${h(video.title||'Video explicado')}${video.channel?`<small>${h(video.channel)}</small>`:''}</span></button>
-          <div class="exm-vlinks"><a href="https://www.youtube.com/watch?v=${h(video.id)}" target="_blank" rel="noopener">Abrir en YouTube ↗</a>${window.LuciaSync?.state?.role==='coach'?`<button type="button" onclick="changeExerciseVideo('${h(movement.id)}')">✏️ Cambiar video</button>`:''}</div>`:''
+      video:()=>video?exerciseVideoStageHtml(video,movement,ex):''
     };
     const first=tabs[0]?.[0];
     slot.setAttribute('aria-busy','false');
     slot.innerHTML=`<div class="exm" data-mid="${h(movement.id)}">
       ${tabs.length>1?`<div class="exm-tabs" role="tablist">${tabs.map(([k,l])=>`<button type="button" role="tab" class="${k===first?'on':''}" aria-selected="${k===first}" onclick="switchExerciseTab(this,'${k}')">${l}</button>`).join('')}</div>`:''}
       ${tabs.map(([k])=>`<div class="exm-stage" data-tab="${k}" ${k===first?'':'hidden'}>${k===first||k!=='video'?stage[k]():''}</div>`).join('')}
-      ${!tabs.length&&window.LuciaSync?.state?.role==='coach'?`<button type="button" class="btn b-md b-g" style="width:100%;margin-bottom:10px" onclick="changeExerciseVideo('${h(movement.id)}')">➕ Agregar video para Lucía</button>`:''}
+      ${!tabs.length&&window.LuciaSync?.state?.role==='coach'?`<button type="button" class="btn b-md b-g" style="width:100%;margin-bottom:10px" onclick="const v=this.nextElementSibling;v.hidden=false;toggleVideoEditor(v.querySelector('.exm-vlinks button')||v,'${h(movement.id)}');this.remove()">➕ Agregar video para Lucía</button><div class="exm-vbox" data-vid="" data-start="" hidden><div class="exm-vlinks"></div><div class="exm-edit" hidden></div></div>`:''}
       <div class="exm-chips"><span>🛡️ Seguro L4-L5</span>${body?`<span>${h(body)}</span>`:''}${equipment?`<span>${h(equipment)}</span>`:''}</div>
       ${steps.length?`<section class="exm-sec"><h4>Cómo se hace</h4><ol class="exm-steps">${steps.map(s=>`<li>${h(s)}</li>`).join('')}</ol></section>`:''}
       ${movement.feel_es?`<section class="exm-sec feel"><h4>💡 Dónde lo tenés que sentir</h4><p>${h(movement.feel_es)}</p></section>`:''}
@@ -190,26 +186,102 @@ function switchExerciseTab(btn,key){
     if(!on&&st.querySelector('iframe'))st.innerHTML=box.parentElement?._exStage?.video?.()||''; // corta el video al cambiar de pestaña
   });
 }
-function playExerciseVideo(btn,id){
-  if(!navigator.onLine){if(typeof tst==='function')tst('📶 Necesitás internet para ver el video',3500);return;}
+// ── Video: completo o clip de 5 s que se repite (mismo reproductor de YouTube, sin copiar el video) ──
+const CLIP_SECONDS=5;
+function fmtClipTime(sec){sec=Math.max(0,Math.round(Number(sec)||0));return Math.floor(sec/60)+':'+String(sec%60).padStart(2,'0');}
+function parseClipTime(text){
+  const s=String(text||'').trim().toLowerCase();if(!s)return null;
+  let m=s.match(/[?&#](?:t|start)=([0-9hms:]+)/);const v=m?m[1]:s;
+  if(/^\d+$/.test(v))return Number(v);
+  m=v.match(/^(\d+):(\d{1,2})(?::(\d{1,2}))?$/);if(m)return m[3]!=null?Number(m[1])*3600+Number(m[2])*60+Number(m[3]):Number(m[1])*60+Number(m[2]);
+  m=v.match(/^(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s?)?$/);if(m&&(m[1]||m[2]||m[3]))return Number(m[1]||0)*3600+Number(m[2]||0)*60+Number(m[3]||0);
+  return null;
+}
+function exerciseVideoStageHtml(video,movement,ex){
+  const h=exMediaHtml,hasClip=video.start!=null&&video.start>=0,coach=window.LuciaSync?.state?.role==='coach';
+  const thumb=`<img src="https://i.ytimg.com/vi/${h(video.id)}/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()">`;
+  const title=`<span class="exm-vt">${h(video.title||'Video explicado')}${video.channel?`<small>${h(video.channel)}</small>`:''}</span>`;
+  return `<div class="exm-vbox" data-vid="${h(video.id)}" data-start="${hasClip?video.start:''}">
+    ${hasClip
+      ?`<button type="button" class="exm-video" onclick="playExerciseClip(this)" aria-label="Ver clip de ${CLIP_SECONDS} segundos de ${h(ex.name)}">${thumb}<span class="exm-play" aria-hidden="true">🔁</span><span class="exm-clipbadge">Clip de ${CLIP_SECONDS} s · se repite</span>${title}</button>`
+      :`<button type="button" class="exm-video" onclick="playExerciseVideo(this)" aria-label="Reproducir video: ${h(video.title||ex.name)}">${thumb}<span class="exm-play" aria-hidden="true">▶</span>${title}</button>`}
+    <div class="exm-vlinks">
+      ${hasClip?`<button type="button" onclick="playExerciseVideo(this)">▶ Video completo</button>`:`<a href="https://www.youtube.com/watch?v=${h(video.id)}" target="_blank" rel="noopener">Abrir en YouTube ↗</a>`}
+      ${coach?`<button type="button" onclick="toggleVideoEditor(this,'${h(movement.id)}')">${hasClip?'✏️ Video y clip':'⏱ Elegir clip de 5 s'}</button>`:''}
+    </div>
+    <div class="exm-edit" hidden></div>
+  </div>`;
+}
+function exVideoFrame(box,src){
   const wrap=document.createElement('div');wrap.className='exm-iframe';
-  wrap.innerHTML=`<iframe data-vid="${exMediaHtml(id)}" src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&rel=0&playsinline=1&modestbranding=1&hl=es" title="Video del ejercicio" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
-  btn.replaceWith(wrap);
+  wrap.innerHTML=`<iframe src="${src}" title="Video del ejercicio" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+  const old=box.querySelector('.exm-video,.exm-iframe');if(old)old.replaceWith(wrap);else box.prepend(wrap);
+  return wrap;
+}
+function playExerciseVideo(btn){
+  if(!navigator.onLine){if(typeof tst==='function')tst('📶 Necesitás internet para ver el video',3500);return;}
+  const box=btn.closest('.exm-vbox');if(!box)return;clearInterval(box._clipTimer);
+  const id=encodeURIComponent(box.dataset.vid),start=box.dataset.start?`&start=${box.dataset.start}`:'';
+  exVideoFrame(box,`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&playsinline=1&modestbranding=1&hl=es${start}`);
+}
+function playExerciseClip(btn){
+  if(!navigator.onLine){if(typeof tst==='function')tst('📶 Necesitás internet para ver el clip',3500);return;}
+  const box=btn.closest('.exm-vbox');if(!box)return;
+  const id=encodeURIComponent(box.dataset.vid),st=Number(box.dataset.start)||0;
+  const wrap=exVideoFrame(box,`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&mute=1&controls=0&playsinline=1&rel=0&modestbranding=1&enablejsapi=1&start=${st}&end=${st+CLIP_SECONDS}`);
+  wrap.insertAdjacentHTML('beforeend',`<span class="exm-clipbadge on">🔁 Clip de ${CLIP_SECONDS} s</span>`);
+  const ifr=wrap.querySelector('iframe');
+  clearInterval(box._clipTimer);
+  // Vuelve al inicio del clip cada 5 s (el reproductor de YouTube no repite un tramo solo).
+  box._clipTimer=setInterval(()=>{
+    if(!document.body.contains(ifr)){clearInterval(box._clipTimer);return;}
+    try{ifr.contentWindow.postMessage(JSON.stringify({event:'command',func:'seekTo',args:[st,true]}),'*');
+        ifr.contentWindow.postMessage(JSON.stringify({event:'command',func:'playVideo',args:[]}),'*');}catch{}
+  },CLIP_SECONDS*1000+300);
 }
 function youtubeIdFrom(text){
   const s=String(text||'').trim();
   const m=s.match(/(?:youtu\.be\/|v=|embed\/|shorts\/|live\/)([A-Za-z0-9_-]{11})/)||s.match(/^([A-Za-z0-9_-]{11})$/);
   return m?m[1]:'';
 }
-function changeExerciseVideo(mid){
-  const url=prompt('Pegá el link del video de YouTube para este ejercicio (vacío = volver al video de fábrica):','');
-  if(url===null)return;
-  const all={...exVideoOverrides()};
-  if(!url.trim())delete all[mid];
-  else{const id=youtubeIdFrom(url);if(!id){if(typeof tst==='function')tst('No reconozco ese link de YouTube');return;}all[mid]={id,title:'Video elegido por Martín',channel:''};}
-  S.s('exVideos1',all);
-  if(typeof tst==='function')tst(url.trim()?'✅ Video cambiado: a Lucía le llega solo':'Volvió el video de fábrica');
-  document.querySelectorAll(`.exm[data-mid="${CSS.escape(mid)}"]`).forEach(box=>{const slot=box.parentElement;if(slot?._ex&&slot.id)loadExerciseMovement(slot._ex,slot.id);});
+function toggleVideoEditor(btn,mid){
+  const box=btn.closest('.exm-vbox'),ed=box?.querySelector('.exm-edit');if(!ed)return;
+  if(!ed.hidden&&ed.innerHTML){ed.hidden=true;ed.innerHTML='';return;}
+  const cur=box.dataset.start?fmtClipTime(box.dataset.start):'';
+  ed.innerHTML=`<label>Minuto donde arranca el clip<input class="inp" data-f="t" inputmode="numeric" placeholder="ej. 1:23" value="${cur}"></label>
+    <label>Otro video (opcional): pegá el link de YouTube<input class="inp" data-f="u" placeholder="https://youtu.be/…"></label>
+    <div class="exm-edit-btns"><button type="button" class="btn b-md b-p" onclick="saveVideoEditor(this,'${exMediaHtml(mid)}')">Guardar</button>
+    <button type="button" class="btn b-md b-g" onclick="resetVideoEditor('${exMediaHtml(mid)}')">Volver al de fábrica</button></div>
+    <div class="exm-edit-tip">Tip: abrí el video completo, fijate en qué minuto se ve bien el movimiento y escribilo acá. A Lucía le llega sola.</div>`;
+  ed.hidden=false;ed.querySelector('input')?.focus();
+}
+function saveVideoEditor(btn,mid){
+  const ed=btn.closest('.exm-edit'),box=btn.closest('.exm-vbox');
+  const tTxt=ed.querySelector('[data-f="t"]').value.trim(),uTxt=ed.querySelector('[data-f="u"]').value.trim();
+  const newId=uTxt?youtubeIdFrom(uTxt):'';
+  if(uTxt&&!newId){if(typeof tst==='function')tst('No reconozco ese link de YouTube');return;}
+  const start=tTxt?parseClipTime(tTxt):(uTxt?parseClipTime(uTxt):null);
+  if(tTxt&&start==null){if(typeof tst==='function')tst('Escribí el minuto así: 1:23');return;}
+  const id=newId||box.dataset.vid;
+  if(!id){if(typeof tst==='function')tst('Pegá el link del video');return;}
+  const movement=(_exerciseMediaData||INLINE_EXERCISE_CATALOG).exercises.find(e=>e.id===mid);
+  const base=exerciseVideoFor(movement)||{};
+  const v=id===base.id?{...base}:{id,title:'Video elegido por Martín',channel:''};
+  if(start!=null)v.start=start;else delete v.start;
+  S.s('exVideos1',{...exVideoOverrides(),[mid]:v});
+  if(typeof tst==='function')tst(start!=null?`✅ Clip desde ${fmtClipTime(start)}: a Lucía le llega solo`:'✅ Video guardado: a Lucía le llega solo');
+  refreshExerciseCards(mid);
+}
+function resetVideoEditor(mid){
+  const all={...exVideoOverrides()};delete all[mid];S.s('exVideos1',all);
+  if(typeof tst==='function')tst('Volvió el video de fábrica');
+  refreshExerciseCards(mid);
+}
+function refreshExerciseCards(mid){
+  document.querySelectorAll(`.exm[data-mid="${CSS.escape(mid)}"]`).forEach(box=>{
+    const slot=box.parentElement;
+    if(slot?._ex&&slot.id)loadExerciseMovement(slot._ex,slot.id).then(()=>{const b=[...slot.querySelectorAll('.exm-tabs button')].find(x=>/Video/.test(x.textContent));if(b)b.click();});
+  });
 }
 function toggleExerciseMovement(image){
   if(!image||image.tagName!=='IMG')image=image?.closest?.('.exm')?.querySelector('.exm-gif img');if(!image)return;
