@@ -24,10 +24,10 @@ const FIREBASE_CONFIG = {
   appId:             '1:159310526936:web:27100ffce1bab07579daad',
 };
 
-const ROLES = {
-  'luciia0295@gmail.com': 'athlete',
-  'martinmolina10101@gmail.com': 'coach',
-};
+// Solo se nombra a la alumna. Cualquier otra cuenta intenta entrar como entrenador,
+// y quién puede leer o escribir lo deciden las reglas de Firestore (que no son públicas).
+// Así el mail del entrenador no queda en el código, que es público en GitHub.
+const ATHLETE_EMAIL = 'luciia0295@gmail.com';
 const ATHLETE_ID = 'lucia';
 
 // Solo datos del gym. Nunca claves de IA, chats ni nada personal fuera del entrenamiento.
@@ -293,11 +293,7 @@ async function onAuth(user) {
   }
   const email = String(user.email || '').toLowerCase();
   state.user = { email, name: user.displayName || email };
-  state.role = ROLES[email] || null;
-  if (!state.role) {
-    setStatus('denied');
-    return;
-  }
+  state.role = email === ATHLETE_EMAIL ? 'athlete' : 'coach';
   if (meta.linkedEmail && meta.linkedEmail !== email) { meta.linked = false; meta.keyTs = {}; dirty.clear(); saveMeta(); }
   try {
     if (isLinked()) { setStatus('connecting'); pushDirty(); listen(); }
@@ -334,6 +330,14 @@ function setStatus(s) { state.status = s; if (s !== 'error') state.error = ''; p
 function setError(e) {
   console.warn('[sync]', e);
   const code = e?.code || '';
+  if (code === 'permission-denied' && state.role === 'coach' && !isLinked()) {
+    // Una cuenta que no está en las reglas: no tiene acceso, no es un error de la app.
+    stopListening();
+    state.error = '';
+    state.status = 'denied';
+    paint();
+    return;
+  }
   state.error = code === 'permission-denied'
     ? 'Firebase no da permiso todavía: faltan publicar las reglas del gym.'
     : code === 'auth/unauthorized-domain'
@@ -369,13 +373,14 @@ function h(s) { return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<'
 window.syncConfigHtml = function () {
   const st = state;
   const dot = st.status === 'live' ? (st.online ? 'var(--green)' : 'var(--gold)') : st.status === 'error' || st.status === 'denied' ? 'var(--red, #ff5a5a)' : 'var(--text3)';
-  const who = st.role === 'coach' ? 'Entrenador · ves y editás la app de Lucía' : st.role === 'athlete' ? 'Tus entrenamientos se comparten con Martín' : '';
+  const who = st.status === 'denied' ? 'Esta cuenta no está habilitada en Firebase para ver a Lucía.' : st.role === 'coach' ? 'Entrenador · ves y editás la app de Lucía' : st.role === 'athlete' ? 'Tus entrenamientos se comparten con Martín' : '';
   let body = '';
   if (!st.user) {
     body = `<div style="font-size:11px;color:var(--text2);margin-bottom:12px;line-height:1.6">Conectá tu cuenta de Google una sola vez. Así Martín ve tus entrenamientos y puede ajustarte la rutina. Sin internet la app sigue igual y sube todo cuando vuelve la conexión.</div>
       <button class="btn b-md b-p" style="width:100%;min-height:48px;margin-bottom:8px" onclick="LuciaSync.signIn()">Conectar con Google</button>`;
   } else {
     body = `<div style="font-size:12px;color:var(--text1);margin-bottom:6px"><strong>${h(st.user.name)}</strong></div>
+      <div style="font-size:11px;color:var(--text2);margin-bottom:6px">${h(st.user.email)}</div>
       ${who ? `<div style="font-size:11px;color:var(--text2);margin-bottom:10px">${who}</div>` : ''}
       ${st.role === 'coach' && st.status === 'live' ? `<div style="font-size:11px;color:var(--text2);margin-bottom:10px">Última actividad de Lucía: <strong>${ago(st.lastAthleteTs)}</strong></div>` : ''}
       ${st.role === 'coach' ? `<button class="btn b-md b-g" style="width:100%;min-height:48px;margin-bottom:8px" onclick="LuciaSync.repull()">⬇️ Volver a bajar todo de Lucía</button>` : ''}
@@ -405,7 +410,7 @@ function paintConfig() {
 
 function paintBanner() {
   let el = document.getElementById('coach-banner');
-  if (state.role !== 'coach' || !state.user) { if (el) el.remove(); return; }
+  if (state.role !== 'coach' || !state.user || state.status === 'denied') { if (el) el.remove(); return; }
   if (!el) {
     el = document.createElement('div');
     el.id = 'coach-banner';
